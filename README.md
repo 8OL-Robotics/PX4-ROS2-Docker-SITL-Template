@@ -16,7 +16,7 @@ Follow the guide here https://developer.nvidia.com/nvidia-container-runtime
 Clone this repository (or your derived repostiory) and build the docker image
 ```
 git clone git@github.com:8OL-Robotics/PX4-ROS2-Docker-SITL-Template.git
-cd landing-sim
+cd PX4-ROS2-Docker-SITL-Template
 sudo bash build_image.sh
 ```
 
