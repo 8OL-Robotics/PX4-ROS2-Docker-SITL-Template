@@ -8,10 +8,8 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 ```
 
-### (Optional) Install nvidia container runtime
+### (Optional) Install nvidia container toolkit 
 Installing this will allow for rendering of simulations with the dedicated nvidia graphics card if present, speeding up simulations by a large factor.
-Follow the guide here [https://developer.nvidia.com/nvidia-container-runtime](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)
-
 ### Build docker image
 Clone this repository (or your derived repostiory) and build the docker image
 ```
