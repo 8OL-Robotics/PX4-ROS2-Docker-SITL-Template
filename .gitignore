@@ -47,7 +47,7 @@ qtcreator-*
 # Emacs
 .#*
 
-recordings/
+recordings/*
 
 # Catkin custom files
 CATKIN_IGNORE
