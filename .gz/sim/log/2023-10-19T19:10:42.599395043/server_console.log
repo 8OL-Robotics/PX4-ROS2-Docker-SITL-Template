@@ -1,0 +1,166 @@
+(2023-10-19T19:10:48.448369477) (2023-10-19T19:10:48.448396444) [Msg] Gazebo Sim Server v7.6.0
+(2023-10-19T19:10:48.463220036) (2023-10-19T19:10:48.463254588) [Msg] Loading SDF world file[/home/bassam/.gz/fuel/fuel.gazebosim.org/openrobotics/worlds/prius on sonoma raceway/1/sonoma.sdf].
+(2023-10-19T19:10:48.541813366) (2023-10-19T19:10:48.541825239) [Wrn] [FuelClient.cc:1952] The fuel.ignitionrobotics.org URL is deprecrated. Pleasse change https://fuel.ignitionrobotics.org to https://fuel.gazebosim.org
+(2023-10-19T19:10:48.541861342) (2023-10-19T19:10:48.541866060) [Msg] Downloading model [https://fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway]
+(2023-10-19T19:11:27.38563421) (2023-10-19T19:11:27.38572195) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/3/materials/textures/Asphalt.png]
+(2023-10-19T19:11:27.39744427) (2023-10-19T19:11:27.39752025) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/3/materials/textures/Bridge.png]
+(2023-10-19T19:11:27.39907683) (2023-10-19T19:11:27.39914181) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/3/materials/textures/Checker.png]
+(2023-10-19T19:11:27.40442636) (2023-10-19T19:11:27.40449254) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/3/materials/textures/Concrete.png]
+(2023-10-19T19:11:27.40558890) (2023-10-19T19:11:27.40565092) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/3/materials/textures/Fence.png]
+(2023-10-19T19:11:27.40678584) (2023-10-19T19:11:27.40685032) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/3/materials/textures/Fence_Opacity.png]
+(2023-10-19T19:11:27.45190913) (2023-10-19T19:11:27.45198996) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/3/materials/textures/Grass.png]
+(2023-10-19T19:11:27.45324358) (2023-10-19T19:11:27.45330844) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/3/materials/textures/Railing.png]
+(2023-10-19T19:11:27.46551803) (2023-10-19T19:11:27.46558519) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/3/materials/textures/Roof.png]
+(2023-10-19T19:11:27.47458473) (2023-10-19T19:11:27.47465453) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/3/materials/textures/RumbleStrip&Barrier.png]
+(2023-10-19T19:11:27.49511325) (2023-10-19T19:11:27.49518609) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/3/materials/textures/RumbleStrip.png]
+(2023-10-19T19:11:27.54164589) (2023-10-19T19:11:27.54172613) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/3/materials/textures/Stands.png]
+(2023-10-19T19:11:27.55857822) (2023-10-19T19:11:27.55864934) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/3/materials/textures/TireStack.png]
+(2023-10-19T19:11:27.59413630) (2023-10-19T19:11:27.59420192) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/3/materials/textures/Track.png]
+(2023-10-19T19:11:27.59712483) (2023-10-19T19:11:27.59718916) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/3/materials/textures/Trim.png]
+(2023-10-19T19:11:27.60309896) (2023-10-19T19:11:27.60316025) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/3/materials/textures/Wall.png]
+(2023-10-19T19:11:27.60473366) (2023-10-19T19:11:27.60481335) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/3/materials/textures/Window.png]
+(2023-10-19T19:11:27.60586417) (2023-10-19T19:11:27.60592470) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/3/meshes/Raceway.mtl]
+(2023-10-19T19:11:27.83918346) (2023-10-19T19:11:27.83932847) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/3/meshes/Raceway.obj]
+(2023-10-19T19:11:27.84033610) (2023-10-19T19:11:27.84039692) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/3/model.config]
+(2023-10-19T19:11:27.84110230) (2023-10-19T19:11:27.84116460) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/3/model.sdf]
+(2023-10-19T19:11:27.84446208) (2023-10-19T19:11:27.84452833) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/3/thumbnails/1.png]
+(2023-10-19T19:11:27.85085636) (2023-10-19T19:11:27.85092379) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/3/thumbnails/2.png]
+(2023-10-19T19:11:27.85207758) (2023-10-19T19:11:27.85213589) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/3/thumbnails/3.png]
+(2023-10-19T19:11:27.85328476) (2023-10-19T19:11:27.85334535) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/3/thumbnails/4.png]
+(2023-10-19T19:11:27.85433077) (2023-10-19T19:11:27.85438855) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/3/thumbnails/5.png]
+(2023-10-19T19:11:27.85592150) (2023-10-19T19:11:27.85597631) [Dbg] [LocalCache.cc:604] Model [sonoma raceway] loading resource from another model, named [sonoma_raceway]. On Blueprint (gz-fuel-tools 3) and Citadel (gz-fuel-tools 4), [sonoma_raceway] is ignored. From Dome (gz-fuel-tools 5), [sonoma raceway] will be used. If [sonoma_raceway] is not a model belonging to owner [openrobotics], fix your SDF file!
+(2023-10-19T19:11:27.85638506) (2023-10-19T19:11:27.85642975) [Dbg] [LocalCache.cc:604] Model [sonoma raceway] loading resource from another model, named [sonoma_raceway]. On Blueprint (gz-fuel-tools 3) and Citadel (gz-fuel-tools 4), [sonoma_raceway] is ignored. From Dome (gz-fuel-tools 5), [sonoma raceway] will be used. If [sonoma_raceway] is not a model belonging to owner [openrobotics], fix your SDF file!
+(2023-10-19T19:11:27.180443153) (2023-10-19T19:11:27.180456040) [Msg] Serving entity system service on [/entity/system/add]
+(2023-10-19T19:11:27.180678538) (2023-10-19T19:11:27.180685221) [Wrn] [SystemLoader.cc:79] Trying to load deprecated plugin [ignition-gazebo-physics-system]. Using [gz-sim-physics-system] instead.
+(2023-10-19T19:11:27.274496395) (2023-10-19T19:11:27.274511598) [Dbg] [Physics.cc:880] Loaded [gz::physics::dartsim::Plugin] from library [/usr/lib/x86_64-linux-gnu/gz-physics-6/engine-plugins/libgz-physics-dartsim-plugin.so]
+(2023-10-19T19:11:27.274574692) (2023-10-19T19:11:27.274582843) [Dbg] [SystemManager.cc:74] Loaded system [ignition::gazebo::systems::Physics] for entity [1]
+(2023-10-19T19:11:27.274620180) (2023-10-19T19:11:27.274627766) [Wrn] [SystemLoader.cc:79] Trying to load deprecated plugin [ignition-gazebo-sensors-system]. Using [gz-sim-sensors-system] instead.
+(2023-10-19T19:11:27.281502678) (2023-10-19T19:11:27.281517132) [Dbg] [Sensors.cc:506] Configuring Sensors system
+(2023-10-19T19:11:27.281626909) (2023-10-19T19:11:27.281635294) [Dbg] [Sensors.cc:425] SensorsPrivate::Run
+(2023-10-19T19:11:27.281715803) (2023-10-19T19:11:27.281724453) [Dbg] [SystemManager.cc:74] Loaded system [ignition::gazebo::systems::Sensors] for entity [1]
+(2023-10-19T19:11:27.281757051) (2023-10-19T19:11:27.281764235) [Wrn] [SystemLoader.cc:79] Trying to load deprecated plugin [ignition-gazebo-user-commands-system]. Using [gz-sim-user-commands-system] instead.
+(2023-10-19T19:11:27.283625246) (2023-10-19T19:11:27.283635591) [Msg] Create service on [/world/sonoma/create]
+(2023-10-19T19:11:27.283835034) (2023-10-19T19:11:27.283845844) [Msg] Remove service on [/world/sonoma/remove]
+(2023-10-19T19:11:27.284026262) (2023-10-19T19:11:27.284035961) [Msg] Pose service on [/world/sonoma/set_pose]
+(2023-10-19T19:11:27.284200579) (2023-10-19T19:11:27.284209539) [Msg] Pose service on [/world/sonoma/set_pose_vector]
+(2023-10-19T19:11:27.284441343) (2023-10-19T19:11:27.284450512) [Msg] Light configuration service on [/world/sonoma/light_config]
+(2023-10-19T19:11:27.284724291) (2023-10-19T19:11:27.284733752) [Msg] Physics service on [/world/sonoma/set_physics]
+(2023-10-19T19:11:27.284951274) (2023-10-19T19:11:27.284960476) [Msg] SphericalCoordinates service on [/world/sonoma/set_spherical_coordinates]
+(2023-10-19T19:11:27.285107754) (2023-10-19T19:11:27.285116567) [Msg] Enable collision service on [/world/sonoma/enable_collision]
+(2023-10-19T19:11:27.285241658) (2023-10-19T19:11:27.285250249) [Msg] Disable collision service on [/world/sonoma/disable_collision]
+(2023-10-19T19:11:27.285492928) (2023-10-19T19:11:27.285503195) [Msg] Material service on [/world/sonoma/visual_config]
+(2023-10-19T19:11:27.285671353) (2023-10-19T19:11:27.285680123) [Msg] Material service on [/world/sonoma/wheel_slip]
+(2023-10-19T19:11:27.285716538) (2023-10-19T19:11:27.285724033) [Dbg] [SystemManager.cc:74] Loaded system [ignition::gazebo::systems::UserCommands] for entity [1]
+(2023-10-19T19:11:27.285757833) (2023-10-19T19:11:27.285765092) [Wrn] [SystemLoader.cc:79] Trying to load deprecated plugin [ignition-gazebo-scene-broadcaster-system]. Using [gz-sim-scene-broadcaster-system] instead.
+(2023-10-19T19:11:27.287152043) (2023-10-19T19:11:27.287162421) [Dbg] [SystemManager.cc:74] Loaded system [ignition::gazebo::systems::SceneBroadcaster] for entity [1]
+(2023-10-19T19:11:27.290405577) (2023-10-19T19:11:27.290415900) [Wrn] [SystemLoader.cc:79] Trying to load deprecated plugin [ignition-gazebo-ackermann-steering-system]. Using [gz-sim-ackermann-steering-system] instead.
+(2023-10-19T19:11:27.290687292) (2023-10-19T19:11:27.290698381) [Dbg] [Sensors.cc:402] SensorsPrivate::RenderThread started
+(2023-10-19T19:11:27.290718411) (2023-10-19T19:11:27.290725541) [Dbg] [Sensors.cc:245] Waiting for init
+(2023-10-19T19:11:27.299399046) (2023-10-19T19:11:27.299412472) [Msg] AckermannSteering subscribing to twist messages on [/cmd_vel]
+(2023-10-19T19:11:27.299646379) (2023-10-19T19:11:27.299656010) [Dbg] [SystemManager.cc:74] Loaded system [ignition::gazebo::systems::AckermannSteering] for entity [8]
+(2023-10-19T19:11:27.299770327) (2023-10-19T19:11:27.299780526) [Msg] Loaded level [3]
+(2023-10-19T19:11:27.301994971) (2023-10-19T19:11:27.302007110) [Msg] Serving world controls on [/world/sonoma/control], [/world/sonoma/control/state] and [/world/sonoma/playback/control]
+(2023-10-19T19:11:27.302360288) (2023-10-19T19:11:27.302370186) [Msg] Serving GUI information on [/world/sonoma/gui/info]
+(2023-10-19T19:11:27.302398868) (2023-10-19T19:11:27.302406963) [Msg] World [sonoma] initialized with [default_physics] physics profile.
+(2023-10-19T19:11:27.302627432) (2023-10-19T19:11:27.302636607) [Msg] Serving world SDF generation service on [/world/sonoma/generate_world_sdf]
+(2023-10-19T19:11:27.302949747) (2023-10-19T19:11:27.302960667) [Msg] Serving world names on [/gazebo/worlds]
+(2023-10-19T19:11:27.403422324) (2023-10-19T19:11:27.403448042) [Msg] Resource path add service on [/gazebo/resource_paths/add].
+(2023-10-19T19:11:27.403631917) (2023-10-19T19:11:27.403644879) [Msg] Resource path get service on [/gazebo/resource_paths/get].
+(2023-10-19T19:11:27.403764406) (2023-10-19T19:11:27.403772589) [Msg] Resource path resolve service on [/gazebo/resource_paths/resolve].
+(2023-10-19T19:11:27.403966483) (2023-10-19T19:11:27.403979862) [Msg] Resource paths published on [/gazebo/resource_paths].
+(2023-10-19T19:11:27.404280699) (2023-10-19T19:11:27.404310911) [Msg] Server control service on [/server_control].
+(2023-10-19T19:11:27.404533804) (2023-10-19T19:11:27.404540087) [Msg] Found no publishers on /stats, adding root stats topic
+(2023-10-19T19:11:27.404667525) (2023-10-19T19:11:27.404675839) [Msg] Found no publishers on /clock, adding root clock topic
+(2023-10-19T19:11:27.404853813) (2023-10-19T19:11:27.404863264) [Dbg] [SimulationRunner.cc:503] Creating PostUpdate worker threads: 4
+(2023-10-19T19:11:27.404889934) (2023-10-19T19:11:27.404896983) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (0)
+(2023-10-19T19:11:27.404993168) (2023-10-19T19:11:27.405002145) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (1)
+(2023-10-19T19:11:27.405072799) (2023-10-19T19:11:27.405082363) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (2)
+(2023-10-19T19:11:27.405986989) (2023-10-19T19:11:27.405998703) [Dbg] [SDFFeatures.cc:328] Mesh construction from an SDF has not been implemented yet for dartsim. Use AttachMeshShapeFeature to use mesh shapes.
+(2023-10-19T19:11:27.406021371) (2023-10-19T19:11:27.406029371) [Err] [SDFFeatures.cc:843] The geometry element of collision [collision] couldn't be created
+(2023-10-19T19:11:27.411278071) (2023-10-19T19:11:27.411286192) [Wrn] [FuelClient.cc:1952] The fuel.ignitionrobotics.org URL is deprecrated. Pleasse change https://fuel.ignitionrobotics.org/1.0/openrobotics/models/sonoma raceway/3/files/meshes/Raceway.obj to https://fuel.gazebosim.org/1.0/openrobotics/models/sonoma raceway/3/files/meshes/Raceway.obj
+(2023-10-19T19:11:27.411347865) (2023-10-19T19:11:27.411353130) [Wrn] [FuelClient.cc:1952] The fuel.ignitionrobotics.org URL is deprecrated. Pleasse change https://fuel.ignitionrobotics.org/1.0/openrobotics/models/sonoma raceway/3/files/meshes/Raceway.obj to https://fuel.gazebosim.org/1.0/openrobotics/models/sonoma raceway/3/files/meshes/Raceway.obj
+(2023-10-19T19:11:27.477773987) (2023-10-19T19:11:27.477784242) [Wrn] [OBJLoader.cc:91] Both `d` and `Tr` parameters defined for "Asphalt". Use the value of `d` for dissolve (line 8 in .mtl.)
+Both `d` and `Tr` parameters defined for "Track". Use the value of `d` for dissolve (line 22 in .mtl.)
+Both `d` and `Tr` parameters defined for "Grass". Use the value of `d` for dissolve (line 36 in .mtl.)
+Both `d` and `Tr` parameters defined for "RumbleStrip_Barrier". Use the value of `d` for dissolve (line 50 in .mtl.)
+Both `d` and `Tr` parameters defined for "Checker". Use the value of `d` for dissolve (line 64 in .mtl.)
+Both `d` and `Tr` parameters defined for "Railing". Use the value of `d` for dissolve (line 78 in .mtl.)
+Both `d` and `Tr` parameters defined for "Fence". Use the value of `d` for dissolve (line 92 in .mtl.)
+Both `d` and `Tr` parameters defined for "Wall". Use the value of `d` for dissolve (line 107 in .mtl.)
+Both `d` and `Tr` parameters defined for "Trim". Use the value of `d` for dissolve (line 121 in .mtl.)
+Both `d` and `Tr` parameters defined for "Window". Use the value of `d` for dissolve (line 135 in .mtl.)
+Both `d` and `Tr` parameters defined for "Roof". Use the value of `d` for dissolve (line 149 in .mtl.)
+Both `d` and `Tr` parameters defined for "TireStack". Use the value of `d` for dissolve (line 163 in .mtl.)
+Both `d` and `Tr` parameters defined for "Bridge". Use the value of `d` for dissolve (line 177 in .mtl.)
+Both `d` and `Tr` parameters defined for "Concrete". Use the value of `d` for dissolve (line 191 in .mtl.)
+Both `d` and `Tr` parameters defined for "Stands". Use the value of `d` for dissolve (line 205 in .mtl.)
+
+(2023-10-19T19:11:27.491360715) (2023-10-19T19:11:27.491385605) [Dbg] [Sensors.cc:659] Initialization needed
+(2023-10-19T19:11:27.491457539) (2023-10-19T19:11:27.491465512) [Dbg] [Sensors.cc:257] Initializing render context
+(2023-10-19T19:11:27.491538004) (2023-10-19T19:11:27.491543544) [Msg] Loading plugin [gz-rendering-ogre2]
+(2023-10-19T19:11:27.505417013) (2023-10-19T19:11:27.505433452) [Msg] Serving scene information on [/world/sonoma/scene/info]
+(2023-10-19T19:11:27.505556294) (2023-10-19T19:11:27.505566177) [Msg] Serving graph information on [/world/sonoma/scene/graph]
+(2023-10-19T19:11:27.505757231) (2023-10-19T19:11:27.505767140) [Msg] Serving full state on [/world/sonoma/state]
+(2023-10-19T19:11:27.505856412) (2023-10-19T19:11:27.505866031) [Msg] Serving full state (async) on [/world/sonoma/state_async]
+(2023-10-19T19:11:27.505960022) (2023-10-19T19:11:27.505969176) [Msg] Publishing scene information on [/world/sonoma/scene/info]
+(2023-10-19T19:11:27.506079469) (2023-10-19T19:11:27.506089146) [Msg] Publishing entity deletions on [/world/sonoma/scene/deletion]
+(2023-10-19T19:11:27.506165144) (2023-10-19T19:11:27.506178598) [Msg] Publishing state changes on [/world/sonoma/state]
+(2023-10-19T19:11:27.506281827) (2023-10-19T19:11:27.506290803) [Msg] Publishing pose messages on [/world/sonoma/pose/info]
+(2023-10-19T19:11:27.506382626) (2023-10-19T19:11:27.506391774) [Msg] Publishing dynamic pose messages on [/world/sonoma/dynamic_pose/info]
+(2023-10-19T19:11:27.506729412) (2023-10-19T19:11:27.506742795) [Dbg] [EntityComponentManager.cc:1655] Updated state thread iterators: 8 threads processing around 7 entities each.
+(2023-10-19T19:11:27.507346430) (2023-10-19T19:11:27.507391934) [Wrn] [Component.hh:144] Trying to serialize component with data type [N3sdf3v135WorldE], which doesn't have `operator<<`. Component will not be serialized.
+(2023-10-19T19:11:27.507909226) (2023-10-19T19:11:27.507920861) [Wrn] [Model.hh:69] Skipping serialization / deserialization for models with //pose/@relative_to attribute.
+(2023-10-19T19:11:27.662339680) (2023-10-19T19:11:27.662346668) [Dbg] [RenderUtil.cc:2720] Create scene [scene]
+((2023-10-19T19:11:27.6919297822023-10-19T19:11:27.691944998) (2023-10-19T19:11:27.691961736) ) ) ) (2023-10-19T19:11:27.691973089) [Dbg] [Sensors.cc:277] [Dbg] [Sensors.cc:659] Initialization needed
+[Dbg] [Sensors.cc:277] [Dbg] [Sensors.cc:659] Rendering Thread initialized
+(2023-10-19T19:11:27.986051430) (2023-10-19T19:11:27.986063682) [Wrn] [FuelClient.cc:1952] The fuel.ignitionrobotics.org URL is deprecrated. Pleasse change https://fuel.ignitionrobotics.org/1.0/openrobotics/models/prius hybrid/2/files/meshes/Hybrid.obj to https://fuel.gazebosim.org/1.0/openrobotics/models/prius hybrid/2/files/meshes/Hybrid.obj
+(2023-10-19T19:11:27.986166055) (2023-10-19T19:11:27.986176142) [Wrn] [FuelClient.cc:1952] The fuel.ignitionrobotics.org URL is deprecrated. Pleasse change https://fuel.ignitionrobotics.org/1.0/openrobotics/models/prius hybrid/2/files/meshes/Hybrid.obj to https://fuel.gazebosim.org/1.0/openrobotics/models/prius hybrid/2/files/meshes/Hybrid.obj
+(2023-10-19T19:11:27.986841606) (2023-10-19T19:11:27.986854753) [Wrn] [FuelClient.cc:1952] The fuel.ignitionrobotics.org URL is deprecrated. Pleasse change https://fuel.ignitionrobotics.org to https://fuel.gazebosim.org
+(2023-10-19T19:11:27.986896967) (2023-10-19T19:11:27.986905690) [Msg] Downloading model [https://fuel.ignitionrobotics.org/openrobotics/models/prius hybrid]
+(2023-10-19T19:12:17.567229426) (2023-10-19T19:12:17.567239419) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/prius hybrid/2/materials/textures/Hybrid.png]
+(2023-10-19T19:12:17.568714599) (2023-10-19T19:12:17.568728589) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/prius hybrid/2/materials/textures/Hybrid_Interior.png]
+(2023-10-19T19:12:17.570174167) (2023-10-19T19:12:17.570192596) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/prius hybrid/2/materials/textures/Wheels3.png]
+(2023-10-19T19:12:17.570465791) (2023-10-19T19:12:17.570476105) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/prius hybrid/2/meshes/Hybrid.mtl]
+(2023-10-19T19:12:17.571468205) (2023-10-19T19:12:17.571476694) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/prius hybrid/2/meshes/Hybrid.obj]
+(2023-10-19T19:12:17.571584357) (2023-10-19T19:12:17.571591435) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/prius hybrid/2/model.config]
+(2023-10-19T19:12:17.571705776) (2023-10-19T19:12:17.571712010) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/prius hybrid/2/model.sdf]
+(2023-10-19T19:12:17.571954871) (2023-10-19T19:12:17.571961457) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/prius hybrid/2/thumbnails/1.png]
+(2023-10-19T19:12:17.572122873) (2023-10-19T19:12:17.572130228) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/prius hybrid/2/thumbnails/2.png]
+(2023-10-19T19:12:17.572347426) (2023-10-19T19:12:17.572354117) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/prius hybrid/2/thumbnails/3.png]
+(2023-10-19T19:12:17.572473976) (2023-10-19T19:12:17.572480298) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/prius hybrid/2/thumbnails/4.png]
+(2023-10-19T19:12:17.572654429) (2023-10-19T19:12:17.572662997) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/prius hybrid/2/thumbnails/5.png]
+(2023-10-19T19:12:17.572856504) (2023-10-19T19:12:17.572861896) [Dbg] [LocalCache.cc:604] Model [prius hybrid] loading resource from another model, named [prius_hybrid]. On Blueprint (gz-fuel-tools 3) and Citadel (gz-fuel-tools 4), [prius_hybrid] is ignored. From Dome (gz-fuel-tools 5), [prius hybrid] will be used. If [prius_hybrid] is not a model belonging to owner [openrobotics], fix your SDF file!
+(2023-10-19T19:12:17.572906160) (2023-10-19T19:12:17.572910763) [Dbg] [LocalCache.cc:604] Model [prius hybrid] loading resource from another model, named [prius_hybrid]. On Blueprint (gz-fuel-tools 3) and Citadel (gz-fuel-tools 4), [prius_hybrid] is ignored. From Dome (gz-fuel-tools 5), [prius hybrid] will be used. If [prius_hybrid] is not a model belonging to owner [openrobotics], fix your SDF file!
+(2023-10-19T19:12:17.572946006) (2023-10-19T19:12:17.572950595) [Dbg] [LocalCache.cc:604] Model [prius hybrid] loading resource from another model, named [prius_hybrid]. On Blueprint (gz-fuel-tools 3) and Citadel (gz-fuel-tools 4), [prius_hybrid] is ignored. From Dome (gz-fuel-tools 5), [prius hybrid] will be used. If [prius_hybrid] is not a model belonging to owner [openrobotics], fix your SDF file!
+(2023-10-19T19:12:17.572985299) (2023-10-19T19:12:17.572989778) [Dbg] [LocalCache.cc:604] Model [prius hybrid] loading resource from another model, named [prius_hybrid]. On Blueprint (gz-fuel-tools 3) and Citadel (gz-fuel-tools 4), [prius_hybrid] is ignored. From Dome (gz-fuel-tools 5), [prius hybrid] will be used. If [prius_hybrid] is not a model belonging to owner [openrobotics], fix your SDF file!
+(2023-10-19T19:12:17.573024738) (2023-10-19T19:12:17.573029199) [Dbg] [LocalCache.cc:604] Model [prius hybrid] loading resource from another model, named [prius_hybrid]. On Blueprint (gz-fuel-tools 3) and Citadel (gz-fuel-tools 4), [prius_hybrid] is ignored. From Dome (gz-fuel-tools 5), [prius hybrid] will be used. If [prius_hybrid] is not a model belonging to owner [openrobotics], fix your SDF file!
+(2023-10-19T19:12:17.573081987) (2023-10-19T19:12:17.573086543) [Dbg] [LocalCache.cc:604] Model [prius hybrid] loading resource from another model, named [prius_hybrid]. On Blueprint (gz-fuel-tools 3) and Citadel (gz-fuel-tools 4), [prius_hybrid] is ignored. From Dome (gz-fuel-tools 5), [prius hybrid] will be used. If [prius_hybrid] is not a model belonging to owner [openrobotics], fix your SDF file!
+(2023-10-19T19:12:17.573122547) (2023-10-19T19:12:17.573127131) [Dbg] [LocalCache.cc:604] Model [prius hybrid] loading resource from another model, named [prius_hybrid]. On Blueprint (gz-fuel-tools 3) and Citadel (gz-fuel-tools 4), [prius_hybrid] is ignored. From Dome (gz-fuel-tools 5), [prius hybrid] will be used. If [prius_hybrid] is not a model belonging to owner [openrobotics], fix your SDF file!
+(2023-10-19T19:12:17.573184672) (2023-10-19T19:12:17.573194156) [Dbg] [LocalCache.cc:604] Model [prius hybrid] loading resource from another model, named [prius_hybrid]. On Blueprint (gz-fuel-tools 3) and Citadel (gz-fuel-tools 4), [prius_hybrid] is ignored. From Dome (gz-fuel-tools 5), [prius hybrid] will be used. If [prius_hybrid] is not a model belonging to owner [openrobotics], fix your SDF file!
+(2023-10-19T19:12:17.576610672) (2023-10-19T19:12:17.576622074) [Wrn] [OBJLoader.cc:91] Both `d` and `Tr` parameters defined for "Hybrid". Use the value of `d` for dissolve (line 8 in .mtl.)
+Both `d` and `Tr` parameters defined for "Wheels3". Use the value of `d` for dissolve (line 22 in .mtl.)
+Both `d` and `Tr` parameters defined for "Hybrid_Interior". Use the value of `d` for dissolve (line 36 in .mtl.)
+Both `d` and `Tr` parameters defined for "Windows". Use the value of `d` for dissolve (line 50 in .mtl.)
+
+(2023-10-19T19:12:17.722359823) (2023-10-19T19:12:17.722378460) [Dbg] [CameraSensor.cc:458] Camera images for [prius_hybrid::chassis::back_camera_sensor] advertised on [back_camera]
+(2023-10-19T19:12:17.722624591) (2023-10-19T19:12:17.722635954) [Dbg] [CameraSensor.cc:786] Camera info for [prius_hybrid::chassis::back_camera_sensor] advertised on [/camera_info]
+(2023-10-19T19:12:17.722896698) (2023-10-19T19:12:17.722905133) [Wrn] [Ogre2Camera.cc:412] Ogre2Camera::SetVisibilityMask: Mask bits c0000000 are set but will be ignored as they conflict with the reserved bits used internally by the ogre2 backend.
+(2023-10-19T19:12:17.723419769) (2023-10-19T19:12:17.723429679) [Dbg] [CameraSensor.cc:458] Camera images for [prius_hybrid::chassis::front_camera_sensor] advertised on [front_camera]
+(2023-10-19T19:12:17.723497393) (2023-10-19T19:12:17.723505103) [Dbg] [CameraSensor.cc:786] Camera info for [prius_hybrid::chassis::front_camera_sensor] advertised on [/camera_info]
+(2023-10-19T19:12:17.723589135) (2023-10-19T19:12:17.723595073) [Wrn] [Ogre2Camera.cc:412] Ogre2Camera::SetVisibilityMask: Mask bits c0000000 are set but will be ignored as they conflict with the reserved bits used internally by the ogre2 backend.
+(2023-10-19T19:12:17.723846672) (2023-10-19T19:12:17.723853639) [Dbg] [CameraSensor.cc:458] Camera images for [prius_hybrid::chassis::left_camera_sensor] advertised on [left_camera]
+(2023-10-19T19:12:17.723907187) (2023-10-19T19:12:17.723912805) [Dbg] [CameraSensor.cc:786] Camera info for [prius_hybrid::chassis::left_camera_sensor] advertised on [/camera_info]
+(2023-10-19T19:12:17.723982947) (2023-10-19T19:12:17.723988571) [Wrn] [Ogre2Camera.cc:412] Ogre2Camera::SetVisibilityMask: Mask bits c0000000 are set but will be ignored as they conflict with the reserved bits used internally by the ogre2 backend.
+(2023-10-19T19:12:17.724224381) (2023-10-19T19:12:17.724233286) [Dbg] [CameraSensor.cc:458] Camera images for [prius_hybrid::chassis::right_camera_sensor] advertised on [right_camera]
+(2023-10-19T19:12:17.724303074) (2023-10-19T19:12:17.724311806) [Dbg] [CameraSensor.cc:786] Camera info for [prius_hybrid::chassis::right_camera_sensor] advertised on [/camera_info]
+(2023-10-19T19:12:17.724367293) (2023-10-19T19:12:17.724375326) [Wrn] [Ogre2Camera.cc:412] Ogre2Camera::SetVisibilityMask: Mask bits c0000000 are set but will be ignored as they conflict with the reserved bits used internally by the ogre2 backend.
+(2023-10-19T19:12:17.752822274) (2023-10-19T19:12:17.752842761) [Dbg] [CameraSensor.cc:583] Enabling camera sensor: 'prius_hybrid::chassis::front_camera_sensor' data generation.
+(2023-10-19T19:14:46.887119005) (2023-10-19T19:14:46.887145750) [Dbg] [SignalHandler.cc:142] Received signal[2].
+(2023-10-19T19:14:46.887184781) (2023-10-19T19:14:46.887196456) [Dbg] [ServerPrivate.cc:115] Server received signal[2]
+(2023-10-19T19:14:46.887232781) (2023-10-19T19:14:46.887245937) [Dbg] [Sensors.cc:433] SensorsPrivate::Stop
+(2023-10-19T19:14:46.961599801) (2023-10-19T19:14:46.961621183) [Dbg] [Sensors.cc:419] SensorsPrivate::RenderThread stopped
+(2023-10-19T19:14:46.961944808) (2023-10-19T19:14:46.961956163) [Dbg] [gz.cc:417] Shutting down gz-sim-server
+((2023-10-19T19:14:46.965836867) (2023-10-19T19:14:46.965864040) [Dbg] [SimulationRunner.cc:530] (Exiting postupdate worker thread (0)2023-10-19T19:14:46.965906775) (
+2023-10-19T19:14:46.965953023) ) 2023-10-19T19:14:46.965910947) (2023-10-19T19:14:46.965986018) [Dbg] [SimulationRunner.cc:530] [Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (2)
+Exiting postupdate worker thread (1)
+(2023-10-19T19:14:46.991560048) (2023-10-19T19:14:46.991577287) [Dbg] [Sensors.cc:433] SensorsPrivate::Stop

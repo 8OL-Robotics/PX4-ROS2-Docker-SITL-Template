@@ -1,0 +1,175 @@
+(2023-10-11T23:59:05.973767352) (2023-10-11T23:59:05.973796025) [Msg] Gazebo Sim Server v7.6.0
+(2023-10-11T23:59:05.978539766) (2023-10-11T23:59:05.978548728) [Msg] Loading SDF world file[/home/bassam/gz_ws/src/ardupilot_gazebo/worlds/iris_runway.sdf].
+(2023-10-11T23:59:06.172936354) (2023-10-11T23:59:06.172947220) [Msg] Serving entity system service on [/entity/system/add]
+(2023-10-11T23:59:06.274259518) (2023-10-11T23:59:06.274273464) [Dbg] [Physics.cc:880] Loaded [gz::physics::dartsim::Plugin] from library [/usr/lib/x86_64-linux-gnu/gz-physics-6/engine-plugins/libgz-physics-dartsim-plugin.so]
+(2023-10-11T23:59:06.274502292) (2023-10-11T23:59:06.274511293) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::Physics] for entity [1]
+(2023-10-11T23:59:06.281892515) (2023-10-11T23:59:06.281904254) [Dbg] [Sensors.cc:506] Configuring Sensors system
+(2023-10-11T23:59:06.282092143) (2023-10-11T23:59:06.282101083) [Dbg] [Sensors.cc:425] SensorsPrivate::Run
+(2023-10-11T23:59:06.282258870) (2023-10-11T23:59:06.282267790) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::Sensors] for entity [1]
+(2023-10-11T23:59:06.284355928) (2023-10-11T23:59:06.284366170) [Msg] Create service on [/world/iris_runway/create]
+(2023-10-11T23:59:06.287637854) (2023-10-11T23:59:06.287651758) [Msg] Remove service on [/world/iris_runway/remove]
+(2023-10-11T23:59:06.287979261) (2023-10-11T23:59:06.287988715) [Msg] Pose service on [/world/iris_runway/set_pose]
+(2023-10-11T23:59:06.288203353) (2023-10-11T23:59:06.288212431) [Msg] Pose service on [/world/iris_runway/set_pose_vector]
+(2023-10-11T23:59:06.288533903) (2023-10-11T23:59:06.288543123) [Msg] Light configuration service on [/world/iris_runway/light_config]
+(2023-10-11T23:59:06.288899018) (2023-10-11T23:59:06.288908085) [Msg] Physics service on [/world/iris_runway/set_physics]
+(2023-10-11T23:59:06.289174282) (2023-10-11T23:59:06.289183531) [Msg] SphericalCoordinates service on [/world/iris_runway/set_spherical_coordinates]
+(2023-10-11T23:59:06.289371015) (2023-10-11T23:59:06.289379717) [Msg] Enable collision service on [/world/iris_runway/enable_collision]
+(2023-10-11T23:59:06.289557077) (2023-10-11T23:59:06.289565501) [Msg] Disable collision service on [/world/iris_runway/disable_collision]
+(2023-10-11T23:59:06.289853828) (2023-10-11T23:59:06.289862854) [Msg] Material service on [/world/iris_runway/visual_config]
+(2023-10-11T23:59:06.290092598) (2023-10-11T23:59:06.290101566) [Msg] Material service on [/world/iris_runway/wheel_slip]
+(2023-10-11T23:59:06.290196951) (2023-10-11T23:59:06.290205140) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::UserCommands] for entity [1]
+(2023-10-11T23:59:06.290362313) (2023-10-11T23:59:06.290376028) [Dbg] [Sensors.cc:402] SensorsPrivate::RenderThread started
+(2023-10-11T23:59:06.290411395) (2023-10-11T23:59:06.290418999) [Dbg] [Sensors.cc:245] Waiting for init
+(2023-10-11T23:59:06.291807110) (2023-10-11T23:59:06.291817517) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::SceneBroadcaster] for entity [1]
+(2023-10-11T23:59:06.293201557) (2023-10-11T23:59:06.293211532) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::Imu] for entity [1]
+(2023-10-11T23:59:06.294421370) (2023-10-11T23:59:06.294431719) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::NavSat] for entity [1]
+(2023-10-11T23:59:06.307401718) (2023-10-11T23:59:06.307416355) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::JointStatePublisher] for entity [15]
+(2023-10-11T23:59:06.308738288) (2023-10-11T23:59:06.308749439) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [15]
+(2023-10-11T23:59:06.309139755) (2023-10-11T23:59:06.309149892) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [15]
+(2023-10-11T23:59:06.309476165) (2023-10-11T23:59:06.309486069) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [15]
+(2023-10-11T23:59:06.309807481) (2023-10-11T23:59:06.309816994) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [15]
+(2023-10-11T23:59:06.310149845) (2023-10-11T23:59:06.310158867) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [15]
+(2023-10-11T23:59:06.310457842) (2023-10-11T23:59:06.310467076) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [15]
+(2023-10-11T23:59:06.310765023) (2023-10-11T23:59:06.310774267) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [15]
+(2023-10-11T23:59:06.311088159) (2023-10-11T23:59:06.311097384) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [15]
+(2023-10-11T23:59:06.312406767) (2023-10-11T23:59:06.312417468) [Msg] ApplyJointForce subscribing to Double messages on [/model/iris_with_ardupilot/joint/iris_with_standoffs::rotor_0_joint/cmd_force]
+(2023-10-11T23:59:06.312493370) (2023-10-11T23:59:06.312502087) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::ApplyJointForce] for entity [15]
+(2023-10-11T23:59:06.312899333) (2023-10-11T23:59:06.312909196) [Msg] ApplyJointForce subscribing to Double messages on [/model/iris_with_ardupilot/joint/iris_with_standoffs::rotor_1_joint/cmd_force]
+(2023-10-11T23:59:06.313037188) (2023-10-11T23:59:06.313046081) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::ApplyJointForce] for entity [15]
+(2023-10-11T23:59:06.313453994) (2023-10-11T23:59:06.313464066) [Msg] ApplyJointForce subscribing to Double messages on [/model/iris_with_ardupilot/joint/iris_with_standoffs::rotor_2_joint/cmd_force]
+(2023-10-11T23:59:06.313509403) (2023-10-11T23:59:06.313517243) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::ApplyJointForce] for entity [15]
+(2023-10-11T23:59:06.313961698) (2023-10-11T23:59:06.313971662) [Msg] ApplyJointForce subscribing to Double messages on [/model/iris_with_ardupilot/joint/iris_with_standoffs::rotor_3_joint/cmd_force]
+(2023-10-11T23:59:06.314016584) (2023-10-11T23:59:06.314024504) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::ApplyJointForce] for entity [15]
+(2023-10-11T23:59:06.317745787) [iris_with_ardupilot] flight dynamics model @ 127.0.0.1:9002
+(2023-10-11T23:59:06.317791442) [iris_with_ardupilot] ArduPilot ready to fly. The force will be with you
+(2023-10-11T23:59:06.317841303) (2023-10-11T23:59:06.317848907) [Dbg] [SystemManager.cc:74] Loaded system [ArduPilotPlugin] for entity [15]
+(2023-10-11T23:59:06.318755177) (2023-10-11T23:59:06.318765426) [Msg] Loaded level [3]
+(2023-10-11T23:59:06.325389021) (2023-10-11T23:59:06.325403443) [Msg] Serving world controls on [/world/iris_runway/control], [/world/iris_runway/control/state] and [/world/iris_runway/playback/control]
+(2023-10-11T23:59:06.325621013) (2023-10-11T23:59:06.325631306) [Msg] Serving GUI information on [/world/iris_runway/gui/info]
+(2023-10-11T23:59:06.325675868) (2023-10-11T23:59:06.325683166) [Msg] World [iris_runway] initialized with [1ms] physics profile.
+(2023-10-11T23:59:06.325924255) (2023-10-11T23:59:06.325933527) [Msg] Serving world SDF generation service on [/world/iris_runway/generate_world_sdf]
+(2023-10-11T23:59:06.326142664) (2023-10-11T23:59:06.326152204) [Msg] Serving world names on [/gazebo/worlds]
+(2023-10-11T23:59:06.326300607) (2023-10-11T23:59:06.326309893) [Msg] Resource path add service on [/gazebo/resource_paths/add].
+(2023-10-11T23:59:06.326458195) (2023-10-11T23:59:06.326467313) [Msg] Resource path get service on [/gazebo/resource_paths/get].
+(2023-10-11T23:59:06.326611762) (2023-10-11T23:59:06.326620752) [Msg] Resource path resolve service on [/gazebo/resource_paths/resolve].
+(2023-10-11T23:59:06.326770408) (2023-10-11T23:59:06.326779335) [Msg] Resource paths published on [/gazebo/resource_paths].
+(2023-10-11T23:59:06.326972686) (2023-10-11T23:59:06.326981892) [Msg] Server control service on [/server_control].
+(2023-10-11T23:59:07.871044940) (2023-10-11T23:59:07.871064635) [Msg] Found no publishers on /stats, adding root stats topic
+(2023-10-11T23:59:07.871326571) (2023-10-11T23:59:07.871336903) [Msg] Found no publishers on /clock, adding root clock topic
+(2023-10-11T23:59:07.871703689) (2023-10-11T23:59:07.871733652) [Dbg] [SimulationRunner.cc:503] Creating PostUpdate worker threads: 7
+(2023-10-11T23:59:07.871783634) (2023-10-11T23:59:07.871792571) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (0)
+(2023-10-11T23:59:07.871907232) (2023-10-11T23:59:07.871918217) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (1)
+(2023-10-11T23:59:07.872015334) (2023-10-11T23:59:07.872025375) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (2)
+(2023-10-11T23:59:07.872106685) (2023-10-11T23:59:07.872116357) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (3)
+(2023-10-11T23:59:07.872245013) (2023-10-11T23:59:07.872254597) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (4)
+(2023-10-11T23:59:07.872334677) (2023-10-11T23:59:07.872345320) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (5)
+(2023-10-11T23:59:07.873052451) (2023-10-11T23:59:07.873066962) [Msg] Found IMU sensor with name [iris_with_standoffs::imu_link::imu_sensor]
+(2023-10-11T23:59:07.873153937) (2023-10-11T23:59:07.873162737) [Dbg] [ArduPilotPlugin.cc:1154] Computed IMU topic to be: world/iris_runway/model/iris_with_ardupilot/model/iris_with_standoffs/link/imu_link/sensor/imu_sensor/imu
+(2023-10-11T23:59:07.879314890) (2023-10-11T23:59:07.879327340) [Dbg] [ImuSensor.cc:149] IMU data for [iris_with_ardupilot::iris_with_standoffs::imu_link::imu_sensor] advertised on [world/iris_runway/model/iris_with_ardupilot/model/iris_with_standoffs/link/imu_link/sensor/imu_sensor/imu]
+(2023-10-11T23:59:07.879606346) (2023-10-11T23:59:07.879618458) [Msg] Serving scene information on [/world/iris_runway/scene/info]
+(2023-10-11T23:59:07.879712856) (2023-10-11T23:59:07.879719744) [Msg] Serving graph information on [/world/iris_runway/scene/graph]
+(2023-10-11T23:59:07.879845787) (2023-10-11T23:59:07.879852488) [Msg] Serving full state on [/world/iris_runway/state]
+(2023-10-11T23:59:07.879916228) (2023-10-11T23:59:07.879921965) [Msg] Serving full state (async) on [/world/iris_runway/state_async]
+(2023-10-11T23:59:07.879999079) (2023-10-11T23:59:07.880005530) [Msg] Publishing scene information on [/world/iris_runway/scene/info]
+(2023-10-11T23:59:07.880088866) (2023-10-11T23:59:07.880095144) [Msg] Publishing entity deletions on [/world/iris_runway/scene/deletion]
+(2023-10-11T23:59:07.880149961) (2023-10-11T23:59:07.880156012) [Msg] Publishing state changes on [/world/iris_runway/state]
+(2023-10-11T23:59:07.880240856) (2023-10-11T23:59:07.880247211) [Msg] Publishing pose messages on [/world/iris_runway/pose/info]
+(2023-10-11T23:59:07.880310523) (2023-10-11T23:59:07.880316684) [Msg] Publishing dynamic pose messages on [/world/iris_runway/dynamic_pose/info]
+(2023-10-11T23:59:07.880529224) (2023-10-11T23:59:07.880536046) [Dbg] [EntityComponentManager.cc:1655] Updated state thread iterators: 8 threads processing around 6 entities each.
+(2023-10-11T23:59:07.880825402) (2023-10-11T23:59:07.880834178) [Wrn] [Model.hh:69] Skipping serialization / deserialization for models with //pose/@relative_to attribute.
+(2023-10-11T23:59:07.881095603) (2023-10-11T23:59:07.881104539) [Wrn] [Component.hh:144] Trying to serialize component with data type [N3sdf3v135WorldE], which doesn't have `operator<<`. Component will not be serialized.
+(2023-10-11T23:59:31.886304111) (2023-10-11T23:59:31.886315920) [Dbg] [UserCommands.cc:1263] Created entity [45] named [spotlight]
+(2023-10-11T23:59:55.883641411) [iris_with_ardupilot] Connected to ArduPilot controller @ 127.0.0.1:33701
+(2023-10-11T23:59:55.883750308) (2023-10-11T23:59:55.883760708) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-11T23:59:55.885496513) (2023-10-11T23:59:55.885536720) [Wrn] [Component.hh:144] Trying to serialize component with data type [St6vectorIdSaIdEE], which doesn't have `operator<<`. Component will not be serialized.
+(2023-10-12T00:01:29.659037904) (2023-10-12T00:01:29.659066998) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:03:01.599578077) (2023-10-12T00:03:01.599616841) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:04:31.112514952) (2023-10-12T00:04:31.112537427) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:06:00.234940135) (2023-10-12T00:06:00.234966562) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:07:29.293377460) (2023-10-12T00:07:29.293407741) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:08:58.389352869) (2023-10-12T00:08:58.389374285) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:10:27.108835180) (2023-10-12T00:10:27.108884537) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:11:44.674452641) (2023-10-12T00:11:44.674467661) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:12:52.176804309) (2023-10-12T00:12:52.176814308) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:13:59.637061489) (2023-10-12T00:13:59.637072181) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:15:07.149010096) (2023-10-12T00:15:07.149020722) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:16:14.690377231) (2023-10-12T00:16:14.690388295) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:17:22.195613022) (2023-10-12T00:17:22.195624305) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:18:29.675941777) (2023-10-12T00:18:29.675952126) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:19:37.201449459) (2023-10-12T00:19:37.201459352) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:20:44.703662243) (2023-10-12T00:20:44.703685097) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:21:52.240025711) (2023-10-12T00:21:52.240036863) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:22:59.757362054) (2023-10-12T00:22:59.757373900) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:24:07.331200011) (2023-10-12T00:24:07.331210853) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:25:14.923541089) (2023-10-12T00:25:14.923551917) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:26:37.94824453) (2023-10-12T00:26:37.94850122) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:28:12.190692719) (2023-10-12T00:28:12.190752033) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:29:48.750318480) (2023-10-12T00:29:48.750341312) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:31:17.631053701) (2023-10-12T00:31:17.631102403) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:32:46.685319443) (2023-10-12T00:32:46.685341770) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:34:16.621295791) (2023-10-12T00:34:16.621337245) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:35:45.765570970) (2023-10-12T00:35:45.765604467) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:37:23.968151872) (2023-10-12T00:37:23.968205670) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:38:55.251898311) (2023-10-12T00:38:55.251932688) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:40:25.563169466) (2023-10-12T00:40:25.563217497) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:42:08.768807004) (2023-10-12T00:42:08.768835186) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:43:39.62757701) (2023-10-12T00:43:39.62780864) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:45:09.311454305) (2023-10-12T00:45:09.311473374) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:46:38.997406271) (2023-10-12T00:46:38.997476401) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:47:59.734408873) (2023-10-12T00:47:59.734420147) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:49:07.196156674) (2023-10-12T00:49:07.196167870) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:50:14.607318487) (2023-10-12T00:50:14.607330775) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:51:22.31450260) (2023-10-12T00:51:22.31460706) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:52:29.445580156) (2023-10-12T00:52:29.445591449) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:53:36.887104629) (2023-10-12T00:53:36.887115847) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:54:44.329829975) (2023-10-12T00:54:44.329841124) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:55:51.790335512) (2023-10-12T00:55:51.790345844) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:56:59.256886103) (2023-10-12T00:56:59.256897511) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:58:06.733603911) (2023-10-12T00:58:06.733615469) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T00:59:14.183582904) (2023-10-12T00:59:14.183593765) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:00:21.592439895) (2023-10-12T01:00:21.592450050) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:01:29.75620384) (2023-10-12T01:01:29.75631751) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:02:36.547833537) (2023-10-12T01:02:36.547848604) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:03:44.9317740) (2023-10-12T01:03:44.9328594) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:04:51.477223364) (2023-10-12T01:04:51.477234796) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:05:58.919139498) (2023-10-12T01:05:58.919151378) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:07:06.389422938) (2023-10-12T01:07:06.389433718) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:08:13.817578710) (2023-10-12T01:08:13.817589248) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:09:21.260312440) (2023-10-12T01:09:21.260323065) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:10:28.792133737) (2023-10-12T01:10:28.792151124) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:11:36.326591863) (2023-10-12T01:11:36.326602013) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:12:43.885755606) (2023-10-12T01:12:43.885765663) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:13:51.287521381) (2023-10-12T01:13:51.287532424) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:14:58.758649117) (2023-10-12T01:14:58.758661406) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:16:07.250791778) (2023-10-12T01:16:07.250841137) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:17:38.837943368) (2023-10-12T01:17:38.837960780) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:19:08.818651535) (2023-10-12T01:19:08.818694823) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:20:38.487505181) (2023-10-12T01:20:38.487551014) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:22:08.345451279) (2023-10-12T01:22:08.345478366) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:23:37.856119267) (2023-10-12T01:23:37.856177359) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:24:47.962653228) (2023-10-12T01:24:47.962664080) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:25:55.404661216) (2023-10-12T01:25:55.404673214) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:27:02.839124445) (2023-10-12T01:27:02.839136495) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:28:10.277032824) (2023-10-12T01:28:10.277043588) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:29:17.690161245) (2023-10-12T01:29:17.690173291) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:30:45.951561798) (2023-10-12T01:30:45.951602812) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:32:15.789759424) (2023-10-12T01:32:15.789798486) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:33:45.536285401) (2023-10-12T01:33:45.536303460) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:35:08.284651012) (2023-10-12T01:35:08.284662190) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:36:15.703539864) (2023-10-12T01:36:15.703551080) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:37:35.214735470) (2023-10-12T01:37:35.214756477) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:38:38.596516602) (2023-10-12T01:38:38.596537287) [Dbg] [SignalHandler.cc:142] Received signal[2].
+(2023-10-12T01:38:38.596594747) (2023-10-12T01:38:38.596605686) [Dbg] [ServerPrivate.cc:115] Server received signal[2]
+(2023-10-12T01:38:38.596865119) (2023-10-12T01:38:38.596873892) [Dbg] [Sensors.cc:433] SensorsPrivate::Stop
+(2023-10-12T01:38:38.597227152) (2023-10-12T01:38:38.597238581) [Dbg] [Sensors.cc:277] Rendering Thread initialized
+(2023-10-12T01:38:38.597331215) (2023-10-12T01:38:38.597339081) [Dbg] [Sensors.cc:419] SensorsPrivate::RenderThread stopped
+(2023-10-12T01:38:38.597451777) (2023-10-12T01:38:38.597461028) [Dbg] [SignalHandler.cc:142] Received signal[2].
+(2023-10-12T01:38:38.597492914) (2023-10-12T01:38:38.597499634) [Dbg] [ArduPilotPlugin.cc:370] Plugin received signal[2]
+(2023-10-12T01:38:38.597544197) (2023-10-12T01:38:38.597551060) [Dbg] [gz.cc:417] Shutting down gz-sim-server
+((2023-10-12T01:38:38.604065913) (2023-10-12T01:38:38.6040709732023-10-12T01:38:38.6040709732023-10-12T01:38:38.604089990) ((2023-10-12T01:38:38.604136069) (2023-10-12T01:38:38.604155776) [Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (Exiting postupdate worker thread ([Dbg] [SimulationRunner.cc:530] () (2023-10-12T01:38:38.604200475) ((2023-10-12T01:38:38.604229503) 2023-10-12T01:38:38.604214479) 3)2023-10-12T01:38:38.604244162
+) (2023-10-12T01:38:38.604552015) 2023-10-12T01:38:38.604567790) (2023-10-12T01:38:38.604588579) 55[Dbg] [SimulationRunner.cc:530] [Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (1)
+Exiting postupdate worker thread (2)
+)
+[Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (0)
+Exiting postupdate worker thread (4)
+(2023-10-12T01:38:38.628176807) (2023-10-12T01:38:38.628230151) [Dbg] [Sensors.cc:433] SensorsPrivate::Stop

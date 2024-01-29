@@ -1,0 +1,167 @@
+(2023-10-19T23:47:15.278825878) (2023-10-19T23:47:15.278835762) [Msg] Gazebo Sim Server v7.6.0
+(2023-10-19T23:47:15.282408528) (2023-10-19T23:47:15.282417543) [Msg] Loading SDF world file[/home/bassam/PX4-Autopilot/Tools/simulation/gz/worlds/default.sdf].
+(2023-10-19T23:47:15.485949200) (2023-10-19T23:47:15.485959575) [Msg] Serving entity system service on [/entity/system/add]
+(2023-10-19T23:47:15.688687575) (2023-10-19T23:47:15.688702544) [Dbg] [Physics.cc:880] Loaded [gz::physics::dartsim::Plugin] from library [/usr/lib/x86_64-linux-gnu/gz-physics-6/engine-plugins/libgz-physics-dartsim-plugin.so]
+(2023-10-19T23:47:15.688768945) (2023-10-19T23:47:15.688780017) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::Physics] for entity [1]
+(2023-10-19T23:47:15.692203088) (2023-10-19T23:47:15.692213374) [Msg] Create service on [/world/default/create]
+(2023-10-19T23:47:15.792555810) (2023-10-19T23:47:15.792567830) [Msg] Remove service on [/world/default/remove]
+(2023-10-19T23:47:15.792675883) (2023-10-19T23:47:15.792685786) [Msg] Pose service on [/world/default/set_pose]
+(2023-10-19T23:47:15.792780367) (2023-10-19T23:47:15.792790331) [Msg] Pose service on [/world/default/set_pose_vector]
+(2023-10-19T23:47:15.792923676) (2023-10-19T23:47:15.792933697) [Msg] Light configuration service on [/world/default/light_config]
+(2023-10-19T23:47:15.793104967) (2023-10-19T23:47:15.793114997) [Msg] Physics service on [/world/default/set_physics]
+(2023-10-19T23:47:15.793242906) (2023-10-19T23:47:15.793252820) [Msg] SphericalCoordinates service on [/world/default/set_spherical_coordinates]
+(2023-10-19T23:47:15.793316733) (2023-10-19T23:47:15.793325962) [Msg] Enable collision service on [/world/default/enable_collision]
+(2023-10-19T23:47:15.793390868) (2023-10-19T23:47:15.793399677) [Msg] Disable collision service on [/world/default/disable_collision]
+(2023-10-19T23:47:15.793531980) (2023-10-19T23:47:15.793541522) [Msg] Material service on [/world/default/visual_config]
+(2023-10-19T23:47:15.793641498) (2023-10-19T23:47:15.793651283) [Msg] Material service on [/world/default/wheel_slip]
+(2023-10-19T23:47:15.793680053) (2023-10-19T23:47:15.793684919) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::UserCommands] for entity [1]
+(2023-10-19T23:47:15.796731632) (2023-10-19T23:47:15.796747456) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::SceneBroadcaster] for entity [1]
+(2023-10-19T23:47:15.798241323) (2023-10-19T23:47:15.798250054) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::Contact] for entity [1]
+(2023-10-19T23:47:15.801228542) (2023-10-19T23:47:15.801237409) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::Imu] for entity [1]
+(2023-10-19T23:47:15.802935142) (2023-10-19T23:47:15.802942655) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::AirPressure] for entity [1]
+(2023-10-19T23:47:15.804275257) (2023-10-19T23:47:15.804282743) [Msg] Listening to instantaneous wrench commands in [/world/default/wrench]
+(2023-10-19T23:47:15.804332896) (2023-10-19T23:47:15.804338824) [Msg] Listening to persistent wrench commands in [/world/default/wrench/persistent]
+(2023-10-19T23:47:15.804384632) (2023-10-19T23:47:15.804390194) [Msg] Listening to wrench clear commands in [/world/default/wrench/clear]
+(2023-10-19T23:47:15.804408796) (2023-10-19T23:47:15.804413126) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::ApplyLinkWrench] for entity [1]
+(2023-10-19T23:47:15.818323379) (2023-10-19T23:47:15.818334060) [Dbg] [Sensors.cc:506] Configuring Sensors system
+(2023-10-19T23:47:15.818430328) (2023-10-19T23:47:15.818436082) [Dbg] [Sensors.cc:425] SensorsPrivate::Run
+(2023-10-19T23:47:15.818497401) (2023-10-19T23:47:15.818503301) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::Sensors] for entity [1]
+(2023-10-19T23:47:15.818570205) (2023-10-19T23:47:15.818580895) [Dbg] [Sensors.cc:402] SensorsPrivate::RenderThread started
+(2023-10-19T23:47:15.818600604) (2023-10-19T23:47:15.818605411) [Dbg] [Sensors.cc:245] Waiting for init
+(2023-10-19T23:47:15.819603859) (2023-10-19T23:47:15.819611502) [Msg] Loaded level [3]
+(2023-10-19T23:47:15.820332632) (2023-10-19T23:47:15.820343698) [Msg] Serving world controls on [/world/default/control], [/world/default/control/state] and [/world/default/playback/control]
+(2023-10-19T23:47:15.820498890) (2023-10-19T23:47:15.820509262) [Msg] Serving GUI information on [/world/default/gui/info]
+(2023-10-19T23:47:15.820531642) (2023-10-19T23:47:15.820536482) [Msg] World [default] initialized with [default_physics] physics profile.
+(2023-10-19T23:47:15.820650606) (2023-10-19T23:47:15.820660279) [Msg] Serving world SDF generation service on [/world/default/generate_world_sdf]
+(2023-10-19T23:47:15.820750520) (2023-10-19T23:47:15.820758961) [Msg] Serving world names on [/gazebo/worlds]
+(2023-10-19T23:47:15.820833084) (2023-10-19T23:47:15.820842845) [Msg] Resource path add service on [/gazebo/resource_paths/add].
+(2023-10-19T23:47:15.820918127) (2023-10-19T23:47:15.820927244) [Msg] Resource path get service on [/gazebo/resource_paths/get].
+(2023-10-19T23:47:15.921230844) (2023-10-19T23:47:15.921244422) [Msg] Resource path resolve service on [/gazebo/resource_paths/resolve].
+(2023-10-19T23:47:15.921329169) (2023-10-19T23:47:15.921337104) [Msg] Resource paths published on [/gazebo/resource_paths].
+(2023-10-19T23:47:15.921502126) (2023-10-19T23:47:15.921511247) [Msg] Server control service on [/server_control].
+(2023-10-19T23:47:17.281250053) (2023-10-19T23:47:17.281266327) [Msg] Found no publishers on /stats, adding root stats topic
+(2023-10-19T23:47:17.281473752) (2023-10-19T23:47:17.281481224) [Msg] Found no publishers on /clock, adding root clock topic
+(2023-10-19T23:47:17.281699443) (2023-10-19T23:47:17.281710630) [Dbg] [SimulationRunner.cc:503] Creating PostUpdate worker threads: 6
+(2023-10-19T23:47:17.281745105) (2023-10-19T23:47:17.281753679) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (0)
+(2023-10-19T23:47:17.281893659) (2023-10-19T23:47:17.281902570) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (1)
+(2023-10-19T23:47:17.281984462) (2023-10-19T23:47:17.281990754) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (2)
+(2023-10-19T23:47:17.282042038) (2023-10-19T23:47:17.282047456) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (3)
+(2023-10-19T23:47:17.282098008) (2023-10-19T23:47:17.282106880) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (4)
+(2023-10-19T23:47:17.413373494) (2023-10-19T23:47:17.413384739) [Wrn] [MulticopterMotorModel.cc:257] No robotNamespace set using entity name.
+(2023-10-19T23:47:17.413411219) (2023-10-19T23:47:17.413416093) [Wrn] [MulticopterMotorModel.cc:295] <motorNumber> is depricated, please use <actuator_number>.
+(2023-10-19T23:47:17.413454656) (2023-10-19T23:47:17.413459588) [Dbg] [MulticopterMotorModel.cc:386] Listening to topic: x500_depth_0/command/motor_speed
+(2023-10-19T23:47:17.413766679) (2023-10-19T23:47:17.413776935) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::MulticopterMotorModel] for entity [30]
+(2023-10-19T23:47:17.414060165) (2023-10-19T23:47:17.414067076) [Wrn] [MulticopterMotorModel.cc:257] No robotNamespace set using entity name.
+(2023-10-19T23:47:17.414081427) (2023-10-19T23:47:17.414085931) [Wrn] [MulticopterMotorModel.cc:295] <motorNumber> is depricated, please use <actuator_number>.
+(2023-10-19T23:47:17.414118604) (2023-10-19T23:47:17.414123260) [Dbg] [MulticopterMotorModel.cc:386] Listening to topic: x500_depth_0/command/motor_speed
+(2023-10-19T23:47:17.414253577) (2023-10-19T23:47:17.414263411) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::MulticopterMotorModel] for entity [30]
+(2023-10-19T23:47:17.414525782) (2023-10-19T23:47:17.414532506) [Wrn] [MulticopterMotorModel.cc:257] No robotNamespace set using entity name.
+(2023-10-19T23:47:17.414545724) (2023-10-19T23:47:17.414550394) [Wrn] [MulticopterMotorModel.cc:295] <motorNumber> is depricated, please use <actuator_number>.
+(2023-10-19T23:47:17.414581581) (2023-10-19T23:47:17.414586392) [Dbg] [MulticopterMotorModel.cc:386] Listening to topic: x500_depth_0/command/motor_speed
+(2023-10-19T23:47:17.414745242) (2023-10-19T23:47:17.414754535) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::MulticopterMotorModel] for entity [30]
+(2023-10-19T23:47:17.415005578) (2023-10-19T23:47:17.415015191) [Wrn] [MulticopterMotorModel.cc:257] No robotNamespace set using entity name.
+(2023-10-19T23:47:17.415030565) (2023-10-19T23:47:17.415038758) [Wrn] [MulticopterMotorModel.cc:295] <motorNumber> is depricated, please use <actuator_number>.
+(2023-10-19T23:47:17.415076701) (2023-10-19T23:47:17.415081961) [Dbg] [MulticopterMotorModel.cc:386] Listening to topic: x500_depth_0/command/motor_speed
+(2023-10-19T23:47:17.415271047) (2023-10-19T23:47:17.415277351) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::MulticopterMotorModel] for entity [30]
+(2023-10-19T23:47:17.415702516) (2023-10-19T23:47:17.415708997) [Dbg] [UserCommands.cc:1263] Created entity [30] named [x500_depth_0]
+(2023-10-19T23:47:17.429494171) (2023-10-19T23:47:17.429505879) [Dbg] [SDFFeatures.cc:328] Mesh construction from an SDF has not been implemented yet for dartsim. Use AttachMeshShapeFeature to use mesh shapes.
+(2023-10-19T23:47:17.429523605) (2023-10-19T23:47:17.429528299) [Err] [SDFFeatures.cc:843] The geometry element of collision [collision] couldn't be created
+(2023-10-19T23:47:17.429690741) (2023-10-19T23:47:17.429697574) [Dbg] [SDFFeatures.cc:328] Mesh construction from an SDF has not been implemented yet for dartsim. Use AttachMeshShapeFeature to use mesh shapes.
+(2023-10-19T23:47:17.429709891) (2023-10-19T23:47:17.429714496) [Err] [SDFFeatures.cc:843] The geometry element of collision [collision] couldn't be created
+(2023-10-19T23:47:17.429823936) (2023-10-19T23:47:17.429830324) [Dbg] [SDFFeatures.cc:328] Mesh construction from an SDF has not been implemented yet for dartsim. Use AttachMeshShapeFeature to use mesh shapes.
+(2023-10-19T23:47:17.429842353) (2023-10-19T23:47:17.429846787) [Err] [SDFFeatures.cc:843] The geometry element of collision [collision] couldn't be created
+(2023-10-19T23:47:17.429952222) (2023-10-19T23:47:17.429958556) [Dbg] [SDFFeatures.cc:328] Mesh construction from an SDF has not been implemented yet for dartsim. Use AttachMeshShapeFeature to use mesh shapes.
+(2023-10-19T23:47:17.429971753) (2023-10-19T23:47:17.429978965) [Err] [SDFFeatures.cc:843] The geometry element of collision [collision] couldn't be created
+(2023-10-19T23:47:17.434070575) (2023-10-19T23:47:17.434082151) [Wrn] [FuelClient.cc:1952] The fuel.ignitionrobotics.org URL is deprecrated. Pleasse change https://fuel.ignitionrobotics.org/1.0/openrobotics/models/sonoma raceway/2/files/meshes/Raceway.obj to https://fuel.gazebosim.org/1.0/openrobotics/models/sonoma raceway/2/files/meshes/Raceway.obj
+(2023-10-19T23:47:17.434149196) (2023-10-19T23:47:17.434154714) [Wrn] [FuelClient.cc:1952] The fuel.ignitionrobotics.org URL is deprecrated. Pleasse change https://fuel.ignitionrobotics.org/1.0/openrobotics/models/sonoma raceway/2/files/meshes/Raceway.obj to https://fuel.gazebosim.org/1.0/openrobotics/models/sonoma raceway/2/files/meshes/Raceway.obj
+(2023-10-19T23:47:17.434636258) (2023-10-19T23:47:17.434643196) [Wrn] [FuelClient.cc:1952] The fuel.ignitionrobotics.org URL is deprecrated. Pleasse change https://fuel.ignitionrobotics.org to https://fuel.gazebosim.org
+(2023-10-19T23:47:17.434675561) (2023-10-19T23:47:17.434680318) [Msg] Downloading model [https://fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway]
+(2023-10-19T23:47:32.867118666) (2023-10-19T23:47:32.867126732) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/2/materials/textures/Asphalt.png]
+(2023-10-19T23:47:32.868270865) (2023-10-19T23:47:32.868278223) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/2/materials/textures/Bridge.png]
+(2023-10-19T23:47:32.868432910) (2023-10-19T23:47:32.868438912) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/2/materials/textures/Checker.png]
+(2023-10-19T23:47:32.868947576) (2023-10-19T23:47:32.868953818) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/2/materials/textures/Concrete.png]
+(2023-10-19T23:47:32.869058603) (2023-10-19T23:47:32.869064636) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/2/materials/textures/Fence.png]
+(2023-10-19T23:47:32.869175996) (2023-10-19T23:47:32.869181848) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/2/materials/textures/Fence_Opacity.png]
+(2023-10-19T23:47:32.873569377) (2023-10-19T23:47:32.873576746) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/2/materials/textures/Grass.png]
+(2023-10-19T23:47:32.873703053) (2023-10-19T23:47:32.873709031) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/2/materials/textures/Railing.png]
+(2023-10-19T23:47:32.874901072) (2023-10-19T23:47:32.874907123) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/2/materials/textures/Roof.png]
+(2023-10-19T23:47:32.875789701) (2023-10-19T23:47:32.875795952) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/2/materials/textures/RumbleStrip&Barrier.png]
+(2023-10-19T23:47:32.878340583) (2023-10-19T23:47:32.878349138) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/2/materials/textures/RumbleStrip.png]
+(2023-10-19T23:47:32.883708528) (2023-10-19T23:47:32.883726252) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/2/materials/textures/Stands.png]
+(2023-10-19T23:47:32.885731334) (2023-10-19T23:47:32.885745715) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/2/materials/textures/TireStack.png]
+(2023-10-19T23:47:32.889446681) (2023-10-19T23:47:32.889455283) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/2/materials/textures/Track.png]
+(2023-10-19T23:47:32.889774220) (2023-10-19T23:47:32.889780873) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/2/materials/textures/Trim.png]
+(2023-10-19T23:47:32.890381499) (2023-10-19T23:47:32.890387587) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/2/materials/textures/Wall.png]
+(2023-10-19T23:47:32.890549233) (2023-10-19T23:47:32.890555221) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/2/materials/textures/Window.png]
+(2023-10-19T23:47:32.890664577) (2023-10-19T23:47:32.890670721) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/2/meshes/Raceway.mtl]
+(2023-10-19T23:47:32.915552382) (2023-10-19T23:47:32.915565982) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/2/meshes/Raceway.obj]
+(2023-10-19T23:47:32.915661758) (2023-10-19T23:47:32.915667650) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/2/model.config]
+(2023-10-19T23:47:32.915724162) (2023-10-19T23:47:32.915729820) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/2/model.sdf]
+(2023-10-19T23:47:32.916070469) (2023-10-19T23:47:32.916076673) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/2/thumbnails/1.png]
+(2023-10-19T23:47:32.916686743) (2023-10-19T23:47:32.916693100) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/2/thumbnails/2.png]
+(2023-10-19T23:47:32.916806320) (2023-10-19T23:47:32.916812035) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/2/thumbnails/3.png]
+(2023-10-19T23:47:32.916916864) (2023-10-19T23:47:32.916922726) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/2/thumbnails/4.png]
+(2023-10-19T23:47:32.917018750) (2023-10-19T23:47:32.917024495) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway/2/thumbnails/5.png]
+(2023-10-19T23:47:32.917133962) (2023-10-19T23:47:32.917139442) [Dbg] [LocalCache.cc:604] Model [sonoma raceway] loading resource from another model, named [sonoma_raceway]. On Blueprint (gz-fuel-tools 3) and Citadel (gz-fuel-tools 4), [sonoma_raceway] is ignored. From Dome (gz-fuel-tools 5), [sonoma raceway] will be used. If [sonoma_raceway] is not a model belonging to owner [openrobotics], fix your SDF file!
+(2023-10-19T23:47:32.917179051) (2023-10-19T23:47:32.917183700) [Dbg] [LocalCache.cc:604] Model [sonoma raceway] loading resource from another model, named [sonoma_raceway]. On Blueprint (gz-fuel-tools 3) and Citadel (gz-fuel-tools 4), [sonoma_raceway] is ignored. From Dome (gz-fuel-tools 5), [sonoma raceway] will be used. If [sonoma_raceway] is not a model belonging to owner [openrobotics], fix your SDF file!
+(2023-10-19T23:47:32.965522357) (2023-10-19T23:47:32.965535152) [Wrn] [OBJLoader.cc:91] Both `d` and `Tr` parameters defined for "Asphalt". Use the value of `d` for dissolve (line 8 in .mtl.)
+Both `d` and `Tr` parameters defined for "Track". Use the value of `d` for dissolve (line 22 in .mtl.)
+Both `d` and `Tr` parameters defined for "Grass". Use the value of `d` for dissolve (line 36 in .mtl.)
+Both `d` and `Tr` parameters defined for "RumbleStrip_Barrier". Use the value of `d` for dissolve (line 50 in .mtl.)
+Both `d` and `Tr` parameters defined for "Checker". Use the value of `d` for dissolve (line 64 in .mtl.)
+Both `d` and `Tr` parameters defined for "Railing". Use the value of `d` for dissolve (line 78 in .mtl.)
+Both `d` and `Tr` parameters defined for "Fence". Use the value of `d` for dissolve (line 92 in .mtl.)
+Both `d` and `Tr` parameters defined for "Wall". Use the value of `d` for dissolve (line 107 in .mtl.)
+Both `d` and `Tr` parameters defined for "Trim". Use the value of `d` for dissolve (line 121 in .mtl.)
+Both `d` and `Tr` parameters defined for "Window". Use the value of `d` for dissolve (line 135 in .mtl.)
+Both `d` and `Tr` parameters defined for "Roof". Use the value of `d` for dissolve (line 149 in .mtl.)
+Both `d` and `Tr` parameters defined for "TireStack". Use the value of `d` for dissolve (line 163 in .mtl.)
+Both `d` and `Tr` parameters defined for "Bridge". Use the value of `d` for dissolve (line 177 in .mtl.)
+Both `d` and `Tr` parameters defined for "Concrete". Use the value of `d` for dissolve (line 191 in .mtl.)
+Both `d` and `Tr` parameters defined for "Stands". Use the value of `d` for dissolve (line 205 in .mtl.)
+
+(2023-10-19T23:47:32.978216782) (2023-10-19T23:47:32.978255637) [Wrn] [OBJLoader.cc:91] Both `d` and `Tr` parameters defined for "Hatchback". Use the value of `d` for dissolve (line 8 in .mtl.)
+Both `d` and `Tr` parameters defined for "Wheels3". Use the value of `d` for dissolve (line 22 in .mtl.)
+
+(2023-10-19T23:47:32.984551908) (2023-10-19T23:47:32.984562527) [Dbg] [SimulationFeatures.cc:72] Simulation timestep set to: 0.004
+(2023-10-19T23:47:33.45455145) (2023-10-19T23:47:33.45488809) [Dbg] [Sensors.cc:659] Initialization needed
+(2023-10-19T23:47:33.45579806) (2023-10-19T23:47:33.45590867) [Dbg] [Sensors.cc:257] Initializing render context
+(2023-10-19T23:47:33.45709496) (2023-10-19T23:47:33.45715499) [Msg] Loading plugin [gz-rendering-ogre2]
+(2023-10-19T23:47:33.46028374) (2023-10-19T23:47:33.46036468) [Dbg] [AirPressureSensor.cc:126] Air pressure for [x500_depth_0::base_link::air_pressure_sensor] advertised on [world/default/model/x500_depth_0/link/base_link/sensor/air_pressure_sensor/air_pressure]
+(2023-10-19T23:47:33.46084905) (2023-10-19T23:47:33.46100028) [Dbg] [ImuSensor.cc:149] IMU data for [x500_depth_0::base_link::imu_sensor] advertised on [world/default/model/x500_depth_0/link/base_link/sensor/imu_sensor/imu]
+(2023-10-19T23:47:33.46384449) (2023-10-19T23:47:33.46392711) [Msg] Serving scene information on [/world/default/scene/info]
+(2023-10-19T23:47:33.46455214) (2023-10-19T23:47:33.46460883) [Msg] Serving graph information on [/world/default/scene/graph]
+(2023-10-19T23:47:33.46623458) (2023-10-19T23:47:33.46630763) [Msg] Serving full state on [/world/default/state]
+(2023-10-19T23:47:33.46683143) (2023-10-19T23:47:33.46688751) [Msg] Serving full state (async) on [/world/default/state_async]
+(2023-10-19T23:47:33.46750821) (2023-10-19T23:47:33.46760132) [Msg] Publishing scene information on [/world/default/scene/info]
+(2023-10-19T23:47:33.46855157) (2023-10-19T23:47:33.46864529) [Msg] Publishing entity deletions on [/world/default/scene/deletion]
+(2023-10-19T23:47:33.46918581) (2023-10-19T23:47:33.46927007) [Msg] Publishing state changes on [/world/default/state]
+(2023-10-19T23:47:33.47028753) (2023-10-19T23:47:33.47035423) [Msg] Publishing pose messages on [/world/default/pose/info]
+(2023-10-19T23:47:33.47089861) (2023-10-19T23:47:33.47099131) [Msg] Publishing dynamic pose messages on [/world/default/dynamic_pose/info]
+(2023-10-19T23:47:33.47467929) (2023-10-19T23:47:33.47475257) [Dbg] [EntityComponentManager.cc:1655] Updated state thread iterators: 8 threads processing around 9 entities each.
+(2023-10-19T23:47:33.56959364) (2023-10-19T23:47:33.56976793) ([Wrn] [Model.hh:69] Skipping serialization / deserialization for models with //pose/@relative_to attribute.
+2023-10-19T23:47:33.569982062023-10-19T23:47:33.56998206) (2023-10-19T23:47:33.57015056) [Wrn] [Component.hh:144] Trying to serialize component with data type [N3sdf3v135WorldE], which doesn't have `operator<<`. Component will not be serialized.
+(((((((2023-10-19T23:47:33.594988682023-10-19T23:47:33.59524286) ) (2023-10-19T23:47:33.59503437) (((((2023-10-19T23:47:33.595080952023-10-19T23:47:33.595118222023-10-19T23:47:33.59569430) (2023-10-19T23:47:33.59591825) ) ) [Dbg] [SimulationRunner.cc:530] 2023-10-19T23:47:33.59584060) ) (Exiting postupdate worker thread (2023-10-19T23:47:33.59632279) )
+[Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (1)
+[Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (4)
+[Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (2)
+Exiting postupdate worker thread (3)
+(2023-10-19T23:47:33.60094616) (2023-10-19T23:47:33.60105850) [Dbg] [SimulationRunner.cc:503] Creating PostUpdate worker threads: 6
+(2023-10-19T23:47:33.60133738) (2023-10-19T23:47:33.60138722) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (0)
+(2023-10-19T23:47:33.61272635) (2023-10-19T23:47:33.61294487) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (1)
+(2023-10-19T23:47:33.61343554) (2023-10-19T23:47:33.61352358) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (2)
+(2023-10-19T23:47:33.61401768) (2023-10-19T23:47:33.61411931) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (3)
+(2023-10-19T23:47:33.61452133) (2023-10-19T23:47:33.61461103) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (4)
+(2023-10-19T23:47:33.203221723) (2023-10-19T23:47:33.203228239) [Dbg] [RenderUtil.cc:2720] Create scene [scene]
+(2023-10-19T23:47:33.231339174) (2023-10-19T23:47:33.231352343) ([Dbg] [Sensors.cc:277] Rendering Thread initialized2023-10-19T23:47:33.231372434) (2023-10-19T23:47:33.231390953) [Dbg] [Sensors.cc:659] Initialization needed
+(2023-10-19T23:47:35.864334902) (2023-10-19T23:47:35.864347699) [Dbg] [CameraSensor.cc:458] Camera images for [x500_depth_0::OakD-Lite/base_link::IMX214] advertised on [camera]
+(2023-10-19T23:47:35.864476771) (2023-10-19T23:47:35.864486638) [Dbg] [CameraSensor.cc:786] Camera info for [x500_depth_0::OakD-Lite/base_link::IMX214] advertised on [/camera_info]
+(2023-10-19T23:47:35.864609556) (2023-10-19T23:47:35.864615507) [Wrn] [Ogre2Camera.cc:412] Ogre2Camera::SetVisibilityMask: Mask bits c0000000 are set but will be ignored as they conflict with the reserved bits used internally by the ogre2 backend.
+(2023-10-19T23:47:35.864871247) (2023-10-19T23:47:35.864881102) [Dbg] [DepthCameraSensor.cc:282] Depth images for [x500_depth_0::OakD-Lite/base_link::StereoOV7251] advertised on [depth_camera]
+(2023-10-19T23:47:35.864949503) (2023-10-19T23:47:35.864958913) [Dbg] [CameraSensor.cc:786] Camera info for [x500_depth_0::OakD-Lite/base_link::StereoOV7251] advertised on [/camera_info]
+(2023-10-19T23:47:35.865070449) (2023-10-19T23:47:35.865080339) [Dbg] [DepthCameraSensor.cc:299] Points for [x500_depth_0::OakD-Lite/base_link::StereoOV7251] advertised on [depth_camera/points]
+(2023-10-20T00:12:49.940508872) (2023-10-20T00:12:49.940533930) [Dbg] [UserCommands.cc:1313] Requesting removal of entity [8]
+(2023-10-20T00:13:11.139434604) (2023-10-20T00:13:11.139494766) [Dbg] [UserCommands.cc:1313] Requesting removal of entity [4]
+(2023-10-20T00:22:16.716516060) (2023-10-20T00:22:16.716526673) [Wrn] [UserCommands.cc:1167] Entity named [x500_depth_0] already exists and [allow_renaming] is false. Entity not spawned.
+(2023-10-20T00:22:40.194055392) (2023-10-20T00:22:40.194067994) [Dbg] [EntityComponentManager.cc:1655] Updated state thread iterators: 8 threads processing around 8 entities each.
+(2023-10-20T00:23:06.208374203) (2023-10-20T00:23:06.208384752) [Wrn] [UserCommands.cc:1167] Entity named [x500_depth_0] already exists and [allow_renaming] is false. Entity not spawned.

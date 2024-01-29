@@ -1,0 +1,142 @@
+(2023-10-20T04:07:28.428632127) (2023-10-20T04:07:28.428651125) [Msg] Gazebo Sim Server v7.6.0
+(2023-10-20T04:07:28.434327932) (2023-10-20T04:07:28.434343198) [Msg] Loading SDF world file[/home/bassam/PX4-Autopilot/Tools/simulation/gz/worlds/default.sdf].
+(2023-10-20T04:07:28.613535019) (2023-10-20T04:07:28.613555527) [Msg] Serving entity system service on [/entity/system/add]
+(2023-10-20T04:07:28.824939744) (2023-10-20T04:07:28.824965668) [Dbg] [Physics.cc:880] Loaded [gz::physics::dartsim::Plugin] from library [/usr/lib/x86_64-linux-gnu/gz-physics-6/engine-plugins/libgz-physics-dartsim-plugin.so]
+(2023-10-20T04:07:28.825081075) (2023-10-20T04:07:28.825095996) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::Physics] for entity [1]
+(2023-10-20T04:07:28.939473273) (2023-10-20T04:07:28.939492366) [Msg] Create service on [/world/default/create]
+(2023-10-20T04:07:28.939718520) (2023-10-20T04:07:28.939737161) [Msg] Remove service on [/world/default/remove]
+(2023-10-20T04:07:28.939954068) (2023-10-20T04:07:28.939972332) [Msg] Pose service on [/world/default/set_pose]
+(2023-10-20T04:07:28.940187447) (2023-10-20T04:07:28.940206580) [Msg] Pose service on [/world/default/set_pose_vector]
+(2023-10-20T04:07:28.940525397) (2023-10-20T04:07:28.940544000) [Msg] Light configuration service on [/world/default/light_config]
+(2023-10-20T04:07:28.940915484) (2023-10-20T04:07:28.940934331) [Msg] Physics service on [/world/default/set_physics]
+(2023-10-20T04:07:28.941165256) (2023-10-20T04:07:28.941183963) [Msg] SphericalCoordinates service on [/world/default/set_spherical_coordinates]
+(2023-10-20T04:07:28.941306225) (2023-10-20T04:07:28.941323611) [Msg] Enable collision service on [/world/default/enable_collision]
+(2023-10-20T04:07:28.941434249) (2023-10-20T04:07:28.941451215) [Msg] Disable collision service on [/world/default/disable_collision]
+(2023-10-20T04:07:28.941699007) (2023-10-20T04:07:28.941717583) [Msg] Material service on [/world/default/visual_config]
+(2023-10-20T04:07:28.941897674) (2023-10-20T04:07:28.941915879) [Msg] Material service on [/world/default/wheel_slip]
+(2023-10-20T04:07:28.941967375) (2023-10-20T04:07:28.941976368) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::UserCommands] for entity [1]
+(2023-10-20T04:07:28.944151816) (2023-10-20T04:07:28.944166541) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::SceneBroadcaster] for entity [1]
+(2023-10-20T04:07:28.945499111) (2023-10-20T04:07:28.945517935) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::Contact] for entity [1]
+(2023-10-20T04:07:28.947509856) (2023-10-20T04:07:28.947524019) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::Imu] for entity [1]
+(2023-10-20T04:07:28.949120171) (2023-10-20T04:07:28.949134406) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::AirPressure] for entity [1]
+(2023-10-20T04:07:28.950625252) (2023-10-20T04:07:28.950641290) [Msg] Listening to instantaneous wrench commands in [/world/default/wrench]
+(2023-10-20T04:07:28.950752049) (2023-10-20T04:07:28.950767106) [Msg] Listening to persistent wrench commands in [/world/default/wrench/persistent]
+(2023-10-20T04:07:28.950878903) (2023-10-20T04:07:28.950894676) [Msg] Listening to wrench clear commands in [/world/default/wrench/clear]
+(2023-10-20T04:07:28.950930771) (2023-10-20T04:07:28.950939461) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::ApplyLinkWrench] for entity [1]
+(2023-10-20T04:07:28.960202926) (2023-10-20T04:07:28.960220569) [Dbg] [Sensors.cc:506] Configuring Sensors system
+(2023-10-20T04:07:28.960365521) (2023-10-20T04:07:28.960382879) [Dbg] [Sensors.cc:425] SensorsPrivate::Run
+(2023-10-20T04:07:28.960520978) (2023-10-20T04:07:28.960532175) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::Sensors] for entity [1]
+(2023-10-20T04:07:28.960595730) (2023-10-20T04:07:28.960616067) [Dbg] [Sensors.cc:402] SensorsPrivate::RenderThread started
+(2023-10-20T04:07:28.960643836) (2023-10-20T04:07:28.960652638) [Dbg] [Sensors.cc:245] Waiting for init
+(2023-10-20T04:07:28.964374446) (2023-10-20T04:07:28.964391766) [Wrn] [SystemLoader.cc:79] Trying to load deprecated plugin [ignition-gazebo-ackermann-steering-system]. Using [gz-sim-ackermann-steering-system] instead.
+(2023-10-20T04:07:28.966597061) (2023-10-20T04:07:28.966624915) [Msg] AckermannSteering subscribing to twist messages on [/cmd_vel]
+(2023-10-20T04:07:28.966999447) (2023-10-20T04:07:28.967013285) [Dbg] [SystemManager.cc:74] Loaded system [ignition::gazebo::systems::AckermannSteering] for entity [8]
+(2023-10-20T04:07:28.967218698) (2023-10-20T04:07:28.967229691) [Msg] Loaded level [3]
+(2023-10-20T04:07:28.969794471) (2023-10-20T04:07:28.969816534) [Msg] Serving world controls on [/world/default/control], [/world/default/control/state] and [/world/default/playback/control]
+(2023-10-20T04:07:28.970124202) (2023-10-20T04:07:28.970143987) [Msg] Serving GUI information on [/world/default/gui/info]
+(2023-10-20T04:07:28.970184654) (2023-10-20T04:07:28.970193524) [Msg] World [default] initialized with [default_physics] physics profile.
+(2023-10-20T04:07:28.970408052) (2023-10-20T04:07:28.970426914) [Msg] Serving world SDF generation service on [/world/default/generate_world_sdf]
+(2023-10-20T04:07:28.970608730) (2023-10-20T04:07:28.970627582) [Msg] Serving world names on [/gazebo/worlds]
+(2023-10-20T04:07:28.970744414) (2023-10-20T04:07:28.970762253) [Msg] Resource path add service on [/gazebo/resource_paths/add].
+(2023-10-20T04:07:28.970878028) (2023-10-20T04:07:28.970894994) [Msg] Resource path get service on [/gazebo/resource_paths/get].
+(2023-10-20T04:07:28.971014458) (2023-10-20T04:07:28.971032182) [Msg] Resource path resolve service on [/gazebo/resource_paths/resolve].
+(2023-10-20T04:07:28.971150892) (2023-10-20T04:07:28.971168663) [Msg] Resource paths published on [/gazebo/resource_paths].
+(2023-10-20T04:07:28.971346819) (2023-10-20T04:07:28.971365085) [Msg] Server control service on [/server_control].
+(2023-10-20T04:07:30.432528134) (2023-10-20T04:07:30.432557032) [Msg] Found no publishers on /stats, adding root stats topic
+(2023-10-20T04:07:30.432840746) (2023-10-20T04:07:30.432857156) [Msg] Found no publishers on /clock, adding root clock topic
+(2023-10-20T04:07:30.433225977) (2023-10-20T04:07:30.433245007) [Dbg] [SimulationRunner.cc:503] Creating PostUpdate worker threads: 7
+(2023-10-20T04:07:30.433326691) (2023-10-20T04:07:30.433341761) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (0)
+(2023-10-20T04:07:30.433486983) (2023-10-20T04:07:30.433505368) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (1)
+(2023-10-20T04:07:30.433658216) (2023-10-20T04:07:30.433675842) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (2)
+(2023-10-20T04:07:30.433797596) (2023-10-20T04:07:30.433815886) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (3)
+(2023-10-20T04:07:30.433937874) (2023-10-20T04:07:30.433955056) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (4)
+(2023-10-20T04:07:30.434759489) (2023-10-20T04:07:30.434783819) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (5)
+(2023-10-20T04:07:30.751470166) (2023-10-20T04:07:30.751491763) [Wrn] [MulticopterMotorModel.cc:257] No robotNamespace set using entity name.
+(2023-10-20T04:07:30.751538770) (2023-10-20T04:07:30.751548088) [Wrn] [MulticopterMotorModel.cc:295] <motorNumber> is depricated, please use <actuator_number>.
+(2023-10-20T04:07:30.751624891) (2023-10-20T04:07:30.751635131) [Dbg] [MulticopterMotorModel.cc:386] Listening to topic: x500_depth_0/command/motor_speed
+(2023-10-20T04:07:30.752050308) (2023-10-20T04:07:30.752066656) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::MulticopterMotorModel] for entity [56]
+(2023-10-20T04:07:30.752598270) (2023-10-20T04:07:30.752611877) [Wrn] [MulticopterMotorModel.cc:257] No robotNamespace set using entity name.
+(2023-10-20T04:07:30.752638015) (2023-10-20T04:07:30.752647018) [Wrn] [MulticopterMotorModel.cc:295] <motorNumber> is depricated, please use <actuator_number>.
+(2023-10-20T04:07:30.752705126) (2023-10-20T04:07:30.752714247) [Dbg] [MulticopterMotorModel.cc:386] Listening to topic: x500_depth_0/command/motor_speed
+(2023-10-20T04:07:30.752959485) (2023-10-20T04:07:30.752977806) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::MulticopterMotorModel] for entity [56]
+(2023-10-20T04:07:30.753365604) (2023-10-20T04:07:30.753378239) [Wrn] [MulticopterMotorModel.cc:257] No robotNamespace set using entity name.
+(2023-10-20T04:07:30.753403396) (2023-10-20T04:07:30.753412125) [Wrn] [MulticopterMotorModel.cc:295] <motorNumber> is depricated, please use <actuator_number>.
+(2023-10-20T04:07:30.753471715) (2023-10-20T04:07:30.753480741) [Dbg] [MulticopterMotorModel.cc:386] Listening to topic: x500_depth_0/command/motor_speed
+(2023-10-20T04:07:30.753718327) (2023-10-20T04:07:30.753730158) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::MulticopterMotorModel] for entity [56]
+(2023-10-20T04:07:30.754087808) (2023-10-20T04:07:30.754099466) [Wrn] [MulticopterMotorModel.cc:257] No robotNamespace set using entity name.
+(2023-10-20T04:07:30.754124551) (2023-10-20T04:07:30.754132966) [Wrn] [MulticopterMotorModel.cc:295] <motorNumber> is depricated, please use <actuator_number>.
+(2023-10-20T04:07:30.754188284) (2023-10-20T04:07:30.754197284) [Dbg] [MulticopterMotorModel.cc:386] Listening to topic: x500_depth_0/command/motor_speed
+(2023-10-20T04:07:30.754485325) (2023-10-20T04:07:30.754498740) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::MulticopterMotorModel] for entity [56]
+(2023-10-20T04:07:30.754967977) (2023-10-20T04:07:30.754983589) [Dbg] [UserCommands.cc:1263] Created entity [56] named [x500_depth_0]
+(2023-10-20T04:07:30.774388635) (2023-10-20T04:07:30.774412384) [Dbg] [SimulationFeatures.cc:72] Simulation timestep set to: 0.004
+(2023-10-20T04:07:30.776393778) (2023-10-20T04:07:30.776427800) [Dbg] [Sensors.cc:659] Initialization needed
+(2023-10-20T04:07:30.776529554) (2023-10-20T04:07:30.776545628) [Dbg] [Sensors.cc:257] Initializing render context
+(2023-10-20T04:07:30.776687048) (2023-10-20T04:07:30.776699416) [Msg] Loading plugin [gz-rendering-ogre2]
+(2023-10-20T04:07:30.777195870) (2023-10-20T04:07:30.777217799) [Dbg] [AirPressureSensor.cc:126] Air pressure for [x500_depth_0::base_link::air_pressure_sensor] advertised on [world/default/model/x500_depth_0/link/base_link/sensor/air_pressure_sensor/air_pressure]
+(2023-10-20T04:07:30.777434757) (2023-10-20T04:07:30.777460010) [Dbg] [ImuSensor.cc:149] IMU data for [x500_depth_0::base_link::imu_sensor] advertised on [world/default/model/x500_depth_0/link/base_link/sensor/imu_sensor/imu]
+(2023-10-20T04:07:30.778768590) (2023-10-20T04:07:30.778788158) [Msg] Serving scene information on [/world/default/scene/info]
+(2023-10-20T04:07:30.778938050) (2023-10-20T04:07:30.778956381) [Msg] Serving graph information on [/world/default/scene/graph]
+(2023-10-20T04:07:30.779227283) (2023-10-20T04:07:30.779246485) [Msg] Serving full state on [/world/default/state]
+(2023-10-20T04:07:30.779374394) (2023-10-20T04:07:30.779390252) [Msg] Serving full state (async) on [/world/default/state_async]
+(2023-10-20T04:07:30.779551142) (2023-10-20T04:07:30.779569528) [Msg] Publishing scene information on [/world/default/scene/info]
+(2023-10-20T04:07:30.779741634) (2023-10-20T04:07:30.779759743) [Msg] Publishing entity deletions on [/world/default/scene/deletion]
+(2023-10-20T04:07:30.779881880) (2023-10-20T04:07:30.779898570) [Msg] Publishing state changes on [/world/default/state]
+(2023-10-20T04:07:30.780045525) (2023-10-20T04:07:30.780063692) [Msg] Publishing pose messages on [/world/default/pose/info]
+(2023-10-20T04:07:30.780259726) (2023-10-20T04:07:30.780277591) [Msg] Publishing dynamic pose messages on [/world/default/dynamic_pose/info]
+(2023-10-20T04:07:30.781330295) (2023-10-20T04:07:30.781358461) [Dbg] [EntityComponentManager.cc:1655] Updated state thread iterators: 8 threads processing around 13 entities each.
+(2023-10-20T04:07:30.799124733) (2023-10-20T04:07:30.799142925) [Wrn] [Component.hh:144] Trying to serialize component with data type [N3sdf3v135WorldE], which doesn't have `operator<<`. Component will not be serialized.
+(2023-10-20T04:07:30.799328388) (2023-10-20T04:07:30.799340458) [Wrn] [Model.hh:69] Skipping serialization / deserialization for models with //pose/@relative_to attribute.
+((((((() ((() (2023-10-20T04:07:30.8030230332023-10-20T04:07:30.803089658) (2023-10-20T04:07:30.803116997) [Dbg] [SimulationRunner.cc:530] ) ) Exiting postupdate worker thread (((22023-10-20T04:07:30.8030714682023-10-20T04:07:30.803196756) ) )) )) () [Dbg] [SimulationRunner.cc:530] 
+) ) () 2023-10-20T04:07:30.8033188842023-10-20T04:07:30.803340398) ) [Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread ([Dbg] [SimulationRunner.cc:530] 5[Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (0)
+)
+Exiting postupdate worker thread (1)Exiting postupdate worker thread (
+4)
+Exiting postupdate worker thread (3)
+(2023-10-20T04:07:30.803741003) (2023-10-20T04:07:30.803754330) [Dbg] [SimulationRunner.cc:503] Creating PostUpdate worker threads: 7
+(2023-10-20T04:07:30.803786802) (2023-10-20T04:07:30.803795450) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (0)
+(2023-10-20T04:07:30.803860105) (2023-10-20T04:07:30.803875212) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (1)
+(2023-10-20T04:07:30.803937877) (2023-10-20T04:07:30.803952783) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (2)
+(2023-10-20T04:07:30.804005500) (2023-10-20T04:07:30.804020229) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (3)
+(2023-10-20T04:07:30.804072920) (2023-10-20T04:07:30.804101894) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (4)
+(2023-10-20T04:07:30.804192666) (2023-10-20T04:07:30.804208286) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (5)
+(2023-10-20T04:07:31.74403041) (2023-10-20T04:07:31.74415428) [Dbg] [RenderUtil.cc:2720] Create scene [scene]
+((2023-10-20T04:07:31.126232810) (2023-10-20T04:07:31.126252550) (2023-10-20T04:07:31.126277551) 2023-10-20T04:07:31.126297125) [Dbg] [Sensors.cc:277] Rendering Thread initialized
+[Dbg] [Sensors.cc:659] Initialization needed
+(2023-10-20T04:07:31.132284980) (2023-10-20T04:07:31.132307451) [Wrn] [FuelClient.cc:1952] The fuel.ignitionrobotics.org URL is deprecrated. Pleasse change https://fuel.ignitionrobotics.org/1.0/openrobotics/models/prius hybrid/2/files/meshes/Hybrid.obj to https://fuel.gazebosim.org/1.0/openrobotics/models/prius hybrid/2/files/meshes/Hybrid.obj
+(2023-10-20T04:07:31.132499369) (2023-10-20T04:07:31.132516779) [Wrn] [FuelClient.cc:1952] The fuel.ignitionrobotics.org URL is deprecrated. Pleasse change https://fuel.ignitionrobotics.org/1.0/openrobotics/models/prius hybrid/2/files/meshes/Hybrid.obj to https://fuel.gazebosim.org/1.0/openrobotics/models/prius hybrid/2/files/meshes/Hybrid.obj
+(2023-10-20T04:07:31.140642045) (2023-10-20T04:07:31.140664115) [Wrn] [OBJLoader.cc:91] Both `d` and `Tr` parameters defined for "Hybrid". Use the value of `d` for dissolve (line 8 in .mtl.)
+Both `d` and `Tr` parameters defined for "Wheels3". Use the value of `d` for dissolve (line 22 in .mtl.)
+Both `d` and `Tr` parameters defined for "Hybrid_Interior". Use the value of `d` for dissolve (line 36 in .mtl.)
+Both `d` and `Tr` parameters defined for "Windows". Use the value of `d` for dissolve (line 50 in .mtl.)
+
+(2023-10-20T04:07:34.93205872) (2023-10-20T04:07:34.93225736) [Dbg] [CameraSensor.cc:458] Camera images for [prius_hybrid::chassis::back_camera_sensor] advertised on [back_camera]
+(2023-10-20T04:07:34.93439968) (2023-10-20T04:07:34.93452200) [Dbg] [CameraSensor.cc:786] Camera info for [prius_hybrid::chassis::back_camera_sensor] advertised on [/camera_info]
+(2023-10-20T04:07:34.93644406) (2023-10-20T04:07:34.93654880) [Wrn] [Ogre2Camera.cc:412] Ogre2Camera::SetVisibilityMask: Mask bits c0000000 are set but will be ignored as they conflict with the reserved bits used internally by the ogre2 backend.
+(2023-10-20T04:07:34.94159136) (2023-10-20T04:07:34.94179733) [Dbg] [CameraSensor.cc:458] Camera images for [prius_hybrid::chassis::front_camera_sensor] advertised on [front_camera]
+(2023-10-20T04:07:34.94294368) (2023-10-20T04:07:34.94326993) [Dbg] [CameraSensor.cc:786] Camera info for [prius_hybrid::chassis::front_camera_sensor] advertised on [/camera_info]
+(2023-10-20T04:07:34.94404634) (2023-10-20T04:07:34.94414548) [Wrn] [Ogre2Camera.cc:412] Ogre2Camera::SetVisibilityMask: Mask bits c0000000 are set but will be ignored as they conflict with the reserved bits used internally by the ogre2 backend.
+(2023-10-20T04:07:34.94749965) (2023-10-20T04:07:34.94768694) [Dbg] [CameraSensor.cc:458] Camera images for [prius_hybrid::chassis::left_camera_sensor] advertised on [left_camera]
+(2023-10-20T04:07:34.94880006) (2023-10-20T04:07:34.94898213) [Dbg] [CameraSensor.cc:786] Camera info for [prius_hybrid::chassis::left_camera_sensor] advertised on [/camera_info]
+(2023-10-20T04:07:34.94970683) (2023-10-20T04:07:34.94984035) [Wrn] [Ogre2Camera.cc:412] Ogre2Camera::SetVisibilityMask: Mask bits c0000000 are set but will be ignored as they conflict with the reserved bits used internally by the ogre2 backend.
+(2023-10-20T04:07:34.95297907) (2023-10-20T04:07:34.95314560) [Dbg] [CameraSensor.cc:458] Camera images for [prius_hybrid::chassis::right_camera_sensor] advertised on [right_camera]
+(2023-10-20T04:07:34.95424081) (2023-10-20T04:07:34.95441877) [Dbg] [CameraSensor.cc:786] Camera info for [prius_hybrid::chassis::right_camera_sensor] advertised on [/camera_info]
+(2023-10-20T04:07:34.95512001) (2023-10-20T04:07:34.95521722) [Wrn] [Ogre2Camera.cc:412] Ogre2Camera::SetVisibilityMask: Mask bits c0000000 are set but will be ignored as they conflict with the reserved bits used internally by the ogre2 backend.
+(2023-10-20T04:07:34.95834258) (2023-10-20T04:07:34.95853157) [Dbg] [CameraSensor.cc:458] Camera images for [x500_depth_0::OakD-Lite/base_link::IMX214] advertised on [camera]
+(2023-10-20T04:07:34.95993497) (2023-10-20T04:07:34.96011625) [Dbg] [CameraSensor.cc:786] Camera info for [x500_depth_0::OakD-Lite/base_link::IMX214] advertised on [/camera_info]
+(2023-10-20T04:07:34.96103763) (2023-10-20T04:07:34.96115074) [Wrn] [Ogre2Camera.cc:412] Ogre2Camera::SetVisibilityMask: Mask bits c0000000 are set but will be ignored as they conflict with the reserved bits used internally by the ogre2 backend.
+(2023-10-20T04:07:34.96540571) (2023-10-20T04:07:34.96560313) [Dbg] [DepthCameraSensor.cc:282] Depth images for [x500_depth_0::OakD-Lite/base_link::StereoOV7251] advertised on [depth_camera]
+(2023-10-20T04:07:34.96691901) (2023-10-20T04:07:34.96709786) [Dbg] [CameraSensor.cc:786] Camera info for [x500_depth_0::OakD-Lite/base_link::StereoOV7251] advertised on [/camera_info]
+(2023-10-20T04:07:34.96939261) (2023-10-20T04:07:34.96957422) [Dbg] [DepthCameraSensor.cc:299] Points for [x500_depth_0::OakD-Lite/base_link::StereoOV7251] advertised on [depth_camera/points]
+(2023-10-20T04:07:34.240064783) (2023-10-20T04:07:34.240095593) [Dbg] [CameraSensor.cc:583] Enabling camera sensor: 'x500_depth_0::OakD-Lite/base_link::IMX214' data generation.
+(2023-10-20T06:18:39.411570210) (2023-10-20T06:18:39.411600839) [Dbg] [SignalHandler.cc:142] Received signal[2].
+(2023-10-20T06:18:39.411639249) (2023-10-20T06:18:39.411649612) [Dbg] [ServerPrivate.cc:115] Server received signal[2]
+(2023-10-20T06:18:39.411681370) (2023-10-20T06:18:39.411691492) [Dbg] [Sensors.cc:433] SensorsPrivate::Stop
+(2023-10-20T06:18:39.587108145) (2023-10-20T06:18:39.587127943) [Dbg] [Sensors.cc:419] SensorsPrivate::RenderThread stopped
+(2023-10-20T06:18:39.591208092) (2023-10-20T06:18:39.591225550) [Dbg] [gz.cc:417] Shutting down gz-sim-server
+(2023-10-20T06:18:39.595711091) (2023-10-20T06:18:39.595729283) ((2023-10-20T06:18:39.595762258) (2023-10-20T06:18:39.595805538) [Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (4)
+([Dbg] [SimulationRunner.cc:530] ([Dbg] [SimulationRunner.cc:530] (2023-10-20T06:18:39.595896823) ) (2023-10-20T06:18:39.595931938) (2023-10-20T06:18:39.595972529) ) ) ) (2023-10-20T06:18:39.5959997912023-10-20T06:18:39.595999791) ) ) () Exiting postupdate worker thread (5)2023-10-20T06:18:39.596200485
+) [Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (2)
+[Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (3)
+[Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread ([Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (Exiting postupdate worker thread (1)
+0)
+(2023-10-20T06:18:39.638776679) (2023-10-20T06:18:39.638802041) [Dbg] [Sensors.cc:433] SensorsPrivate::Stop

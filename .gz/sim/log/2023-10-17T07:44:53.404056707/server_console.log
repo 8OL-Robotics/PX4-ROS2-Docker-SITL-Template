@@ -1,0 +1,198 @@
+(2023-10-17T07:44:53.404305145) (2023-10-17T07:44:53.404317032) [Msg] Gazebo Sim Server v7.6.0
+(2023-10-17T07:44:53.408300483) (2023-10-17T07:44:53.408313623) [Msg] Loading SDF world file[/home/bassam/ros2_ws/install/ardupilot_gz_gazebo/share/ardupilot_gz_gazebo/worlds/iris_runway.sdf].
+(2023-10-17T07:44:53.885500843) (2023-10-17T07:44:53.885523605) [Msg] Serving entity system service on [/entity/system/add]
+(2023-10-17T07:44:54.90287013) (2023-10-17T07:44:54.90306541) [Dbg] [Physics.cc:880] Loaded [gz::physics::dartsim::Plugin] from library [/usr/lib/x86_64-linux-gnu/gz-physics-6/engine-plugins/libgz-physics-dartsim-plugin.so]
+(2023-10-17T07:44:54.90411513) (2023-10-17T07:44:54.90423394) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::Physics] for entity [1]
+(2023-10-17T07:44:54.102542322) (2023-10-17T07:44:54.102566177) [Dbg] [Sensors.cc:506] Configuring Sensors system
+(2023-10-17T07:44:54.102735137) (2023-10-17T07:44:54.102749022) [Dbg] [Sensors.cc:425] SensorsPrivate::Run
+(2023-10-17T07:44:54.102902226) (2023-10-17T07:44:54.102916316) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::Sensors] for entity [1]
+(2023-10-17T07:44:54.107385697) (2023-10-17T07:44:54.107408539) [Msg] Create service on [/world/map/create]
+(2023-10-17T07:44:54.107795604) (2023-10-17T07:44:54.107810783) [Msg] Remove service on [/world/map/remove]
+(2023-10-17T07:44:54.108154537) (2023-10-17T07:44:54.108169876) [Msg] Pose service on [/world/map/set_pose]
+(2023-10-17T07:44:54.108510509) (2023-10-17T07:44:54.108525569) [Msg] Pose service on [/world/map/set_pose_vector]
+(2023-10-17T07:44:54.108967301) (2023-10-17T07:44:54.108983234) [Msg] Light configuration service on [/world/map/light_config]
+(2023-10-17T07:44:54.109643553) (2023-10-17T07:44:54.109660001) [Msg] Physics service on [/world/map/set_physics]
+(2023-10-17T07:44:54.110125616) (2023-10-17T07:44:54.110140963) [Msg] SphericalCoordinates service on [/world/map/set_spherical_coordinates]
+(2023-10-17T07:44:54.110432904) (2023-10-17T07:44:54.110447579) [Msg] Enable collision service on [/world/map/enable_collision]
+(2023-10-17T07:44:54.110724573) (2023-10-17T07:44:54.110738977) [Msg] Disable collision service on [/world/map/disable_collision]
+(2023-10-17T07:44:54.111169923) (2023-10-17T07:44:54.111184992) [Msg] Material service on [/world/map/visual_config]
+(2023-10-17T07:44:54.111538519) (2023-10-17T07:44:54.111553450) [Msg] Material service on [/world/map/wheel_slip]
+(2023-10-17T07:44:54.111625194) (2023-10-17T07:44:54.111637276) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::UserCommands] for entity [1]
+(2023-10-17T07:44:54.112270179) (2023-10-17T07:44:54.112292129) [Dbg] [Sensors.cc:402] SensorsPrivate::RenderThread started
+(2023-10-17T07:44:54.112336704) (2023-10-17T07:44:54.112348282) [Dbg] [Sensors.cc:245] Waiting for init
+(2023-10-17T07:44:54.114052253) (2023-10-17T07:44:54.114068417) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::SceneBroadcaster] for entity [1]
+(2023-10-17T07:44:54.116219061) (2023-10-17T07:44:54.116250404) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::AirPressure] for entity [1]
+(2023-10-17T07:44:54.118561800) (2023-10-17T07:44:54.118581248) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::AirSpeed] for entity [1]
+(2023-10-17T07:44:54.121214421) (2023-10-17T07:44:54.121236844) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::Altimeter] for entity [1]
+(2023-10-17T07:44:54.123567648) (2023-10-17T07:44:54.123585555) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::Imu] for entity [1]
+(2023-10-17T07:44:54.125555664) (2023-10-17T07:44:54.125571199) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::Magnetometer] for entity [1]
+(2023-10-17T07:44:54.128044949) (2023-10-17T07:44:54.128060742) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::NavSat] for entity [1]
+(2023-10-17T07:44:54.148258388) (2023-10-17T07:44:54.148277966) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::JointStatePublisher] for entity [9]
+(2023-10-17T07:44:54.150722380) (2023-10-17T07:44:54.150757498) [Msg] OdometryPublisher publishing odometry on [/model/iris/odometry]
+(2023-10-17T07:44:54.151165419) (2023-10-17T07:44:54.151182529) [Msg] OdometryPublisher publishing odometry with covariance on [/model/iris/odometry_with_covariance]
+(2023-10-17T07:44:54.154933913) (2023-10-17T07:44:54.154957113) [Msg] OdometryPublisher publishing Pose_V (TF) on [/model/iris/pose]
+(2023-10-17T07:44:54.155035205) (2023-10-17T07:44:54.155049034) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::OdometryPublisher] for entity [9]
+(2023-10-17T07:44:54.157238544) (2023-10-17T07:44:54.157254192) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [9]
+(2023-10-17T07:44:54.157793855) (2023-10-17T07:44:54.157808475) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [9]
+(2023-10-17T07:44:54.158303297) (2023-10-17T07:44:54.158317460) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [9]
+(2023-10-17T07:44:54.158805525) (2023-10-17T07:44:54.158819641) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [9]
+(2023-10-17T07:44:54.159384055) (2023-10-17T07:44:54.159397959) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [9]
+(2023-10-17T07:44:54.159900836) (2023-10-17T07:44:54.159914369) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [9]
+(2023-10-17T07:44:54.160402041) (2023-10-17T07:44:54.160415602) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [9]
+(2023-10-17T07:44:54.160906825) (2023-10-17T07:44:54.160934193) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [9]
+(2023-10-17T07:44:54.162911679) (2023-10-17T07:44:54.162927377) [Msg] ApplyJointForce subscribing to Double messages on [/model/iris/joint/rotor_0_joint/cmd_force]
+(2023-10-17T07:44:54.162990106) (2023-10-17T07:44:54.163001401) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::ApplyJointForce] for entity [9]
+(2023-10-17T07:44:54.163686169) (2023-10-17T07:44:54.163701203) [Msg] ApplyJointForce subscribing to Double messages on [/model/iris/joint/rotor_1_joint/cmd_force]
+(2023-10-17T07:44:54.163756905) (2023-10-17T07:44:54.163768396) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::ApplyJointForce] for entity [9]
+(2023-10-17T07:44:54.164459647) (2023-10-17T07:44:54.164475059) [Msg] ApplyJointForce subscribing to Double messages on [/model/iris/joint/rotor_2_joint/cmd_force]
+(2023-10-17T07:44:54.164530408) (2023-10-17T07:44:54.164541840) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::ApplyJointForce] for entity [9]
+(2023-10-17T07:44:54.165237714) (2023-10-17T07:44:54.165254321) [Msg] ApplyJointForce subscribing to Double messages on [/model/iris/joint/rotor_3_joint/cmd_force]
+(2023-10-17T07:44:54.165314394) (2023-10-17T07:44:54.165326818) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::ApplyJointForce] for entity [9]
+(2023-10-17T07:44:54.168415031) (2023-10-17T07:44:54.168446318) [Msg] JointPositionController subscribing to Double messages on [/gimbal/cmd_roll]
+(2023-10-17T07:44:54.168524226) (2023-10-17T07:44:54.168539662) [Dbg] [JointPositionController.cc:302] [JointPositionController] system parameters:
+(2023-10-17T07:44:54.168584075) (2023-10-17T07:44:54.168598444) [Dbg] [JointPositionController.cc:303] p_gain: [2]
+(2023-10-17T07:44:54.168674997) (2023-10-17T07:44:54.168690056) [Dbg] [JointPositionController.cc:304] i_gain: [0.1]
+(2023-10-17T07:44:54.168749034) (2023-10-17T07:44:54.168763398) [Dbg] [JointPositionController.cc:305] d_gain: [0.01]
+(2023-10-17T07:44:54.168821447) (2023-10-17T07:44:54.168835732) [Dbg] [JointPositionController.cc:306] i_max: [1]
+(2023-10-17T07:44:54.168892443) (2023-10-17T07:44:54.168907050) [Dbg] [JointPositionController.cc:307] i_min: [-1]
+(2023-10-17T07:44:54.168977825) (2023-10-17T07:44:54.168992208) [Dbg] [JointPositionController.cc:308] cmd_max: [1000]
+(2023-10-17T07:44:54.169050012) (2023-10-17T07:44:54.169064346) [Dbg] [JointPositionController.cc:309] cmd_min: [-1000]
+(2023-10-17T07:44:54.169140709) (2023-10-17T07:44:54.169156479) [Dbg] [JointPositionController.cc:310] cmd_offset: [0]
+(2023-10-17T07:44:54.169224317) (2023-10-17T07:44:54.169238802) [Dbg] [JointPositionController.cc:311] Topic: [/gimbal/cmd_roll]
+(2023-10-17T07:44:54.169295665) (2023-10-17T07:44:54.169309954) [Dbg] [JointPositionController.cc:312] initial_position: [0]
+(2023-10-17T07:44:54.169384289) (2023-10-17T07:44:54.169398858) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::JointPositionController] for entity [9]
+(2023-10-17T07:44:54.170945045) (2023-10-17T07:44:54.170971843) [Msg] JointPositionController subscribing to Double messages on [/gimbal/cmd_tilt]
+(2023-10-17T07:44:54.171037067) (2023-10-17T07:44:54.171052157) [Dbg] [JointPositionController.cc:302] [JointPositionController] system parameters:
+(2023-10-17T07:44:54.171095111) (2023-10-17T07:44:54.171109962) [Dbg] [JointPositionController.cc:303] p_gain: [2]
+(2023-10-17T07:44:54.171171300) (2023-10-17T07:44:54.171185683) [Dbg] [JointPositionController.cc:304] i_gain: [0.1]
+(2023-10-17T07:44:54.171243449) (2023-10-17T07:44:54.171258037) [Dbg] [JointPositionController.cc:305] d_gain: [0.01]
+(2023-10-17T07:44:54.171315317) (2023-10-17T07:44:54.171329723) [Dbg] [JointPositionController.cc:306] i_max: [1]
+(2023-10-17T07:44:54.171386767) (2023-10-17T07:44:54.171400945) [Dbg] [JointPositionController.cc:307] i_min: [-1]
+(2023-10-17T07:44:54.171457692) (2023-10-17T07:44:54.171472578) [Dbg] [JointPositionController.cc:308] cmd_max: [1000]
+(2023-10-17T07:44:54.171530492) (2023-10-17T07:44:54.171544735) [Dbg] [JointPositionController.cc:309] cmd_min: [-1000]
+(2023-10-17T07:44:54.171602286) (2023-10-17T07:44:54.171616617) [Dbg] [JointPositionController.cc:310] cmd_offset: [0]
+(2023-10-17T07:44:54.171673619) (2023-10-17T07:44:54.171688695) [Dbg] [JointPositionController.cc:311] Topic: [/gimbal/cmd_tilt]
+(2023-10-17T07:44:54.171745858) (2023-10-17T07:44:54.171760295) [Dbg] [JointPositionController.cc:312] initial_position: [0]
+(2023-10-17T07:44:54.171835980) (2023-10-17T07:44:54.171851109) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::JointPositionController] for entity [9]
+(2023-10-17T07:44:54.174629977) (2023-10-17T07:44:54.174653567) [Msg] LinearBatteryPlugin configured. Battery name: lipo_3500mAh
+(2023-10-17T07:44:54.174719830) (2023-10-17T07:44:54.174734737) [Dbg] [LinearBatteryPlugin.cc:405] Battery initial voltage: 12.6
+(2023-10-17T07:44:54.175202449) (2023-10-17T07:44:54.175222280) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LinearBatteryPlugin] for entity [9]
+(2023-10-17T07:44:54.185690110) (2023-10-17T07:44:54.185718124) [Msg] [iris] Advertising on /gimbal/cmd_roll.
+(2023-10-17T07:44:54.186172406) (2023-10-17T07:44:54.186186450) [Msg] [iris] Advertising on /gimbal/cmd_tilt.
+(2023-10-17T07:44:54.186593313) [iris] flight dynamics model @ 127.0.0.1:9002
+(2023-10-17T07:44:54.186872837) [iris] ArduPilot ready to fly. The force will be with you
+(2023-10-17T07:44:54.186954846) (2023-10-17T07:44:54.186964323) [Dbg] [SystemManager.cc:74] Loaded system [ArduPilotPlugin] for entity [9]
+(2023-10-17T07:44:54.188768890) (2023-10-17T07:44:54.188783490) [Msg] Loaded level [3]
+(2023-10-17T07:44:54.194799193) (2023-10-17T07:44:54.194816372) [Msg] Serving world controls on [/world/map/control], [/world/map/control/state] and [/world/map/playback/control]
+(2023-10-17T07:44:54.195007909) (2023-10-17T07:44:54.195019389) [Msg] Serving GUI information on [/world/map/gui/info]
+(2023-10-17T07:44:54.195060057) (2023-10-17T07:44:54.195067869) [Msg] World [map] initialized with [1ms] physics profile.
+(2023-10-17T07:44:54.195258982) (2023-10-17T07:44:54.195270515) [Msg] Serving world SDF generation service on [/world/map/generate_world_sdf]
+(2023-10-17T07:44:54.195416848) (2023-10-17T07:44:54.195427719) [Msg] Serving world names on [/gazebo/worlds]
+(2023-10-17T07:44:54.195536373) (2023-10-17T07:44:54.195556439) [Msg] Resource path add service on [/gazebo/resource_paths/add].
+(2023-10-17T07:44:54.195742464) (2023-10-17T07:44:54.195777327) [Msg] Resource path get service on [/gazebo/resource_paths/get].
+(2023-10-17T07:44:54.296148357) (2023-10-17T07:44:54.296166216) [Msg] Resource path resolve service on [/gazebo/resource_paths/resolve].
+(2023-10-17T07:44:54.296274730) (2023-10-17T07:44:54.296286884) [Msg] Resource paths published on [/gazebo/resource_paths].
+(2023-10-17T07:44:54.296425551) (2023-10-17T07:44:54.296436348) [Msg] Server control service on [/server_control].
+(2023-10-17T07:44:55.407406764) (2023-10-17T07:44:55.407428324) [Msg] Found no publishers on /stats, adding root stats topic
+(2023-10-17T07:44:55.407696463) (2023-10-17T07:44:55.407706107) [Msg] Found no publishers on /clock, adding root clock topic
+(2023-10-17T07:44:55.408136999) (2023-10-17T07:44:55.408155043) [Dbg] [SimulationRunner.cc:503] Creating PostUpdate worker threads: 13
+(2023-10-17T07:44:55.408212351) (2023-10-17T07:44:55.408226662) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (0)
+(2023-10-17T07:44:55.408379990) (2023-10-17T07:44:55.408396422) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (1)
+(2023-10-17T07:44:55.408525427) (2023-10-17T07:44:55.408541123) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (2)
+(2023-10-17T07:44:55.408648847) (2023-10-17T07:44:55.408663970) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (3)
+(2023-10-17T07:44:55.408769293) (2023-10-17T07:44:55.408784132) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (4)
+(2023-10-17T07:44:55.408862199) (2023-10-17T07:44:55.408875649) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (5)
+(2023-10-17T07:44:55.408982627) (2023-10-17T07:44:55.408998491) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (6)
+(2023-10-17T07:44:55.409092708) (2023-10-17T07:44:55.409108805) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (7)
+(2023-10-17T07:44:55.409200818) (2023-10-17T07:44:55.409217283) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (8)
+(2023-10-17T07:44:55.409313631) (2023-10-17T07:44:55.409329687) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (9)
+(2023-10-17T07:44:55.409430877) (2023-10-17T07:44:55.409447017) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (10)
+(2023-10-17T07:44:55.409544046) (2023-10-17T07:44:55.409559648) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (11)
+(2023-10-17T07:44:55.411264923) (2023-10-17T07:44:55.411280052) [Dbg] [JointPositionController.cc:361] Identified joint [roll_joint] as Entity [53]
+(2023-10-17T07:44:55.411343777) (2023-10-17T07:44:55.411352978) [Dbg] [JointPositionController.cc:361] Identified joint [tilt_joint] as Entity [54]
+(2023-10-17T07:44:55.411499195) (2023-10-17T07:44:55.411508855) [Msg] Found IMU sensor with name [imu_link::imu_sensor]
+(2023-10-17T07:44:55.411560410) (2023-10-17T07:44:55.411569109) [Dbg] [ArduPilotPlugin.cc:1154] Computed IMU topic to be: world/map/model/iris/link/imu_link/sensor/imu_sensor/imu
+(2023-10-17T07:44:55.416772928) (2023-10-17T07:44:55.416787982) [Dbg] [SDFFeatures.cc:328] Mesh construction from an SDF has not been implemented yet for dartsim. Use AttachMeshShapeFeature to use mesh shapes.
+(2023-10-17T07:44:55.416819997) (2023-10-17T07:44:55.416828272) [Err] [SDFFeatures.cc:843] The geometry element of collision [roll_col] couldn't be created
+(2023-10-17T07:44:55.416942311) (2023-10-17T07:44:55.416952280) [Dbg] [SDFFeatures.cc:328] Mesh construction from an SDF has not been implemented yet for dartsim. Use AttachMeshShapeFeature to use mesh shapes.
+(2023-10-17T07:44:55.416975516) (2023-10-17T07:44:55.416982915) [Err] [SDFFeatures.cc:843] The geometry element of collision [tilt_col] couldn't be created
+(2023-10-17T07:44:56.272113743) (2023-10-17T07:44:56.272183515) [Dbg] [Sensors.cc:659] Initialization needed
+(2023-10-17T07:44:56.272321479) (2023-10-17T07:44:56.272340616) [Dbg] [Sensors.cc:257] Initializing render context
+(2023-10-17T07:44:56.272649869) (2023-10-17T07:44:56.272667374) [Msg] Loading plugin [gz-rendering-ogre2]
+(2023-10-17T07:44:56.273883337) (2023-10-17T07:44:56.273914794) [Dbg] [AltimeterSensor.cc:114] Altimeter data for [iris::base_link::altimeter_sensor(] advertised on [world/map/model/iris/link/base_link/sensor/altimeter_sensor/altimeter]
+2023-10-17T07:44:56.274000569) (2023-10-17T07:44:56.274083778) [Dbg] [ImuSensor.cc:149] IMU data for [(iris::imu_link::imu_sensor] advertised on [world/map/model/iris/link/imu_link/sensor/imu_sensor/imuworld/map/model/iris/link/imu_link/sensor/imu_sensor/imu2023-10-17T07:44:56.274158375) (2023-10-17T07:44:56.274236523) ][Dbg] [MagnetometerSensor.cc:117] (Magnetometer data for [2023-10-17T07:44:56.274326419) (2023-10-17T07:44:56.274397955) ] advertised on [(world/map/model/iris/link/base_link/sensor/magnetometer_sensor/magnetometer2023-10-17T07:44:56.274443581) 2023-10-17T07:44:56.274493988) 
+[Dbg] [AirSpeedSensor.cc:125] [Dbg] [AirPressureSensor.cc:126] iris::base_link::air_speed_sensorAir pressure for [] advertised on [world/map/model/iris/link/base_link/sensor/air_speed_sensor/air_speed]
+(2023-10-17T07:44:56.274730154) (2023-10-17T07:44:56.274757094) [Msg] Serving scene information on [iris::base_link::air_speed_sensorAir pressure for [/world/map/scene/infoiris::base_link::air_pressure_sensor] advertised on [world/map/model/iris/link/base_link/sensor/air_pressure_sensor/air_pressure]
+]
+(2023-10-17T07:44:56.275224859) (2023-10-17T07:44:56.275245880) [Msg] Serving graph information on [/world/map/scene/graph]
+(2023-10-17T07:44:56.275854315) (2023-10-17T07:44:56.275883339) [Msg] Serving full state on [/world/map/state]
+(2023-10-17T07:44:56.276124414) (2023-10-17T07:44:56.276145863) [Msg] Serving full state (async) on [/world/map/state_async]
+(2023-10-17T07:44:56.276357408) (2023-10-17T07:44:56.276376710) [Msg] Publishing scene information on [/world/map/scene/info]
+(2023-10-17T07:44:56.276701239) (2023-10-17T07:44:56.276716624) [Msg] Publishing entity deletions on [/world/map/scene/deletion]
+(2023-10-17T07:44:56.276885587) (2023-10-17T07:44:56.276905442) [Msg] Publishing state changes on [/world/map/state]
+(2023-10-17T07:44:56.277116616) (2023-10-17T07:44:56.277134253) [Msg] Publishing pose messages on [/world/map/pose/info]
+(2023-10-17T07:44:56.277311924) (2023-10-17T07:44:56.277331960) [Msg] Publishing dynamic pose messages on [/world/map/dynamic_pose/info]
+(2023-10-17T07:44:56.277870159) (2023-10-17T07:44:56.277884642) [Dbg] [EntityComponentManager.cc:1655] Updated state thread iterators: 8 threads processing around 8 entities each.
+(2023-10-17T07:44:56.303260116) (2023-10-17T07:44:56.303286793) [Wrn] [Component.hh:144] Trying to serialize component with data type [St6vectorIdSaIdEE], which doesn't have `operator<<`. Component will not be serialized.
+(2023-10-17T07:44:56.303783285) (2023-10-17T07:44:56.303806282) [Wrn] [Model.hh:69] Skipping serialization / deserialization for models with //pose/@relative_to attribute.
+(2023-10-17T07:44:56.304064539) (2023-10-17T07:44:56.304093940) [Wrn] [Component.hh:144] Trying to serialize component with data type [N3sdf3v135WorldE], which doesn't have `operator<<`. Component will not be serialized.
+(2023-10-17T07:44:56.307951744) (2023-10-17T07:44:56.307979565) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T07:44:56.308172439) [iris] Connected to ArduPilot controller @ 127.0.0.1:46264
+(2023-10-17T07:44:56.308223540) (2023-10-17T07:44:56.308236230) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-17T07:44:56.309157883) (2023-10-17T07:44:56.309173534) [Dbg] [LinearBatteryPlugin.cc:574] [Battery Plugin] Battery drain: 0 minutes passed.
+(2023-10-17T07:44:56.616807871) (2023-10-17T07:44:56.616818186) [Dbg] [RenderUtil.cc:2720] Create scene [scene]
+(2023-10-17T07:44:56.661463740) (2023-10-17T07:44:56.661478726) [Dbg] [Sensors.cc:277] (Rendering Thread initialized
+2023-10-17T07:44:56.661512657) (2023-10-17T07:44:56.661531647) [Dbg] [Sensors.cc:659] Initialization needed
+(2023-10-17T07:44:58.850746857) (2023-10-17T07:44:58.850759831) [Dbg] [CameraSensor.cc:458] Camera images for [iris::tilt_link::camera] advertised on [world/map/model/iris/link/tilt_link/sensor/camera/image]
+(2023-10-17T07:44:58.850946713) (2023-10-17T07:44:58.850956713) [Dbg] [CameraSensor.cc:786] Camera info for [iris::tilt_link::camera] advertised on [/world/map/model/iris/link/tilt_link/sensor/camera/camera_info]
+(2023-10-17T07:44:58.851257021) (2023-10-17T07:44:58.851263378) [Wrn] [Ogre2Camera.cc:412] Ogre2Camera::SetVisibilityMask: Mask bits c0000000 are set but will be ignored as they conflict with the reserved bits used internally by the ogre2 backend.
+(2023-10-17T07:44:58.957210410) (2023-10-17T07:44:58.957223328) [Dbg] [CameraSensor.cc:583] Enabling camera sensor: 'iris::tilt_link::camera' data generation.
+(2023-10-17T07:44:59.114436748) (2023-10-17T07:44:59.114454869) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 2
+(2023-10-17T07:47:26.914120247) (2023-10-17T07:47:26.914156190) [Dbg] [LinearBatteryPlugin.cc:574] [Battery Plugin] Battery drain: 1 minutes passed.
+(2023-10-17T07:47:41.92265640) (2023-10-17T07:47:41.92315507) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-17T07:47:57.774467484) (2023-10-17T07:47:57.774518689) [Dbg] [LinearBatteryPlugin.cc:710] Battery: lipo_3500mAh
+(2023-10-17T07:47:57.774667881) (2023-10-17T07:47:57.774686284) [Dbg] [LinearBatteryPlugin.cc:711] PowerLoads().size(): 1
+(2023-10-17T07:47:57.774752533) (2023-10-17T07:47:57.774767209) [Dbg] [LinearBatteryPlugin.cc:713] charging status: false
+(2023-10-17T07:47:57.774845314) (2023-10-17T07:47:57.774862863) [Dbg] [LinearBatteryPlugin.cc:715] charging current: inf
+(2023-10-17T07:47:57.774953120) (2023-10-17T07:47:57.774972360) [Dbg] [LinearBatteryPlugin.cc:716] voltage: 12.357
+(2023-10-17T07:47:57.775040576) (2023-10-17T07:47:57.775051883) [Dbg] [LinearBatteryPlugin.cc:717] state of charge: 0.909999 (q 3.185)
+
+(2023-10-17T07:50:00.598394905) (2023-10-17T07:50:00.598444910) [Dbg] [LinearBatteryPlugin.cc:574] [Battery Plugin] Battery drain: 2 minutes passed.
+(2023-10-17T07:50:28.526123737) (2023-10-17T07:50:28.526166656) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-17T07:51:14.168246122) (2023-10-17T07:51:14.168304155) [Dbg] [LinearBatteryPlugin.cc:710] Battery: lipo_3500mAh
+(2023-10-17T07:51:14.168412437) (2023-10-17T07:51:14.168427890) [Dbg] [LinearBatteryPlugin.cc:711] PowerLoads().size(): 1
+(2023-10-17T07:51:14.168481923) (2023-10-17T07:51:14.168498248) [Dbg] [LinearBatteryPlugin.cc:713] charging status: false
+(2023-10-17T07:51:14.168544659) (2023-10-17T07:51:14.168557431) [Dbg] [LinearBatteryPlugin.cc:715] charging current: inf
+(2023-10-17T07:51:14.168627124) (2023-10-17T07:51:14.168640178) [Dbg] [LinearBatteryPlugin.cc:716] voltage: 12.087
+(2023-10-17T07:51:14.168702058) (2023-10-17T07:51:14.168719072) [Dbg] [LinearBatteryPlugin.cc:717] state of charge: 0.81 (q 2.835)
+
+(2023-10-17T07:52:34.471064039) (2023-10-17T07:52:34.471110191) [Dbg] [LinearBatteryPlugin.cc:574] [Battery Plugin] Battery drain: 3 minutes passed.
+(2023-10-17T07:53:22.541048651) (2023-10-17T07:53:22.541067989) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-17T07:54:35.397795861) (2023-10-17T07:54:35.397855409) [Dbg] [LinearBatteryPlugin.cc:710] Battery: lipo_3500mAh
+(2023-10-17T07:54:35.397951479) (2023-10-17T07:54:35.397969408) [Dbg] [LinearBatteryPlugin.cc:711] PowerLoads().size(): 1
+(2023-10-17T07:54:35.398019020) (2023-10-17T07:54:35.398031925) [Dbg] [LinearBatteryPlugin.cc:713] charging status: false
+(2023-10-17T07:54:35.398107091) (2023-10-17T07:54:35.398121143) [Dbg] [LinearBatteryPlugin.cc:715] charging current: inf
+(2023-10-17T07:54:35.398170884) (2023-10-17T07:54:35.398183492) [Dbg] [LinearBatteryPlugin.cc:716] voltage: 11.817
+(2023-10-17T07:54:35.398239796) (2023-10-17T07:54:35.398256930) [Dbg] [LinearBatteryPlugin.cc:717] state of charge: 0.71 (q 2.485)
+
+(2023-10-17T07:55:15.442700548) (2023-10-17T07:55:15.442730914) [Dbg] [LinearBatteryPlugin.cc:574] [Battery Plugin] Battery drain: 4 minutes passed.
+(2023-10-17T07:55:43.910495948) (2023-10-17T07:55:43.910521409) [Dbg] [SignalHandler.cc:142] Received signal[2].
+(2023-10-17T07:55:43.910640684) (2023-10-17T07:55:43.910655155) [Dbg] [ServerPrivate.cc:115] Server received signal[2]
+(2023-10-17T07:55:43.910712912) (2023-10-17T07:55:43.910724702) [Dbg] [Sensors.cc:433] SensorsPrivate::Stop
+(2023-10-17T07:55:43.998129185) (2023-10-17T07:55:43.998156353) [Dbg] [Sensors.cc:419] SensorsPrivate::RenderThread stopped
+(2023-10-17T07:55:43.998438238) (2023-10-17T07:55:43.998539517) [Dbg] [SignalHandler.cc:142] Received signal[2].
+(2023-10-17T07:55:43.998781914) (2023-10-17T07:55:43.998799541) [Dbg] [ArduPilotPlugin.cc:370] Plugin received signal[2]
+(2023-10-17T07:55:43.998890479) (2023-10-17T07:55:43.998905585) [Dbg] [gz.cc:417] Shutting down gz-sim-server
+(((((2023-10-17T07:55:44.154170932023-10-17T07:55:44.15417093(2023-10-17T07:55:44.15417093(2023-10-17T07:55:44.154259402023-10-17T07:55:44.15417093(2023-10-17T07:55:44.15425940() ) (() ((2023-10-17T07:55:44.154175732023-10-17T07:55:44.15417573(2023-10-17T07:55:44.15417573(2023-10-17T07:55:44.15433902) ((2023-10-17T07:55:44.15516575) 2023-10-17T07:55:44.15547229) (() ) 2023-10-17T07:55:44.15564928) ((2023-10-17T07:55:44.15490036((2023-10-17T07:55:44.15388894) ) ) (2023-10-17T07:55:44.15656333) ) ) 2023-10-17T07:55:44.15647741(2023-10-17T07:55:44.156931282023-10-17T07:55:44.156931282023-10-17T07:55:44.15583706(() ((2023-10-17T07:55:44.15695943) 2023-10-17T07:55:44.15749545) 2023-10-17T07:55:44.15773319) ) ) ) ) ) ) 2023-10-17T07:55:44.15658195) 2023-10-17T07:55:44.15833162) ) Exiting postupdate worker thread (8)
+[Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (0)
+[Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (11)
+[Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (6)
+[Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (10)
+[Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (3)
+[Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (2)
+[Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (5)
+[Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (1)
+[Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (7)
+(2023-10-17T07:55:44.16952585) (2023-10-17T07:55:44.16971560) [Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (4)
+(2023-10-17T07:55:44.17182878) (2023-10-17T07:55:44.17200170) [Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (9)
+(2023-10-17T07:55:44.59846598) (2023-10-17T07:55:44.59887632) [Dbg] [Sensors.cc:433] SensorsPrivate::Stop

@@ -1,0 +1,5 @@
+(2023-10-28T09:44:06.55358462) (2023-10-28T09:44:06.55368376) [Msg] Gazebo Sim Server v7.6.0
+(2023-10-28T09:44:06.58027201) (2023-10-28T09:44:06.58036131) [Msg] Loading SDF world file[/home/bassam/PX4-Autopilot/Tools/simulation/gz/worlds/default.sdf].
+(2023-10-28T09:44:06.161584969) (2023-10-28T09:44:06.161595023) [Err] [Server.cc:159] Error Code 11: Msg: Attempting to load a PbrWorkflow material, but the provided SDF  element is not <metal> or <specular>.
+(2023-10-28T09:44:06.161663652) (2023-10-28T09:44:06.161670046) [Err] [Server.cc:159] Error Code 9: Msg: Failed to load a world.
+(2023-10-28T09:44:06.161718508) (2023-10-28T09:44:06.161723127) [Dbg] [gz.cc:417] Shutting down gz-sim-server

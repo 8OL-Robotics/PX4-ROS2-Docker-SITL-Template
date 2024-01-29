@@ -1,0 +1,53 @@
+(2023-10-19T23:15:54.359345883) (2023-10-19T23:15:54.359375818) [Msg] Gazebo Sim Server v7.6.0
+(2023-10-19T23:15:54.367207068) (2023-10-19T23:15:54.367240832) [Msg] Loading SDF world file[/usr/share/gz/gz-sim7/worlds/empty.sdf].
+(2023-10-19T23:15:54.468134667) (2023-10-19T23:15:54.468147430) [Msg] Serving entity system service on [/entity/system/add]
+(2023-10-19T23:15:54.570466661) (2023-10-19T23:15:54.570480178) [Dbg] [Physics.cc:880] Loaded [gz::physics::dartsim::Plugin] from library [/usr/lib/x86_64-linux-gnu/gz-physics-6/engine-plugins/libgz-physics-dartsim-plugin.so]
+(2023-10-19T23:15:54.570544255) (2023-10-19T23:15:54.570552050) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::Physics] for entity [1]
+(2023-10-19T23:15:54.572665011) (2023-10-19T23:15:54.572675684) [Msg] Create service on [/world/empty/create]
+(2023-10-19T23:15:54.572916423) (2023-10-19T23:15:54.572925878) [Msg] Remove service on [/world/empty/remove]
+(2023-10-19T23:15:54.573164049) (2023-10-19T23:15:54.573173444) [Msg] Pose service on [/world/empty/set_pose]
+(2023-10-19T23:15:54.573381480) (2023-10-19T23:15:54.573390563) [Msg] Pose service on [/world/empty/set_pose_vector]
+(2023-10-19T23:15:54.573666396) (2023-10-19T23:15:54.573675910) [Msg] Light configuration service on [/world/empty/light_config]
+(2023-10-19T23:15:54.574085543) (2023-10-19T23:15:54.574095281) [Msg] Physics service on [/world/empty/set_physics]
+(2023-10-19T23:15:54.574363450) (2023-10-19T23:15:54.574372920) [Msg] SphericalCoordinates service on [/world/empty/set_spherical_coordinates]
+(2023-10-19T23:15:54.574549872) (2023-10-19T23:15:54.574559441) [Msg] Enable collision service on [/world/empty/enable_collision]
+(2023-10-19T23:15:54.574725684) (2023-10-19T23:15:54.574734609) [Msg] Disable collision service on [/world/empty/disable_collision]
+(2023-10-19T23:15:54.575025867) (2023-10-19T23:15:54.575035206) [Msg] Material service on [/world/empty/visual_config]
+(2023-10-19T23:15:54.575261720) (2023-10-19T23:15:54.575270869) [Msg] Material service on [/world/empty/wheel_slip]
+(2023-10-19T23:15:54.575303135) (2023-10-19T23:15:54.575310500) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::UserCommands] for entity [1]
+(2023-10-19T23:15:54.576706837) (2023-10-19T23:15:54.576716675) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::SceneBroadcaster] for entity [1]
+(2023-10-19T23:15:54.578495839) (2023-10-19T23:15:54.578506208) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::Contact] for entity [1]
+(2023-10-19T23:15:54.579055752) (2023-10-19T23:15:54.579065941) [Msg] Loaded level [3]
+(2023-10-19T23:15:54.579864893) (2023-10-19T23:15:54.579874981) [Msg] Serving world controls on [/world/empty/control], [/world/empty/control/state] and [/world/empty/playback/control]
+(2023-10-19T23:15:54.580113790) (2023-10-19T23:15:54.580122884) [Msg] Serving GUI information on [/world/empty/gui/info]
+(2023-10-19T23:15:54.580150724) (2023-10-19T23:15:54.580157753) [Msg] World [empty] initialized with [1ms] physics profile.
+(2023-10-19T23:15:54.580422165) (2023-10-19T23:15:54.580431304) [Msg] Serving world SDF generation service on [/world/empty/generate_world_sdf]
+(2023-10-19T23:15:54.580641127) (2023-10-19T23:15:54.580649931) [Msg] Serving world names on [/gazebo/worlds]
+(2023-10-19T23:15:54.580810747) (2023-10-19T23:15:54.580819468) [Msg] Resource path add service on [/gazebo/resource_paths/add].
+(2023-10-19T23:15:54.580991342) (2023-10-19T23:15:54.581000161) [Msg] Resource path get service on [/gazebo/resource_paths/get].
+(2023-10-19T23:15:54.581162024) (2023-10-19T23:15:54.581170639) [Msg] Resource path resolve service on [/gazebo/resource_paths/resolve].
+(2023-10-19T23:15:54.581351118) (2023-10-19T23:15:54.581359901) [Msg] Resource paths published on [/gazebo/resource_paths].
+(2023-10-19T23:15:54.581576022) (2023-10-19T23:15:54.581585085) [Msg] Server control service on [/server_control].
+(2023-10-19T23:15:56.256541707) (2023-10-19T23:15:56.256589922) [Msg] Found no publishers on /stats, adding root stats topic
+(2023-10-19T23:15:56.257382330) (2023-10-19T23:15:56.257425242) [Msg] Found no publishers on /clock, adding root clock topic
+(2023-10-19T23:15:56.258091392) (2023-10-19T23:15:56.258175357) [Dbg] [SimulationRunner.cc:503] Creating PostUpdate worker threads: 3
+(2023-10-19T23:15:56.258297544) (2023-10-19T23:15:56.258331721) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (0)
+(2023-10-19T23:15:56.258656618) (2023-10-19T23:15:56.258694160) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (1)
+(2023-10-19T23:15:56.265935549) (2023-10-19T23:15:56.265976111) [Msg] Serving scene information on [/world/empty/scene/info]
+(2023-10-19T23:15:56.266308344) (2023-10-19T23:15:56.266336169) [Msg] Serving graph information on [/world/empty/scene/graph]
+(2023-10-19T23:15:56.266830753) (2023-10-19T23:15:56.266859001) [Msg] Serving full state on [/world/empty/state]
+(2023-10-19T23:15:56.267095878) (2023-10-19T23:15:56.267120491) [Msg] Serving full state (async) on [/world/empty/state_async]
+(2023-10-19T23:15:56.267349858) (2023-10-19T23:15:56.267374149) [Msg] Publishing scene information on [/world/empty/scene/info]
+(2023-10-19T23:15:56.267736689) (2023-10-19T23:15:56.267773787) [Msg] Publishing entity deletions on [/world/empty/scene/deletion]
+(2023-10-19T23:15:56.268041564) (2023-10-19T23:15:56.268080404) [Msg] Publishing state changes on [/world/empty/state]
+(2023-10-19T23:15:56.268341442) (2023-10-19T23:15:56.268381654) [Msg] Publishing pose messages on [/world/empty/pose/info]
+(2023-10-19T23:15:56.268698540) (2023-10-19T23:15:56.268736062) [Msg] Publishing dynamic pose messages on [/world/empty/dynamic_pose/info]
+(2023-10-19T23:15:56.269152832) (2023-10-19T23:15:56.269179524) [Dbg] [EntityComponentManager.cc:1655] Updated state thread iterators: 8 threads processing around 2 entities each.
+(2023-10-19T23:15:56.270514402) (2023-10-19T23:15:56.270588015) [Wrn] [Component.hh:144] Trying to serialize component with data type [N3sdf3v135WorldE], which doesn't have `operator<<`. Component will not be serialized.
+(2023-10-19T23:17:54.554018264) (2023-10-19T23:17:54.554029392) [Dbg] [UserCommands.cc:1263] Created entity [10] named [cylinder]
+(2023-10-19T23:17:54.558906290) (2023-10-19T23:17:54.558924962) [Wrn] [Model.hh:69] Skipping serialization / deserialization for models with //pose/@relative_to attribute.
+(2023-10-19T23:19:15.511290774) (2023-10-19T23:19:15.511303202) [Dbg] [SignalHandler.cc:142] Received signal[2].
+(2023-10-19T23:19:15.511322777) (2023-10-19T23:19:15.511327532) [Dbg] [ServerPrivate.cc:115] Server received signal[2]
+(2023-10-19T23:19:15.511567393) (2023-10-19T23:19:15.511573546) [Dbg] [gz.cc:417] Shutting down gz-sim-server
+((2023-10-19T23:19:15.514527488) (2023-10-19T23:19:15.514543141) (2023-10-19T23:19:15.514572247) 2023-10-19T23:19:15.514557890) [Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread ([Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (1)
+Exiting postupdate worker thread ([Dbg] [SimulationRunner.cc:530] 0)

@@ -1,0 +1,52 @@
+(2023-10-19T19:40:27.61891070) (2023-10-19T19:40:27.61942428) [Msg] Gazebo Sim Server v7.6.0
+(2023-10-19T19:40:27.69871784) (2023-10-19T19:40:27.69949997) [Msg] Loading SDF world file[/usr/share/gz/gz-sim7/worlds/shapes.sdf].
+(2023-10-19T19:40:27.482451953) (2023-10-19T19:40:27.482502591) [Msg] Serving entity system service on [/entity/system/add]
+(2023-10-19T19:40:27.486786101) (2023-10-19T19:40:27.486829827) [Msg] Loaded level [3]
+(2023-10-19T19:40:27.488507059) (2023-10-19T19:40:27.488649429) [Msg] No systems loaded from SDF, loading defaults
+(2023-10-19T19:40:27.489514179) (2023-10-19T19:40:27.489569376) [Dbg] [ServerConfig.cc:1062] Loaded (3) plugins from file [/home/bassam/.gz/sim/7/server.config]
+(2023-10-19T19:40:27.957003058) (2023-10-19T19:40:27.957068491) [Dbg] [Physics.cc:880] Loaded [gz::physics::dartsim::Plugin] from library [/usr/lib/x86_64-linux-gnu/gz-physics-6/engine-plugins/libgz-physics-dartsim-plugin.so]
+(2023-10-19T19:40:27.957409025) (2023-10-19T19:40:27.957430006) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::Physics] for entity [1]
+(2023-10-19T19:40:27.992237737) (2023-10-19T19:40:27.992291692) [Msg] Create service on [/world/shapes/create]
+(2023-10-19T19:40:27.993248582) (2023-10-19T19:40:27.993276813) [Msg] Remove service on [/world/shapes/remove]
+(2023-10-19T19:40:27.993765357) (2023-10-19T19:40:27.993791718) [Msg] Pose service on [/world/shapes/set_pose]
+(2023-10-19T19:40:27.994076559) (2023-10-19T19:40:27.994094602) [Msg] Pose service on [/world/shapes/set_pose_vector]
+(2023-10-19T19:40:27.994813358) (2023-10-19T19:40:27.994834158) [Msg] Light configuration service on [/world/shapes/light_config]
+(2023-10-19T19:40:27.995774696) (2023-10-19T19:40:27.995821363) [Msg] Physics service on [/world/shapes/set_physics]
+(2023-10-19T19:40:27.996703522) (2023-10-19T19:40:27.996732365) [Msg] SphericalCoordinates service on [/world/shapes/set_spherical_coordinates]
+(2023-10-19T19:40:27.997076325) (2023-10-19T19:40:27.997096297) [Msg] Enable collision service on [/world/shapes/enable_collision]
+(2023-10-19T19:40:27.997232801) (2023-10-19T19:40:27.997249891) [Msg] Disable collision service on [/world/shapes/disable_collision]
+(2023-10-19T19:40:27.998150816) (2023-10-19T19:40:27.998181192) [Msg] Material service on [/world/shapes/visual_config]
+(2023-10-19T19:40:27.998960206) (2023-10-19T19:40:27.998983271) [Msg] Material service on [/world/shapes/wheel_slip]
+(2023-10-19T19:40:27.999053964) (2023-10-19T19:40:27.999066318) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::UserCommands] for entity [1]
+(2023-10-19T19:40:28.4859200) (2023-10-19T19:40:28.4915746) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::SceneBroadcaster] for entity [1]
+(2023-10-19T19:40:28.11581708) (2023-10-19T19:40:28.11623301) [Msg] Serving world controls on [/world/shapes/control], [/world/shapes/control/state] and [/world/shapes/playback/control]
+(2023-10-19T19:40:28.14836677) (2023-10-19T19:40:28.14874304) [Msg] Serving GUI information on [/world/shapes/gui/info]
+(2023-10-19T19:40:28.14928554) (2023-10-19T19:40:28.14937438) [Msg] World [shapes] initialized with [default_physics] physics profile.
+(2023-10-19T19:40:28.15948793) (2023-10-19T19:40:28.15980883) [Msg] Serving world SDF generation service on [/world/shapes/generate_world_sdf]
+(2023-10-19T19:40:28.16667721) (2023-10-19T19:40:28.16693757) [Msg] Serving world names on [/gazebo/worlds]
+(2023-10-19T19:40:28.17070043) (2023-10-19T19:40:28.17101442) [Msg] Resource path add service on [/gazebo/resource_paths/add].
+(2023-10-19T19:40:28.17437849) (2023-10-19T19:40:28.17468773) [Msg] Resource path get service on [/gazebo/resource_paths/get].
+(2023-10-19T19:40:28.17797909) (2023-10-19T19:40:28.17816418) [Msg] Resource path resolve service on [/gazebo/resource_paths/resolve].
+(2023-10-19T19:40:28.18138949) (2023-10-19T19:40:28.18155613) [Msg] Resource paths published on [/gazebo/resource_paths].
+(2023-10-19T19:40:28.18545265) (2023-10-19T19:40:28.18567467) [Msg] Server control service on [/server_control].
+(2023-10-19T19:40:28.951512220) (2023-10-19T19:40:28.951546410) [Wrn] [SimulationRunner.cc:676] Found additional publishers on /stats, using namespaced stats topic only
+(2023-10-19T19:40:28.951603827) (2023-10-19T19:40:28.951611074) [Dbg] [SimulationRunner.cc:678] Publishers [Address, Message Type]:
+(2023-10-19T19:40:28.951624204) (2023-10-19T19:40:28.951630124) [Dbg] [SimulationRunner.cc:683]   tcp://172.28.242.145:35045, gz.msgs.WorldStatistics
+(2023-10-19T19:40:28.951887148) (2023-10-19T19:40:28.951900884) [Wrn] [SimulationRunner.cc:709] Found additional publishers on /clock, using namespaced clock topic only
+(2023-10-19T19:40:28.951930840) (2023-10-19T19:40:28.951938074) [Dbg] [SimulationRunner.cc:711] Publishers [Address, Message Type]:
+(2023-10-19T19:40:28.951950566) (2023-10-19T19:40:28.951956735) [Dbg] [SimulationRunner.cc:716]   tcp://172.28.242.145:35045, gz.msgs.Clock
+(2023-10-19T19:40:28.952042881) (2023-10-19T19:40:28.952049866) [Dbg] [SimulationRunner.cc:503] Creating PostUpdate worker threads: 2
+(2023-10-19T19:40:28.952071751) (2023-10-19T19:40:28.952078014) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (0)
+(2023-10-19T19:40:28.966493885) (2023-10-19T19:40:28.966521037) [Msg] Serving scene information on [/world/shapes/scene/info]
+(2023-10-19T19:40:28.966809264) (2023-10-19T19:40:28.966825068) [Msg] Serving graph information on [/world/shapes/scene/graph]
+(2023-10-19T19:40:28.967569851) (2023-10-19T19:40:28.967590667) [Msg] Serving full state on [/world/shapes/state]
+(2023-10-19T19:40:28.967852603) (2023-10-19T19:40:28.967869916) [Msg] Serving full state (async) on [/world/shapes/state_async]
+(2023-10-19T19:40:28.968292841) (2023-10-19T19:40:28.968310059) [Msg] Publishing scene information on [/world/shapes/scene/info]
+(2023-10-19T19:40:28.968794576) (2023-10-19T19:40:28.968823756) [Msg] Publishing entity deletions on [/world/shapes/scene/deletion]
+(2023-10-19T19:40:28.969137562) (2023-10-19T19:40:28.969158195) [Msg] Publishing state changes on [/world/shapes/state]
+(2023-10-19T19:40:28.969834472) (2023-10-19T19:40:28.969860240) [Msg] Publishing pose messages on [/world/shapes/pose/info]
+(2023-10-19T19:40:28.970309446) (2023-10-19T19:40:28.970331508) [Msg] Publishing dynamic pose messages on [/world/shapes/dynamic_pose/info]
+(2023-10-19T19:40:44.620048134) (2023-10-19T19:40:44.620060032) [Dbg] [SignalHandler.cc:142] Received signal[2].
+(2023-10-19T19:40:44.620081034) (2023-10-19T19:40:44.620085821) [Dbg] [ServerPrivate.cc:115] Server received signal[2]
+(2023-10-19T19:40:44.620945175) (2023-10-19T19:40:44.620959480) [Dbg] [gz.cc:417] Shutting down gz-sim-server
+(2023-10-19T19:40:44.628083732) (2023-10-19T19:40:44.628102586) [Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (0)

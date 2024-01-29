@@ -1,0 +1,17 @@
+(2023-10-19T19:09:21.650324277) (2023-10-19T19:09:21.650331145) [Msg] Gazebo Sim Server v7.6.0
+(2023-10-19T19:09:21.654245203) (2023-10-19T19:09:21.654255045) [Msg] Downloading world [fuel.gazebosim.org/openrobotics/worlds/prius on sonoma raceway]
+(2023-10-19T19:09:23.892021868) (2023-10-19T19:09:23.892032159) [Dbg] [FuelClient.cc:1976] Downloading from a referral link [https://gz-fuel-resources-production.s3.amazonaws.com/OpenRobotics/dacf9c43-9152-41a0-a3a9-8f733bd2dd89/.zips/1.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS5OHIRKDBY6VUUFF%2F20231019%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231019T133923Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=125531b8425d9e1527d358bf78e70297234b563ef9f1d0d9b49ca5d264f98351]
+(2023-10-19T19:09:27.389525841) (2023-10-19T19:09:27.389538377) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.gazebosim.org/openrobotics/worlds/prius on sonoma raceway/1/sonoma.sdf]
+(2023-10-19T19:09:27.392828862) (2023-10-19T19:09:27.392871903) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.gazebosim.org/openrobotics/worlds/prius on sonoma raceway/1/thumbnails/0.png]
+(2023-10-19T19:09:27.395368535) (2023-10-19T19:09:27.395389603) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.gazebosim.org/openrobotics/worlds/prius on sonoma raceway/1/thumbnails/1.png]
+(2023-10-19T19:09:27.395635817) (2023-10-19T19:09:27.395644647) [Msg] Saved world at:
+  /home/bassam/.gz/fuel/fuel.gazebosim.org/openrobotics/worlds/prius on sonoma raceway/1
+(2023-10-19T19:09:27.395803256) (2023-10-19T19:09:27.395811228) [Msg] Loading SDF world file[/home/bassam/.gz/fuel/fuel.gazebosim.org/openrobotics/worlds/prius on sonoma raceway/1/sonoma.sdf].
+(2023-10-19T19:09:27.509310673) (2023-10-19T19:09:27.509339741) [Wrn] [FuelClient.cc:1952] The fuel.ignitionrobotics.org URL is deprecrated. Pleasse change https://fuel.ignitionrobotics.org to https://fuel.gazebosim.org
+(2023-10-19T19:09:27.509393672) (2023-10-19T19:09:27.509401406) [Msg] Downloading model [https://fuel.ignitionrobotics.org/openrobotics/models/sonoma raceway]
+(2023-10-19T19:09:29.12779794) (2023-10-19T19:09:29.12817991) [Err] [FuelClient.cc:691] Failed to download model.
+  Server: https://fuel.ignitionrobotics.org
+  Route: openrobotics/models/sonoma raceway/tip/sonoma raceway.zip
+  REST response code: 503
+(2023-10-19T19:09:29.230108814) (2023-10-19T19:09:29.230156147) [Err] [Server.cc:159] Error Code 14: [/sdf/world[@name="sonoma"]/include[0]/uri:/home/bassam/.gz/fuel/fuel.gazebosim.org/openrobotics/worlds/prius on sonoma raceway/1/sonoma.sdf:L108]: Msg: Unable to find uri[https://fuel.ignitionrobotics.org/1.0/openrobotics/models/Sonoma Raceway]
+(2023-10-19T19:09:29.230679305) (2023-10-19T19:09:29.230706901) [Dbg] [gz.cc:417] Shutting down gz-sim-server

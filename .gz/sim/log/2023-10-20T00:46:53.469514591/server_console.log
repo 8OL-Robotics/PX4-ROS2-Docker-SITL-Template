@@ -1,0 +1,8 @@
+(2023-10-20T00:46:53.469832112) (2023-10-20T00:46:53.469851430) [Msg] Gazebo Sim Server v7.6.0
+(2023-10-20T00:46:53.475524161) (2023-10-20T00:46:53.475539875) [Msg] Loading SDF world file[/home/bassam/PX4-Autopilot/Tools/simulation/gz/worlds/default.sdf].
+(2023-10-20T00:46:53.584046677) (2023-10-20T00:46:53.584065451) [Err] [Server.cc:159] Error Code 4: [/sdf/world[@name="default"]/plugin[@name="Teleop"]:/home/bassam/PX4-Autopilot/Tools/simulation/gz/worlds/default.sdf:L79]: Msg: Required attribute[filename] in element[plugin] is not specified in SDF.
+(2023-10-20T00:46:53.584168679) (2023-10-20T00:46:53.584178117) [Err] [Server.cc:159] Error Code 9: [/sdf/world[@name="default"]/plugin[@name="Teleop"]:/home/bassam/PX4-Autopilot/Tools/simulation/gz/worlds/default.sdf:L79]: Msg: Error reading element <plugin>
+(2023-10-20T00:46:53.584243103) (2023-10-20T00:46:53.584251578) [Err] [Server.cc:159] Error Code 9: [/sdf/world[@name="default"]:/home/bassam/PX4-Autopilot/Tools/simulation/gz/worlds/default.sdf:L2]: Msg: Error reading element <world>
+(2023-10-20T00:46:53.584315342) (2023-10-20T00:46:53.584323440) [Err] [Server.cc:159] Error Code 9: Msg: Error reading element <sdf>
+(2023-10-20T00:46:53.584378806) (2023-10-20T00:46:53.584386841) [Err] [Server.cc:159] Error Code 1: Msg: Unable to read file: [/home/bassam/PX4-Autopilot/Tools/simulation/gz/worlds/default.sdf]
+(2023-10-20T00:46:53.588950563) (2023-10-20T00:46:53.588964857) [Dbg] [gz.cc:417] Shutting down gz-sim-server

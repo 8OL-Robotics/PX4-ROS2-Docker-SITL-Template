@@ -1,0 +1,1145 @@
+(2023-10-17T02:58:22.551441406) (2023-10-17T02:58:22.551470688) [Msg] Gazebo Sim Server v7.6.0
+(2023-10-17T02:58:22.561505500) (2023-10-17T02:58:22.561531827) [Msg] Loading SDF world file[/home/bassam/ros2_ws/install/ardupilot_gz_gazebo/share/ardupilot_gz_gazebo/worlds/iris_runway.sdf].
+(2023-10-17T02:58:23.218561928) (2023-10-17T02:58:23.218594230) [Msg] Serving entity system service on [/entity/system/add]
+(2023-10-17T02:58:23.633353297) (2023-10-17T02:58:23.633380680) [Dbg] [Physics.cc:880] Loaded [gz::physics::dartsim::Plugin] from library [/usr/lib/x86_64-linux-gnu/gz-physics-6/engine-plugins/libgz-physics-dartsim-plugin.so]
+(2023-10-17T02:58:23.633530605) (2023-10-17T02:58:23.633546787) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::Physics] for entity [1]
+(2023-10-17T02:58:23.649705740) (2023-10-17T02:58:23.649735587) [Dbg] [Sensors.cc:506] Configuring Sensors system
+(2023-10-17T02:58:23.649888636) (2023-10-17T02:58:23.649900120) [Dbg] [Sensors.cc:425] SensorsPrivate::Run
+(2023-10-17T02:58:23.650022726) (2023-10-17T02:58:23.650039608) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::Sensors] for entity [1](
+2023-10-17T02:58:23.650121086) (2023-10-17T02:58:23.650152628) [Dbg] [Sensors.cc:402] SensorsPrivate::RenderThread started
+(2023-10-17T02:58:23.650205161) (2023-10-17T02:58:23.650220428) [Dbg] [Sensors.cc:245] Waiting for init
+(2023-10-17T02:58:23.654026635) (2023-10-17T02:58:23.654054446) [Msg] Create service on [/world/map/create]
+(2023-10-17T02:58:23.654641420) (2023-10-17T02:58:23.654663282) [Msg] Remove service on [/world/map/remove]
+(2023-10-17T02:58:23.655274809) (2023-10-17T02:58:23.655297651) [Msg] Pose service on [/world/map/set_pose]
+(2023-10-17T02:58:23.655785318) (2023-10-17T02:58:23.655806298) [Msg] Pose service on [/world/map/set_pose_vector]
+(2023-10-17T02:58:23.656551482) (2023-10-17T02:58:23.656575844) [Msg] Light configuration service on [/world/map/light_config]
+(2023-10-17T02:58:23.658412766) (2023-10-17T02:58:23.658448994) [Msg] Physics service on [/world/map/set_physics]
+(2023-10-17T02:58:23.660069708) (2023-10-17T02:58:23.660123965) [Msg] SphericalCoordinates service on [/world/map/set_spherical_coordinates]
+(2023-10-17T02:58:23.661321736) (2023-10-17T02:58:23.661359373) [Msg] Enable collision service on [/world/map/enable_collision]
+(2023-10-17T02:58:23.662233562) (2023-10-17T02:58:23.662487452) [Msg] Disable collision service on [/world/map/disable_collision]
+(2023-10-17T02:58:23.663438289) (2023-10-17T02:58:23.663461434) [Msg] Material service on [/world/map/visual_config]
+(2023-10-17T02:58:23.664215520) (2023-10-17T02:58:23.664235777) [Msg] Material service on [/world/map/wheel_slip]
+(2023-10-17T02:58:23.664324591) (2023-10-17T02:58:23.664338422) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::UserCommands] for entity [1]
+(2023-10-17T02:58:23.667593411) (2023-10-17T02:58:23.667618940) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::SceneBroadcaster] for entity [1]
+(2023-10-17T02:58:23.671014906) (2023-10-17T02:58:23.671038986) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::AirPressure] for entity [1]
+(2023-10-17T02:58:23.674456007) (2023-10-17T02:58:23.674482432) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::AirSpeed] for entity [1]
+(2023-10-17T02:58:23.677301452) (2023-10-17T02:58:23.677325641) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::Altimeter] for entity [1]
+(2023-10-17T02:58:23.681637582) (2023-10-17T02:58:23.681663800) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::Imu] for entity [1]
+(2023-10-17T02:58:23.686478665) (2023-10-17T02:58:23.686513615) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::Magnetometer] for entity [1]
+(2023-10-17T02:58:23.689857491) (2023-10-17T02:58:23.689884814) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::NavSat] for entity [1]
+(2023-10-17T02:58:23.724013303) (2023-10-17T02:58:23.724041321) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::JointStatePublisher] for entity [9]
+(2023-10-17T02:58:23.728413030) (2023-10-17T02:58:23.728474986) [Msg] OdometryPublisher publishing odometry on [/model/iris/odometry]
+(2023-10-17T02:58:23.729130148) (2023-10-17T02:58:23.729150164) [Msg] OdometryPublisher publishing odometry with covariance on [/model/iris/odometry_with_covariance]
+(2023-10-17T02:58:23.730173059) (2023-10-17T02:58:23.730200319) [Msg] OdometryPublisher publishing Pose_V (TF) on [/model/iris/pose]
+(2023-10-17T02:58:23.730314332) (2023-10-17T02:58:23.730330886) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::OdometryPublisher] for entity [9]
+(2023-10-17T02:58:23.734892741) (2023-10-17T02:58:23.734920080) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [9]
+(2023-10-17T02:58:23.735840161) (2023-10-17T02:58:23.735864214) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [9]
+(2023-10-17T02:58:23.736728579) (2023-10-17T02:58:23.736751228) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [9]
+(2023-10-17T02:58:23.737601156) (2023-10-17T02:58:23.737624288) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [9]
+(2023-10-17T02:58:23.739325547) (2023-10-17T02:58:23.739350635) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [9]
+(2023-10-17T02:58:23.740163491) (2023-10-17T02:58:23.740186625) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [9]
+(2023-10-17T02:58:23.740990649) (2023-10-17T02:58:23.741011124) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [9]
+(2023-10-17T02:58:23.741701448) (2023-10-17T02:58:23.741722775) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [9]
+(2023-10-17T02:58:23.748668510) (2023-10-17T02:58:23.748695418) [Msg] ApplyJointForce subscribing to Double messages on [/model/iris/joint/rotor_0_joint/cmd_force]
+(2023-10-17T02:58:23.748797747) (2023-10-17T02:58:23.748814021) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::ApplyJointForce] for entity [9]
+(2023-10-17T02:58:23.751750949) (2023-10-17T02:58:23.751777790) [Msg] ApplyJointForce subscribing to Double messages on [/model/iris/joint/rotor_1_joint/cmd_force]
+(2023-10-17T02:58:23.751861587) (2023-10-17T02:58:23.751879329) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::ApplyJointForce] for entity [9]
+(2023-10-17T02:58:23.755687952) (2023-10-17T02:58:23.755716568) [Msg] ApplyJointForce subscribing to Double messages on [/model/iris/joint/rotor_2_joint/cmd_force]
+(2023-10-17T02:58:23.755809659) (2023-10-17T02:58:23.755871716) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::ApplyJointForce] for entity [9]
+(2023-10-17T02:58:23.758469525) (2023-10-17T02:58:23.758497892) [Msg] ApplyJointForce subscribing to Double messages on [/model/iris/joint/rotor_3_joint/cmd_force]
+(2023-10-17T02:58:23.758581486) (2023-10-17T02:58:23.758596086) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::ApplyJointForce] for entity [9]
+(2023-10-17T02:58:23.768897652) (2023-10-17T02:58:23.768923791) [Msg] JointPositionController subscribing to Double messages on [/gimbal/cmd_roll]
+(2023-10-17T02:58:23.769006901) (2023-10-17T02:58:23.769021487) [Dbg] [JointPositionController.cc:302] [JointPositionController] system parameters:
+(2023-10-17T02:58:23.769067162) (2023-10-17T02:58:23.769082986) [Dbg] [JointPositionController.cc:303] p_gain: [2]
+(2023-10-17T02:58:23.769166737) (2023-10-17T02:58:23.769181984) [Dbg] [JointPositionController.cc:304] i_gain: [0.1]
+(2023-10-17T02:58:23.769240680) (2023-10-17T02:58:23.769254786) [Dbg] [JointPositionController.cc:305] d_gain: [0.01]
+(2023-10-17T02:58:23.769309314) (2023-10-17T02:58:23.769322156) [Dbg] [JointPositionController.cc:306] i_max: [1]
+(2023-10-17T02:58:23.769376407) (2023-10-17T02:58:23.769390419) [Dbg] [JointPositionController.cc:307] i_min: [-1]
+(2023-10-17T02:58:23.769445350) (2023-10-17T02:58:23.769457816) [Dbg] [JointPositionController.cc:308] cmd_max: [1000]
+(2023-10-17T02:58:23.769517012) (2023-10-17T02:58:23.769532396) [Dbg] [JointPositionController.cc:309] cmd_min: [-1000]
+(2023-10-17T02:58:23.769609194) (2023-10-17T02:58:23.769623602) [Dbg] [JointPositionController.cc:310] cmd_offset: [0]
+(2023-10-17T02:58:23.769700999) (2023-10-17T02:58:23.769715306) [Dbg] [JointPositionController.cc:311] Topic: [/gimbal/cmd_roll]
+(2023-10-17T02:58:23.769767598) (2023-10-17T02:58:23.769781179) [Dbg] [JointPositionController.cc:312] initial_position: [0]
+(2023-10-17T02:58:23.770113973) (2023-10-17T02:58:23.770134062) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::JointPositionController] for entity [9]
+(2023-10-17T02:58:23.776539268) (2023-10-17T02:58:23.776566850) [Msg] JointPositionController subscribing to Double messages on [/gimbal/cmd_tilt]
+(2023-10-17T02:58:23.776636404) (2023-10-17T02:58:23.776651173) [Dbg] [JointPositionController.cc:302] [JointPositionController] system parameters:
+(2023-10-17T02:58:23.776694816) (2023-10-17T02:58:23.776708652) [Dbg] [JointPositionController.cc:303] p_gain: [2]
+(2023-10-17T02:58:23.776768836) (2023-10-17T02:58:23.776783205) [Dbg] [JointPositionController.cc:304] i_gain: [0.1]
+(2023-10-17T02:58:23.776842380) (2023-10-17T02:58:23.776856339) [Dbg] [JointPositionController.cc:305] d_gain: [0.01]
+(2023-10-17T02:58:23.776914387) (2023-10-17T02:58:23.776929144) [Dbg] [JointPositionController.cc:306] i_max: [1]
+(2023-10-17T02:58:23.776982926) (2023-10-17T02:58:23.776996643) [Dbg] [JointPositionController.cc:307] i_min: [-1]
+(2023-10-17T02:58:23.777184061) (2023-10-17T02:58:23.777362595) [Dbg] [JointPositionController.cc:308] cmd_max: [1000]
+(2023-10-17T02:58:23.777426682) (2023-10-17T02:58:23.777440870) [Dbg] [JointPositionController.cc:309] cmd_min: [-1000]
+(2023-10-17T02:58:23.777499910) (2023-10-17T02:58:23.777514819) [Dbg] [JointPositionController.cc:310] cmd_offset: [0]
+(2023-10-17T02:58:23.777571532) (2023-10-17T02:58:23.777586704) [Dbg] [JointPositionController.cc:311] Topic: [/gimbal/cmd_tilt]
+(2023-10-17T02:58:23.777642782) (2023-10-17T02:58:23.777656893) [Dbg] [JointPositionController.cc:312] initial_position: [0]
+(2023-10-17T02:58:23.777726624) (2023-10-17T02:58:23.777738948) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::JointPositionController] for entity [9]
+(2023-10-17T02:58:23.781080707) (2023-10-17T02:58:23.781105576) [Msg] LinearBatteryPlugin configured. Battery name: lipo_3500mAh
+(2023-10-17T02:58:23.781174301) (2023-10-17T02:58:23.781189875) [Dbg] [LinearBatteryPlugin.cc:405] Battery initial voltage: 12.6
+(2023-10-17T02:58:23.783045088) (2023-10-17T02:58:23.783089875) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LinearBatteryPlugin] for entity [9]
+(2023-10-17T02:58:23.804082828) (2023-10-17T02:58:23.804110319) [Msg] [iris] Advertising on /gimbal/cmd_roll.
+(2023-10-17T02:58:23.899823136) (2023-10-17T02:58:23.899861392) [Msg] [iris] Advertising on /gimbal/cmd_tilt.
+(2023-10-17T02:58:23.900784135) [iris] flight dynamics model @ 127.0.0.1:9002
+(2023-10-17T02:58:23.901311122) [iris] ArduPilot ready to fly. The force will be with you
+(2023-10-17T02:58:23.901489173) (2023-10-17T02:58:23.901506839) [Dbg] [SystemManager.cc:74] Loaded system [ArduPilotPlugin] for entity [9]
+(2023-10-17T02:58:23.905827032) (2023-10-17T02:58:23.905846803) [Msg] Loaded level [3]
+(2023-10-17T02:58:23.915848434) (2023-10-17T02:58:23.915872084) [Msg] Serving world controls on [/world/map/control], [/world/map/control/state] and [/world/map/playback/control]
+(2023-10-17T02:58:23.916244388) (2023-10-17T02:58:23.916259044) [Msg] Serving GUI information on [/world/map/gui/info]
+(2023-10-17T02:58:23.916307805) (2023-10-17T02:58:23.916316269) [Msg] World [map] initialized with [1ms] physics profile.
+(2023-10-17T02:58:23.916671634) (2023-10-17T02:58:23.916689696) [Msg] Serving world SDF generation service on [/world/map/generate_world_sdf]
+(2023-10-17T02:58:23.917009313) (2023-10-17T02:58:23.917028711) [Msg] Serving world names on [/gazebo/worlds]
+(2023-10-17T02:58:23.917326829) (2023-10-17T02:58:23.917346859) [Msg] Resource path add service on [/gazebo/resource_paths/add].
+(2023-10-17T02:58:23.917590246) (2023-10-17T02:58:23.917624378) [Msg] Resource path get service on [/gazebo/resource_paths/get].
+(2023-10-17T02:58:23.917887605) (2023-10-17T02:58:23.917905637) [Msg] Resource path resolve service on [/gazebo/resource_paths/resolve].
+(2023-10-17T02:58:23.918336721) (2023-10-17T02:58:23.918357030) [Msg] Resource paths published on [/gazebo/resource_paths].
+(2023-10-17T02:58:23.919209708) (2023-10-17T02:58:23.919232799) [Msg] Server control service on [/server_control].
+(2023-10-17T02:58:24.566314556) (2023-10-17T02:58:24.566342653) [Wrn] [SimulationRunner.cc:676] Found additional publishers on /stats, using namespaced stats topic only
+(2023-10-17T02:58:24.566419153) (2023-10-17T02:58:24.566429884) [Dbg] [SimulationRunner.cc:678] Publishers [Address, Message Type]:
+(2023-10-17T02:58:24.566450644) (2023-10-17T02:58:24.566458859) [Dbg] [SimulationRunner.cc:683]   tcp://172.28.247.52:39863, gz.msgs.WorldStatistics
+(2023-10-17T02:58:24.566740647) (2023-10-17T02:58:24.566760162) [Wrn] [SimulationRunner.cc:709] Found additional publishers on /clock, using namespaced clock topic only
+(2023-10-17T02:58:24.566821246) (2023-10-17T02:58:24.566836754) [Dbg] [SimulationRunner.cc:711] Publishers [Address, Message Type]:
+(2023-10-17T02:58:24.566870584) (2023-10-17T02:58:24.566884840) [Dbg] [SimulationRunner.cc:716]   tcp://172.28.247.52:39863, gz.msgs.Clock
+(2023-10-17T02:58:24.567310508) (2023-10-17T02:58:24.567326663) [Dbg] [SimulationRunner.cc:503] Creating PostUpdate worker threads: 13
+(2023-10-17T02:58:24.567375808) (2023-10-17T02:58:24.567385363) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (0)
+(2023-10-17T02:58:24.567522615) (2023-10-17T02:58:24.567539749) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (1)
+(2023-10-17T02:58:24.567663925) (2023-10-17T02:58:24.567681240) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (2)
+(2023-10-17T02:58:24.567778205) (2023-10-17T02:58:24.567795068) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (3)
+(2023-10-17T02:58:24.567902503) (2023-10-17T02:58:24.567919368) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (4)
+(2023-10-17T02:58:24.568067424) (2023-10-17T02:58:24.568084887) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (5)
+(2023-10-17T02:58:24.568220932) (2023-10-17T02:58:24.568238756) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (6)
+(2023-10-17T02:58:24.568448784) (2023-10-17T02:58:24.568465495) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (7)
+(2023-10-17T02:58:24.568634462) (2023-10-17T02:58:24.568652385) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (8)
+(2023-10-17T02:58:24.568774844) (2023-10-17T02:58:24.568792303) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (9)
+(2023-10-17T02:58:24.568898075) (2023-10-17T02:58:24.568914955) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (10)
+(2023-10-17T02:58:24.569025225) (2023-10-17T02:58:24.569042228) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (11)
+(2023-10-17T02:58:24.570689776) (2023-10-17T02:58:24.570705352) [Dbg] [JointPositionController.cc:361] Identified joint [roll_joint] as Entity [53]
+(2023-10-17T02:58:24.570775774) (2023-10-17T02:58:24.570785185) [Dbg] [JointPositionController.cc:361] Identified joint [tilt_joint] as Entity [54]
+(2023-10-17T02:58:24.570921100) (2023-10-17T02:58:24.570931372) [Msg] Found IMU sensor with name [imu_link::imu_sensor]
+(2023-10-17T02:58:24.570988103) (2023-10-17T02:58:24.570997109) [Dbg] [ArduPilotPlugin.cc:1154] Computed IMU topic to be: world/map/model/iris/link/imu_link/sensor/imu_sensor/imu
+(2023-10-17T02:58:24.580946242) (2023-10-17T02:58:24.580968016) [Dbg] [SDFFeatures.cc:328] Mesh construction from an SDF has not been implemented yet for dartsim. Use AttachMeshShapeFeature to use mesh shapes.
+(2023-10-17T02:58:24.581004995) (2023-10-17T02:58:24.581016226) [Err] [SDFFeatures.cc:843] The geometry element of collision [roll_col] couldn't be created
+(2023-10-17T02:58:24.581167470) (2023-10-17T02:58:24.581194098) [Dbg] [SDFFeatures.cc:328] Mesh construction from an SDF has not been implemented yet for dartsim. Use AttachMeshShapeFeature to use mesh shapes.
+(2023-10-17T02:58:24.581221246) (2023-10-17T02:58:24.581230779) [Err] [SDFFeatures.cc:843] The geometry element of collision [tilt_col] couldn't be created
+(2023-10-17T02:58:25.445035020) (2023-10-17T02:58:25.445074529) [Dbg] [Sensors.cc:659] Initialization needed
+(2023-10-17T02:58:25.445386620) (2023-10-17T02:58:25.445409783) [Dbg] [Sensors.cc:257] Initializing render context
+(2023-10-17T02:58:25.445615333) (2023-10-17T02:58:25.445635063) [Msg] Loading plugin [gz-rendering-ogre2]
+(2023-10-17T02:58:25.445995271) (2023-10-17T02:58:25.446017893) [Dbg] [MagnetometerSensor.cc:117] Magnetometer data for [iris::base_link::magnetometer_sensor] advertised on [world/map/model/iris/link/base_link/sensor/magnetometer_sensor/magnetometer]
+(2023-10-17T02:58:25.447188810) (2023-10-17T02:58:25.447212888) [Dbg] [ImuSensor.cc:149] IMU data for [iris::imu_link::imu_sensor] advertised on [world/map/model/iris/link/imu_link/sensor/imu_sensor/imu]
+(2023-10-17T02:58:25.448841280) (2023-10-17T02:58:25.448863956) [Msg] Serving scene information on [/world/map/scene/info]
+(2023-10-17T02:58:25.449114053) (2023-10-17T02:58:25.449136308) [Dbg] [AirSpeedSensor.cc:125] Air speed for [iris::base_link::air_speed_sensor] advertised on [world/map/model/iris/link/base_link/sensor/air_speed_sensor/air_speed]
+(2023-10-17T02:58:25.449820392) (2023-10-17T02:58:25.449842641) [Dbg] [AirPressureSensor.cc:126] Air pressure for [iris::base_link::air_pressure_sensor] advertised on [world/map/model/iris/link/base_link/sensor/air_pressure_sensor/air_pressure]
+(2023-10-17T02:58:25.450038297) (2023-10-17T02:58:25.450061100) [Msg] Serving graph information on [/world/map/scene/graph]
+(2023-10-17T02:58:25.451167628) (2023-10-17T02:58:25.451189752) [Msg] Serving full state on [/world/map/state]
+(2023-10-17T02:58:25.451430177) (2023-10-17T02:58:25.451450263) [Msg] Serving full state (async) on [/world/map/state_async]
+(2023-10-17T02:58:25.451670242) (2023-10-17T02:58:25.451688353) [Msg] Publishing scene information on [/world/map/scene/info]
+(2023-10-17T02:58:25.451940798) (2023-10-17T02:58:25.451958973) [Msg] Publishing entity deletions on [/world/map/scene/deletion]
+(2023-10-17T02:58:25.452132572) (2023-10-17T02:58:25.452154223) [Dbg] [AltimeterSensor.cc:114] Altimeter data for [iris::base_link::altimeter_sensor] advertised on [(2023-10-17T02:58:25.452266080) (2023-10-17T02:58:25.452285313) [Msg] Publishing state changes on [/world/map/state]
+world/map/model/iris/link/base_link/sensor/altimeter_sensor/altimeter]
+(2023-10-17T02:58:25.452506681) (2023-10-17T02:58:25.452523576) [Msg] Publishing pose messages on [/world/map/pose/info]
+(2023-10-17T02:58:25.452712368) (2023-10-17T02:58:25.452729841) [Msg] Publishing dynamic pose messages on [/world/map/dynamic_pose/info]
+(2023-10-17T02:58:25.454332056) (2023-10-17T02:58:25.454355659) [Wrn] [Component.hh:144] Trying to serialize component with data type [St6vectorIdSaIdEE], which doesn't have `operator<<`. Component will not be serialized.
+(2023-10-17T02:58:25.455952847) (2023-10-17T02:58:25.455975396) [Wrn] [Model.hh:69] Skipping serialization / deserialization for models with //pose/@relative_to attribute.
+(2023-10-17T02:58:25.456649396) (2023-10-17T02:58:25.456669275) [Wrn] [Component.hh:144] Trying to serialize component with data type [N3sdf3v135WorldE], which doesn't have `operator<<`. Component will not be serialized.
+(2023-10-17T02:58:25.459729599) (2023-10-17T02:58:25.459757657) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 25
+(2023-10-17T02:58:25.459954733) [iris] Connected to ArduPilot controller @ 127.0.0.1:57940
+(2023-10-17T02:58:25.460004854) (2023-10-17T02:58:25.460018773) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-17T02:58:25.461086749) (2023-10-17T02:58:25.461112365) [Dbg] [LinearBatteryPlugin.cc:574] [Battery Plugin] Battery drain: 0 minutes passed.
+(2023-10-17T02:58:25.887198990) (2023-10-17T02:58:25.887237906) [Dbg] [RenderUtil.cc:2720] Create scene [scene]
+((2023-10-17T02:58:25.994406774) (2023-10-17T02:58:25.994461497) 2023-10-17T02:58:25.994432659) ([Dbg] [Sensors.cc:277] 2023-10-17T02:58:25.994495520) Rendering Thread initialized
+[Dbg] [Sensors.cc:659] Initialization needed
+[Dbg] [Sensors.cc:659] (2023-10-17T02:58:25.996937244) (2023-10-17T02:58:25.996962589) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 9
+(2023-10-17T02:58:25.997062469) (2023-10-17T02:58:25.997077968) [Wrn] [ArduPilotPlugin.cc:1604] Missed 10 input frames
+(2023-10-17T02:58:29.805997096) (2023-10-17T02:58:29.806029657) [Dbg] [CameraSensor.cc:458] Camera images for [iris::tilt_link::camera] advertised on [world/map/model/iris/link/tilt_link/sensor/camera/image]
+(2023-10-17T02:58:29.806884888) (2023-10-17T02:58:29.806910534) [Dbg] [CameraSensor.cc:786] Camera info for [iris::tilt_link::camera] advertised on [/world/map/model/iris/link/tilt_link/sensor/camera/camera_info]
+(2023-10-17T02:58:29.807570685) (2023-10-17T02:58:29.807586076) [Wrn] [Ogre2Camera.cc:412] Ogre2Camera::SetVisibilityMask: Mask bits c0000000 are set but will be ignored as they conflict with the reserved bits used internally by the ogre2 backend.
+(2023-10-17T02:58:30.23238791) (2023-10-17T02:58:30.23266716) [Dbg] [CameraSensor.cc:583] Enabling camera sensor: 'iris::tilt_link::camera' data generation.
+(2023-10-17T02:58:30.350442630) (2023-10-17T02:58:30.350469841) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 71
+(2023-10-17T02:58:30.350579157) (2023-10-17T02:58:30.350594268) [Wrn] [ArduPilotPlugin.cc:1604] Missed 72 input frames
+(2023-10-17T02:58:30.365540228) (2023-10-17T02:58:30.365566153) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:30.365660756) (2023-10-17T02:58:30.365675996) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:30.425791891) (2023-10-17T02:58:30.425852836) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:30.425953125) (2023-10-17T02:58:30.425968936) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:30.488917212) (2023-10-17T02:58:30.488943934) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:30.489065470) (2023-10-17T02:58:30.489081278) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:30.550020195) (2023-10-17T02:58:30.550049874) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:30.550165471) (2023-10-17T02:58:30.550180085) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:30.616743351) (2023-10-17T02:58:30.616771431) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:30.616885221) (2023-10-17T02:58:30.616898775) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:30.804188213) (2023-10-17T02:58:30.804251805) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 3
+(2023-10-17T02:58:30.804392050) (2023-10-17T02:58:30.804407515) [Wrn] [ArduPilotPlugin.cc:1604] Missed 4 input frames
+(2023-10-17T02:58:30.858641273) (2023-10-17T02:58:30.858675192) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:30.858800617) (2023-10-17T02:58:30.858818711) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:30.919985953) (2023-10-17T02:58:30.920015797) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:30.920127930) (2023-10-17T02:58:30.920142544) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:30.982021014) (2023-10-17T02:58:30.982079676) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:30.982203645) (2023-10-17T02:58:30.982249401) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:31.42026971) (2023-10-17T02:58:31.42048237) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:31.42146358) (2023-10-17T02:58:31.42159204) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:31.243309892) (2023-10-17T02:58:31.243348091) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 3
+(2023-10-17T02:58:31.243467264) (2023-10-17T02:58:31.243482594) [Wrn] [ArduPilotPlugin.cc:1604] Missed 4 input frames
+(2023-10-17T02:58:31.285429130) (2023-10-17T02:58:31.285455163) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:31.285556323) (2023-10-17T02:58:31.285572024) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:31.349591975) (2023-10-17T02:58:31.349622629) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:31.349743328) (2023-10-17T02:58:31.349758321) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:31.406266038) (2023-10-17T02:58:31.406289251) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:31.406402518) (2023-10-17T02:58:31.406416035) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:31.468001524) (2023-10-17T02:58:31.468029226) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:31.468129242) (2023-10-17T02:58:31.468142672) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:31.566915315) (2023-10-17T02:58:31.566966289) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:31.567167229) (2023-10-17T02:58:31.567184103) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:31.594698837) (2023-10-17T02:58:31.594726445) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:31.594838545) (2023-10-17T02:58:31.594854304) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:31.655111004) (2023-10-17T02:58:31.655137388) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:31.655239094) (2023-10-17T02:58:31.655253923) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:31.724184721) (2023-10-17T02:58:31.724253229) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:31.724387692) (2023-10-17T02:58:31.724403301) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:31.781580698) (2023-10-17T02:58:31.781608383) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:31.781699052) (2023-10-17T02:58:31.781714730) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:31.848557399) (2023-10-17T02:58:31.848584920) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:31.848701499) (2023-10-17T02:58:31.848714967) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:31.904699417) (2023-10-17T02:58:31.904723337) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:31.904810140) (2023-10-17T02:58:31.904825014) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:31.972863269) (2023-10-17T02:58:31.972908062) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:31.973056173) (2023-10-17T02:58:31.973071274) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:32.31301466) (2023-10-17T02:58:32.31327714) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:32.31557408) (2023-10-17T02:58:32.31576505) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:32.96519240) (2023-10-17T02:58:32.96552036) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:32.96666178) (2023-10-17T02:58:32.96682137) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:32.153505530) (2023-10-17T02:58:32.153540931) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:32.153666082) (2023-10-17T02:58:32.153679693) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:32.224561060) (2023-10-17T02:58:32.224587217) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:32.224696592) (2023-10-17T02:58:32.224713652) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:32.278452871) (2023-10-17T02:58:32.278499991) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:32.283032284) (2023-10-17T02:58:32.283059351) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:32.339989130) (2023-10-17T02:58:32.340018015) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:32.340165391) (2023-10-17T02:58:32.340180968) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:32.413406480) (2023-10-17T02:58:32.413463613) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:32.413655285) (2023-10-17T02:58:32.413670065) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:32.464144261) (2023-10-17T02:58:32.464177498) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:32.464322716) (2023-10-17T02:58:32.464337128) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:32.524947804) (2023-10-17T02:58:32.524980925) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:32.525132989) (2023-10-17T02:58:32.525148668) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:32.586612047) (2023-10-17T02:58:32.586640213) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:32.586749730) (2023-10-17T02:58:32.586765186) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:32.654167342) (2023-10-17T02:58:32.654212586) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:32.654335948) (2023-10-17T02:58:32.654349537) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:32.739068886) (2023-10-17T02:58:32.739175616) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:32.739351852) (2023-10-17T02:58:32.739377798) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:32.773094943) (2023-10-17T02:58:32.773120453) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:32.773223507) (2023-10-17T02:58:32.773240185) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:32.832278760) (2023-10-17T02:58:32.832308972) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:32.832426325) (2023-10-17T02:58:32.832441743) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:32.894397926) (2023-10-17T02:58:32.894426664) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:32.894550943) (2023-10-17T02:58:32.894567986) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:32.955332572) (2023-10-17T02:58:32.955358889) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:32.955461362) (2023-10-17T02:58:32.955477543) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:33.18414119) (2023-10-17T02:58:33.18443931) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:33.18556650) (2023-10-17T02:58:33.18571580) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:33.84429810) (2023-10-17T02:58:33.84473283) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:33.84675085) (2023-10-17T02:58:33.84694765) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:33.138561506) (2023-10-17T02:58:33.138594473) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:33.138711471) (2023-10-17T02:58:33.138726317) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:33.201453256) (2023-10-17T02:58:33.201485859) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:33.201602793) (2023-10-17T02:58:33.201618098) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:33.263531297) (2023-10-17T02:58:33.263561396) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:33.264580285) (2023-10-17T02:58:33.264601177) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:33.328216325) (2023-10-17T02:58:33.328282567) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:33.328402245) (2023-10-17T02:58:33.328417877) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:33.385797194) (2023-10-17T02:58:33.385825645) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:33.385948503) (2023-10-17T02:58:33.385964805) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:33.454255247) (2023-10-17T02:58:33.454283015) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:33.454388541) (2023-10-17T02:58:33.454405599) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:33.509549958) (2023-10-17T02:58:33.509576876) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:33.509676295) (2023-10-17T02:58:33.509690889) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:33.573093530) (2023-10-17T02:58:33.573117875) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:33.573190726) (2023-10-17T02:58:33.573200502) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:33.633821615) (2023-10-17T02:58:33.633846133) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:33.633929164) (2023-10-17T02:58:33.633942050) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:33.694140729) (2023-10-17T02:58:33.694185144) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:33.694320912) (2023-10-17T02:58:33.694336014) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:33.755112485) (2023-10-17T02:58:33.755178068) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:33.755354915) (2023-10-17T02:58:33.755374087) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:33.817027992) (2023-10-17T02:58:33.817061882) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:33.817194216) (2023-10-17T02:58:33.817208605) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:33.876632916) (2023-10-17T02:58:33.876657224) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:33.876749272) (2023-10-17T02:58:33.876764944) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:33.937499987) (2023-10-17T02:58:33.937521170) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:33.937594914) (2023-10-17T02:58:33.937608856) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:34.32253101) (2023-10-17T02:58:34.32344130) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:34.32511009) (2023-10-17T02:58:34.32526841) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:34.62403330) (2023-10-17T02:58:34.62429071) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:34.62526603) (2023-10-17T02:58:34.62542033) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:34.126055651) (2023-10-17T02:58:34.126090879) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:34.130700914) (2023-10-17T02:58:34.130740402) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:34.185289262) (2023-10-17T02:58:34.185317206) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:34.185428345) (2023-10-17T02:58:34.185443801) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:34.250192644) (2023-10-17T02:58:34.250230420) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:34.250379292) (2023-10-17T02:58:34.250394425) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:34.321091350) (2023-10-17T02:58:34.321120815) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:34.321232109) (2023-10-17T02:58:34.321245831) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:34.372971335) (2023-10-17T02:58:34.372999370) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:34.373102631) (2023-10-17T02:58:34.373119856) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:34.438444264) (2023-10-17T02:58:34.438469745) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:34.438839181) (2023-10-17T02:58:34.438859184) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:34.518975030) (2023-10-17T02:58:34.519019238) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:34.519180284) (2023-10-17T02:58:34.519197775) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:34.556597507) (2023-10-17T02:58:34.556624829) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:34.556729588) (2023-10-17T02:58:34.556744387) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:34.618856586) (2023-10-17T02:58:34.618883707) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:34.618997284) (2023-10-17T02:58:34.619013800) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:34.679615479) (2023-10-17T02:58:34.679635322) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:34.679712032) (2023-10-17T02:58:34.679721163) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:34.738984155) (2023-10-17T02:58:34.739018113) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:34.739156946) (2023-10-17T02:58:34.739174947) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:34.840803918) (2023-10-17T02:58:34.840822534) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:34.840889221) (2023-10-17T02:58:34.840898424) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:34.861064831) (2023-10-17T02:58:34.861093144) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:34.861283987) (2023-10-17T02:58:34.861301496) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:34.926745834) (2023-10-17T02:58:34.926780953) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:34.926920394) (2023-10-17T02:58:34.926936395) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:34.982609273) (2023-10-17T02:58:34.982634146) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:34.984106940) (2023-10-17T02:58:34.984133066) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:35.47114396) (2023-10-17T02:58:35.47143249) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:35.47250648) (2023-10-17T02:58:35.47267758) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:35.105655746) (2023-10-17T02:58:35.105697569) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:35.105856459) (2023-10-17T02:58:35.105874336) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:35.166290135) (2023-10-17T02:58:35.166318264) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:35.166453281) (2023-10-17T02:58:35.166470607) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:35.228871881) (2023-10-17T02:58:35.228911127) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:35.229009069) (2023-10-17T02:58:35.229024600) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:35.289370945) (2023-10-17T02:58:35.289443843) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:35.289840762) (2023-10-17T02:58:35.289873343) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:35.350102200) (2023-10-17T02:58:35.350128388) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:35.350217912) (2023-10-17T02:58:35.350233210) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:35.414769893) (2023-10-17T02:58:35.414789863) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:35.414880089) (2023-10-17T02:58:35.414895481) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:35.474259558) (2023-10-17T02:58:35.474337008) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:35.474465696) (2023-10-17T02:58:35.474481344) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:35.532657146) (2023-10-17T02:58:35.532684257) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:35.532828671) (2023-10-17T02:58:35.532841822) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:35.605454178) (2023-10-17T02:58:35.605481993) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:35.605602799) (2023-10-17T02:58:35.605617639) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:35.655527734) (2023-10-17T02:58:35.655555861) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:35.655673808) (2023-10-17T02:58:35.655690627) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:35.723575029) (2023-10-17T02:58:35.723605369) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:35.723748904) (2023-10-17T02:58:35.723766016) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:35.795096948) (2023-10-17T02:58:35.795121300) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:35.795264107) (2023-10-17T02:58:35.795284188) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:35.842042117) (2023-10-17T02:58:35.842069416) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:35.842162462) (2023-10-17T02:58:35.842177444) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:35.904056811) (2023-10-17T02:58:35.904086763) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:35.904273497) (2023-10-17T02:58:35.904291980) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:35.962250408) (2023-10-17T02:58:35.962271628) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:35.962339030) (2023-10-17T02:58:35.962348257) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:36.25803952) (2023-10-17T02:58:36.25824653) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:36.25891454) (2023-10-17T02:58:36.25900561) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:36.110739736) (2023-10-17T02:58:36.110795905) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:36.110999281) (2023-10-17T02:58:36.111017920) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:36.146932617) (2023-10-17T02:58:36.146964122) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:36.147114699) (2023-10-17T02:58:36.147131507) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:36.208796719) (2023-10-17T02:58:36.208840630) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:36.208976802) (2023-10-17T02:58:36.208993942) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:36.272675700) (2023-10-17T02:58:36.272709075) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:36.273388689) (2023-10-17T02:58:36.273411719) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:36.330265942) (2023-10-17T02:58:36.330307506) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:36.330651064) (2023-10-17T02:58:36.330669107) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:36.392052633) (2023-10-17T02:58:36.392092903) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:36.392190911) (2023-10-17T02:58:36.392230662) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:36.454790776) (2023-10-17T02:58:36.454918006) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:36.455133872) (2023-10-17T02:58:36.455150549) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:36.512070389) (2023-10-17T02:58:36.512099642) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:36.513130948) (2023-10-17T02:58:36.513159364) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:36.572261302) (2023-10-17T02:58:36.572279615) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:36.572348457) (2023-10-17T02:58:36.572357671) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:36.635470491) (2023-10-17T02:58:36.635502839) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:36.635726066) (2023-10-17T02:58:36.635742761) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:36.737156885) (2023-10-17T02:58:36.737229652) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:36.737429581) (2023-10-17T02:58:36.737445803) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:36.756316020) (2023-10-17T02:58:36.756341544) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:36.756471787) (2023-10-17T02:58:36.756487734) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:36.821434383) (2023-10-17T02:58:36.821472148) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:36.821607971) (2023-10-17T02:58:36.821622251) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:36.879941524) (2023-10-17T02:58:36.879979319) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:36.880103658) (2023-10-17T02:58:36.880118637) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:36.946753470) (2023-10-17T02:58:36.946801698) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:36.946961135) (2023-10-17T02:58:36.946978760) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:37.2169136) (2023-10-17T02:58:37.2196729) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:37.2300707) (2023-10-17T02:58:37.2316137) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:37.75847295) (2023-10-17T02:58:37.75914900) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:37.76098529) (2023-10-17T02:58:37.76120929) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:37.126487389) (2023-10-17T02:58:37.126514355) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:37.126609812) (2023-10-17T02:58:37.126625201) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:37.188649807) (2023-10-17T02:58:37.188697568) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:37.188811144) (2023-10-17T02:58:37.188829353) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:37.273705776) (2023-10-17T02:58:37.273757317) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:37.273874359) (2023-10-17T02:58:37.273895644) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:37.344771722) (2023-10-17T02:58:37.344803843) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:37.344899627) (2023-10-17T02:58:37.344911196) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:37.424749775) (2023-10-17T02:58:37.425322716) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:37.425515470) (2023-10-17T02:58:37.425531382) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:37.439026349) (2023-10-17T02:58:37.439049582) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:37.439116907) (2023-10-17T02:58:37.439126233) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:37.497542754) (2023-10-17T02:58:37.497606977) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:37.497713999) (2023-10-17T02:58:37.497729985) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:37.558279561) (2023-10-17T02:58:37.558402812) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:37.558502072) (2023-10-17T02:58:37.558518046) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:37.620028236) (2023-10-17T02:58:37.620059117) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:37.620162152) (2023-10-17T02:58:37.620174842) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:37.717289104) (2023-10-17T02:58:37.717362896) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:37.717522595) (2023-10-17T02:58:37.717537095) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:37.747942482) (2023-10-17T02:58:37.748021519) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:37.748328795) (2023-10-17T02:58:37.748355086) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:37.802911993) (2023-10-17T02:58:37.802941173) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:37.803051856) (2023-10-17T02:58:37.803066752) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:37.865827760) (2023-10-17T02:58:37.865874720) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:37.866022757) (2023-10-17T02:58:37.866036712) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:37.926330899) (2023-10-17T02:58:37.926358844) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:37.926459019) (2023-10-17T02:58:37.926470577) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:37.999769781) (2023-10-17T02:58:37.999802249) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:37.999976007) (2023-10-17T02:58:37.999994455) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:38.48123420) (2023-10-17T02:58:38.48149652) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:38.48302535) (2023-10-17T02:58:38.48329800) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:38.106588531) (2023-10-17T02:58:38.106617261) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:38.106711000) (2023-10-17T02:58:38.106726624) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:38.168716673) (2023-10-17T02:58:38.168752480) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:38.168866288) (2023-10-17T02:58:38.168884503) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:38.231429325) (2023-10-17T02:58:38.231461251) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:38.231585539) (2023-10-17T02:58:38.231603389) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:38.323984856) (2023-10-17T02:58:38.324037186) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:38.324195245) (2023-10-17T02:58:38.324237674) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:38.361458613) (2023-10-17T02:58:38.361486771) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:38.361596951) (2023-10-17T02:58:38.361614002) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:38.421627152) (2023-10-17T02:58:38.421653451) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:38.421757485) (2023-10-17T02:58:38.421773966) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:38.480759697) (2023-10-17T02:58:38.480797470) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:38.480948026) (2023-10-17T02:58:38.480966217) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:38.539537266) (2023-10-17T02:58:38.539565110) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:38.539682878) (2023-10-17T02:58:38.539700522) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:38.603664292) (2023-10-17T02:58:38.603700281) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:38.607178214) (2023-10-17T02:58:38.607203368) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:38.714888323) (2023-10-17T02:58:38.714943034) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:38.715119937) (2023-10-17T02:58:38.715138481) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:38.727252994) (2023-10-17T02:58:38.727276807) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:38.727367885) (2023-10-17T02:58:38.727382381) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:38.783689307) (2023-10-17T02:58:38.783725131) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:38.783834884) (2023-10-17T02:58:38.783851737) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:38.848244610) (2023-10-17T02:58:38.848333643) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:38.848476705) (2023-10-17T02:58:38.848490893) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:38.904225172) (2023-10-17T02:58:38.904257881) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:38.904379628) (2023-10-17T02:58:38.904396101) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:38.989351883) (2023-10-17T02:58:38.989378892) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:38.989533225) (2023-10-17T02:58:38.989547239) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:39.29025565) (2023-10-17T02:58:39.29056533) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:39.30211668) (2023-10-17T02:58:39.30229693) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:39.91583104) (2023-10-17T02:58:39.91611833) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:39.91719986) (2023-10-17T02:58:39.91737028) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:39.155884668) (2023-10-17T02:58:39.155915188) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:39.163860122) (2023-10-17T02:58:39.163888363) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:39.219860054) (2023-10-17T02:58:39.219885631) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:39.220139144) (2023-10-17T02:58:39.220158302) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:39.284343167) (2023-10-17T02:58:39.284371865) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:39.284486636) (2023-10-17T02:58:39.284502969) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:39.343108082) (2023-10-17T02:58:39.343139402) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:39.343418547) (2023-10-17T02:58:39.343436600) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:39.424710912) (2023-10-17T02:58:39.424738349) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:39.424849770) (2023-10-17T02:58:39.424864554) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:39.462135708) (2023-10-17T02:58:39.462163035) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:39.462301744) (2023-10-17T02:58:39.462317300) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:39.521764853) (2023-10-17T02:58:39.521799826) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:39.521951116) (2023-10-17T02:58:39.521966539) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:39.581862060) (2023-10-17T02:58:39.581894848) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:39.582000760) (2023-10-17T02:58:39.582013773) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:39.645401059) (2023-10-17T02:58:39.645426757) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:39.645547990) (2023-10-17T02:58:39.645562449) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:39.704676956) (2023-10-17T02:58:39.704714053) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:39.704828601) (2023-10-17T02:58:39.704844923) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:39.807926882) (2023-10-17T02:58:39.807980062) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:39.808173058) (2023-10-17T02:58:39.808193047) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:39.832732227) (2023-10-17T02:58:39.832758672) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:39.832860379) (2023-10-17T02:58:39.832875981) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:39.900645003) (2023-10-17T02:58:39.900692098) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:39.901785411) (2023-10-17T02:58:39.901811433) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:39.956917002) (2023-10-17T02:58:39.956944749) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:39.958114847) (2023-10-17T02:58:39.958135866) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:40.28177195) (2023-10-17T02:58:40.28216220) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:40.28326654) (2023-10-17T02:58:40.28342640) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:40.80971410) (2023-10-17T02:58:40.80999980) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:40.81112093) (2023-10-17T02:58:40.81128107) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:40.141965084) (2023-10-17T02:58:40.142008564) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:40.142129974) (2023-10-17T02:58:40.142143048) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:40.203366394) (2023-10-17T02:58:40.203393783) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:40.203532142) (2023-10-17T02:58:40.203549706) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:40.285279917) (2023-10-17T02:58:40.285357191) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:40.285559824) (2023-10-17T02:58:40.285577281) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:40.338729885) (2023-10-17T02:58:40.338760103) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:40.338881057) (2023-10-17T02:58:40.338897132) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:40.391752748) (2023-10-17T02:58:40.391798504) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:40.391931690) (2023-10-17T02:58:40.391947003) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:40.449842607) (2023-10-17T02:58:40.449883675) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:40.450028207) (2023-10-17T02:58:40.450045835) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:40.511936943) (2023-10-17T02:58:40.511965042) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:40.512160899) (2023-10-17T02:58:40.512178992) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:40.578157346) (2023-10-17T02:58:40.578208560) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:40.578369349) (2023-10-17T02:58:40.578384519) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:40.675125306) (2023-10-17T02:58:40.675173974) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:40.675360689) (2023-10-17T02:58:40.675375409) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:40.697480275) (2023-10-17T02:58:40.697528360) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:40.697672667) (2023-10-17T02:58:40.697690231) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:40.754309888) (2023-10-17T02:58:40.754362075) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:40.754603753) (2023-10-17T02:58:40.754698710) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:40.815488638) (2023-10-17T02:58:40.815533894) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:40.815631248) (2023-10-17T02:58:40.815646457) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:40.877375687) (2023-10-17T02:58:40.877403555) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:40.877511914) (2023-10-17T02:58:40.877528198) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:40.944818138) (2023-10-17T02:58:40.944839760) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:40.944917619) (2023-10-17T02:58:40.944927388) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:41.4785260) (2023-10-17T02:58:41.4846432) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:41.5043873) (2023-10-17T02:58:41.5065799) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:41.62850999) (2023-10-17T02:58:41.62881904) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:41.64229118) (2023-10-17T02:58:41.64254704) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:41.124163782) (2023-10-17T02:58:41.124191891) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:41.124314725) (2023-10-17T02:58:41.124331693) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:41.190847300) (2023-10-17T02:58:41.190877252) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:41.192177778) (2023-10-17T02:58:41.192217275) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:41.245995346) (2023-10-17T02:58:41.246028588) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:41.246152421) (2023-10-17T02:58:41.246166975) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:41.306294828) (2023-10-17T02:58:41.306331951) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:41.306507630) (2023-10-17T02:58:41.306530669) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:41.369480061) (2023-10-17T02:58:41.369506757) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:41.369631272) (2023-10-17T02:58:41.369661151) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:41.432188031) (2023-10-17T02:58:41.432226365) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:41.432315431) (2023-10-17T02:58:41.432329682) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:41.489316603) (2023-10-17T02:58:41.489346956) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:41.489435984) (2023-10-17T02:58:41.489446406) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:41.550477480) (2023-10-17T02:58:41.550503975) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:41.551905216) (2023-10-17T02:58:41.551943284) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:41.611953996) (2023-10-17T02:58:41.611982909) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:41.612091867) (2023-10-17T02:58:41.612108218) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:41.675773550) (2023-10-17T02:58:41.675800482) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:41.675900510) (2023-10-17T02:58:41.675915710) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:41.737446687) (2023-10-17T02:58:41.737473513) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:41.737562005) (2023-10-17T02:58:41.737575533) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:41.824895067) (2023-10-17T02:58:41.824942384) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:41.825097336) (2023-10-17T02:58:41.825121451) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:41.859866226) (2023-10-17T02:58:41.859885963) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:41.859964425) (2023-10-17T02:58:41.859974215) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:41.920168684) (2023-10-17T02:58:41.920195105) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:41.920318490) (2023-10-17T02:58:41.920334557) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:41.981833637) (2023-10-17T02:58:41.981867283) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:41.981984985) (2023-10-17T02:58:41.982001379) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:42.47953691) (2023-10-17T02:58:42.48003315) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:42.48140080) (2023-10-17T02:58:42.48157892) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:42.131692212) (2023-10-17T02:58:42.131727486) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:42.131847282) (2023-10-17T02:58:42.131860985) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:42.164940268) (2023-10-17T02:58:42.164974932) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:42.165071032) (2023-10-17T02:58:42.165084328) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:42.225020842) (2023-10-17T02:58:42.225046454) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:42.225147746) (2023-10-17T02:58:42.225165090) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:42.288228397) (2023-10-17T02:58:42.288253632) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:42.288349291) (2023-10-17T02:58:42.288364226) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:42.348097106) (2023-10-17T02:58:42.348123976) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:42.348231925) (2023-10-17T02:58:42.348246803) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:42.410665938) (2023-10-17T02:58:42.410712791) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:42.410859411) (2023-10-17T02:58:42.410875455) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:42.500312402) (2023-10-17T02:58:42.500362754) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:42.500617673) (2023-10-17T02:58:42.500637017) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:42.543218882) (2023-10-17T02:58:42.543244430) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:42.543353643) (2023-10-17T02:58:42.543367147) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:42.598228507) (2023-10-17T02:58:42.598283222) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:42.598390243) (2023-10-17T02:58:42.598405572) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:42.660548621) (2023-10-17T02:58:42.660601033) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:42.660673417) (2023-10-17T02:58:42.660705897) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:42.721682158) (2023-10-17T02:58:42.721713828) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:42.721836862) (2023-10-17T02:58:42.721852859) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:42.816269613) (2023-10-17T02:58:42.816313502) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:42.816514364) (2023-10-17T02:58:42.816532834) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:42.843772239) (2023-10-17T02:58:42.843800468) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:42.843893975) (2023-10-17T02:58:42.843908175) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:42.908341597) (2023-10-17T02:58:42.908377288) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:42.908501031) (2023-10-17T02:58:42.908516777) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:42.963841492) (2023-10-17T02:58:42.963872164) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:42.963983731) (2023-10-17T02:58:42.964001391) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:43.27112966) (2023-10-17T02:58:43.27145099) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:43.27300860) (2023-10-17T02:58:43.27319233) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:43.92310512) (2023-10-17T02:58:43.92355780) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:43.92480034) (2023-10-17T02:58:43.92495062) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:43.166356025) (2023-10-17T02:58:43.166407195) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:43.166603418) (2023-10-17T02:58:43.166624155) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:43.215256572) (2023-10-17T02:58:43.215281677) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:43.215378840) (2023-10-17T02:58:43.215393038) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:43.288524022) (2023-10-17T02:58:43.288560219) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:43.288688641) (2023-10-17T02:58:43.288704302) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:43.340126842) (2023-10-17T02:58:43.340155322) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:43.340275922) (2023-10-17T02:58:43.340290602) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:43.404878196) (2023-10-17T02:58:43.404916083) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:43.405051404) (2023-10-17T02:58:43.405065880) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:43.462877036) (2023-10-17T02:58:43.462904368) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:43.463017079) (2023-10-17T02:58:43.463031049) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:43.527633139) (2023-10-17T02:58:43.527658543) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:43.527752624) (2023-10-17T02:58:43.527769044) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:43.589092268) (2023-10-17T02:58:43.589121162) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:43.589234937) (2023-10-17T02:58:43.589251369) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:43.651117908) (2023-10-17T02:58:43.651149752) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:43.651260105) (2023-10-17T02:58:43.651276122) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:43.716834388) (2023-10-17T02:58:43.716870670) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:43.716977189) (2023-10-17T02:58:43.717019545) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:43.776278536) (2023-10-17T02:58:43.776309170) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:43.776474347) (2023-10-17T02:58:43.776491012) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:43.837181306) (2023-10-17T02:58:43.837211292) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:43.837326782) (2023-10-17T02:58:43.837341024) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:43.912529266) (2023-10-17T02:58:43.912623427) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:43.912800509) (2023-10-17T02:58:43.912821079) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:43.959504018) (2023-10-17T02:58:43.959532784) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:43.959746888) (2023-10-17T02:58:43.959765001) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:44.24854146) (2023-10-17T02:58:44.24874237) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:44.24977752) (2023-10-17T02:58:44.24993891) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:44.81502238) (2023-10-17T02:58:44.81520416) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:44.81588150) (2023-10-17T02:58:44.81597506) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:44.158390659) (2023-10-17T02:58:44.158434291) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:44.158774053) (2023-10-17T02:58:44.158807121) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:44.242350146) (2023-10-17T02:58:44.242375500) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:44.242470237) (2023-10-17T02:58:44.242486399) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:44.266694597) (2023-10-17T02:58:44.266726847) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:44.266840795) (2023-10-17T02:58:44.266856527) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:44.330213332) (2023-10-17T02:58:44.330274667) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:44.330457004) (2023-10-17T02:58:44.330480433) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:44.387179195) (2023-10-17T02:58:44.387205347) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:44.387301377) (2023-10-17T02:58:44.387316292) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:44.449028014) (2023-10-17T02:58:44.449055803) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:44.449155767) (2023-10-17T02:58:44.449169749) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:44.509969993) (2023-10-17T02:58:44.510012985) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:44.510121092) (2023-10-17T02:58:44.510133998) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:44.591957288) (2023-10-17T02:58:44.592034252) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:44.592670314) (2023-10-17T02:58:44.592690146) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:44.632664364) (2023-10-17T02:58:44.632697138) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:44.632780108) (2023-10-17T02:58:44.632792636) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:44.693736713) (2023-10-17T02:58:44.693771120) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:44.693897286) (2023-10-17T02:58:44.693912967) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:44.759047292) (2023-10-17T02:58:44.759075191) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:44.759203258) (2023-10-17T02:58:44.759240392) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:44.823114466) (2023-10-17T02:58:44.823142367) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:44.823246408) (2023-10-17T02:58:44.823261403) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:44.909783048) (2023-10-17T02:58:44.909953215) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:44.910121978) (2023-10-17T02:58:44.910138107) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:44.946086546) (2023-10-17T02:58:44.946111692) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:44.946209256) (2023-10-17T02:58:44.946225726) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:45.8162047) (2023-10-17T02:58:45.8228901) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:45.8354825) (2023-10-17T02:58:45.8370524) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:45.68028788) (2023-10-17T02:58:45.68056791) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:45.68155850) (2023-10-17T02:58:45.68169043) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:45.128985203) (2023-10-17T02:58:45.129018425) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:45.129136142) (2023-10-17T02:58:45.129156030) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:45.196024062) (2023-10-17T02:58:45.196055639) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:45.196187374) (2023-10-17T02:58:45.196230763) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:45.319576871) (2023-10-17T02:58:45.319632461) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 2
+(2023-10-17T02:58:45.319812111) (2023-10-17T02:58:45.319856640) [Wrn] [ArduPilotPlugin.cc:1604] Missed 3 input frames
+(2023-10-17T02:58:45.378959099) (2023-10-17T02:58:45.378989911) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:45.379113640) (2023-10-17T02:58:45.379128674) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:45.445838659) (2023-10-17T02:58:45.445915273) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:45.446017175) (2023-10-17T02:58:45.446032451) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:45.499491407) (2023-10-17T02:58:45.499550987) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:45.499652200) (2023-10-17T02:58:45.499666345) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:45.562333671) (2023-10-17T02:58:45.562367275) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:45.562513183) (2023-10-17T02:58:45.562530207) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:45.623470128) (2023-10-17T02:58:45.623497597) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:45.623602941) (2023-10-17T02:58:45.623620634) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:45.704627061) (2023-10-17T02:58:45.704702835) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:45.704838234) (2023-10-17T02:58:45.704853426) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:45.750675355) (2023-10-17T02:58:45.750702397) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:45.751413057) (2023-10-17T02:58:45.751434659) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:45.808481129) (2023-10-17T02:58:45.808508466) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:45.808610161) (2023-10-17T02:58:45.808626106) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:45.867290202) (2023-10-17T02:58:45.867332305) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:45.867482067) (2023-10-17T02:58:45.867492440) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:45.929291094) (2023-10-17T02:58:45.929327085) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:45.929431143) (2023-10-17T02:58:45.929441072) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:46.8358552) (2023-10-17T02:58:46.8392857) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:46.8511611) (2023-10-17T02:58:46.8527011) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:46.49441145) (2023-10-17T02:58:46.49481770) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:46.49624196) (2023-10-17T02:58:46.49639321) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:46.113409018) (2023-10-17T02:58:46.113444029) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:46.113591379) (2023-10-17T02:58:46.113607936) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:46.184897385) (2023-10-17T02:58:46.184931663) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:46.185064176) (2023-10-17T02:58:46.185081818) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:46.234552831) (2023-10-17T02:58:46.234583728) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:46.234705241) (2023-10-17T02:58:46.234720319) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:46.295386842) (2023-10-17T02:58:46.295414977) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:46.295506154) (2023-10-17T02:58:46.295520463) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:46.432173536) (2023-10-17T02:58:46.438785764) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 2
+(2023-10-17T02:58:46.439067220) (2023-10-17T02:58:46.439092742) [Wrn] [ArduPilotPlugin.cc:1604] Missed 3 input frames
+(2023-10-17T02:58:46.476934759) (2023-10-17T02:58:46.476961669) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:46.477085774) (2023-10-17T02:58:46.477103304) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:46.538596068) (2023-10-17T02:58:46.538637542) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:46.539192147) (2023-10-17T02:58:46.539211220) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:46.610465181) (2023-10-17T02:58:46.610511892) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:46.613770876) (2023-10-17T02:58:46.613788229) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:46.662780653) (2023-10-17T02:58:46.662806927) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:46.663073095) (2023-10-17T02:58:46.663091639) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:46.774471466) (2023-10-17T02:58:46.774532079) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:46.774722347) (2023-10-17T02:58:46.774741179) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:46.790368328) (2023-10-17T02:58:46.790396107) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:46.790761766) (2023-10-17T02:58:46.790779915) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:46.848133829) (2023-10-17T02:58:46.848164192) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:46.848304040) (2023-10-17T02:58:46.848319922) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:46.908107208) (2023-10-17T02:58:46.908144707) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:46.908333503) (2023-10-17T02:58:46.908352631) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:46.976686775) (2023-10-17T02:58:46.976802614) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:46.976976512) (2023-10-17T02:58:46.976993528) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:47.27157840) (2023-10-17T02:58:47.27183234) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:47.27274929) (2023-10-17T02:58:47.27290387) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:47.118999507) (2023-10-17T02:58:47.119038650) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:47.119152083) (2023-10-17T02:58:47.119167344) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:47.150286884) (2023-10-17T02:58:47.150314578) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:47.150415826) (2023-10-17T02:58:47.150430843) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:47.212645758) (2023-10-17T02:58:47.212693181) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:47.212844402) (2023-10-17T02:58:47.212859760) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:47.272080076) (2023-10-17T02:58:47.272118993) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:47.272234019) (2023-10-17T02:58:47.272250603) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:47.332343427) (2023-10-17T02:58:47.332372794) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:47.332532852) (2023-10-17T02:58:47.332550114) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:47.395267901) (2023-10-17T02:58:47.395296536) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:47.395401385) (2023-10-17T02:58:47.395417443) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:47.454331563) (2023-10-17T02:58:47.454404942) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:47.454609607) (2023-10-17T02:58:47.454630126) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:47.515110125) (2023-10-17T02:58:47.515187179) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:47.515333066) (2023-10-17T02:58:47.515348795) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:47.577268763) (2023-10-17T02:58:47.577326858) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:47.577443947) (2023-10-17T02:58:47.577458979) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:47.640500289) (2023-10-17T02:58:47.640529488) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:47.640646073) (2023-10-17T02:58:47.640661825) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:47.699627348) (2023-10-17T02:58:47.699653910) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:47.699951059) (2023-10-17T02:58:47.699966676) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:47.800160092) (2023-10-17T02:58:47.800216220) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:47.800382527) (2023-10-17T02:58:47.800399457) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:47.832168383) (2023-10-17T02:58:47.832275243) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:47.832436416) (2023-10-17T02:58:47.832459202) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:47.888475019) (2023-10-17T02:58:47.888501309) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:47.888605682) (2023-10-17T02:58:47.888621040) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:47.948003292) (2023-10-17T02:58:47.948032588) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:47.948132959) (2023-10-17T02:58:47.948147933) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:48.11689203) (2023-10-17T02:58:48.11720227) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:48.11988862) (2023-10-17T02:58:48.12005378) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:48.69440745) (2023-10-17T02:58:48.69466829) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:48.69575406) (2023-10-17T02:58:48.69590885) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:48.189540356) (2023-10-17T02:58:48.189584744) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:48.189774019) (2023-10-17T02:58:48.189796189) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:48.199893634) (2023-10-17T02:58:48.199933878) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:48.200110469) (2023-10-17T02:58:48.200127403) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:48.261043311) (2023-10-17T02:58:48.261094046) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:48.261242225) (2023-10-17T02:58:48.261258204) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:48.325840397) (2023-10-17T02:58:48.325866725) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:48.326005638) (2023-10-17T02:58:48.326022692) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:48.385502315) (2023-10-17T02:58:48.385533251) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:48.385645321) (2023-10-17T02:58:48.385662628) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:48.450649787) (2023-10-17T02:58:48.450697683) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:48.450828564) (2023-10-17T02:58:48.450844828) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:48.512243404) (2023-10-17T02:58:48.512287630) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:48.512639419) (2023-10-17T02:58:48.512656740) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:48.577588409) (2023-10-17T02:58:48.577659105) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:48.577892462) (2023-10-17T02:58:48.577911481) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:48.631765224) (2023-10-17T02:58:48.631793937) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:48.631932425) (2023-10-17T02:58:48.631948782) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:48.695869468) (2023-10-17T02:58:48.695921958) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:48.696092377) (2023-10-17T02:58:48.696108777) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:48.754511276) (2023-10-17T02:58:48.754535392) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:48.754646908) (2023-10-17T02:58:48.754660295) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:48.816235912) (2023-10-17T02:58:48.816262842) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:48.816361244) (2023-10-17T02:58:48.816376450) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:48.875597086) (2023-10-17T02:58:48.875630422) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:48.875755858) (2023-10-17T02:58:48.875773261) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:48.940575972) (2023-10-17T02:58:48.940607725) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:48.940847294) (2023-10-17T02:58:48.940874136) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:48.997390145) (2023-10-17T02:58:48.997411912) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:48.997494442) (2023-10-17T02:58:48.997507377) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:49.58567968) (2023-10-17T02:58:49.58601299) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:49.58765346) (2023-10-17T02:58:49.58782023) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:49.122749228) (2023-10-17T02:58:49.122787764) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:49.122912321) (2023-10-17T02:58:49.122926781) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:49.182636488) (2023-10-17T02:58:49.182665370) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:49.182818054) (2023-10-17T02:58:49.182840842) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:49.241037783) (2023-10-17T02:58:49.241057672) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:49.241123103) (2023-10-17T02:58:49.241132469) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:49.321020429) (2023-10-17T02:58:49.321055221) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:49.321320512) (2023-10-17T02:58:49.321338007) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:49.364739284) (2023-10-17T02:58:49.364758632) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:49.364824903) (2023-10-17T02:58:49.364833822) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:49.427176058) (2023-10-17T02:58:49.427211170) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:49.427342286) (2023-10-17T02:58:49.427361427) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:49.486557776) (2023-10-17T02:58:49.486576351) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:49.486644123) (2023-10-17T02:58:49.486653454) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:49.547388609) (2023-10-17T02:58:49.547413364) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:49.547498413) (2023-10-17T02:58:49.547508676) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:49.647689753) (2023-10-17T02:58:49.647796188) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:49.647966494) (2023-10-17T02:58:49.647982113) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:49.676676741) (2023-10-17T02:58:49.676703238) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:49.676833547) (2023-10-17T02:58:49.676849728) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:49.737021625) (2023-10-17T02:58:49.737056366) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:49.737189198) (2023-10-17T02:58:49.737206304) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:49.803214431) (2023-10-17T02:58:49.803245771) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:49.803369270) (2023-10-17T02:58:49.803402459) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:49.860918123) (2023-10-17T02:58:49.861008634) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:49.861162891) (2023-10-17T02:58:49.861179407) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:49.925956012) (2023-10-17T02:58:49.925984179) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:49.926095882) (2023-10-17T02:58:49.926111714) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:50.29164375) (2023-10-17T02:58:50.29211867) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:50.29370862) (2023-10-17T02:58:50.29394792) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:50.47814725) (2023-10-17T02:58:50.47842661) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:50.47995804) (2023-10-17T02:58:50.48009726) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:50.115601209) (2023-10-17T02:58:50.115637709) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:50.115808908) (2023-10-17T02:58:50.115827112) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:50.178426947) (2023-10-17T02:58:50.178470886) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:50.178632170) (2023-10-17T02:58:50.178652793) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:50.233632091) (2023-10-17T02:58:50.233674028) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:50.233850234) (2023-10-17T02:58:50.233865472) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:50.296184835) (2023-10-17T02:58:50.296242915) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:50.296371081) (2023-10-17T02:58:50.296388236) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:50.353991606) (2023-10-17T02:58:50.354019418) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:50.354114938) (2023-10-17T02:58:50.354130990) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:50.419814040) (2023-10-17T02:58:50.419839261) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:50.419932753) (2023-10-17T02:58:50.419946842) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:50.475934745) (2023-10-17T02:58:50.475968758) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:50.476078331) (2023-10-17T02:58:50.476093327) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:50.541132513) (2023-10-17T02:58:50.541154226) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:50.541227967) (2023-10-17T02:58:50.541242720) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:50.600782192) (2023-10-17T02:58:50.600813442) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:50.600928971) (2023-10-17T02:58:50.600944265) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:50.658389874) (2023-10-17T02:58:50.658428504) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:50.658514823) (2023-10-17T02:58:50.658530835) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:50.727399093) (2023-10-17T02:58:50.727426458) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:50.727576383) (2023-10-17T02:58:50.727594779) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:50.785920808) (2023-10-17T02:58:50.785947570) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:50.786118407) (2023-10-17T02:58:50.786136140) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:50.845039208) (2023-10-17T02:58:50.845064295) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:50.845176802) (2023-10-17T02:58:50.845194884) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:50.905394743) (2023-10-17T02:58:50.905429888) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:50.905534944) (2023-10-17T02:58:50.905549675) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:50.975831741) (2023-10-17T02:58:50.975873031) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:50.976032117) (2023-10-17T02:58:50.976048082) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:51.30891115) (2023-10-17T02:58:51.30932721) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:51.31054788) (2023-10-17T02:58:51.31068863) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:51.126565206) (2023-10-17T02:58:51.126597581) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:51.126722342) (2023-10-17T02:58:51.126738620) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:51.155059848) (2023-10-17T02:58:51.155089059) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:51.155588423) (2023-10-17T02:58:51.155608037) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:51.214731804) (2023-10-17T02:58:51.214762645) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:51.214867082) (2023-10-17T02:58:51.214882125) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:51.295738790) (2023-10-17T02:58:51.295766616) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:51.295878346) (2023-10-17T02:58:51.295893757) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:51.342088907) (2023-10-17T02:58:51.342113356) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:51.342206163) (2023-10-17T02:58:51.342221829) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:51.405467206) (2023-10-17T02:58:51.405514998) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:51.405649424) (2023-10-17T02:58:51.405663818) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:51.470705735) (2023-10-17T02:58:51.470740511) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:51.470850254) (2023-10-17T02:58:51.470866236) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:51.552377493) (2023-10-17T02:58:51.552407132) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:51.553209556) (2023-10-17T02:58:51.553242298) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:51.587370332) (2023-10-17T02:58:51.587392113) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:51.587478883) (2023-10-17T02:58:51.587488872) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:51.649933279) (2023-10-17T02:58:51.649959047) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:51.650060110) (2023-10-17T02:58:51.650076574) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:51.714332065) (2023-10-17T02:58:51.714729230) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:51.714872766) (2023-10-17T02:58:51.714891230) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:51.774148125) (2023-10-17T02:58:51.774199487) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:51.774388008) (2023-10-17T02:58:51.774402817) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:51.835287973) (2023-10-17T02:58:51.835436240) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:51.835576292) (2023-10-17T02:58:51.835591532) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:51.921784187) (2023-10-17T02:58:51.921808237) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:51.921887204) (2023-10-17T02:58:51.921896967) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:51.963692040) (2023-10-17T02:58:51.963775435) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:51.963884226) (2023-10-17T02:58:51.963900299) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:52.20949753) (2023-10-17T02:58:52.20976411) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:52.21087161) (2023-10-17T02:58:52.21102321) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:52.81558608) (2023-10-17T02:58:52.81586713) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:52.81695332) (2023-10-17T02:58:52.81712208) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:52.148087770) (2023-10-17T02:58:52.148124477) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:52.148270559) (2023-10-17T02:58:52.148288808) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:52.205528220) (2023-10-17T02:58:52.205557725) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:52.205685241) (2023-10-17T02:58:52.205700505) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:52.271391460) (2023-10-17T02:58:52.271425806) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:52.271554499) (2023-10-17T02:58:52.271569147) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:52.361135763) (2023-10-17T02:58:52.361191974) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:52.361394826) (2023-10-17T02:58:52.361414138) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:52.393469860) (2023-10-17T02:58:52.393511810) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:52.393693097) (2023-10-17T02:58:52.393706707) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:52.458561579) (2023-10-17T02:58:52.458590030) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:52.458697608) (2023-10-17T02:58:52.458713256) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:52.519954326) (2023-10-17T02:58:52.519973723) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:52.520048109) (2023-10-17T02:58:52.520057937) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:52.577333168) (2023-10-17T02:58:52.577387015) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:52.577563082) (2023-10-17T02:58:52.577576938) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:52.637253703) (2023-10-17T02:58:52.637299147) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:52.637440749) (2023-10-17T02:58:52.637457970) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:52.698999658) (2023-10-17T02:58:52.699033935) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:52.699147484) (2023-10-17T02:58:52.699161918) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:52.773896178) (2023-10-17T02:58:52.773952566) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:52.774201717) (2023-10-17T02:58:52.774231552) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:52.826622015) (2023-10-17T02:58:52.826691818) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:52.826932468) (2023-10-17T02:58:52.826953497) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:52.884768167) (2023-10-17T02:58:52.884796266) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:52.884902652) (2023-10-17T02:58:52.884918563) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:52.951162648) (2023-10-17T02:58:52.951186306) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:52.951260371) (2023-10-17T02:58:52.951274060) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:53.8306946) (2023-10-17T02:58:53.8336679) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:53.8447367) (2023-10-17T02:58:53.8461074) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:53.102186728) (2023-10-17T02:58:53.102216773) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:53.102363369) (2023-10-17T02:58:53.102379326) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:53.136986669) (2023-10-17T02:58:53.137012340) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:53.137110811) (2023-10-17T02:58:53.137125484) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:53.195944887) (2023-10-17T02:58:53.195981564) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:53.196278169) (2023-10-17T02:58:53.196297561) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:53.272003529) (2023-10-17T02:58:53.272025927) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:53.272165825) (2023-10-17T02:58:53.272183187) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:53.318573863) (2023-10-17T02:58:53.318600839) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:53.318700905) (2023-10-17T02:58:53.318716155) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:53.379089944) (2023-10-17T02:58:53.379117122) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:53.379221757) (2023-10-17T02:58:53.379236950) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:53.444116460) (2023-10-17T02:58:53.444146196) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:53.444269541) (2023-10-17T02:58:53.444286930) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:53.508970889) (2023-10-17T02:58:53.509007756) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:53.509280585) (2023-10-17T02:58:53.509297395) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:53.564183870) (2023-10-17T02:58:53.564236771) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:53.564350789) (2023-10-17T02:58:53.564366367) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:53.630421339) (2023-10-17T02:58:53.630459319) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:53.630584339) (2023-10-17T02:58:53.630598873) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:53.698310722) (2023-10-17T02:58:53.698409268) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:53.698533298) (2023-10-17T02:58:53.698546507) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:53.757341380) (2023-10-17T02:58:53.757382051) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:53.758318405) (2023-10-17T02:58:53.758358477) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:53.824485772) (2023-10-17T02:58:53.824506226) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:53.824588119) (2023-10-17T02:58:53.824602131) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:53.918858543) (2023-10-17T02:58:53.918909684) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:53.919122078) (2023-10-17T02:58:53.919142795) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:53.949911692) (2023-10-17T02:58:53.949940747) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:53.950045165) (2023-10-17T02:58:53.950061842) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:54.7268988) (2023-10-17T02:58:54.7296940) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:54.7401310) (2023-10-17T02:58:54.7416304) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:54.69279726) (2023-10-17T02:58:54.69306008) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:54.69385143) (2023-10-17T02:58:54.69394539) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:54.135828514) (2023-10-17T02:58:54.135862160) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:54.135986076) (2023-10-17T02:58:54.136004849) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:54.234835771) (2023-10-17T02:58:54.234891125) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:54.235098498) (2023-10-17T02:58:54.235114245) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:54.254594147) (2023-10-17T02:58:54.254622634) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:54.254761231) (2023-10-17T02:58:54.254776093) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:54.315013168) (2023-10-17T02:58:54.315055008) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:54.316448106) (2023-10-17T02:58:54.316498666) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:54.382638551) (2023-10-17T02:58:54.382885105) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:54.383111775) (2023-10-17T02:58:54.383129787) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:54.439086526) (2023-10-17T02:58:54.439105121) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:54.439171185) (2023-10-17T02:58:54.439180472) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:54.502999159) (2023-10-17T02:58:54.503034934) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:54.503169468) (2023-10-17T02:58:54.503185102) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:54.563090430) (2023-10-17T02:58:54.563116791) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:54.563470322) (2023-10-17T02:58:54.563490427) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:54.635997001) (2023-10-17T02:58:54.636075738) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:54.636370803) (2023-10-17T02:58:54.636393298) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:54.694053217) (2023-10-17T02:58:54.694083866) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:54.698595728) (2023-10-17T02:58:54.698823801) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:54.746900043) (2023-10-17T02:58:54.746927401) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:54.747543502) (2023-10-17T02:58:54.747572546) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:54.816407291) (2023-10-17T02:58:54.816436842) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:54.822392763) (2023-10-17T02:58:54.822426447) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:54.870478367) (2023-10-17T02:58:54.870505366) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:54.870615388) (2023-10-17T02:58:54.870633935) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:54.930298051) (2023-10-17T02:58:54.930324617) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:54.930427549) (2023-10-17T02:58:54.930443960) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:54.994085702) (2023-10-17T02:58:54.994126584) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:54.994664504) (2023-10-17T02:58:54.994718269) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:55.83664209) (2023-10-17T02:58:55.83701639) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:55.83857617) (2023-10-17T02:58:55.83873280) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:55.117749768) (2023-10-17T02:58:55.117805269) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:55.118003669) (2023-10-17T02:58:55.118045221) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:55.175081905) (2023-10-17T02:58:55.175126372) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:55.175268071) (2023-10-17T02:58:55.175287799) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:55.239736344) (2023-10-17T02:58:55.239764309) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:55.239874927) (2023-10-17T02:58:55.239891016) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:55.301403487) (2023-10-17T02:58:55.301464104) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:55.301923621) (2023-10-17T02:58:55.301939856) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:55.368736672) (2023-10-17T02:58:55.368814208) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:55.368935344) (2023-10-17T02:58:55.368951245) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:55.429413291) (2023-10-17T02:58:55.429435964) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:55.429517094) (2023-10-17T02:58:55.429526721) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:55.504124261) (2023-10-17T02:58:55.504171361) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:55.504363172) (2023-10-17T02:58:55.504380702) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:55.545899212) (2023-10-17T02:58:55.546902771) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:55.547749557) (2023-10-17T02:58:55.547770424) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:55.605208578) (2023-10-17T02:58:55.605228411) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:55.605317862) (2023-10-17T02:58:55.605328132) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:55.665904919) (2023-10-17T02:58:55.665931841) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:55.666032117) (2023-10-17T02:58:55.666047174) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:55.729073912) (2023-10-17T02:58:55.729112208) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:55.729227422) (2023-10-17T02:58:55.729242255) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:55.812399144) (2023-10-17T02:58:55.812449374) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:55.812665647) (2023-10-17T02:58:55.812685493) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:55.850332668) (2023-10-17T02:58:55.850379431) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:55.850537871) (2023-10-17T02:58:55.850557332) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:55.911953822) (2023-10-17T02:58:55.911982246) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:55.912095695) (2023-10-17T02:58:55.912111830) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:55.972351266) (2023-10-17T02:58:55.972396539) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:55.972534976) (2023-10-17T02:58:55.972551370) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:56.33855146) (2023-10-17T02:58:56.33886942) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:56.34039958) (2023-10-17T02:58:56.34056476) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:56.147252217) (2023-10-17T02:58:56.147281495) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:56.147389343) (2023-10-17T02:58:56.147405011) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:56.162536623) (2023-10-17T02:58:56.162561123) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:56.162655414) (2023-10-17T02:58:56.162670248) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:56.223456792) (2023-10-17T02:58:56.223481550) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:56.223592408) (2023-10-17T02:58:56.223607161) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:56.293093499) (2023-10-17T02:58:56.293120844) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:56.293222916) (2023-10-17T02:58:56.293238144) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:56.342485984) (2023-10-17T02:58:56.342516441) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:56.342760214) (2023-10-17T02:58:56.342777680) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:56.403281606) (2023-10-17T02:58:56.403334509) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:56.403444019) (2023-10-17T02:58:56.403460425) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:56.467400363) (2023-10-17T02:58:56.467423781) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:56.467517927) (2023-10-17T02:58:56.467528058) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:56.526057402) (2023-10-17T02:58:56.526082308) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:56.526157357) (2023-10-17T02:58:56.526166850) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:56.586082701) (2023-10-17T02:58:56.586110996) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:56.586212614) (2023-10-17T02:58:56.586223511) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:56.652273308) (2023-10-17T02:58:56.652300516) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:56.652416607) (2023-10-17T02:58:56.652432159) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:56.710982936) (2023-10-17T02:58:56.711009380) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:56.711107493) (2023-10-17T02:58:56.711123392) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:56.772541034) (2023-10-17T02:58:56.772571785) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:56.772674629) (2023-10-17T02:58:56.772689448) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:56.856391629) (2023-10-17T02:58:56.856411703) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:56.856481853) (2023-10-17T02:58:56.856490787) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:56.901760344) (2023-10-17T02:58:56.901809478) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:56.901934520) (2023-10-17T02:58:56.901951492) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:56.960008702) (2023-10-17T02:58:56.960043471) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:56.961894826) (2023-10-17T02:58:56.961925661) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:57.36992434) (2023-10-17T02:58:57.37012221) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:57.37126894) (2023-10-17T02:58:57.37178984) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:57.80227577) (2023-10-17T02:58:57.80256211) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:57.80384379) (2023-10-17T02:58:57.80400068) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:57.191219749) (2023-10-17T02:58:57.191249947) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:57.191409667) (2023-10-17T02:58:57.191425809) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:57.206426598) (2023-10-17T02:58:57.206452973) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:57.206552165) (2023-10-17T02:58:57.206566915) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:57.267683691) (2023-10-17T02:58:57.267710148) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:57.267807308) (2023-10-17T02:58:57.267822484) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:57.328451399) (2023-10-17T02:58:57.328477949) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:57.328580916) (2023-10-17T02:58:57.328596962) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:57.388113912) (2023-10-17T02:58:57.388142759) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:57.388275989) (2023-10-17T02:58:57.388292156) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:57.448798131) (2023-10-17T02:58:57.448867044) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:57.449051878) (2023-10-17T02:58:57.449151917) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:57.514093392) (2023-10-17T02:58:57.514303977) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:57.514460964) (2023-10-17T02:58:57.514477796) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:57.596551325) (2023-10-17T02:58:57.596583123) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:57.596753363) (2023-10-17T02:58:57.596771024) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:57.633276298) (2023-10-17T02:58:57.633301931) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:57.633403274) (2023-10-17T02:58:57.633419387) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:57.699066281) (2023-10-17T02:58:57.699094957) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:57.699205411) (2023-10-17T02:58:57.699222247) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:57.759269228) (2023-10-17T02:58:57.759294701) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:57.759407523) (2023-10-17T02:58:57.759420937) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:57.819728685) (2023-10-17T02:58:57.819755953) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:57.819965901) (2023-10-17T02:58:57.819983004) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:57.887165802) (2023-10-17T02:58:57.887197636) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:57.887315864) (2023-10-17T02:58:57.887332880) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:57.973364383) (2023-10-17T02:58:57.973685575) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:57.973872386) (2023-10-17T02:58:57.973892437) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:58.5277962) (2023-10-17T02:58:58.5304924) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:58.5405593) (2023-10-17T02:58:58.5423204) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:58.64473620) (2023-10-17T02:58:58.64515011) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:58.64658183) (2023-10-17T02:58:58.64672360) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:58.128435143) (2023-10-17T02:58:58.128462158) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:58.128581036) (2023-10-17T02:58:58.128596745) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:58.190844637) (2023-10-17T02:58:58.190875871) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:58.190989967) (2023-10-17T02:58:58.191007214) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:58.254027870) (2023-10-17T02:58:58.254107844) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:58.254219022) (2023-10-17T02:58:58.254233384) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:58.314242552) (2023-10-17T02:58:58.314274512) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:58.314389031) (2023-10-17T02:58:58.314407449) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:58.398162630) (2023-10-17T02:58:58.398240539) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:58.398348595) (2023-10-17T02:58:58.398362579) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:58.443162030) (2023-10-17T02:58:58.443189515) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:58.443300863) (2023-10-17T02:58:58.443314729) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:58.501033580) (2023-10-17T02:58:58.501111105) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:58.501251163) (2023-10-17T02:58:58.501268391) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:58.562245760) (2023-10-17T02:58:58.562276144) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:58.562378838) (2023-10-17T02:58:58.562392825) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:58.622670788) (2023-10-17T02:58:58.622698881) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:58.622825633) (2023-10-17T02:58:58.622842526) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:58.716369569) (2023-10-17T02:58:58.716406885) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:58.716557979) (2023-10-17T02:58:58.716573445) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:58.745595378) (2023-10-17T02:58:58.745637359) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:58.747617886) (2023-10-17T02:58:58.747664039) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:58.808153796) (2023-10-17T02:58:58.808180291) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:58.808297763) (2023-10-17T02:58:58.808314331) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:58.867226555) (2023-10-17T02:58:58.867269638) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:58.867443954) (2023-10-17T02:58:58.867461858) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:58.931024203) (2023-10-17T02:58:58.931072947) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:58.931199030) (2023-10-17T02:58:58.931214427) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:58.988411029) (2023-10-17T02:58:58.988437449) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:58.988543088) (2023-10-17T02:58:58.988559488) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:59.53600128) (2023-10-17T02:58:59.53625409) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:59.53735659) (2023-10-17T02:58:59.53750514) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:59.137926756) (2023-10-17T02:58:59.138002137) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:59.138205128) (2023-10-17T02:58:59.138227465) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:59.174328906) (2023-10-17T02:58:59.174358376) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:59.174468871) (2023-10-17T02:58:59.174484530) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:59.238372459) (2023-10-17T02:58:59.238782013) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:59.238894641) (2023-10-17T02:58:59.238912184) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:59.297052013) (2023-10-17T02:58:59.297088482) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:59.304246789) (2023-10-17T02:58:59.304283369) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:59.361526743) (2023-10-17T02:58:59.361555416) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:59.361717000) (2023-10-17T02:58:59.361738371) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:59.424409981) (2023-10-17T02:58:59.424434682) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:59.424527843) (2023-10-17T02:58:59.424548723) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:59.489878867) (2023-10-17T02:58:59.489911094) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:59.490020593) (2023-10-17T02:58:59.490037235) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:59.550738365) (2023-10-17T02:58:59.550792989) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:59.550984692) (2023-10-17T02:58:59.551005694) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:59.607380565) (2023-10-17T02:58:59.607399892) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:59.607485005) (2023-10-17T02:58:59.607495750) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:59.670987324) (2023-10-17T02:58:59.671013765) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:59.671122012) (2023-10-17T02:58:59.671138877) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:59.732708659) (2023-10-17T02:58:59.732759252) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:59.732885695) (2023-10-17T02:58:59.732902736) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:59.791703090) (2023-10-17T02:58:59.791734052) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:59.791841553) (2023-10-17T02:58:59.791855363) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:59.859838569) (2023-10-17T02:58:59.859907145) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:59.860049723) (2023-10-17T02:58:59.860061554) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:59.913139417) (2023-10-17T02:58:59.913158537) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:59.913246920) (2023-10-17T02:58:59.913260605) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:58:59.975751199) (2023-10-17T02:58:59.975777263) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:58:59.975859293) (2023-10-17T02:58:59.975873955) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:59:00.37825598) (2023-10-17T02:59:00.37862834) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:59:00.37968879) (2023-10-17T02:59:00.37983331) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:59:00.102805045) (2023-10-17T02:59:00.102840082) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:59:00.102947183) (2023-10-17T02:59:00.102963059) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:59:00.163885243) (2023-10-17T02:59:00.163922377) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:59:00.164092424) (2023-10-17T02:59:00.164107917) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:59:00.218240022) (2023-10-17T02:59:00.218269488) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:59:00.218391582) (2023-10-17T02:59:00.218406356) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:59:00.284356504) (2023-10-17T02:59:00.284406336) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:59:00.284558568) (2023-10-17T02:59:00.284577010) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:59:00.341441678) (2023-10-17T02:59:00.341481541) [Wrn] [ArduPilotPlugin.cc:1436] [iris] Drained n packets: 1
+(2023-10-17T02:59:00.342281212) (2023-10-17T02:59:00.342313947) [Wrn] [ArduPilotPlugin.cc:1604] Missed 2 input frames
+(2023-10-17T02:59:00.370753686) (2023-10-17T02:59:00.370781258) [Dbg] [SignalHandler.cc:142] Received signal[2].
+(2023-10-17T02:59:00.370848062) (2023-10-17T02:59:00.370864021) [Dbg] [ServerPrivate.cc:115] Server received signal[2]
+(2023-10-17T02:59:00.370921277) (2023-10-17T02:59:00.370936729) [Dbg] [Sensors.cc:433] SensorsPrivate::Stop
+(2023-10-17T02:59:00.581864824) (2023-10-17T02:59:00.581894187) [Dbg] [Sensors.cc:419] SensorsPrivate::RenderThread stopped
+(2023-10-17T02:59:00.582210894) (2023-10-17T02:59:00.582235386) [Dbg] [SignalHandler.cc:142] Received signal[2].
+(2023-10-17T02:59:00.582547063) (2023-10-17T02:59:00.582564147) [Dbg] [ArduPilotPlugin.cc:370] Plugin received signal[2]
+(2023-10-17T02:59:00.582699310) (2023-10-17T02:59:00.582744252) [Dbg] [SignalHandler.cc:142] Received signal[2].
+(2023-10-17T02:59:00.582813151) (2023-10-17T02:59:00.582828061) [Dbg] [ServerPrivate.cc:115] Server received signal[2]
+(2023-10-17T02:59:00.582884858) (2023-10-17T02:59:00.582900183) [Dbg] [SignalHandler.cc:142] Received signal[2].
+(2023-10-17T02:59:00.582957342) (2023-10-17T02:59:00.582972250) [Dbg] [ArduPilotPlugin.cc:370] Plugin received signal[2]
+(2023-10-17T02:59:00.584090512) (2023-10-17T02:59:00.584116433) [Dbg] [gz.cc:417] Shutting down gz-sim-server
+(((() 2023-10-17T02:59:00.596982743(2023-10-17T02:59:00.596982743((2023-10-17T02:59:00.597014161) ) ) (((2023-10-17T02:59:00.5970887012023-10-17T02:59:00.597088701(2023-10-17T02:59:00.597088701(2023-10-17T02:59:00.597091352) ) () (2023-10-17T02:59:00.597116431) (2023-10-17T02:59:00.597116431(2023-10-17T02:59:00.597149587) ((2023-10-17T02:59:00.597151704) ((() ) () ) 2023-10-17T02:59:00.597220160) (((2023-10-17T02:59:00.597252931) ) (2023-10-17T02:59:00.5973177132023-10-17T02:59:00.597317713(((2023-10-17T02:59:00.597321715) 2023-10-17T02:59:00.597362660) [Dbg] [SimulationRunner.cc:530] [Dbg] [SimulationRunner.cc:530] ) (Exiting postupdate worker thread (((2023-10-17T02:59:00.597354252(2023-10-17T02:59:00.597354252((2023-10-17T02:59:00.597354252(2023-10-17T02:59:00.597079289(2023-10-17T02:59:00.597354252(2023-10-17T02:59:00.5970792892023-10-17T02:59:00.597275457) ) () ) 2023-10-17T02:59:00.597461117) 2023-10-17T02:59:00.597514396) ) ) ) 2023-10-17T02:59:00.597412332) ) 2023-10-17T02:59:00.597412332) ) 2023-10-17T02:59:00.5974123322023-10-17T02:59:00.597479096) ) 2023-10-17T02:59:00.597505423) ) 2023-10-17T02:59:00.597598849) 2023-10-17T02:59:00.597015786) 3)
+[Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (1)
+[Dbg] [SimulationRunner.cc:530] [Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (9)
+[Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (10)
+[Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (2)
+[Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (11)
+[Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (5)
+[Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (8)
+[Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (6)
+[Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (0)
+[Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (4)
+Exiting postupdate worker thread (7)
+(2023-10-17T02:59:00.656387478) (2023-10-17T02:59:00.656415684) [Dbg] [Sensors.cc:433] SensorsPrivate::Stop

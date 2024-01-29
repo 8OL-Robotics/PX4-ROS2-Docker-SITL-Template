@@ -1,0 +1,92 @@
+(2023-10-11T23:58:22.516542406) (2023-10-11T23:58:22.516571367) [Msg] Gazebo Sim Server v7.6.0
+(2023-10-11T23:58:22.521770606) (2023-10-11T23:58:22.521779612) [Msg] Loading SDF world file[/home/bassam/gz_ws/src/ardupilot_gazebo/worlds/zephyr_parachute.sdf].
+(2023-10-11T23:58:22.710681605) (2023-10-11T23:58:22.710692795) [Msg] Serving entity system service on [/entity/system/add]
+(2023-10-11T23:58:22.813928466) (2023-10-11T23:58:22.813943764) [Dbg] [Physics.cc:880] Loaded [gz::physics::dartsim::Plugin] from library [/usr/lib/x86_64-linux-gnu/gz-physics-6/engine-plugins/libgz-physics-dartsim-plugin.so]
+(2023-10-11T23:58:22.814035309) (2023-10-11T23:58:22.814042520) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::Physics] for entity [1]
+(2023-10-11T23:58:22.816291824) (2023-10-11T23:58:22.816304961) [Msg] Create service on [/world/zephyr_runway/create]
+(2023-10-11T23:58:22.816597313) (2023-10-11T23:58:22.816607463) [Msg] Remove service on [/world/zephyr_runway/remove]
+(2023-10-11T23:58:22.816852579) (2023-10-11T23:58:22.816862403) [Msg] Pose service on [/world/zephyr_runway/set_pose]
+(2023-10-11T23:58:22.817082553) (2023-10-11T23:58:22.817091972) [Msg] Pose service on [/world/zephyr_runway/set_pose_vector]
+(2023-10-11T23:58:22.817391608) (2023-10-11T23:58:22.817401623) [Msg] Light configuration service on [/world/zephyr_runway/light_config]
+(2023-10-11T23:58:22.817779770) (2023-10-11T23:58:22.817789453) [Msg] Physics service on [/world/zephyr_runway/set_physics]
+(2023-10-11T23:58:22.818067778) (2023-10-11T23:58:22.818076126) [Msg] SphericalCoordinates service on [/world/zephyr_runway/set_spherical_coordinates]
+(2023-10-11T23:58:22.818270982) (2023-10-11T23:58:22.818279861) [Msg] Enable collision service on [/world/zephyr_runway/enable_collision]
+(2023-10-11T23:58:22.818471672) (2023-10-11T23:58:22.818481095) [Msg] Disable collision service on [/world/zephyr_runway/disable_collision]
+(2023-10-11T23:58:22.818786622) (2023-10-11T23:58:22.818796320) [Msg] Material service on [/world/zephyr_runway/visual_config]
+(2023-10-11T23:58:22.819045175) (2023-10-11T23:58:22.819054255) [Msg] Material service on [/world/zephyr_runway/wheel_slip]
+(2023-10-11T23:58:22.819148769) (2023-10-11T23:58:22.819156946) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::UserCommands] for entity [1]
+(2023-10-11T23:58:22.820742200) (2023-10-11T23:58:22.820752525) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::SceneBroadcaster] for entity [1]
+(2023-10-11T23:58:22.822366173) (2023-10-11T23:58:22.822377132) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::Imu] for entity [1]
+(2023-10-11T23:58:22.823669525) (2023-10-11T23:58:22.823691401) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::NavSat] for entity [1]
+(2023-10-11T23:58:22.836023212) (2023-10-11T23:58:22.836045017) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::JointStatePublisher] for entity [15]
+(2023-10-11T23:58:22.837342953) (2023-10-11T23:58:22.837353061) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [15]
+(2023-10-11T23:58:22.837737110) (2023-10-11T23:58:22.837746951) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [15]
+(2023-10-11T23:58:22.838137274) (2023-10-11T23:58:22.838147030) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [15]
+(2023-10-11T23:58:22.838497074) (2023-10-11T23:58:22.838506557) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [15]
+(2023-10-11T23:58:22.838859720) (2023-10-11T23:58:22.838868896) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [15]
+(2023-10-11T23:58:22.839193454) (2023-10-11T23:58:22.839202606) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [15]
+(2023-10-11T23:58:22.839526537) (2023-10-11T23:58:22.839535514) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [15]
+(2023-10-11T23:58:22.842840153) (2023-10-11T23:58:22.842852458) [Msg] ApplyJointForce subscribing to Double messages on [/model/zephyr_with_parachute/joint/zephyr::propeller_joint/cmd_force]
+(2023-10-11T23:58:22.842981657) (2023-10-11T23:58:22.842990858) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::ApplyJointForce] for entity [15]
+(2023-10-11T23:58:22.843477673) (2023-10-11T23:58:22.843488065) [Msg] ApplyJointForce subscribing to Double messages on [/model/zephyr_with_parachute/joint/zephyr::flap_left_joint/cmd_force]
+(2023-10-11T23:58:22.843582610) (2023-10-11T23:58:22.843591639) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::ApplyJointForce] for entity [15]
+(2023-10-11T23:58:22.844022392) (2023-10-11T23:58:22.844032126) [Msg] ApplyJointForce subscribing to Double messages on [/model/zephyr_with_parachute/joint/zephyr::flap_right_joint/cmd_force]
+(2023-10-11T23:58:22.844120943) (2023-10-11T23:58:22.844129287) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::ApplyJointForce] for entity [15]
+(2023-10-11T23:58:22.847341086) (2023-10-11T23:58:22.847351377) [Msg] [zephyr_with_parachute] Advertising on /parachute/cmd_release.
+(2023-10-11T23:58:22.847605634) (2023-10-11T23:58:22.847615212) [Dbg] [ArduPilotPlugin.cc:668] [zephyr_with_parachute] channel[4]: <multiplier> (or deprecated <turningDirection>) not specified,  default to 1 (or deprecated <turningDirection> 'ccw').
+(2023-10-11T23:58:22.847737803) (2023-10-11T23:58:22.847746254) [Dbg] [ArduPilotPlugin.cc:682] [zephyr_with_parachute] channel[4]: <offset> not specified, default to 0
+(2023-10-11T23:58:22.847889162) [zephyr_with_parachute] flight dynamics model @ 127.0.0.1:9002
+(2023-10-11T23:58:22.847934869) [zephyr_with_parachute] ArduPilot ready to fly. The force will be with you
+(2023-10-11T23:58:22.848028702) (2023-10-11T23:58:22.848036434) [Dbg] [SystemManager.cc:74] Loaded system [ArduPilotPlugin] for entity [15]
+(2023-10-11T23:58:22.850129979) (2023-10-11T23:58:22.850140275) [Dbg] [ParachutePlugin.cc:211] child_pos: pos: 0 0 0
+(2023-10-11T23:58:22.850260145) (2023-10-11T23:58:22.850268520) [Dbg] [ParachutePlugin.cc:212] child_pos: rot: 0 -1 0
+(2023-10-11T23:58:22.857647583) (2023-10-11T23:58:22.857660397) [Dbg] [ParachutePlugin.cc:247] ParachutePlugin subscribing to messages on [/parachute/cmd_release]
+(2023-10-11T23:58:22.857711795) (2023-10-11T23:58:22.857732974) [Dbg] [SystemManager.cc:74] Loaded system [ParachutePlugin] for entity [15]
+(2023-10-11T23:58:22.858506062) (2023-10-11T23:58:22.858515562) [Msg] Loaded level [3]
+(2023-10-11T23:58:22.862712311) (2023-10-11T23:58:22.862735427) [Msg] Serving world controls on [/world/zephyr_runway/control], [/world/zephyr_runway/control/state] and [/world/zephyr_runway/playback/control]
+(2023-10-11T23:58:22.862969795) (2023-10-11T23:58:22.862978877) [Msg] Serving GUI information on [/world/zephyr_runway/gui/info]
+(2023-10-11T23:58:22.863020619) (2023-10-11T23:58:22.863027856) [Msg] World [zephyr_runway] initialized with [1ms] physics profile.
+(2023-10-11T23:58:22.863255576) (2023-10-11T23:58:22.863264731) [Msg] Serving world SDF generation service on [/world/zephyr_runway/generate_world_sdf]
+(2023-10-11T23:58:22.863451183) (2023-10-11T23:58:22.863460113) [Msg] Serving world names on [/gazebo/worlds]
+(2023-10-11T23:58:22.863596944) (2023-10-11T23:58:22.863605344) [Msg] Resource path add service on [/gazebo/resource_paths/add].
+(2023-10-11T23:58:22.863754934) (2023-10-11T23:58:22.863763731) [Msg] Resource path get service on [/gazebo/resource_paths/get].
+(2023-10-11T23:58:22.863899846) (2023-10-11T23:58:22.863908522) [Msg] Resource path resolve service on [/gazebo/resource_paths/resolve].
+(2023-10-11T23:58:22.864053916) (2023-10-11T23:58:22.864062419) [Msg] Resource paths published on [/gazebo/resource_paths].
+(2023-10-11T23:58:22.864242339) (2023-10-11T23:58:22.864251012) [Msg] Server control service on [/server_control].
+(2023-10-11T23:58:24.414087796) (2023-10-11T23:58:24.414141875) [Msg] Found no publishers on /stats, adding root stats topic
+(2023-10-11T23:58:24.415127246) (2023-10-11T23:58:24.415164888) [Msg] Found no publishers on /clock, adding root clock topic
+(2023-10-11T23:58:24.416273103) (2023-10-11T23:58:24.416330015) [Dbg] [SimulationRunner.cc:503] Creating PostUpdate worker threads: 6
+(2023-10-11T23:58:24.416433402) (2023-10-11T23:58:24.416459495) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (0)
+(2023-10-11T23:58:24.416782563) (2023-10-11T23:58:24.416819834) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (1)
+(2023-10-11T23:58:24.417077303) (2023-10-11T23:58:24.417111465) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (2)
+(2023-10-11T23:58:24.417357056) (2023-10-11T23:58:24.417392249) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (3)
+(2023-10-11T23:58:24.417638391) (2023-10-11T23:58:24.417663030) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (4)
+(2023-10-11T23:58:24.419423358) (2023-10-11T23:58:24.419450740) [Msg] Found IMU sensor with name [zephyr::imu_link::imu_sensor]
+(2023-10-11T23:58:24.419645713) (2023-10-11T23:58:24.419667748) [Dbg] [ArduPilotPlugin.cc:1154] Computed IMU topic to be: world/zephyr_runway/model/zephyr_with_parachute/model/zephyr/link/imu_link/sensor/imu_sensor/imu
+(2023-10-11T23:58:24.427661177) (2023-10-11T23:58:24.427716466) [Dbg] [SDFFeatures.cc:328] Mesh construction from an SDF has not been implemented yet for dartsim. Use AttachMeshShapeFeature to use mesh shapes.
+(2023-10-11T23:58:24.427830384) (2023-10-11T23:58:24.427854854) [Err] [SDFFeatures.cc:843] The geometry element of collision [body_collision] couldn't be created
+(2023-10-11T23:58:24.450547579) (2023-10-11T23:58:24.450563917) [Wrn] [JointStatePublisher.cc:258] Joint state publisher only supports two joint axis
+(2023-10-11T23:58:24.450867781) (2023-10-11T23:58:24.450882289) [Dbg] [ImuSensor.cc:149] IMU data for [zephyr_with_parachute::zephyr::imu_link::imu_sensor] advertised on [world/zephyr_runway/model/zephyr_with_parachute/model/zephyr/link/imu_link/sensor/imu_sensor/imu]
+(2023-10-11T23:58:24.451040917) (2023-10-11T23:58:24.451054142) [Msg] Serving scene information on [/world/zephyr_runway/scene/info]
+(2023-10-11T23:58:24.451193461) (2023-10-11T23:58:24.451203845) [Msg] Serving graph information on [/world/zephyr_runway/scene/graph]
+(2023-10-11T23:58:24.451437890) (2023-10-11T23:58:24.451448563) [Msg] Serving full state on [/world/zephyr_runway/state]
+(2023-10-11T23:58:24.451560815) (2023-10-11T23:58:24.451570484) [Msg] Serving full state (async) on [/world/zephyr_runway/state_async]
+(2023-10-11T23:58:24.451686842) (2023-10-11T23:58:24.451703051) [Msg] Publishing scene information on [/world/zephyr_runway/scene/info]
+(2023-10-11T23:58:24.451862452) (2023-10-11T23:58:24.451872743) [Msg] Publishing entity deletions on [/world/zephyr_runway/scene/deletion]
+(2023-10-11T23:58:24.451962147) (2023-10-11T23:58:24.451972068) [Msg] Publishing state changes on [/world/zephyr_runway/state]
+(2023-10-11T23:58:24.452083368) (2023-10-11T23:58:24.452092934) [Msg] Publishing pose messages on [/world/zephyr_runway/pose/info]
+(2023-10-11T23:58:24.452192118) (2023-10-11T23:58:24.452206534) [Msg] Publishing dynamic pose messages on [/world/zephyr_runway/dynamic_pose/info]
+(2023-10-11T23:58:24.452597925) (2023-10-11T23:58:24.452610422) [Dbg] [EntityComponentManager.cc:1655] Updated state thread iterators: 8 threads processing around 6 entities each.
+(2023-10-11T23:58:24.453272958) (2023-10-11T23:58:24.453287165) [Wrn] [Model.hh:69] Skipping serialization / deserialization for models with //pose/@relative_to attribute.
+(2023-10-11T23:58:24.453750235) (2023-10-11T23:58:24.453787147) [Wrn] [Component.hh:144] Trying to serialize component with data type [N3sdf3v135WorldE], which doesn't have `operator<<`. Component will not be serialized.
+(2023-10-11T23:58:53.999933944) (2023-10-11T23:58:53.999946413) [Dbg] [SignalHandler.cc:142] Received signal[2].
+(2023-10-11T23:58:53.999975291) (2023-10-11T23:58:53.999980664) [Dbg] [ServerPrivate.cc:115] Server received signal[2]
+(2023-10-11T23:58:54.14501) (2023-10-11T23:58:54.20026) [Dbg] [SignalHandler.cc:142] Received signal[2].
+(2023-10-11T23:58:54.37382) (2023-10-11T23:58:54.42459) [Dbg] [ArduPilotPlugin.cc:370] Plugin received signal[2]
+(2023-10-11T23:58:54.689251) (2023-10-11T23:58:54.697522) [Dbg] [gz.cc:417] Shutting down gz-sim-server
+((2023-10-11T23:58:54.5601393) (2023-10-11T23:58:54.5607231) (2023-10-11T23:58:54.5630649) [Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (1)
+2023-10-11T23:58:54.5612938(() [Dbg] [SimulationRunner.cc:530] [Dbg] [SimulationRunner.cc:530] 2023-10-11T23:58:54.5695292) (2023-10-11T23:58:54.5711068) (2023-10-11T23:58:54.57247602023-10-11T23:58:54.57247602023-10-11T23:58:54.5736160) ) 2023-10-11T23:58:54.5745246) (Exiting postupdate worker thread (2023-10-11T23:58:54.5770858) 0)
+
+[Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (4)
+Exiting postupdate worker thread (2)
+[Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (3)

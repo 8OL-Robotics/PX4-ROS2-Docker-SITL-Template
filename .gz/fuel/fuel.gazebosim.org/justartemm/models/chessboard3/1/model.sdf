@@ -1,0 +1,23 @@
+<?xml version='1.0' ?>
+<sdf version="1.6">
+    <model name="ChessBoard">
+        <static>true</static>
+        <link name="link">
+            <pose>0 0 0 0 0 0</pose>
+            <collision name="collision">
+                <geometry>
+                    <mesh>
+                        <uri>https://fuel.gazebosim.org/1.0/justartemm/models/chessboard3/1/files/meshes/chessboard.dae</uri>
+                    </mesh>
+                </geometry>
+            </collision>
+            <visual name="visual">
+                <geometry>
+                    <mesh>
+                        <uri>https://fuel.gazebosim.org/1.0/justartemm/models/chessboard3/1/files/meshes/chessboard.dae</uri>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+</sdf>

@@ -1,0 +1,99 @@
+(2023-10-15T20:13:53.636866970) (2023-10-15T20:13:53.636887287) [Msg] Gazebo Sim Server v7.6.0
+(2023-10-15T20:13:53.640908549) (2023-10-15T20:13:53.640926146) [Msg] Loading SDF world file[/home/bassam/gz_ws/src/embedded_aruco_sim/worlds/iris_runway.sdf].
+(2023-10-15T20:13:54.90128350) (2023-10-15T20:13:54.90154541) [Msg] Serving entity system service on [/entity/system/add]
+(2023-10-15T20:13:54.369949048) (2023-10-15T20:13:54.369976111) [Dbg] [Physics.cc:880] Loaded [gz::physics::dartsim::Plugin] from library [/usr/lib/x86_64-linux-gnu/gz-physics-6/engine-plugins/libgz-physics-dartsim-plugin.so]
+(2023-10-15T20:13:54.370141563) (2023-10-15T20:13:54.370157170) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::Physics] for entity [1]
+(2023-10-15T20:13:54.394450800) (2023-10-15T20:13:54.394480017) [Dbg] [Sensors.cc:506] Configuring Sensors system
+(2023-10-15T20:13:54.394738333) (2023-10-15T20:13:54.394757522) [Dbg] [Sensors.cc:425] SensorsPrivate::Run
+(2023-10-15T20:13:54.395431292) (2023-10-15T20:13:54.395450461) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::Sensors] for entity [1]
+(2023-10-15T20:13:54.403288415) (2023-10-15T20:13:54.403314722) [Msg] Create service on [/world/iris_runway/create]
+(2023-10-15T20:13:54.403982266) (2023-10-15T20:13:54.404011173) [Dbg] [Sensors.cc:402] SensorsPrivate::RenderThread started
+(2023-10-15T20:13:54.404376528) (2023-10-15T20:13:54.404394332) [Dbg] [Sensors.cc:245] Waiting for init
+(2023-10-15T20:13:54.404617241) (2023-10-15T20:13:54.404636236) [Msg] Remove service on [/world/iris_runway/remove]
+(2023-10-15T20:13:54.405392328) (2023-10-15T20:13:54.405412877) [Msg] Pose service on [/world/iris_runway/set_pose]
+(2023-10-15T20:13:54.407273925) (2023-10-15T20:13:54.407297869) [Msg] Pose service on [/world/iris_runway/set_pose_vector]
+(2023-10-15T20:13:54.410369345) (2023-10-15T20:13:54.410394780) [Msg] Light configuration service on [/world/iris_runway/light_config]
+(2023-10-15T20:13:54.412235555) (2023-10-15T20:13:54.412260188) [Msg] Physics service on [/world/iris_runway/set_physics]
+(2023-10-15T20:13:54.413539205) (2023-10-15T20:13:54.413563588) [Msg] SphericalCoordinates service on [/world/iris_runway/set_spherical_coordinates]
+(2023-10-15T20:13:54.414394514) (2023-10-15T20:13:54.414416120) [Msg] Enable collision service on [/world/iris_runway/enable_collision]
+(2023-10-15T20:13:54.415269037) (2023-10-15T20:13:54.415328259) [Msg] Disable collision service on [/world/iris_runway/disable_collision]
+(2023-10-15T20:13:54.416798824) (2023-10-15T20:13:54.416823096) [Msg] Material service on [/world/iris_runway/visual_config]
+(2023-10-15T20:13:54.417233520) (2023-10-15T20:13:54.417254051) [Msg] Material service on [/world/iris_runway/wheel_slip]
+(2023-10-15T20:13:54.417358003) (2023-10-15T20:13:54.417373714) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::UserCommands] for entity [1]
+(2023-10-15T20:13:54.421379194) (2023-10-15T20:13:54.421445163) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::SceneBroadcaster] for entity [1]
+(2023-10-15T20:13:54.425797312) (2023-10-15T20:13:54.425819201) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::Imu] for entity [1]
+(2023-10-15T20:13:54.428975673) (2023-10-15T20:13:54.429005996) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::NavSat] for entity [1]
+(2023-10-15T20:13:54.450592625) (2023-10-15T20:13:54.450626839) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::JointStatePublisher] for entity [15]
+(2023-10-15T20:13:54.453331685) (2023-10-15T20:13:54.453354686) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [15]
+(2023-10-15T20:13:54.453909142) (2023-10-15T20:13:54.453922260) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [15]
+(2023-10-15T20:13:54.454331398) (2023-10-15T20:13:54.454343770) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [15]
+(2023-10-15T20:13:54.454902834) (2023-10-15T20:13:54.454922805) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [15]
+(2023-10-15T20:13:54.455582365) (2023-10-15T20:13:54.455596454) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [15]
+(2023-10-15T20:13:54.456053712) (2023-10-15T20:13:54.456068901) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [15]
+(2023-10-15T20:13:54.456731625) (2023-10-15T20:13:54.456752426) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [15]
+(2023-10-15T20:13:54.457352605) (2023-10-15T20:13:54.457367835) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [15]
+(2023-10-15T20:13:54.459153263) (2023-10-15T20:13:54.459169376) [Msg] ApplyJointForce subscribing to Double messages on [/model/iris_with_ardupilot/joint/iris_with_standoffs::rotor_0_joint/cmd_force]
+(2023-10-15T20:13:54.459235285) (2023-10-15T20:13:54.459244615) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::ApplyJointForce] for entity [15]
+(2023-10-15T20:13:54.459755135) (2023-10-15T20:13:54.459776013) [Msg] ApplyJointForce subscribing to Double messages on [/model/iris_with_ardupilot/joint/iris_with_standoffs::rotor_1_joint/cmd_force]
+(2023-10-15T20:13:54.459937358) (2023-10-15T20:13:54.459954978) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::ApplyJointForce] for entity [15]
+(2023-10-15T20:13:54.460724412) (2023-10-15T20:13:54.460747362) [Msg] ApplyJointForce subscribing to Double messages on [/model/iris_with_ardupilot/joint/iris_with_standoffs::rotor_2_joint/cmd_force]
+(2023-10-15T20:13:54.460848985) (2023-10-15T20:13:54.460866913) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::ApplyJointForce] for entity [15]
+(2023-10-15T20:13:54.461866568) (2023-10-15T20:13:54.461892116) [Msg] ApplyJointForce subscribing to Double messages on [/model/iris_with_ardupilot/joint/iris_with_standoffs::rotor_3_joint/cmd_force]
+(2023-10-15T20:13:54.462029529) (2023-10-15T20:13:54.462044735) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::ApplyJointForce] for entity [15]
+(2023-10-15T20:13:54.462846361) (2023-10-15T20:13:54.462873846) [Err] [SystemLoader.cc:119] Failed to load system plugin: (Reason: Could not find shared library)
+- Requested plugin name: [ArduPilotPlugin]
+- Requested library name: [ArduPilotPlugin]
+- Library search paths:
+  - /home/bassam/.gz/sim/plugins/
+  - /usr/lib/x86_64-linux-gnu/gz-sim-7/plugins/
+  - /home/bassam/.ignition/gazebo/plugins/
+  - /home/bassam/gz_ws/build/
+  - /home/bassam/gz_ws/embedded_aruco_sim/build/
+  - /home/bassam/embedded_aruco_sim/build/
+  - /home/bassam/gz_ws/src/ardupilot_gazebo/build/
+  - /
+(2023-10-15T20:13:54.465485789) (2023-10-15T20:13:54.465508214) [Msg] Loaded level [3]
+(2023-10-15T20:13:54.473473293) (2023-10-15T20:13:54.473501310) [Msg] Serving world controls on [/world/iris_runway/control], [/world/iris_runway/control/state] and [/world/iris_runway/playback/control]
+(2023-10-15T20:13:54.473768524) (2023-10-15T20:13:54.473788221) [Msg] Serving GUI information on [/world/iris_runway/gui/info]
+(2023-10-15T20:13:54.473850315) (2023-10-15T20:13:54.473859832) [Msg] World [iris_runway] initialized with [1ms] physics profile.
+(2023-10-15T20:13:54.474137042) (2023-10-15T20:13:54.474155889) [Msg] Serving world SDF generation service on [/world/iris_runway/generate_world_sdf]
+(2023-10-15T20:13:54.474438263) (2023-10-15T20:13:54.474457903) [Msg] Serving world names on [/gazebo/worlds]
+(2023-10-15T20:13:54.474665654) (2023-10-15T20:13:54.474684672) [Msg] Resource path add service on [/gazebo/resource_paths/add].
+(2023-10-15T20:13:54.474908604) (2023-10-15T20:13:54.474933471) [Msg] Resource path get service on [/gazebo/resource_paths/get].
+(2023-10-15T20:13:54.575370957) (2023-10-15T20:13:54.575398043) [Msg] Resource path resolve service on [/gazebo/resource_paths/resolve].
+(2023-10-15T20:13:54.575596119) (2023-10-15T20:13:54.575614386) [Msg] Resource paths published on [/gazebo/resource_paths].
+(2023-10-15T20:13:54.575925160) (2023-10-15T20:13:54.575945016) [Msg] Server control service on [/server_control].
+(2023-10-15T20:13:55.533055557) (2023-10-15T20:13:55.533107748) [Msg] Found no publishers on /stats, adding root stats topic
+(2023-10-15T20:13:55.533679393) (2023-10-15T20:13:55.533700702) [Msg] Found no publishers on /clock, adding root clock topic
+(2023-10-15T20:13:55.534295791) (2023-10-15T20:13:55.534333884) [Dbg] [SimulationRunner.cc:503] Creating PostUpdate worker threads: 6
+(2023-10-15T20:13:55.534461206) (2023-10-15T20:13:55.534479005) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (0)
+(2023-10-15T20:13:55.534663867) (2023-10-15T20:13:55.534678575) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (1)
+(2023-10-15T20:13:55.534834585) (2023-10-15T20:13:55.534851582) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (2)
+(2023-10-15T20:13:55.535001186) (2023-10-15T20:13:55.535018599) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (3)
+(2023-10-15T20:13:55.535218376) (2023-10-15T20:13:55.535234904) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (4)
+(2023-10-15T20:13:55.553562309) (2023-10-15T20:13:55.553624507) [Dbg] [ImuSensor.cc:149] IMU data for [iris_with_ardupilot::iris_with_standoffs::imu_link::imu_sensor] advertised on [world/iris_runway/model/iris_with_ardupilot/model/iris_with_standoffs/link/imu_link/sensor/imu_sensor/imu]
+(2023-10-15T20:13:55.554005138) (2023-10-15T20:13:55.554028631) [Msg] Serving scene information on [/world/iris_runway/scene/info]
+(2023-10-15T20:13:55.554668047) (2023-10-15T20:13:55.554689392) [Msg] Serving graph information on [/world/iris_runway/scene/graph]
+(2023-10-15T20:13:55.555085921) (2023-10-15T20:13:55.555106142) [Msg] Serving full state on [/world/iris_runway/state]
+(2023-10-15T20:13:55.555294926) (2023-10-15T20:13:55.555313089) [Msg] Serving full state (async) on [/world/iris_runway/state_async]
+(2023-10-15T20:13:55.555505457) (2023-10-15T20:13:55.555520835) [Msg] Publishing scene information on [/world/iris_runway/scene/info]
+(2023-10-15T20:13:55.555737984) (2023-10-15T20:13:55.555755595) [Msg] Publishing entity deletions on [/world/iris_runway/scene/deletion]
+(2023-10-15T20:13:55.555917867) (2023-10-15T20:13:55.555933951) [Msg] Publishing state changes on [/world/iris_runway/state]
+(2023-10-15T20:13:55.556110214) (2023-10-15T20:13:55.556126651) [Msg] Publishing pose messages on [/world/iris_runway/pose/info]
+(2023-10-15T20:13:55.556655144) (2023-10-15T20:13:55.556675932) [Msg] Publishing dynamic pose messages on [/world/iris_runway/dynamic_pose/info]
+(2023-10-15T20:13:55.557409018) (2023-10-15T20:13:55.557430006) [Dbg] [EntityComponentManager.cc:1655] Updated state thread iterators: 8 threads processing around 6 entities each.
+(2023-10-15T20:13:55.558054586) (2023-10-15T20:13:55.558077960) [Wrn] [Model.hh:69] Skipping serialization / deserialization for models with //pose/@relative_to attribute.
+(2023-10-15T20:13:55.559055641) (2023-10-15T20:13:55.559079729) [Wrn] [Component.hh:144] Trying to serialize component with data type [N3sdf3v135WorldE], which doesn't have `operator<<`. Component will not be serialized.
+(2023-10-15T20:13:59.201559500) (2023-10-15T20:13:59.201586782) [Dbg] [SignalHandler.cc:142] Received signal[2].
+(2023-10-15T20:13:59.201664673) (2023-10-15T20:13:59.201721668) [Dbg] [ServerPrivate.cc:115] Server received signal[2]
+(2023-10-15T20:13:59.201786392) (2023-10-15T20:13:59.201799527) [Dbg] [Sensors.cc:433] SensorsPrivate::Stop
+(2023-10-15T20:13:59.202177438) (2023-10-15T20:13:59.202197999) [Dbg] [Sensors.cc:277] Rendering Thread initialized
+(2023-10-15T20:13:59.202282503) (2023-10-15T20:13:59.202298856) [Dbg] [Sensors.cc:419] SensorsPrivate::RenderThread stopped
+(2023-10-15T20:13:59.202526748) (2023-10-15T20:13:59.202545630) [Dbg] [gz.cc:417] Shutting down gz-sim-server
+((2023-10-15T20:13:59.214664416) ((((2023-10-15T20:13:59.214688926(2023-10-15T20:13:59.214688926(2023-10-15T20:13:59.214747402) 2023-10-15T20:13:59.214723765) (2023-10-15T20:13:59.214791540) () (2023-10-15T20:13:59.214821928) 2023-10-15T20:13:59.214831267) [Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (2023-10-15T20:13:59.214764183) (4)
+
+2023-10-15T20:13:59.214921426) [Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (3)
+[Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (Exiting postupdate worker thread ([Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (1)
+Exiting postupdate worker thread (0)
+2)
+(2023-10-15T20:13:59.252976574) (2023-10-15T20:13:59.253002202) [Dbg] [Sensors.cc:433] SensorsPrivate::Stop

@@ -1,0 +1,120 @@
+(2023-10-19T19:34:35.871042565) (2023-10-19T19:34:35.871053396) [Msg] Gazebo Sim Server v7.6.0
+(2023-10-19T19:34:35.873209196) (2023-10-19T19:34:35.873223490) [Msg] Loading SDF world file[/home/bassam/sonoma/sonoma.sdf].
+(2023-10-19T19:34:35.934937204) (2023-10-19T19:34:35.934954351) [Wrn] [FuelClient.cc:1952] The fuel.ignitionrobotics.org URL is deprecrated. Pleasse change https://fuel.ignitionrobotics.org/1.0/openrobotics/models/Sonoma Raceway to https://fuel.gazebosim.org/1.0/openrobotics/models/Sonoma Raceway
+(2023-10-19T19:34:36.44855718) (2023-10-19T19:34:36.44864762) [Msg] Serving entity system service on [/entity/system/add]
+(2023-10-19T19:34:36.45117792) (2023-10-19T19:34:36.45124865) [Wrn] [SystemLoader.cc:79] Trying to load deprecated plugin [ignition-gazebo-physics-system]. Using [gz-sim-physics-system] instead.
+(2023-10-19T19:34:36.156581202) (2023-10-19T19:34:36.156595236) [Dbg] [Physics.cc:880] Loaded [gz::physics::dartsim::Plugin] from library [/usr/lib/x86_64-linux-gnu/gz-physics-6/engine-plugins/libgz-physics-dartsim-plugin.so]
+(2023-10-19T19:34:36.156750843) (2023-10-19T19:34:36.156760160) [Dbg] [SystemManager.cc:74] Loaded system [ignition::gazebo::systems::Physics] for entity [1]
+(2023-10-19T19:34:36.156847047) (2023-10-19T19:34:36.156855723) [Wrn] [SystemLoader.cc:79] Trying to load deprecated plugin [ignition-gazebo-sensors-system]. Using [gz-sim-sensors-system] instead.
+(2023-10-19T19:34:36.178230105) (2023-10-19T19:34:36.178244493) [Dbg] [Sensors.cc:506] Configuring Sensors system
+(2023-10-19T19:34:36.178372061) (2023-10-19T19:34:36.178381640) [Dbg] [Sensors.cc:425] SensorsPrivate::Run
+(2023-10-19T19:34:36.178485809) (2023-10-19T19:34:36.178495029) [Dbg] [SystemManager.cc:74] Loaded system [ignition::gazebo::systems::Sensors] for entity [1]
+(2023-10-19T19:34:36.178567373) (2023-10-19T19:34:36.178576066) [Wrn] [SystemLoader.cc:79] Trying to load deprecated plugin [ignition-gazebo-user-commands-system]. Using [gz-sim-user-commands-system] instead.
+(2023-10-19T19:34:36.182520623) (2023-10-19T19:34:36.182547694) [Dbg] [Sensors.cc:402] SensorsPrivate::RenderThread started
+(2023-10-19T19:34:36.182591526) (2023-10-19T19:34:36.182599545) [Dbg] [Sensors.cc:245] Waiting for init
+(2023-10-19T19:34:36.245192002) (2023-10-19T19:34:36.245205911) [Msg] Create service on [/world/sonoma/create]
+(2023-10-19T19:34:36.245365270) (2023-10-19T19:34:36.245374173) [Msg] Remove service on [/world/sonoma/remove]
+(2023-10-19T19:34:36.245601337) (2023-10-19T19:34:36.245611286) [Msg] Pose service on [/world/sonoma/set_pose]
+(2023-10-19T19:34:36.245774736) (2023-10-19T19:34:36.245784510) [Msg] Pose service on [/world/sonoma/set_pose_vector]
+(2023-10-19T19:34:36.246028012) (2023-10-19T19:34:36.246037715) [Msg] Light configuration service on [/world/sonoma/light_config]
+(2023-10-19T19:34:36.246338653) (2023-10-19T19:34:36.246348876) [Msg] Physics service on [/world/sonoma/set_physics]
+(2023-10-19T19:34:36.246660158) (2023-10-19T19:34:36.246670415) [Msg] SphericalCoordinates service on [/world/sonoma/set_spherical_coordinates]
+(2023-10-19T19:34:36.246808125) (2023-10-19T19:34:36.246817496) [Msg] Enable collision service on [/world/sonoma/enable_collision]
+(2023-10-19T19:34:36.246952639) (2023-10-19T19:34:36.246962147) [Msg] Disable collision service on [/world/sonoma/disable_collision]
+(2023-10-19T19:34:36.247262556) (2023-10-19T19:34:36.247272865) [Msg] Material service on [/world/sonoma/visual_config]
+(2023-10-19T19:34:36.247475508) (2023-10-19T19:34:36.247485488) [Msg] Material service on [/world/sonoma/wheel_slip]
+(2023-10-19T19:34:36.247593284) (2023-10-19T19:34:36.247601674) [Dbg] [SystemManager.cc:74] Loaded system [ignition::gazebo::systems::UserCommands] for entity [1]
+(2023-10-19T19:34:36.247656799) (2023-10-19T19:34:36.247664760) [Wrn] [SystemLoader.cc:79] Trying to load deprecated plugin [ignition-gazebo-scene-broadcaster-system]. Using [gz-sim-scene-broadcaster-system] instead.
+(2023-10-19T19:34:36.249421994) (2023-10-19T19:34:36.249434387) [Dbg] [SystemManager.cc:74] Loaded system [ignition::gazebo::systems::SceneBroadcaster] for entity [1]
+(2023-10-19T19:34:36.349912931) (2023-10-19T19:34:36.349928346) [Wrn] [SystemLoader.cc:79] Trying to load deprecated plugin [ignition-gazebo-ackermann-steering-system]. Using [gz-sim-ackermann-steering-system] instead.
+(2023-10-19T19:34:36.360209166) (2023-10-19T19:34:36.360226200) [Msg] AckermannSteering subscribing to twist messages on [/cmd_vel]
+(2023-10-19T19:34:36.360647354) (2023-10-19T19:34:36.360656539) [Dbg] [SystemManager.cc:74] Loaded system [ignition::gazebo::systems::AckermannSteering] for entity [8]
+(2023-10-19T19:34:36.360816194) (2023-10-19T19:34:36.360822176) [Msg] Loaded level [3]
+(2023-10-19T19:34:36.362459000) (2023-10-19T19:34:36.362474234) [Msg] Serving world controls on [/world/sonoma/control], [/world/sonoma/control/state] and [/world/sonoma/playback/control]
+(2023-10-19T19:34:36.362681962) (2023-10-19T19:34:36.362688924) [Msg] Serving GUI information on [/world/sonoma/gui/info]
+(2023-10-19T19:34:36.362718787) (2023-10-19T19:34:36.362725825) [Msg] World [sonoma] initialized with [default_physics] physics profile.
+(2023-10-19T19:34:36.362872254) (2023-10-19T19:34:36.362881003) [Msg] Serving world SDF generation service on [/world/sonoma/generate_world_sdf]
+(2023-10-19T19:34:36.363013378) (2023-10-19T19:34:36.363019895) [Msg] Serving world names on [/gazebo/worlds]
+(2023-10-19T19:34:36.363081217) (2023-10-19T19:34:36.363087340) [Msg] Resource path add service on [/gazebo/resource_paths/add].
+(2023-10-19T19:34:36.363147528) (2023-10-19T19:34:36.363153474) [Msg] Resource path get service on [/gazebo/resource_paths/get].
+(2023-10-19T19:34:36.363214827) (2023-10-19T19:34:36.363232767) [Msg] Resource path resolve service on [/gazebo/resource_paths/resolve].
+(2023-10-19T19:34:36.363308895) (2023-10-19T19:34:36.363317708) [Msg] Resource paths published on [/gazebo/resource_paths].
+(2023-10-19T19:34:36.363467149) (2023-10-19T19:34:36.363476269) [Msg] Server control service on [/server_control].
+(2023-10-19T19:34:37.768772980) (2023-10-19T19:34:37.768788560) [Wrn] [SimulationRunner.cc:676] Found additional publishers on /stats, using namespaced stats topic only
+(2023-10-19T19:34:37.768837230) (2023-10-19T19:34:37.768845613) [Dbg] [SimulationRunner.cc:678] Publishers [Address, Message Type]:
+(2023-10-19T19:34:37.768865398) (2023-10-19T19:34:37.768872368) [Dbg] [SimulationRunner.cc:683]   tcp://172.28.242.145:35045, gz.msgs.WorldStatistics
+(2023-10-19T19:34:37.769066289) (2023-10-19T19:34:37.769074062) [Wrn] [SimulationRunner.cc:709] Found additional publishers on /clock, using namespaced clock topic only
+(2023-10-19T19:34:37.769106307) (2023-10-19T19:34:37.769113431) [Dbg] [SimulationRunner.cc:711] Publishers [Address, Message Type]:
+(2023-10-19T19:34:37.769131917) (2023-10-19T19:34:37.769138769) [Dbg] [SimulationRunner.cc:716]   tcp://172.28.242.145:35045, gz.msgs.Clock
+(2023-10-19T19:34:37.769299236) (2023-10-19T19:34:37.769307428) [Dbg] [SimulationRunner.cc:503] Creating PostUpdate worker threads: 4
+(2023-10-19T19:34:37.769343384) (2023-10-19T19:34:37.769351202) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (0)
+(2023-10-19T19:34:37.769578172) (2023-10-19T19:34:37.769590408) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (1)
+(2023-10-19T19:34:37.769711512) (2023-10-19T19:34:37.769721376) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (2)
+(2023-10-19T19:34:37.770982541) (2023-10-19T19:34:37.770998896) [Dbg] [SDFFeatures.cc:328] Mesh construction from an SDF has not been implemented yet for dartsim. Use AttachMeshShapeFeature to use mesh shapes.
+(2023-10-19T19:34:37.771221940) (2023-10-19T19:34:37.771231443) [Err] [SDFFeatures.cc:843] The geometry element of collision [collision] couldn't be created
+(2023-10-19T19:34:37.785545627) (2023-10-19T19:34:37.785557378) [Wrn] [FuelClient.cc:1952] The fuel.ignitionrobotics.org URL is deprecrated. Pleasse change https://fuel.ignitionrobotics.org/1.0/openrobotics/models/sonoma raceway/3/files/meshes/Raceway.obj to https://fuel.gazebosim.org/1.0/openrobotics/models/sonoma raceway/3/files/meshes/Raceway.obj
+(2023-10-19T19:34:37.785681424) (2023-10-19T19:34:37.785687332) [Wrn] [FuelClient.cc:1952] The fuel.ignitionrobotics.org URL is deprecrated. Pleasse change https://fuel.ignitionrobotics.org/1.0/openrobotics/models/sonoma raceway/3/files/meshes/Raceway.obj to https://fuel.gazebosim.org/1.0/openrobotics/models/sonoma raceway/3/files/meshes/Raceway.obj
+(2023-10-19T19:34:37.855682535) (2023-10-19T19:34:37.855711155) [Wrn] [OBJLoader.cc:91] Both `d` and `Tr` parameters defined for "Asphalt". Use the value of `d` for dissolve (line 8 in .mtl.)
+Both `d` and `Tr` parameters defined for "Track". Use the value of `d` for dissolve (line 22 in .mtl.)
+Both `d` and `Tr` parameters defined for "Grass". Use the value of `d` for dissolve (line 36 in .mtl.)
+Both `d` and `Tr` parameters defined for "RumbleStrip_Barrier". Use the value of `d` for dissolve (line 50 in .mtl.)
+Both `d` and `Tr` parameters defined for "Checker". Use the value of `d` for dissolve (line 64 in .mtl.)
+Both `d` and `Tr` parameters defined for "Railing". Use the value of `d` for dissolve (line 78 in .mtl.)
+Both `d` and `Tr` parameters defined for "Fence". Use the value of `d` for dissolve (line 92 in .mtl.)
+Both `d` and `Tr` parameters defined for "Wall". Use the value of `d` for dissolve (line 107 in .mtl.)
+Both `d` and `Tr` parameters defined for "Trim". Use the value of `d` for dissolve (line 121 in .mtl.)
+Both `d` and `Tr` parameters defined for "Window". Use the value of `d` for dissolve (line 135 in .mtl.)
+Both `d` and `Tr` parameters defined for "Roof". Use the value of `d` for dissolve (line 149 in .mtl.)
+Both `d` and `Tr` parameters defined for "TireStack". Use the value of `d` for dissolve (line 163 in .mtl.)
+Both `d` and `Tr` parameters defined for "Bridge". Use the value of `d` for dissolve (line 177 in .mtl.)
+Both `d` and `Tr` parameters defined for "Concrete". Use the value of `d` for dissolve (line 191 in .mtl.)
+Both `d` and `Tr` parameters defined for "Stands". Use the value of `d` for dissolve (line 205 in .mtl.)
+
+(2023-10-19T19:34:37.879757051) (2023-10-19T19:34:37.879779899) [Dbg] [Sensors.cc:659] Initialization needed
+(2023-10-19T19:34:37.879836853) (2023-10-19T19:34:37.879845789) [Dbg] [Sensors.cc:257] Initializing render context
+(2023-10-19T19:34:37.879945246) (2023-10-19T19:34:37.879951219) [Msg] Loading plugin [gz-rendering-ogre2]
+(2023-10-19T19:34:37.880446261) (2023-10-19T19:34:37.880456394) [Msg] Serving scene information on [/world/sonoma/scene/info]
+(2023-10-19T19:34:37.880856275) (2023-10-19T19:34:37.880883200) [Msg] Serving graph information on [/world/sonoma/scene/graph]
+(2023-10-19T19:34:37.881141699) (2023-10-19T19:34:37.881153408) [Msg] Serving full state on [/world/sonoma/state]
+(2023-10-19T19:34:37.881262775) (2023-10-19T19:34:37.881272895) [Msg] Serving full state (async) on [/world/sonoma/state_async]
+(2023-10-19T19:34:37.881482905) (2023-10-19T19:34:37.881492822) [Msg] Publishing scene information on [/world/sonoma/scene/info]
+(2023-10-19T19:34:37.881654845) (2023-10-19T19:34:37.881664984) [Msg] Publishing entity deletions on [/world/sonoma/scene/deletion]
+(2023-10-19T19:34:37.881778082) (2023-10-19T19:34:37.881785239) [Msg] Publishing state changes on [/world/sonoma/state]
+(2023-10-19T19:34:37.881930719) (2023-10-19T19:34:37.881942784) [Msg] Publishing pose messages on [/world/sonoma/pose/info]
+(2023-10-19T19:34:37.882055094) (2023-10-19T19:34:37.882062205) [Msg] Publishing dynamic pose messages on [/world/sonoma/dynamic_pose/info]
+(2023-10-19T19:34:37.882703797) (2023-10-19T19:34:37.882721217) [Dbg] [EntityComponentManager.cc:1655] Updated state thread iterators: 8 threads processing around 7 entities each.
+((2023-10-19T19:34:37.895852229) (2023-10-19T19:34:37.8958708142023-10-19T19:34:37.895886969) [Wrn] [Model.hh:69] ) (2023-10-19T19:34:37.895907856) Skipping serialization / deserialization for models with //pose/@relative_to attribute.
+Trying to serialize component with data type [N3sdf3v135WorldE], which doesn't have `operator<<`. Component will not be serialized.
+(2023-10-19T19:34:38.66147121) (2023-10-19T19:34:38.66154055) [Dbg] [RenderUtil.cc:2720] Create scene [scene]
+((2023-10-19T19:34:38.107878472) (2023-10-19T19:34:38.107899527) 2023-10-19T19:34:38.107890037) (2023-10-19T19:34:38.1079116852023-10-19T19:34:38.107911685[Dbg] [Sensors.cc:277] ) Rendering Thread initialized
+[Dbg] [Sensors.cc:659] Initialization needed
+(2023-10-19T19:34:38.429694692) (2023-10-19T19:34:38.429705651) [Wrn] [FuelClient.cc:1952] The fuel.ignitionrobotics.org URL is deprecrated. Pleasse change https://fuel.ignitionrobotics.org/1.0/openrobotics/models/prius hybrid/2/files/meshes/Hybrid.obj to https://fuel.gazebosim.org/1.0/openrobotics/models/prius hybrid/2/files/meshes/Hybrid.obj
+(2023-10-19T19:34:38.429837794) (2023-10-19T19:34:38.429846174) [Wrn] [FuelClient.cc:1952] The fuel.ignitionrobotics.org URL is deprecrated. Pleasse change https://fuel.ignitionrobotics.org/1.0/openrobotics/models/prius hybrid/2/files/meshes/Hybrid.obj to https://fuel.gazebosim.org/1.0/openrobotics/models/prius hybrid/2/files/meshes/Hybrid.obj
+(2023-10-19T19:34:38.435380062) (2023-10-19T19:34:38.435406336) [Wrn] [OBJLoader.cc:91] Both `d` and `Tr` parameters defined for "Hybrid". Use the value of `d` for dissolve (line 8 in .mtl.)
+Both `d` and `Tr` parameters defined for "Wheels3". Use the value of `d` for dissolve (line 22 in .mtl.)
+Both `d` and `Tr` parameters defined for "Hybrid_Interior". Use the value of `d` for dissolve (line 36 in .mtl.)
+Both `d` and `Tr` parameters defined for "Windows". Use the value of `d` for dissolve (line 50 in .mtl.)
+
+(2023-10-19T19:34:38.570864342) (2023-10-19T19:34:38.570882411) [Dbg] [CameraSensor.cc:458] Camera images for [prius_hybrid::chassis::back_camera_sensor] advertised on [back_camera]
+(2023-10-19T19:34:38.571170802) (2023-10-19T19:34:38.571183954) [Dbg] [CameraSensor.cc:786] Camera info for [prius_hybrid::chassis::back_camera_sensor] advertised on [/camera_info]
+(2023-10-19T19:34:38.571453752) (2023-10-19T19:34:38.571460173) [Wrn] [Ogre2Camera.cc:412] Ogre2Camera::SetVisibilityMask: Mask bits c0000000 are set but will be ignored as they conflict with the reserved bits used internally by the ogre2 backend.
+(2023-10-19T19:34:38.571855047) (2023-10-19T19:34:38.571866030) [Dbg] [CameraSensor.cc:458] Camera images for [prius_hybrid::chassis::front_camera_sensor] advertised on [front_camera]
+(2023-10-19T19:34:38.571950080) (2023-10-19T19:34:38.571959883) [Dbg] [CameraSensor.cc:786] Camera info for [prius_hybrid::chassis::front_camera_sensor] advertised on [/camera_info]
+(2023-10-19T19:34:38.572086209) (2023-10-19T19:34:38.572092566) [Wrn] [Ogre2Camera.cc:412] Ogre2Camera::SetVisibilityMask: Mask bits c0000000 are set but will be ignored as they conflict with the reserved bits used internally by the ogre2 backend.
+(2023-10-19T19:34:38.572467400) (2023-10-19T19:34:38.572475941) [Dbg] [CameraSensor.cc:458] Camera images for [prius_hybrid::chassis::left_camera_sensor] advertised on [left_camera]
+(2023-10-19T19:34:38.572566816) (2023-10-19T19:34:38.572573192) [Dbg] [CameraSensor.cc:786] Camera info for [prius_hybrid::chassis::left_camera_sensor] advertised on [/camera_info]
+(2023-10-19T19:34:38.572631748) (2023-10-19T19:34:38.572637527) [Wrn] [Ogre2Camera.cc:412] Ogre2Camera::SetVisibilityMask: Mask bits c0000000 are set but will be ignored as they conflict with the reserved bits used internally by the ogre2 backend.
+(2023-10-19T19:34:38.572859795) (2023-10-19T19:34:38.572868935) [Dbg] [CameraSensor.cc:458] Camera images for [prius_hybrid::chassis::right_camera_sensor] advertised on [right_camera]
+(2023-10-19T19:34:38.572947340) (2023-10-19T19:34:38.572956441) [Dbg] [CameraSensor.cc:786] Camera info for [prius_hybrid::chassis::right_camera_sensor] advertised on [/camera_info]
+(2023-10-19T19:34:38.573006737) (2023-10-19T19:34:38.573012265) [Wrn] [Ogre2Camera.cc:412] Ogre2Camera::SetVisibilityMask: Mask bits c0000000 are set but will be ignored as they conflict with the reserved bits used internally by the ogre2 backend.
+(2023-10-19T19:34:38.618967577) (2023-10-19T19:34:38.618979843) [Dbg] [CameraSensor.cc:583] Enabling camera sensor: 'prius_hybrid::chassis::front_camera_sensor' data generation.
+(2023-10-19T19:40:28.915206805) (2023-10-19T19:40:28.915230444) [Dbg] [EntityComponentManager.cc:1655] Updated state thread iterators: 8 threads processing around 7 entities each.
+(2023-10-19T19:40:43.351923921) (2023-10-19T19:40:43.351946646) [Dbg] [SignalHandler.cc:142] Received signal[2].
+(2023-10-19T19:40:43.352001523) (2023-10-19T19:40:43.352012011) [Dbg] [ServerPrivate.cc:115] Server received signal[2]
+(2023-10-19T19:40:43.352054257) (2023-10-19T19:40:43.352066039) [Dbg] [Sensors.cc:433] SensorsPrivate::Stop
+(2023-10-19T19:40:43.440195355) (2023-10-19T19:40:43.440212274) [Dbg] [Sensors.cc:419] SensorsPrivate::RenderThread stopped
+(2023-10-19T19:40:43.441474144) (2023-10-19T19:40:43.441493479) [Dbg] [gz.cc:417] Shutting down gz-sim-server
+(((2023-10-19T19:40:43.448080393) 2023-10-19T19:40:43.448098248(2023-10-19T19:40:43.4481135662023-10-19T19:40:43.448113566) ) ) ) (2023-10-19T19:40:43.448127838) ) 2023-10-19T19:40:43.448143279([Dbg] [SimulationRunner.cc:530] 2023-10-19T19:40:43.4481595912023-10-19T19:40:43.448159591Exiting postupdate worker thread (2)
+) ) [Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (1)
+Exiting postupdate worker thread (0)
+(2023-10-19T19:40:43.488178066) (2023-10-19T19:40:43.488202152) [Dbg] [Sensors.cc:433] SensorsPrivate::Stop

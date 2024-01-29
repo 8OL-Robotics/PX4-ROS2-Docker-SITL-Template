@@ -1,0 +1,148 @@
+(2023-10-17T04:24:16.120917775) (2023-10-17T04:24:16.120928088) [Msg] Gazebo Sim Server v7.6.0
+(2023-10-17T04:24:16.130778369) (2023-10-17T04:24:16.130798986) [Msg] Loading SDF world file[/home/bassam/ros2_ws/install/ardupilot_gz_gazebo/share/ardupilot_gz_gazebo/worlds/wildthumper_playpen.sdf].
+(2023-10-17T04:24:16.278909028) (2023-10-17T04:24:16.278924290) [Msg] Downloading model [https://fuel.gazebosim.org/openrobotics/models/ground plane]
+(2023-10-17T04:24:17.805782778) (2023-10-17T04:24:17.805805029) [Dbg] [FuelClient.cc:1976] Downloading from a referral link [https://gz-fuel-resources-production.s3.amazonaws.com/OpenRobotics/0e89c80f-c5dd-416f-a365-c776bbf04a3a/.zips/5.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS5OHIRKDBY6VUUFF%2F20231016%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231016T225417Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d6b62be653ba79288621783077217be6abb6600a384ff7979b118b33ebf9f431]
+(2023-10-17T04:24:19.750530023) (2023-10-17T04:24:19.750538821) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.gazebosim.org/openrobotics/models/ground plane/5/model-1_2.sdf]
+(2023-10-17T04:24:19.750614637) (2023-10-17T04:24:19.750620839) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.gazebosim.org/openrobotics/models/ground plane/5/model-1_3.sdf]
+(2023-10-17T04:24:19.750679024) (2023-10-17T04:24:19.750685165) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.gazebosim.org/openrobotics/models/ground plane/5/model-1_4.sdf]
+(2023-10-17T04:24:19.750750136) (2023-10-17T04:24:19.750758686) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.gazebosim.org/openrobotics/models/ground plane/5/model.config]
+(2023-10-17T04:24:19.750848498) (2023-10-17T04:24:19.750857675) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.gazebosim.org/openrobotics/models/ground plane/5/model.sdf]
+(2023-10-17T04:24:19.750994497) (2023-10-17T04:24:19.751000569) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.gazebosim.org/openrobotics/models/ground plane/5/thumbnails/1.png]
+(2023-10-17T04:24:19.751052884) (2023-10-17T04:24:19.751058540) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.gazebosim.org/openrobotics/models/ground plane/5/thumbnails/2.png]
+(2023-10-17T04:24:19.751107770) (2023-10-17T04:24:19.751113420) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.gazebosim.org/openrobotics/models/ground plane/5/thumbnails/3.png]
+(2023-10-17T04:24:19.751161988) (2023-10-17T04:24:19.751167570) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.gazebosim.org/openrobotics/models/ground plane/5/thumbnails/4.png]
+(2023-10-17T04:24:19.751215545) (2023-10-17T04:24:19.751221087) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.gazebosim.org/openrobotics/models/ground plane/5/thumbnails/5.png]
+(2023-10-17T04:24:21.99855574) (2023-10-17T04:24:21.99867819) [Msg] Downloading model [https://fuel.gazebosim.org/openrobotics/models/jersey barrier]
+(2023-10-17T04:24:22.537254930) (2023-10-17T04:24:22.537265552) [Dbg] [FuelClient.cc:1976] Downloading from a referral link [https://gz-fuel-resources-production.s3.amazonaws.com/OpenRobotics/e75908fc-41d0-496f-9fcd-2b40dd337204/.zips/6.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS5OHIRKDBY6VUUFF%2F20231016%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231016T225422Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0b18fbcf22a8e75ae9457b627806aedb253958689eb231634dd9d5d6d9ffff35]
+(2023-10-17T04:24:25.314886552) (2023-10-17T04:24:25.314894696) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.gazebosim.org/openrobotics/models/jersey barrier/6/materials/textures/jersey_barrier.jpg]
+(2023-10-17T04:24:25.315067112) (2023-10-17T04:24:25.315073387) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.gazebosim.org/openrobotics/models/jersey barrier/6/materials/textures/jersey_barrier_diffuse.jpg]
+(2023-10-17T04:24:25.315170369) (2023-10-17T04:24:25.315176287) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.gazebosim.org/openrobotics/models/jersey barrier/6/materials/textures/jersey_barrier_spec.jpg]
+(2023-10-17T04:24:25.315499276) (2023-10-17T04:24:25.315505938) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.gazebosim.org/openrobotics/models/jersey barrier/6/meshes/jersey_barrier.dae]
+(2023-10-17T04:24:25.315574545) (2023-10-17T04:24:25.315584398) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.gazebosim.org/openrobotics/models/jersey barrier/6/model.config]
+(2023-10-17T04:24:25.315664733) (2023-10-17T04:24:25.315670991) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.gazebosim.org/openrobotics/models/jersey barrier/6/model.sdf]
+(2023-10-17T04:24:25.315853846) (2023-10-17T04:24:25.315862601) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.gazebosim.org/openrobotics/models/jersey barrier/6/thumbnails/1.jpg]
+(2023-10-17T04:24:25.316017160) (2023-10-17T04:24:25.316023567) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.gazebosim.org/openrobotics/models/jersey barrier/6/thumbnails/2.jpg]
+(2023-10-17T04:24:25.316125348) (2023-10-17T04:24:25.316131477) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.gazebosim.org/openrobotics/models/jersey barrier/6/thumbnails/3.jpg]
+(2023-10-17T04:24:25.316305433) (2023-10-17T04:24:25.316311884) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.gazebosim.org/openrobotics/models/jersey barrier/6/thumbnails/4.jpg]
+(2023-10-17T04:24:25.316413163) (2023-10-17T04:24:25.316419270) [Dbg] [Zip.cc:180] Created file [/home/bassam/.gz/fuel/fuel.gazebosim.org/openrobotics/models/jersey barrier/6/thumbnails/5.jpg]
+(2023-10-17T04:24:26.158371119) (2023-10-17T04:24:26.158387201) [Msg] Serving entity system service on [/entity/system/add]
+(2023-10-17T04:24:26.296390092) (2023-10-17T04:24:26.296418139) [Dbg] [Physics.cc:880] Loaded [gz::physics::dartsim::Plugin] from library [/usr/lib/x86_64-linux-gnu/gz-physics-6/engine-plugins/libgz-physics-dartsim-plugin.so]
+(2023-10-17T04:24:26.296532266) (2023-10-17T04:24:26.296543968) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::Physics] for entity [1]
+(2023-10-17T04:24:26.329596994) (2023-10-17T04:24:26.329617038) [Dbg] [Sensors.cc:506] Configuring Sensors system
+(2023-10-17T04:24:26.329746244) (2023-10-17T04:24:26.329758748) [Dbg] [Sensors.cc:425] SensorsPrivate::Run
+(2023-10-17T04:24:26.329870877) (2023-10-17T04:24:26.329883330) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::Sensors] for entity [1]
+(2023-10-17T04:24:26.330275296) (2023-10-17T04:24:26.330292158) [Dbg] [Sensors.cc:402] SensorsPrivate::RenderThread started
+(2023-10-17T04:24:26.330328347) (2023-10-17T04:24:26.330339070) [Dbg] [Sensors.cc:245] Waiting for init
+(2023-10-17T04:24:26.333616379) (2023-10-17T04:24:26.333631773) [Msg] Create service on [/world/playpen/create]
+(2023-10-17T04:24:26.333871640) (2023-10-17T04:24:26.333885261) [Msg] Remove service on [/world/playpen/remove]
+(2023-10-17T04:24:26.334093154) (2023-10-17T04:24:26.334106305) [Msg] Pose service on [/world/playpen/set_pose]
+(2023-10-17T04:24:26.334299741) (2023-10-17T04:24:26.334313025) [Msg] Pose service on [/world/playpen/set_pose_vector]
+(2023-10-17T04:24:26.334592250) (2023-10-17T04:24:26.334605442) [Msg] Light configuration service on [/world/playpen/light_config]
+(2023-10-17T04:24:26.335010948) (2023-10-17T04:24:26.335026128) [Msg] Physics service on [/world/playpen/set_physics]
+(2023-10-17T04:24:26.335293969) (2023-10-17T04:24:26.335308213) [Msg] SphericalCoordinates service on [/world/playpen/set_spherical_coordinates]
+(2023-10-17T04:24:26.337953326) (2023-10-17T04:24:26.337970999) [Msg] Enable collision service on [/world/playpen/enable_collision]
+(2023-10-17T04:24:26.338379416) (2023-10-17T04:24:26.338392576) [Msg] Disable collision service on [/world/playpen/disable_collision]
+(2023-10-17T04:24:26.339056468) (2023-10-17T04:24:26.339070829) [Msg] Material service on [/world/playpen/visual_config]
+(2023-10-17T04:24:26.339536242) (2023-10-17T04:24:26.339550482) [Msg] Material service on [/world/playpen/wheel_slip]
+(2023-10-17T04:24:26.339616942) (2023-10-17T04:24:26.339627810) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::UserCommands] for entity [1]
+(2023-10-17T04:24:26.342965817) (2023-10-17T04:24:26.342981576) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::SceneBroadcaster] for entity [1]
+(2023-10-17T04:24:26.345817466) (2023-10-17T04:24:26.345832710) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::Imu] for entity [1]
+(2023-10-17T04:24:26.348678873) (2023-10-17T04:24:26.348694947) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::Magnetometer] for entity [1]
+(2023-10-17T04:24:26.352808741) (2023-10-17T04:24:26.352823761) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::NavSat] for entity [1]
+(2023-10-17T04:24:26.371288907) (2023-10-17T04:24:26.371298901) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::JointStatePublisher] for entity [369]
+(2023-10-17T04:24:26.372713896) (2023-10-17T04:24:26.372725211) [Msg] OdometryPublisher publishing odometry on [/model/wildthumper/odometry]
+(2023-10-17T04:24:26.372862620) (2023-10-17T04:24:26.372872692) [Msg] OdometryPublisher publishing odometry with covariance on [/model/wildthumper/odometry_with_covariance]
+(2023-10-17T04:24:26.372954140) (2023-10-17T04:24:26.372963406) [Msg] OdometryPublisher publishing Pose_V (TF) on [/model/wildthumper/pose]
+(2023-10-17T04:24:26.373009257) (2023-10-17T04:24:26.373014094) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::OdometryPublisher] for entity [369]
+(2023-10-17T04:24:26.374443275) (2023-10-17T04:24:26.374451714) [Msg] ApplyJointForce subscribing to Double messages on [/model/wildthumper/joint/front_left_wheel_joint/cmd_force]
+(2023-10-17T04:24:26.374489646) (2023-10-17T04:24:26.374495615) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::ApplyJointForce] for entity [369]
+(2023-10-17T04:24:26.374829823) (2023-10-17T04:24:26.374838445) [Msg] ApplyJointForce subscribing to Double messages on [/model/wildthumper/joint/front_right_wheel_joint/cmd_force]
+(2023-10-17T04:24:26.374869940) (2023-10-17T04:24:26.374874864) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::ApplyJointForce] for entity [369]
+(2023-10-17T04:24:26.375180856) (2023-10-17T04:24:26.375190248) [Msg] ApplyJointForce subscribing to Double messages on [/model/wildthumper/joint/mid_left_wheel_joint/cmd_force]
+(2023-10-17T04:24:26.375216327) (2023-10-17T04:24:26.375221136) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::ApplyJointForce] for entity [369]
+(2023-10-17T04:24:26.375527731) (2023-10-17T04:24:26.375536152) [Msg] ApplyJointForce subscribing to Double messages on [/model/wildthumper/joint/mid_right_wheel_joint/cmd_force]
+(2023-10-17T04:24:26.375561937) (2023-10-17T04:24:26.375566838) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::ApplyJointForce] for entity [369]
+(2023-10-17T04:24:26.375868204) (2023-10-17T04:24:26.375877756) [Msg] ApplyJointForce subscribing to Double messages on [/model/wildthumper/joint/rear_left_wheel_joint/cmd_force]
+(2023-10-17T04:24:26.375916243) (2023-10-17T04:24:26.375921822) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::ApplyJointForce] for entity [369]
+(2023-10-17T04:24:26.376237945) (2023-10-17T04:24:26.376249538) [Msg] ApplyJointForce subscribing to Double messages on [/model/wildthumper/joint/rear_right_wheel_joint/cmd_force]
+(2023-10-17T04:24:26.376275987) (2023-10-17T04:24:26.376280699) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::ApplyJointForce] for entity [369]
+(2023-10-17T04:24:26.388879210) [wildthumper] flight dynamics model @ 127.0.0.1:9002
+(2023-10-17T04:24:26.388997251) [wildthumper] ArduPilot ready to fly. The force will be with you
+(2023-10-17T04:24:26.389052322) (2023-10-17T04:24:26.389057354) [Dbg] [SystemManager.cc:74] Loaded system [ArduPilotPlugin] for entity [369]
+(2023-10-17T04:24:26.389854701) (2023-10-17T04:24:26.389868586) [Msg] Loaded level [3]
+(2023-10-17T04:24:26.395137484) (2023-10-17T04:24:26.395149994) [Msg] Serving world controls on [/world/playpen/control], [/world/playpen/control/state] and [/world/playpen/playback/control]
+(2023-10-17T04:24:26.395270863) (2023-10-17T04:24:26.395281135) [Msg] Serving GUI information on [/world/playpen/gui/info]
+(2023-10-17T04:24:26.395308415) (2023-10-17T04:24:26.395313144) [Msg] World [playpen] initialized with [1ms] physics profile.
+(2023-10-17T04:24:26.395434674) (2023-10-17T04:24:26.395444337) [Msg] Serving world SDF generation service on [/world/playpen/generate_world_sdf]
+(2023-10-17T04:24:26.395544561) (2023-10-17T04:24:26.395554288) [Msg] Serving world names on [/gazebo/worlds]
+(2023-10-17T04:24:26.395623159) (2023-10-17T04:24:26.395632520) [Msg] Resource path add service on [/gazebo/resource_paths/add].
+(2023-10-17T04:24:26.395702048) (2023-10-17T04:24:26.395711610) [Msg] Resource path get service on [/gazebo/resource_paths/get].
+(2023-10-17T04:24:26.395779814) (2023-10-17T04:24:26.395788913) [Msg] Resource path resolve service on [/gazebo/resource_paths/resolve].
+(2023-10-17T04:24:26.395872313) (2023-10-17T04:24:26.395881328) [Msg] Resource paths published on [/gazebo/resource_paths].
+(2023-10-17T04:24:26.395981841) (2023-10-17T04:24:26.395991682) [Msg] Server control service on [/server_control].
+(2023-10-17T04:24:26.396148799) (2023-10-17T04:24:26.396155478) [Wrn] [SimulationRunner.cc:676] Found additional publishers on /stats, using namespaced stats topic only
+(2023-10-17T04:24:26.396192654) (2023-10-17T04:24:26.396203351) [Dbg] [SimulationRunner.cc:678] Publishers [Address, Message Type]:
+(2023-10-17T04:24:26.396221693) (2023-10-17T04:24:26.396227926) [Dbg] [SimulationRunner.cc:683]   tcp://172.28.247.52:39863, gz.msgs.WorldStatistics
+(2023-10-17T04:24:26.396338081) (2023-10-17T04:24:26.396344404) [Wrn] [SimulationRunner.cc:709] Found additional publishers on /clock, using namespaced clock topic only
+(2023-10-17T04:24:26.396370663) (2023-10-17T04:24:26.396375001) [Dbg] [SimulationRunner.cc:711] Publishers [Address, Message Type]:
+(2023-10-17T04:24:26.396385041) (2023-10-17T04:24:26.396389214) [Dbg] [SimulationRunner.cc:716]   tcp://172.28.247.52:39863, gz.msgs.Clock
+(2023-10-17T04:24:26.396497681) (2023-10-17T04:24:26.396505839) [Dbg] [SimulationRunner.cc:503] Creating PostUpdate worker threads: 9
+(2023-10-17T04:24:26.396533383) (2023-10-17T04:24:26.396540344) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (0)
+(2023-10-17T04:24:26.396632206) (2023-10-17T04:24:26.396638278) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (1)
+(2023-10-17T04:24:26.396700353) (2023-10-17T04:24:26.396705764) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (2)
+(2023-10-17T04:24:26.396752947) (2023-10-17T04:24:26.396758240) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (3)
+(2023-10-17T04:24:26.396798033) (2023-10-17T04:24:26.396803304) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (4)
+(2023-10-17T04:24:26.396848578) (2023-10-17T04:24:26.396853725) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (5)
+(2023-10-17T04:24:26.396913600) (2023-10-17T04:24:26.396922755) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (6)
+(2023-10-17T04:24:26.396968917) (2023-10-17T04:24:26.396974458) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (7)
+(2023-10-17T04:24:26.398758658) (2023-10-17T04:24:26.398766978) [Msg] Found IMU sensor with name [imu_sensor]
+(2023-10-17T04:24:26.398800588) (2023-10-17T04:24:26.398805524) [Dbg] [ArduPilotPlugin.cc:1154] Computed IMU topic to be: world/playpen/model/wildthumper/link/imu_link/sensor/imu_sensor/imu
+(2023-10-17T04:24:26.431836993) (2023-10-17T04:24:26.431849157) [Dbg] [SDFFeatures.cc:328] Mesh construction from an SDF has not been implemented yet for dartsim. Use AttachMeshShapeFeature to use mesh shapes.
+(2023-10-17T04:24:26.431869228) (2023-10-17T04:24:26.431874052) [Err] [SDFFeatures.cc:843] The geometry element of collision [collision] couldn't be created
+(2023-10-17T04:24:26.431982283) (2023-10-17T04:24:26.431988646) [Dbg] [SDFFeatures.cc:328] Mesh construction from an SDF has not been implemented yet for dartsim. Use AttachMeshShapeFeature to use mesh shapes.
+(2023-10-17T04:24:26.432016625) (2023-10-17T04:24:26.432021484) [Err] [SDFFeatures.cc:843] The geometry element of collision [collision] couldn't be created
+(2023-10-17T04:24:26.471356630) (2023-10-17T04:24:26.471380045) [Dbg] [Sensors.cc:659] Initialization needed
+(2023-10-17T04:24:26.471432825) (2023-10-17T04:24:26.471441818) [Dbg] [Sensors.cc:257] Initializing render context
+(2023-10-17T04:24:26.471594516) (2023-10-17T04:24:26.471603888) [Msg] Loading plugin [gz-rendering-ogre2]
+(2023-10-17T04:24:26.471928403) (2023-10-17T04:24:26.471938812) [Dbg] [ImuSensor.cc:149] IMU data for [wildthumper::imu_link::imu_sensor] advertised on [world/playpen/model/wildthumper/link/imu_link/sensor/imu_sensor/imu]
+(2023-10-17T04:24:26.476247162) (2023-10-17T04:24:26.476262592) [Msg] Serving scene information on [/world/playpen/scene/info]
+(2023-10-17T04:24:26.476373530) (2023-10-17T04:24:26.476383972) [Msg] Serving graph information on [/world/playpen/scene/graph]
+(2023-10-17T04:24:26.476552678) (2023-10-17T04:24:26.476563380) [Msg] Serving full state on [/world/playpen/state]
+(2023-10-17T04:24:26.476660051) (2023-10-17T04:24:26.476669669) [Msg] Serving full state (async) on [/world/playpen/state_async]
+(2023-10-17T04:24:26.476778723) (2023-10-17T04:24:26.476788041) [Msg] Publishing scene information on [/world/playpen/scene/info]
+(2023-10-17T04:24:26.476932143) (2023-10-17T04:24:26.476941339) [Msg] Publishing entity deletions on [/world/playpen/scene/deletion]
+(2023-10-17T04:24:26.477027328) (2023-10-17T04:24:26.477038034) [Msg] Publishing state changes on [/world/playpen/state]
+(2023-10-17T04:24:26.477133564) (2023-10-17T04:24:26.477143707) [Msg] Publishing pose messages on [/world/playpen/pose/info]
+(2023-10-17T04:24:26.477264799) (2023-10-17T04:24:26.477274563) [Msg] Publishing dynamic pose messages on [/world/playpen/dynamic_pose/info]
+(2023-10-17T04:24:26.646922020) (2023-10-17T04:24:26.646929025) [Dbg] [RenderUtil.cc:2720] Create scene [scene]
+((2023-10-17T04:24:26.682912133) (2023-10-17T04:24:26.682937019) 2023-10-17T04:24:26.682926182) ([Dbg] [Sensors.cc:277] 2023-10-17T04:24:26.682950519) Rendering Thread initialized
+[Dbg] [Sensors.cc:659] [Dbg] [Sensors.cc:659] Initialization needed
+(2023-10-17T04:24:30.624717493) (2023-10-17T04:24:30.624727569) [Dbg] [Lidar.cc:133] Laser scans for [wildthumper::base_scan::lidar] advertised on [lidar]
+(2023-10-17T04:24:30.624952310) (2023-10-17T04:24:30.624962376) [Dbg] [GpuLidarSensor.cc:163] Lidar points for [wildthumper::base_scan::lidar] advertised on [lidar/points]
+(2023-10-17T04:24:55.436361107) [wildthumper] Connected to ArduPilot controller @ 127.0.0.1:59196
+(2023-10-17T04:24:55.436405315) (2023-10-17T04:24:55.436413753) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-17T04:24:55.664759229) (2023-10-17T04:24:55.664774939) [Dbg] [EntityComponentManager.cc:1655] Updated state thread iterators: 8 threads processing around 61 entities each.
+(2023-10-17T04:24:55.665634164) (2023-10-17T04:24:55.665647854) [Wrn] [Component.hh:144] Trying to serialize component with data type [St6vectorIdSaIdEE], which doesn't have `operator<<`. Component will not be serialized.
+2023-10-17T04:24:55.665735001) (2023-10-17T04:24:55.665753346) (2023-10-17T04:24:55.665871549) (2023-10-17T04:24:55.665881743) (2023-10-17T04:24:55.665901352) (2023-10-17T04:24:55.665954073) [Wrn] [Model.hh:69] Skipping serialization / deserialization for models with //pose/@relative_to attribute.
+[Wrn] [Model.hh:69] Skipping serialization / deserialization for models with //pose/@relative_to attribute.
+[Wrn] [Model.hh:69] Skipping serialization / deserialization for models with //pose/@relative_to attribute.
+(2023-10-17T04:24:55.667649216) (2023-10-17T04:24:55.667660684) [Wrn] [Component.hh:144] Trying to serialize component with data type [N3sdf3v135WorldE], which doesn't have `operator<<`. Component will not be serialized.
+(2023-10-17T04:26:54.485758194) (2023-10-17T04:26:54.485776693) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-17T04:27:09.345135486) (2023-10-17T04:27:09.345201430) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-17T04:28:52.442454788) (2023-10-17T04:28:52.442476598) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-17T04:37:49.760287201) (2023-10-17T04:37:49.760314776) [Dbg] [SignalHandler.cc:142] Received signal[15].
+(2023-10-17T04:37:49.760370671) (2023-10-17T04:37:49.760378456) [Dbg] [ServerPrivate.cc:115] Server received signal[15]
+(2023-10-17T04:37:49.760416335) (2023-10-17T04:37:49.760424060) [Dbg] [Sensors.cc:433] SensorsPrivate::Stop
+(2023-10-17T04:37:50.60078252) (2023-10-17T04:37:50.60093900) [Dbg] [Sensors.cc:419] SensorsPrivate::RenderThread stopped
+(2023-10-17T04:37:50.60918233) (2023-10-17T04:37:50.60930615) [Dbg] [SignalHandler.cc:142] Received signal[15].
+(2023-10-17T04:37:50.61187477) (2023-10-17T04:37:50.61198114) [Dbg] [ArduPilotPlugin.cc:370] Plugin received signal[15]
+(2023-10-17T04:37:50.65187590) (2023-10-17T04:37:50.65217397) [Dbg] [gz.cc:417] Shutting down gz-sim-server
+(2023-10-17T04:37:50.72416452) (2023-10-17T04:37:50.72430954) [Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (7)
+(2023-10-17T04:37:50.72520734) (2023-10-17T04:37:50.72612289) [Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (5)
+(2023-10-17T04:37:50.72678429) (2023-10-17T04:37:50.72691663) [Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (4)
+(2023-10-17T04:37:50.72750354) (2023-10-17T04:37:50.72759439) [Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (3)
+(2023-10-17T04:37:50.72817304) (2023-10-17T04:37:50.72827036) [Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (0)
+(2023-10-17T04:37:50.72878526) (2023-10-17T04:37:50.72887292) [Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (1)
+(2023-10-17T04:37:50.72958303) (2023-10-17T04:37:50.72966247) [Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (2)
+(2023-10-17T04:37:50.73034212) (2023-10-17T04:37:50.73041764) [Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (6)
+(2023-10-17T04:37:50.287267820) (2023-10-17T04:37:50.287291743) [Dbg] [Sensors.cc:433] SensorsPrivate::Stop

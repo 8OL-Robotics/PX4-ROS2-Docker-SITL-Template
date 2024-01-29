@@ -1,0 +1,748 @@
+(2023-10-12T01:38:40.263814014) (2023-10-12T01:38:40.263840594) [Msg] Gazebo Sim Server v7.6.0
+(2023-10-12T01:38:40.270762056) (2023-10-12T01:38:40.270789434) [Msg] Loading SDF world file[/home/bassam/gz_ws/src/ardupilot_gazebo/worlds/iris_runway.sdf].
+(2023-10-12T01:38:40.492428463) (2023-10-12T01:38:40.492437561) [Msg] Serving entity system service on [/entity/system/add]
+(2023-10-12T01:38:40.630780706) (2023-10-12T01:38:40.630797724) [Dbg] [Physics.cc:880] Loaded [gz::physics::dartsim::Plugin] from library [/usr/lib/x86_64-linux-gnu/gz-physics-6/engine-plugins/libgz-physics-dartsim-plugin.so]
+(2023-10-12T01:38:40.630910750) (2023-10-12T01:38:40.630921259) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::Physics] for entity [1]
+(2023-10-12T01:38:40.641659152) (2023-10-12T01:38:40.641675813) [Dbg] [Sensors.cc:506] Configuring Sensors system
+(2023-10-12T01:38:40.641830703) (2023-10-12T01:38:40.641842410) [Dbg] [Sensors.cc:425] SensorsPrivate::Run
+(2023-10-12T01:38:40.641982150) (2023-10-12T01:38:40.641993562) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::Sensors] for entity [1]
+(2023-10-12T01:38:40.646072791) (2023-10-12T01:38:40.646096084) [Dbg] [Sensors.cc:402] SensorsPrivate::RenderThread started
+(2023-10-12T01:38:40.646330660) (2023-10-12T01:38:40.646341287) [Dbg] [Sensors.cc:245] Waiting for init
+(2023-10-12T01:38:40.646851039) (2023-10-12T01:38:40.646864893) [Msg] Create service on [/world/iris_runway/create]
+(2023-10-12T01:38:40.647063565) (2023-10-12T01:38:40.647075682) [Msg] Remove service on [/world/iris_runway/remove]
+(2023-10-12T01:38:40.647241361) (2023-10-12T01:38:40.647252874) [Msg] Pose service on [/world/iris_runway/set_pose]
+(2023-10-12T01:38:40.647392619) (2023-10-12T01:38:40.647404189) [Msg] Pose service on [/world/iris_runway/set_pose_vector]
+(2023-10-12T01:38:40.647628272) (2023-10-12T01:38:40.647640067) [Msg] Light configuration service on [/world/iris_runway/light_config]
+(2023-10-12T01:38:40.648353060) (2023-10-12T01:38:40.648366588) [Msg] Physics service on [/world/iris_runway/set_physics]
+(2023-10-12T01:38:40.648679124) (2023-10-12T01:38:40.648691734) [Msg] SphericalCoordinates service on [/world/iris_runway/set_spherical_coordinates]
+(2023-10-12T01:38:40.649146269) (2023-10-12T01:38:40.649159204) [Msg] Enable collision service on [/world/iris_runway/enable_collision]
+(2023-10-12T01:38:40.649344610) (2023-10-12T01:38:40.649356512) [Msg] Disable collision service on [/world/iris_runway/disable_collision]
+(2023-10-12T01:38:40.649680829) (2023-10-12T01:38:40.649693604) [Msg] Material service on [/world/iris_runway/visual_config]
+(2023-10-12T01:38:40.649936964) (2023-10-12T01:38:40.649948894) [Msg] Material service on [/world/iris_runway/wheel_slip]
+(2023-10-12T01:38:40.650088292) (2023-10-12T01:38:40.650099145) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::UserCommands] for entity [1]
+(2023-10-12T01:38:40.652800107) (2023-10-12T01:38:40.652814071) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::SceneBroadcaster] for entity [1]
+(2023-10-12T01:38:40.655877960) (2023-10-12T01:38:40.655892074) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::Imu] for entity [1]
+(2023-10-12T01:38:40.657714481) (2023-10-12T01:38:40.657726846) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::NavSat] for entity [1]
+(2023-10-12T01:38:40.674120282) (2023-10-12T01:38:40.674137570) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::JointStatePublisher] for entity [15]
+(2023-10-12T01:38:40.676509383) (2023-10-12T01:38:40.676523435) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [15]
+(2023-10-12T01:38:40.677096787) (2023-10-12T01:38:40.677109928) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [15]
+(2023-10-12T01:38:40.677618049) (2023-10-12T01:38:40.677630878) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [15]
+(2023-10-12T01:38:40.678082077) (2023-10-12T01:38:40.678094635) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [15]
+(2023-10-12T01:38:40.678572139) (2023-10-12T01:38:40.678584469) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [15]
+(2023-10-12T01:38:40.679026247) (2023-10-12T01:38:40.679038398) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [15]
+(2023-10-12T01:38:40.679486911) (2023-10-12T01:38:40.679499375) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [15]
+(2023-10-12T01:38:40.679943383) (2023-10-12T01:38:40.679956007) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::LiftDrag] for entity [15]
+(2023-10-12T01:38:40.681655385) (2023-10-12T01:38:40.681668900) [Msg] ApplyJointForce subscribing to Double messages on [/model/iris_with_ardupilot/joint/iris_with_standoffs::rotor_0_joint/cmd_force]
+(2023-10-12T01:38:40.681799501) (2023-10-12T01:38:40.681810841) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::ApplyJointForce] for entity [15]
+(2023-10-12T01:38:40.682633751) (2023-10-12T01:38:40.682646987) [Msg] ApplyJointForce subscribing to Double messages on [/model/iris_with_ardupilot/joint/iris_with_standoffs::rotor_1_joint/cmd_force]
+(2023-10-12T01:38:40.682833945) (2023-10-12T01:38:40.682845027) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::ApplyJointForce] for entity [15]
+(2023-10-12T01:38:40.683400542) (2023-10-12T01:38:40.683413640) [Msg] ApplyJointForce subscribing to Double messages on [/model/iris_with_ardupilot/joint/iris_with_standoffs::rotor_2_joint/cmd_force]
+(2023-10-12T01:38:40.683533523) (2023-10-12T01:38:40.683545163) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::ApplyJointForce] for entity [15]
+(2023-10-12T01:38:40.684097303) (2023-10-12T01:38:40.684110196) [Msg] ApplyJointForce subscribing to Double messages on [/model/iris_with_ardupilot/joint/iris_with_standoffs::rotor_3_joint/cmd_force]
+(2023-10-12T01:38:40.684229612) (2023-10-12T01:38:40.684240974) [Dbg] [SystemManager.cc:74] Loaded system [gz::sim::systems::ApplyJointForce] for entity [15]
+(2023-10-12T01:38:40.688743119) [iris_with_ardupilot] flight dynamics model @ 127.0.0.1:9002
+(2023-10-12T01:38:40.688794403) [iris_with_ardupilot] ArduPilot ready to fly. The force will be with you
+(2023-10-12T01:38:40.688851341) (2023-10-12T01:38:40.688861635) [Dbg] [SystemManager.cc:74] Loaded system [ArduPilotPlugin] for entity [15]
+(2023-10-12T01:38:40.691038983) (2023-10-12T01:38:40.691052471) [Msg] Loaded level [3]
+(2023-10-12T01:38:40.702290207) (2023-10-12T01:38:40.702308135) [Msg] Serving world controls on [/world/iris_runway/control], [/world/iris_runway/control/state] and [/world/iris_runway/playback/control]
+(2023-10-12T01:38:40.702674836) (2023-10-12T01:38:40.702687335) [Msg] Serving GUI information on [/world/iris_runway/gui/info]
+(2023-10-12T01:38:40.702806182) (2023-10-12T01:38:40.702817308) [Msg] World [iris_runway] initialized with [1ms] physics profile.
+(2023-10-12T01:38:40.703187419) (2023-10-12T01:38:40.703200242) [Msg] Serving world SDF generation service on [/world/iris_runway/generate_world_sdf]
+(2023-10-12T01:38:40.703511987) (2023-10-12T01:38:40.703524688) [Msg] Serving world names on [/gazebo/worlds]
+(2023-10-12T01:38:40.703808279) (2023-10-12T01:38:40.703820609) [Msg] Resource path add service on [/gazebo/resource_paths/add].
+(2023-10-12T01:38:40.704260513) (2023-10-12T01:38:40.704273381) [Msg] Resource path get service on [/gazebo/resource_paths/get].
+(2023-10-12T01:38:40.704706873) (2023-10-12T01:38:40.704719624) [Msg] Resource path resolve service on [/gazebo/resource_paths/resolve].
+(2023-10-12T01:38:40.704970399) (2023-10-12T01:38:40.704982468) [Msg] Resource paths published on [/gazebo/resource_paths].
+(2023-10-12T01:38:40.712929103) (2023-10-12T01:38:40.712979720) [Msg] Server control service on [/server_control].
+(2023-10-12T01:38:42.160784708) (2023-10-12T01:38:42.160798641) [Msg] Found no publishers on /stats, adding root stats topic
+(2023-10-12T01:38:42.161070408) (2023-10-12T01:38:42.161081702) [Msg] Found no publishers on /clock, adding root clock topic
+(2023-10-12T01:38:42.161415177) (2023-10-12T01:38:42.161438560) [Dbg] [SimulationRunner.cc:503] Creating PostUpdate worker threads: 7
+(2023-10-12T01:38:42.161484316) (2023-10-12T01:38:42.161494239) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (0)
+(2023-10-12T01:38:42.161623915) (2023-10-12T01:38:42.161634849) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (1)
+(2023-10-12T01:38:42.161723203) (2023-10-12T01:38:42.161733784) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (2)
+(2023-10-12T01:38:42.161819973) (2023-10-12T01:38:42.161829989) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (3)
+(2023-10-12T01:38:42.161915442) (2023-10-12T01:38:42.161925792) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (4)
+(2023-10-12T01:38:42.162016806) (2023-10-12T01:38:42.162028136) [Dbg] [SimulationRunner.cc:514] Creating postupdate worker thread (5)
+(2023-10-12T01:38:42.162786810) (2023-10-12T01:38:42.162795113) [Msg] Found IMU sensor with name [iris_with_standoffs::imu_link::imu_sensor]
+(2023-10-12T01:38:42.162845630) (2023-10-12T01:38:42.162851233) [Dbg] [ArduPilotPlugin.cc:1154] Computed IMU topic to be: world/iris_runway/model/iris_with_ardupilot/model/iris_with_standoffs/link/imu_link/sensor/imu_sensor/imu
+(2023-10-12T01:38:42.169686545) (2023-10-12T01:38:42.169704874) [Dbg] [ImuSensor.cc:149] IMU data for [iris_with_ardupilot::iris_with_standoffs::imu_link::imu_sensor] advertised on [world/iris_runway/model/iris_with_ardupilot/model/iris_with_standoffs/link/imu_link/sensor/imu_sensor/imu]
+(2023-10-12T01:38:42.170263377) (2023-10-12T01:38:42.170277686) [Msg] Serving scene information on [/world/iris_runway/scene/info]
+(2023-10-12T01:38:42.170412192) (2023-10-12T01:38:42.170422853) [Msg] Serving graph information on [/world/iris_runway/scene/graph]
+(2023-10-12T01:38:42.170666401) (2023-10-12T01:38:42.170674360) [Msg] Serving full state on [/world/iris_runway/state]
+(2023-10-12T01:38:42.170748458) (2023-10-12T01:38:42.170754743) [Msg] Serving full state (async) on [/world/iris_runway/state_async]
+(2023-10-12T01:38:42.170835433) (2023-10-12T01:38:42.170845923) [Msg] Publishing scene information on [/world/iris_runway/scene/info]
+(2023-10-12T01:38:42.170979229) (2023-10-12T01:38:42.170990064) [Msg] Publishing entity deletions on [/world/iris_runway/scene/deletion]
+(2023-10-12T01:38:42.171077507) (2023-10-12T01:38:42.171086720) [Msg] Publishing state changes on [/world/iris_runway/state]
+(2023-10-12T01:38:42.171204130) (2023-10-12T01:38:42.171214655) [Msg] Publishing pose messages on [/world/iris_runway/pose/info]
+(2023-10-12T01:38:42.171298252) (2023-10-12T01:38:42.171309617) [Msg] Publishing dynamic pose messages on [/world/iris_runway/dynamic_pose/info]
+(2023-10-12T01:38:42.171807060) (2023-10-12T01:38:42.171819208) [Dbg] [EntityComponentManager.cc:1655] Updated state thread iterators: 8 threads processing around 6 entities each.
+(2023-10-12T01:38:42.172507357) (2023-10-12T01:38:42.172534076) [Wrn] [Model.hh:69] (Skipping serialization / deserialization for models with //pose/@relative_to attribute.
+2023-10-12T01:38:42.172630951) (2023-10-12T01:38:42.172933019) [Wrn] [Model.hh:69] (2023-10-12T01:38:42.173017179) (2023-10-12T01:38:42.173027866) Skipping serialization / deserialization for models with //pose/@relative_to attribute.
+[Wrn] [Component.hh:144] Trying to serialize component with data type [N3sdf3v135WorldE], which doesn't have `operator<<`. Component will not be serialized.
+(2023-10-12T01:38:42.174448334) (2023-10-12T01:38:42.174465433) [Wrn] [ArduPilotPlugin.cc:1436] [iris_with_ardupilot] Drained n packets: 1
+(2023-10-12T01:38:42.174562316) [iris_with_ardupilot] Connected to ArduPilot controller @ 127.0.0.1:33701
+(2023-10-12T01:38:42.174586048) (2023-10-12T01:38:42.174593448) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:38:42.175445109) (2023-10-12T01:38:42.175455325) [Wrn] [Component.hh:144] Trying to serialize component with data type [St6vectorIdSaIdEE], which doesn't have `operator<<`. Component will not be serialized.
+(2023-10-12T01:39:14.91065305) (2023-10-12T01:39:14.91094951) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:40:45.617700222) (2023-10-12T01:40:45.617722413) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:42:15.961285926) (2023-10-12T01:42:15.961325247) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:43:46.503974123) (2023-10-12T01:43:46.504073572) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:45:06.753490754) (2023-10-12T01:45:06.753504136) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:46:14.119353740) (2023-10-12T01:46:14.119363844) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:47:21.549398923) (2023-10-12T01:47:21.549410108) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:48:28.925296512) (2023-10-12T01:48:28.925307398) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:49:36.300867073) (2023-10-12T01:49:36.300878024) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:50:43.696368930) (2023-10-12T01:50:43.696379812) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:51:51.73226631) (2023-10-12T01:51:51.73237782) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:52:58.471020066) (2023-10-12T01:52:58.471031459) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:54:05.843883905) (2023-10-12T01:54:05.843894827) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:55:13.230157226) (2023-10-12T01:55:13.230167747) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:56:20.648986584) (2023-10-12T01:56:20.648997015) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:57:28.6024259) (2023-10-12T01:57:28.6035948) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T01:59:02.31095575) (2023-10-12T01:59:02.31143997) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:00:27.357239848) (2023-10-12T02:00:27.357256748) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:01:51.152522402) (2023-10-12T02:01:51.152546008) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:03:15.537041134) (2023-10-12T02:03:15.537069970) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:04:49.825106392) (2023-10-12T02:04:49.825124334) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:06:17.86996815) (2023-10-12T02:06:17.87026537) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:07:42.917831721) (2023-10-12T02:07:42.917862780) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:09:09.481948066) (2023-10-12T02:09:09.481963893) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:10:33.266097276) (2023-10-12T02:10:33.266126491) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:11:56.713619793) (2023-10-12T02:11:56.713634494) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:13:20.736786845) (2023-10-12T02:13:20.736831412) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:14:29.965924426) (2023-10-12T02:14:29.965934799) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:15:37.469226739) (2023-10-12T02:15:37.469236686) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:16:44.953472456) (2023-10-12T02:16:44.953482924) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:17:52.414782561) (2023-10-12T02:17:52.414792867) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:19:22.461436619) (2023-10-12T02:19:22.461482252) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:21:05.438884969) (2023-10-12T02:21:05.438969107) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:22:50.769548418) (2023-10-12T02:22:50.769580057) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:24:31.240280568) (2023-10-12T02:24:31.240304344) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:25:54.860476589) (2023-10-12T02:25:54.860496514) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:27:18.126102321) (2023-10-12T02:27:18.126131642) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:28:41.585596342) (2023-10-12T02:28:41.585676761) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:29:54.696052928) (2023-10-12T02:29:54.696063191) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:31:02.88502808) (2023-10-12T02:31:02.88513216) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:32:09.507639488) (2023-10-12T02:32:09.507652925) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:33:16.966543511) (2023-10-12T02:33:16.966555096) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:34:24.360397472) (2023-10-12T02:34:24.360408125) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:35:31.787826600) (2023-10-12T02:35:31.787836494) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:36:39.208003461) (2023-10-12T02:36:39.208013072) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:37:46.633892193) (2023-10-12T02:37:46.633902836) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:38:54.34011133) (2023-10-12T02:38:54.34021785) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:40:01.432989590) (2023-10-12T02:40:01.433000082) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:41:08.853863467) (2023-10-12T02:41:08.853874417) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:42:16.193011001) (2023-10-12T02:42:16.193022467) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:43:23.608102440) (2023-10-12T02:43:23.608120642) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:44:30.980745197) (2023-10-12T02:44:30.980756954) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:45:38.395639074) (2023-10-12T02:45:38.395648847) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:46:45.819825657) (2023-10-12T02:46:45.819836736) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:47:53.257921605) (2023-10-12T02:47:53.257932513) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:49:00.663868789) (2023-10-12T02:49:00.663880573) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:50:08.104446015) (2023-10-12T02:50:08.104456179) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:51:15.577287374) (2023-10-12T02:51:15.577298576) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:52:22.976111826) (2023-10-12T02:52:22.976122511) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:53:30.385900382) (2023-10-12T02:53:30.385911015) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:54:37.848432302) (2023-10-12T02:54:37.848442824) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:55:45.311293609) (2023-10-12T02:55:45.311304108) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:56:52.748952719) (2023-10-12T02:56:52.748963576) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:58:00.122698125) (2023-10-12T02:58:00.122708927) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T02:59:07.561878292) (2023-10-12T02:59:07.561888520) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:00:15.782852) (2023-10-12T03:00:15.793526) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:01:22.434387352) (2023-10-12T03:01:22.434398801) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:02:29.910198269) (2023-10-12T03:02:29.910209383) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:03:37.344876775) (2023-10-12T03:03:37.344887667) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:04:44.823523414) (2023-10-12T03:04:44.823534166) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:05:52.258263591) (2023-10-12T03:05:52.258274124) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:06:59.669857021) (2023-10-12T03:06:59.669868300) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:08:07.99933081) (2023-10-12T03:08:07.99943480) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:09:14.547705134) (2023-10-12T03:09:14.547716641) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:10:22.30411497) (2023-10-12T03:10:22.30422546) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:11:29.444981400) (2023-10-12T03:11:29.444991834) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:12:36.845519535) (2023-10-12T03:12:36.845530788) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:13:44.325371714) (2023-10-12T03:13:44.325382111) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:14:51.777172549) (2023-10-12T03:14:51.777216178) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:15:59.228695694) (2023-10-12T03:15:59.228706436) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:17:06.660131254) (2023-10-12T03:17:06.660166981) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:18:14.87115159) (2023-10-12T03:18:14.87126044) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:19:21.550455893) (2023-10-12T03:19:21.550467380) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:20:28.989638089) (2023-10-12T03:20:28.989648015) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:21:36.412087440) (2023-10-12T03:21:36.412098087) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:22:43.859574722) (2023-10-12T03:22:43.859585848) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:23:51.310069114) (2023-10-12T03:23:51.310079631) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:24:58.707376811) (2023-10-12T03:24:58.707387462) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:26:06.144229079) (2023-10-12T03:26:06.144240194) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:27:13.623852590) (2023-10-12T03:27:13.623869741) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:28:21.101311027) (2023-10-12T03:28:21.101321740) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:29:28.542617425) (2023-10-12T03:29:28.542628896) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:30:35.999976138) (2023-10-12T03:30:35.999986833) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:31:43.427625212) (2023-10-12T03:31:43.427636273) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:32:50.864682295) (2023-10-12T03:32:50.864693184) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:33:58.284463511) (2023-10-12T03:33:58.284473204) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:35:05.754768195) (2023-10-12T03:35:05.754779092) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:36:13.172858895) (2023-10-12T03:36:13.172868976) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:37:20.595000169) (2023-10-12T03:37:20.595010928) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:38:28.38686101) (2023-10-12T03:38:28.38697586) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:39:35.467849798) (2023-10-12T03:39:35.467861360) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:40:42.905531903) (2023-10-12T03:40:42.905545760) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:41:50.394108351) (2023-10-12T03:41:50.394118829) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:42:57.833456890) (2023-10-12T03:42:57.833467589) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:44:05.277228623) (2023-10-12T03:44:05.277239429) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:45:12.725461684) (2023-10-12T03:45:12.725472585) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:46:20.130160248) (2023-10-12T03:46:20.130170411) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:47:27.576108268) (2023-10-12T03:47:27.576118052) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:48:34.997331192) (2023-10-12T03:48:34.997341205) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:49:42.429830459) (2023-10-12T03:49:42.429841786) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:50:49.878295710) (2023-10-12T03:50:49.878306638) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:51:57.295873852) (2023-10-12T03:51:57.295883641) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:53:04.735752807) (2023-10-12T03:53:04.735762993) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:54:12.212921167) (2023-10-12T03:54:12.212931789) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:55:19.683878597) (2023-10-12T03:55:19.683888590) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:56:27.102734796) (2023-10-12T03:56:27.102743931) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:57:34.534918439) (2023-10-12T03:57:34.534928067) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:58:41.951768029) (2023-10-12T03:58:41.951780147) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T03:59:49.419476959) (2023-10-12T03:59:49.419487514) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:00:56.919253620) (2023-10-12T04:00:56.919286923) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:02:04.378984227) (2023-10-12T04:02:04.378994581) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:03:11.793182548) (2023-10-12T04:03:11.793201535) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:04:19.247017963) (2023-10-12T04:04:19.247028439) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:05:26.696842879) (2023-10-12T04:05:26.696905862) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:06:34.233646917) (2023-10-12T04:06:34.233657676) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:07:41.720164743) (2023-10-12T04:07:41.720175842) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:08:49.130862082) (2023-10-12T04:08:49.130872607) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:09:56.569107943) (2023-10-12T04:09:56.569118387) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:11:04.3833979) (2023-10-12T04:11:04.3845532) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:12:11.469478366) (2023-10-12T04:12:11.469498854) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:13:18.934935717) (2023-10-12T04:13:18.934944766) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:14:26.358644467) (2023-10-12T04:14:26.358655505) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:15:33.800559104) (2023-10-12T04:15:33.800570774) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:16:41.216652251) (2023-10-12T04:16:41.216663121) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:17:48.661933966) (2023-10-12T04:17:48.661944398) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:18:56.162427551) (2023-10-12T04:18:56.162437495) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:20:03.582318971) (2023-10-12T04:20:03.582330795) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:21:11.44341569) (2023-10-12T04:21:11.44352240) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:22:18.486075386) (2023-10-12T04:22:18.486086503) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:23:25.915238753) (2023-10-12T04:23:25.915254055) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:24:33.368242759) (2023-10-12T04:24:33.368253419) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:25:40.811444437) (2023-10-12T04:25:40.811456464) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:26:48.251874188) (2023-10-12T04:26:48.251885316) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:27:55.707486304) (2023-10-12T04:27:55.707520459) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:29:03.174332887) (2023-10-12T04:29:03.174346141) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:30:10.679463813) (2023-10-12T04:30:10.679474320) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:31:18.86540986) (2023-10-12T04:31:18.86551240) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:32:25.514860907) (2023-10-12T04:32:25.514871884) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:33:32.939685205) (2023-10-12T04:33:32.939697360) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:34:40.394126443) (2023-10-12T04:34:40.394136691) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:35:47.807549351) (2023-10-12T04:35:47.807560390) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:36:55.219975690) (2023-10-12T04:36:55.219986028) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:38:02.652890484) (2023-10-12T04:38:02.652902047) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:39:10.70019226) (2023-10-12T04:39:10.70030003) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:40:17.527110449) (2023-10-12T04:40:17.527122020) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:41:24.953798927) (2023-10-12T04:41:24.953809183) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:42:32.388285788) (2023-10-12T04:42:32.388297276) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:43:39.789816771) (2023-10-12T04:43:39.789827086) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:44:47.228225202) (2023-10-12T04:44:47.228235801) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:45:54.638973653) (2023-10-12T04:45:54.638983698) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:47:02.76454011) (2023-10-12T04:47:02.76464525) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:48:09.548920171) (2023-10-12T04:48:09.548930585) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:49:16.992300267) (2023-10-12T04:49:16.992310592) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:50:24.422000895) (2023-10-12T04:50:24.422011528) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:51:31.859782787) (2023-10-12T04:51:31.859805719) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:52:39.330439766) (2023-10-12T04:52:39.330449889) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:53:46.749413097) (2023-10-12T04:53:46.749423978) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:54:54.174006044) (2023-10-12T04:54:54.174016941) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:56:01.603871038) (2023-10-12T04:56:01.603881715) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:57:09.39660942) (2023-10-12T04:57:09.39677227) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:58:16.443405377) (2023-10-12T04:58:16.443416006) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T04:59:23.868909218) (2023-10-12T04:59:23.868920051) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:00:31.317370331) (2023-10-12T05:00:31.317431054) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:01:38.763835192) (2023-10-12T05:01:38.763846664) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:02:46.192677656) (2023-10-12T05:02:46.192687712) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:03:53.624152526) (2023-10-12T05:03:53.624162074) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:05:01.78505324) (2023-10-12T05:05:01.78515999) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:06:08.538099150) (2023-10-12T05:06:08.538110243) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:07:15.984969636) (2023-10-12T05:07:15.984980149) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:08:23.421798223) (2023-10-12T05:08:23.421808220) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:09:30.871765851) (2023-10-12T05:09:30.871775846) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:10:38.308293026) (2023-10-12T05:10:38.308303044) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:11:45.736215178) (2023-10-12T05:11:45.736225636) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:12:53.198149859) (2023-10-12T05:12:53.198159486) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:14:00.637844538) (2023-10-12T05:14:00.637860451) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:15:08.70353186) (2023-10-12T05:15:08.70363377) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:16:15.534077382) (2023-10-12T05:16:15.534087995) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:17:22.990708647) (2023-10-12T05:17:22.990719313) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:18:30.395739950) (2023-10-12T05:18:30.395750244) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:19:37.848345311) (2023-10-12T05:19:37.848355746) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:20:45.261707888) (2023-10-12T05:20:45.261718605) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:21:52.660023957) (2023-10-12T05:21:52.660035315) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:23:00.97376805) (2023-10-12T05:23:00.97387418) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:24:07.516288368) (2023-10-12T05:24:07.516299398) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:25:14.943909243) (2023-10-12T05:25:14.943921070) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:26:22.374316024) (2023-10-12T05:26:22.374325761) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:27:29.826784708) (2023-10-12T05:27:29.826795477) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:28:37.261884271) (2023-10-12T05:28:37.261894392) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:29:44.729364430) (2023-10-12T05:29:44.729375137) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:30:52.142826750) (2023-10-12T05:30:52.142838248) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:31:59.543553199) (2023-10-12T05:31:59.543563691) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:33:07.8625478) (2023-10-12T05:33:07.8636876) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:34:14.459650374) (2023-10-12T05:34:14.459660149) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:35:21.982027920) (2023-10-12T05:35:21.982038089) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:36:29.402613452) (2023-10-12T05:36:29.402627541) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:37:36.813483125) (2023-10-12T05:37:36.813494407) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:38:44.277679623) (2023-10-12T05:38:44.277690581) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:39:51.733813470) (2023-10-12T05:39:51.733824913) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:40:59.178395672) (2023-10-12T05:40:59.178405839) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:42:06.608828175) (2023-10-12T05:42:06.608839265) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:43:14.38324603) (2023-10-12T05:43:14.38335837) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:44:21.491774389) (2023-10-12T05:44:21.491785384) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:45:28.925462889) (2023-10-12T05:45:28.925472785) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:46:36.391457102) (2023-10-12T05:46:36.391467623) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:47:43.825473916) (2023-10-12T05:47:43.825483715) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:48:51.260779990) (2023-10-12T05:48:51.260789925) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:49:58.743558219) (2023-10-12T05:49:58.743568829) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:51:06.170760837) (2023-10-12T05:51:06.170782039) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:52:13.639728261) (2023-10-12T05:52:13.639738902) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:53:21.55037045) (2023-10-12T05:53:21.55053094) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:54:28.567583760) (2023-10-12T05:54:28.567595241) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:55:36.36540998) (2023-10-12T05:55:36.36552181) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:56:43.471446835) (2023-10-12T05:56:43.471456411) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:57:50.890711040) (2023-10-12T05:57:50.890721498) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T05:58:58.327367075) (2023-10-12T05:58:58.327377490) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:00:05.801661188) (2023-10-12T06:00:05.801675406) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:01:13.266594810) (2023-10-12T06:01:13.266616637) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:02:20.678836466) (2023-10-12T06:02:20.678847022) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:03:28.149096220) (2023-10-12T06:03:28.149106247) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:04:35.609499490) (2023-10-12T06:04:35.609509200) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:05:43.68225720) (2023-10-12T06:05:43.68235399) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:06:50.488029359) (2023-10-12T06:06:50.488039696) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:07:57.556132974) (2023-10-12T06:07:57.556142038) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:09:04.454201925) (2023-10-12T06:09:04.454211975) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:10:11.925303124) (2023-10-12T06:10:11.925314031) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:11:19.384728231) (2023-10-12T06:11:19.384738756) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:12:26.842501936) (2023-10-12T06:12:26.842512577) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:13:34.270871207) (2023-10-12T06:13:34.270881056) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:14:41.727199243) (2023-10-12T06:14:41.727212850) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:15:49.166303574) (2023-10-12T06:15:49.166314688) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:16:56.637927277) (2023-10-12T06:16:56.637938675) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:18:04.87293165) (2023-10-12T06:18:04.87304088) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:19:11.521237240) (2023-10-12T06:19:11.521247638) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:20:18.953750148) (2023-10-12T06:20:18.953760604) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:21:26.371453073) (2023-10-12T06:21:26.371464198) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:22:33.820825362) (2023-10-12T06:22:33.820835881) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:23:41.281744769) (2023-10-12T06:23:41.281762044) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:24:48.741800223) (2023-10-12T06:24:48.741811397) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:25:56.175277513) (2023-10-12T06:25:56.175287593) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:27:03.614046074) (2023-10-12T06:27:03.614056919) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:28:11.51909437) (2023-10-12T06:28:11.51920040) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:29:18.538901246) (2023-10-12T06:29:18.538911700) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:30:25.972769002) (2023-10-12T06:30:25.972779754) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:31:33.429883022) (2023-10-12T06:31:33.429894066) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:32:40.885354962) (2023-10-12T06:32:40.885365616) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:33:48.310491472) (2023-10-12T06:33:48.310501854) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:34:55.795754884) (2023-10-12T06:34:55.795765161) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:36:03.272289409) (2023-10-12T06:36:03.272299784) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:37:10.703082409) (2023-10-12T06:37:10.703092401) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:38:18.166795379) (2023-10-12T06:38:18.166805969) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:39:25.591747544) (2023-10-12T06:39:25.591762026) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:40:33.33023110) (2023-10-12T06:40:33.33034463) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:41:40.519296038) (2023-10-12T06:41:40.519306428) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:42:47.960819415) (2023-10-12T06:42:47.960844289) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:43:55.382310606) (2023-10-12T06:43:55.382320754) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:45:02.801922189) (2023-10-12T06:45:02.801932920) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:46:10.248523822) (2023-10-12T06:46:10.248535199) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:47:17.688451188) (2023-10-12T06:47:17.688461787) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:48:25.95259345) (2023-10-12T06:48:25.95269282) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:49:32.543418673) (2023-10-12T06:49:32.543428236) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:50:40.3069093) (2023-10-12T06:50:40.3078725) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:51:47.395567427) (2023-10-12T06:51:47.395577301) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:52:54.833814084) (2023-10-12T06:52:54.833824586) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:54:02.306935506) (2023-10-12T06:54:02.306945692) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:55:09.750434234) (2023-10-12T06:55:09.750445621) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:56:17.179086300) (2023-10-12T06:56:17.179098763) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:57:24.611743441) (2023-10-12T06:57:24.611754270) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:58:32.10637128) (2023-10-12T06:58:32.10648361) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T06:59:39.490144950) (2023-10-12T06:59:39.490155678) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:00:46.962152414) (2023-10-12T07:00:46.962163537) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:01:54.448899478) (2023-10-12T07:01:54.448934008) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:03:01.899521483) (2023-10-12T07:03:01.899531931) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:04:09.314364714) (2023-10-12T07:04:09.314400473) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:05:16.745373564) (2023-10-12T07:05:16.745384085) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:06:24.233049640) (2023-10-12T07:06:24.233060099) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:07:31.711879836) (2023-10-12T07:07:31.711890544) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:08:39.145451368) (2023-10-12T07:08:39.145461360) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:09:46.573504626) (2023-10-12T07:09:46.573541002) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:10:54.4475356) (2023-10-12T07:10:54.4486496) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:12:01.451022661) (2023-10-12T07:12:01.451033538) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:13:08.907885837) (2023-10-12T07:13:08.907896235) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:14:16.350873617) (2023-10-12T07:14:16.350888534) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:15:23.800458439) (2023-10-12T07:15:23.800469784) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:16:31.282540691) (2023-10-12T07:16:31.282551001) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:17:38.710653807) (2023-10-12T07:17:38.710664354) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:18:46.147836344) (2023-10-12T07:18:46.147846074) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:19:53.589984447) (2023-10-12T07:19:53.589994692) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:21:01.34082756) (2023-10-12T07:21:01.34092065) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:22:08.479425299) (2023-10-12T07:22:08.479434871) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:23:15.896443706) (2023-10-12T07:23:15.896453658) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:24:23.339948039) (2023-10-12T07:24:23.339958646) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:25:30.793366506) (2023-10-12T07:25:30.793376167) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:26:38.279227415) (2023-10-12T07:26:38.279237558) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:27:45.749501478) (2023-10-12T07:27:45.749511689) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:28:53.159822718) (2023-10-12T07:28:53.159833408) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:30:00.630106260) (2023-10-12T07:30:00.630116309) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:31:08.59526876) (2023-10-12T07:31:08.59537511) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:32:15.499298397) (2023-10-12T07:32:15.499308677) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:33:22.932376244) (2023-10-12T07:33:22.932386912) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:34:30.373631416) (2023-10-12T07:34:30.373643717) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:35:37.809563241) (2023-10-12T07:35:37.809578731) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:36:45.220224103) (2023-10-12T07:36:45.220234993) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:37:52.643511665) (2023-10-12T07:37:52.643521852) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:39:00.84938540) (2023-10-12T07:39:00.84949352) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:40:07.545009428) (2023-10-12T07:40:07.545019746) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:41:14.997377053) (2023-10-12T07:41:14.997388254) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:42:22.420005973) (2023-10-12T07:42:22.420016076) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:43:29.887082107) (2023-10-12T07:43:29.887092078) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:44:37.330124091) (2023-10-12T07:44:37.330134574) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:45:44.801546430) (2023-10-12T07:45:44.801557505) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:46:52.234076243) (2023-10-12T07:46:52.234085932) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:47:59.672860649) (2023-10-12T07:47:59.672870863) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:49:07.89843605) (2023-10-12T07:49:07.89857547) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:50:14.533883031) (2023-10-12T07:50:14.533905443) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:51:21.990847427) (2023-10-12T07:51:21.990857049) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:52:29.415884641) (2023-10-12T07:52:29.415896048) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:53:36.870440029) (2023-10-12T07:53:36.870450130) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:54:44.323923448) (2023-10-12T07:54:44.323933501) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:55:51.776962533) (2023-10-12T07:55:51.776972550) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:56:59.211247040) (2023-10-12T07:56:59.211260200) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:58:06.675783417) (2023-10-12T07:58:06.675793334) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T07:59:14.130190762) (2023-10-12T07:59:14.130202361) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:00:21.586518426) (2023-10-12T08:00:21.586528609) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:01:29.50429756) (2023-10-12T08:01:29.50441811) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:02:36.519578442) (2023-10-12T08:02:36.519592396) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:03:43.955810521) (2023-10-12T08:03:43.955820556) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:04:51.448535445) (2023-10-12T08:04:51.448545887) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:05:58.944959991) (2023-10-12T08:05:58.944970339) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:07:06.363085289) (2023-10-12T08:07:06.363097565) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:08:13.810900861) (2023-10-12T08:08:13.810911808) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:09:21.281897599) (2023-10-12T08:09:21.281907982) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:10:28.754086956) (2023-10-12T08:10:28.754096827) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:11:36.221615013) (2023-10-12T08:11:36.221625761) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:12:43.707276064) (2023-10-12T08:12:43.707285753) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:13:51.185710967) (2023-10-12T08:13:51.185720752) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:14:58.644091184) (2023-10-12T08:14:58.644105452) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:16:06.160390980) (2023-10-12T08:16:06.160400510) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:17:13.605792246) (2023-10-12T08:17:13.605802490) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:18:21.72887186) (2023-10-12T08:18:21.72898133) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:19:28.510815599) (2023-10-12T08:19:28.510827432) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:20:35.937834790) (2023-10-12T08:20:35.937845429) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:21:43.368631453) (2023-10-12T08:21:43.368641559) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:22:50.830811950) (2023-10-12T08:22:50.830821993) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:23:58.258428227) (2023-10-12T08:23:58.258443528) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:25:05.653007089) (2023-10-12T08:25:05.653018007) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:26:13.109971016) (2023-10-12T08:26:13.109982086) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:27:20.545882895) (2023-10-12T08:27:20.545893336) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:28:28.16283372) (2023-10-12T08:28:28.16294483) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:29:35.500342662) (2023-10-12T08:29:35.500354040) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:30:42.930799043) (2023-10-12T08:30:42.930809763) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:31:50.424896138) (2023-10-12T08:31:50.424906895) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:32:57.867848750) (2023-10-12T08:32:57.867858671) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:34:05.315557395) (2023-10-12T08:34:05.315568215) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:35:12.744569871) (2023-10-12T08:35:12.744580308) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:36:20.209761022) (2023-10-12T08:36:20.209771837) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:37:27.602882738) (2023-10-12T08:37:27.602893556) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:38:35.27900350) (2023-10-12T08:38:35.27911128) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:39:42.459325895) (2023-10-12T08:39:42.459336261) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:40:49.942768652) (2023-10-12T08:40:49.942779139) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:41:57.385470873) (2023-10-12T08:41:57.385480978) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:43:04.833910425) (2023-10-12T08:43:04.833920412) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:44:12.266965806) (2023-10-12T08:44:12.266976394) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:45:19.747883233) (2023-10-12T08:45:19.747893254) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:46:27.197711309) (2023-10-12T08:46:27.197721995) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:47:34.678237355) (2023-10-12T08:47:34.678249220) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:48:42.153590190) (2023-10-12T08:48:42.153604073) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:49:49.636834786) (2023-10-12T08:49:49.636850721) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:50:57.141841109) (2023-10-12T08:50:57.141851759) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:52:04.587867855) (2023-10-12T08:52:04.587878187) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:53:12.55161605) (2023-10-12T08:53:12.55172076) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:54:19.518797121) (2023-10-12T08:54:19.518807265) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:55:27.29024983) (2023-10-12T08:55:27.29034610) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:56:34.489567917) (2023-10-12T08:56:34.489577954) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:57:41.915914612) (2023-10-12T08:57:41.915932996) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:58:49.352388341) (2023-10-12T08:58:49.352402020) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T08:59:56.811057776) (2023-10-12T08:59:56.811068895) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:01:04.243844331) (2023-10-12T09:01:04.243855274) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:02:11.688953918) (2023-10-12T09:02:11.688964700) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:03:19.164141615) (2023-10-12T09:03:19.164152352) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:04:25.791591144) (2023-10-12T09:04:25.791602189) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:05:33.95539872) (2023-10-12T09:05:33.95549802) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:06:40.562426542) (2023-10-12T09:06:40.562438314) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:07:48.25435623) (2023-10-12T09:07:48.25446047) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:08:55.460643120) (2023-10-12T09:08:55.460654454) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:10:02.903725702) (2023-10-12T09:10:02.903736170) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:11:10.370099899) (2023-10-12T09:11:10.370110237) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:12:17.843772208) (2023-10-12T09:12:17.843782758) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:13:25.288586478) (2023-10-12T09:13:25.288596190) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:14:32.743624170) (2023-10-12T09:14:32.743634834) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:15:40.186509602) (2023-10-12T09:15:40.186520765) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:16:47.516602879) (2023-10-12T09:16:47.516612948) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:17:54.925742606) (2023-10-12T09:17:54.925755524) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:19:02.355730857) (2023-10-12T09:19:02.355751928) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:20:09.792649338) (2023-10-12T09:20:09.792659799) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:21:17.233942358) (2023-10-12T09:21:17.233952789) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:22:24.634552870) (2023-10-12T09:22:24.634562438) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:23:32.36543034) (2023-10-12T09:23:32.36554050) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:24:39.512835915) (2023-10-12T09:24:39.512844700) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:25:46.966885207) (2023-10-12T09:25:46.966895330) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:26:54.421682737) (2023-10-12T09:26:54.421693332) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:28:01.844913535) (2023-10-12T09:28:01.844923984) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:29:09.278849102) (2023-10-12T09:29:09.278859681) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:30:16.757002900) (2023-10-12T09:30:16.757012839) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:31:24.198818852) (2023-10-12T09:31:24.198828470) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:32:31.719506218) (2023-10-12T09:32:31.719516357) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:33:39.162761498) (2023-10-12T09:33:39.162778534) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:34:46.596220699) (2023-10-12T09:34:46.596231361) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:35:54.2941698) (2023-10-12T09:35:54.2952219) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:37:01.495877595) (2023-10-12T09:37:01.495888015) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:38:08.918170664) (2023-10-12T09:38:08.918180803) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:39:16.361707397) (2023-10-12T09:39:16.361726277) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:40:23.774789748) (2023-10-12T09:40:23.774799712) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:41:31.201017227) (2023-10-12T09:41:31.201026672) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:42:38.622881098) (2023-10-12T09:42:38.622891059) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:43:46.54978684) (2023-10-12T09:43:46.54989026) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:44:53.535925186) (2023-10-12T09:44:53.535936066) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:46:01.23904684) (2023-10-12T09:46:01.23915120) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:47:08.489399015) (2023-10-12T09:47:08.489410447) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:48:15.955635982) (2023-10-12T09:48:15.955646734) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:49:23.364372392) (2023-10-12T09:49:23.364382077) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:50:30.778454137) (2023-10-12T09:50:30.778465334) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:51:38.218409092) (2023-10-12T09:51:38.218420024) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:52:45.645235016) (2023-10-12T09:52:45.645246287) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:53:53.115598288) (2023-10-12T09:53:53.115609859) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:55:00.534835375) (2023-10-12T09:55:00.534845637) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:56:07.975323862) (2023-10-12T09:56:07.975333923) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:57:15.418237505) (2023-10-12T09:57:15.418247479) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:58:22.872264419) (2023-10-12T09:58:22.872274148) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T09:59:30.304150541) (2023-10-12T09:59:30.304160461) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:00:37.747106251) (2023-10-12T10:00:37.747117632) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:01:45.243872906) (2023-10-12T10:01:45.243883335) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:02:52.683690896) (2023-10-12T10:02:52.683701685) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:04:00.112194080) (2023-10-12T10:04:00.112204032) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:05:07.552024018) (2023-10-12T10:05:07.552040186) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:06:15.3064282) (2023-10-12T10:06:15.3074095) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:07:22.451816083) (2023-10-12T10:07:22.451826053) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:08:29.893919108) (2023-10-12T10:08:29.893929551) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:09:37.352267880) (2023-10-12T10:09:37.352277175) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:10:44.794220396) (2023-10-12T10:10:44.794231258) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:11:52.218751908) (2023-10-12T10:11:52.218761742) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:12:59.661540348) (2023-10-12T10:12:59.661550133) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:14:07.129950634) (2023-10-12T10:14:07.129961270) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:15:14.591541942) (2023-10-12T10:15:14.591551697) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:16:22.35141366) (2023-10-12T10:16:22.35150516) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:17:29.485501548) (2023-10-12T10:17:29.485510991) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:18:36.916481922) (2023-10-12T10:18:36.916492143) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:19:44.391615485) (2023-10-12T10:19:44.391625070) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:20:51.858139739) (2023-10-12T10:20:51.858150053) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:21:59.295220864) (2023-10-12T10:21:59.295230114) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:23:06.724807436) (2023-10-12T10:23:06.724818599) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:24:14.149224595) (2023-10-12T10:24:14.149233535) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:25:21.588616808) (2023-10-12T10:25:21.588631634) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:26:29.73631861) (2023-10-12T10:26:29.73642413) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:27:36.521805603) (2023-10-12T10:27:36.521816593) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:28:44.29767825) (2023-10-12T10:28:44.29778281) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:29:51.468103126) (2023-10-12T10:29:51.468113698) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:30:58.906031779) (2023-10-12T10:30:58.906042104) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:32:06.353971236) (2023-10-12T10:32:06.353982529) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:33:13.768900212) (2023-10-12T10:33:13.768910859) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:34:21.226718308) (2023-10-12T10:34:21.226729801) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:35:28.693901350) (2023-10-12T10:35:28.693911722) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:36:36.123307025) (2023-10-12T10:36:36.123316817) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:37:43.575554936) (2023-10-12T10:37:43.575566246) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:38:50.999001631) (2023-10-12T10:38:50.999011547) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:39:58.479431823) (2023-10-12T10:39:58.479440736) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:41:05.956992531) (2023-10-12T10:41:05.957004025) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:42:13.394006473) (2023-10-12T10:42:13.394017477) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:43:20.825932117) (2023-10-12T10:43:20.825944242) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:44:28.243267269) (2023-10-12T10:44:28.243277482) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:45:35.653999193) (2023-10-12T10:45:35.654009378) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T10:46:43.84818970) (2023-10-12T10:46:43.84829529) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T12:44:54.931285678) (2023-10-12T12:44:54.931306800) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T12:46:14.641588954) (2023-10-12T12:46:14.641615308) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T12:47:38.123883653) (2023-10-12T12:47:38.123915645) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T12:49:00.508499515) (2023-10-12T12:49:00.508516558) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T12:50:22.974810169) (2023-10-12T12:50:22.974856493) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T12:51:45.960818060) (2023-10-12T12:51:45.960850883) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T12:52:59.729452886) (2023-10-12T12:52:59.729463207) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T12:54:07.136756354) (2023-10-12T12:54:07.136766404) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T12:55:14.551420973) (2023-10-12T12:55:14.551431799) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T12:56:21.999249371) (2023-10-12T12:56:21.999259446) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T12:57:29.393956556) (2023-10-12T12:57:29.393967306) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T12:58:36.815600267) (2023-10-12T12:58:36.815610527) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T12:59:44.259009998) (2023-10-12T12:59:44.259019589) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T13:00:51.704331755) (2023-10-12T13:00:51.704342329) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T13:01:59.127892620) (2023-10-12T13:01:59.127903516) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T13:03:06.562155052) (2023-10-12T13:03:06.562168781) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T13:04:13.994526828) (2023-10-12T13:04:13.994538163) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T13:05:21.418521580) (2023-10-12T13:05:21.418532415) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T13:06:28.884689019) (2023-10-12T13:06:28.884698785) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T14:22:07.102226470) (2023-10-12T14:22:07.102291437) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T14:23:29.880253347) (2023-10-12T14:23:29.880283106) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T14:24:52.124370873) (2023-10-12T14:24:52.124392928) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T14:26:21.188770986) (2023-10-12T14:26:21.188790428) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T14:27:51.322967361) (2023-10-12T14:27:51.323027572) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T14:29:16.476604521) (2023-10-12T14:29:16.476655224) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T14:30:39.840613734) (2023-10-12T14:30:39.840629314) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T14:32:02.957576059) (2023-10-12T14:32:02.957590806) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T14:33:25.879699856) (2023-10-12T14:33:25.879714296) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T14:34:50.315585682) (2023-10-12T14:34:50.315608100) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T14:36:13.395450965) (2023-10-12T14:36:13.395467015) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T14:37:36.500197197) (2023-10-12T14:37:36.500220273) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T14:38:59.662100031) (2023-10-12T14:38:59.662137141) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T14:40:13.614416451) (2023-10-12T14:40:13.614434186) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T14:41:20.428127827) (2023-10-12T14:41:20.428138723) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T14:42:27.782544097) (2023-10-12T14:42:27.782554269) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T14:43:35.195244021) (2023-10-12T14:43:35.195254512) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T14:44:42.583510429) (2023-10-12T14:44:42.583521526) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T14:45:49.943745024) (2023-10-12T14:45:49.943755264) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T14:46:57.348097788) (2023-10-12T14:46:57.348107678) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T14:48:04.716801084) (2023-10-12T14:48:04.716818656) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T14:49:12.74718047) (2023-10-12T14:49:12.74728301) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T14:50:19.512181819) (2023-10-12T14:50:19.512192586) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T14:51:26.927035516) (2023-10-12T14:51:26.927045203) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T14:52:34.298307529) (2023-10-12T14:52:34.298318220) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T14:53:41.736910892) (2023-10-12T14:53:41.736921267) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T14:54:49.98522696) (2023-10-12T14:54:49.98557632) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T14:55:58.504172110) (2023-10-12T14:55:58.504182766) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T14:57:05.849090385) (2023-10-12T14:57:05.849101368) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T14:58:13.166758565) (2023-10-12T14:58:13.166768290) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T14:59:38.782424710) (2023-10-12T14:59:38.782495610) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:01:11.294931877) (2023-10-12T15:01:11.294955591) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:02:41.106872865) (2023-10-12T15:02:41.106914866) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:04:10.25925312) (2023-10-12T15:04:10.25942970) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:05:32.553178180) (2023-10-12T15:05:32.553215614) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:06:55.179274842) (2023-10-12T15:06:55.179324828) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:08:17.918500498) (2023-10-12T15:08:17.918548392) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:09:33.157211729) (2023-10-12T15:09:33.157222231) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:10:40.511596981) (2023-10-12T15:10:40.511607282) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:11:47.913190970) (2023-10-12T15:11:47.913201144) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:12:55.382001574) (2023-10-12T15:12:55.382011742) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:14:02.785304509) (2023-10-12T15:14:02.785314659) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:15:10.228659660) (2023-10-12T15:15:10.228670101) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:16:17.646315399) (2023-10-12T15:16:17.646325521) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:17:25.50643900) (2023-10-12T15:17:25.50655450) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:18:32.447736630) (2023-10-12T15:18:32.447751065) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:19:39.835030943) (2023-10-12T15:19:39.835042935) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:20:47.289418207) (2023-10-12T15:20:47.289428541) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:21:54.690471874) (2023-10-12T15:21:54.690481942) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:23:02.82074684) (2023-10-12T15:23:02.82095517) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:24:09.480011511) (2023-10-12T15:24:09.480020584) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:25:16.930616347) (2023-10-12T15:25:16.930626706) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:26:24.343898635) (2023-10-12T15:26:24.343908387) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:27:31.765538087) (2023-10-12T15:27:31.765552941) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:28:39.211760743) (2023-10-12T15:28:39.211773228) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:29:46.631820067) (2023-10-12T15:29:46.631829812) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:30:54.65337797) (2023-10-12T15:30:54.65348487) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:32:01.490438634) (2023-10-12T15:32:01.490451990) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:33:08.912613415) (2023-10-12T15:33:08.912623033) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:34:16.286284448) (2023-10-12T15:34:16.286294553) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:35:23.674421887) (2023-10-12T15:35:23.674433361) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:36:31.103712083) (2023-10-12T15:36:31.103723588) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:37:38.564896616) (2023-10-12T15:37:38.564906291) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:38:45.994617727) (2023-10-12T15:38:45.994627446) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:39:53.402684552) (2023-10-12T15:39:53.402694685) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:41:00.850969575) (2023-10-12T15:41:00.850980124) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:42:08.265672111) (2023-10-12T15:42:08.265683748) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:43:15.671740195) (2023-10-12T15:43:15.671750554) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:44:23.134778322) (2023-10-12T15:44:23.134792297) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:45:30.556370229) (2023-10-12T15:45:30.556380764) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:46:38.20476914) (2023-10-12T15:46:38.20488013) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:47:45.396454549) (2023-10-12T15:47:45.396466961) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:48:52.788729266) (2023-10-12T15:48:52.788739583) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:50:00.207076998) (2023-10-12T15:50:00.207087596) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:51:07.612597497) (2023-10-12T15:51:07.612608649) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:52:14.973269188) (2023-10-12T15:52:14.973280526) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:53:22.255480165) (2023-10-12T15:53:22.255490078) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:54:29.720556629) (2023-10-12T15:54:29.720566284) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:55:37.158261613) (2023-10-12T15:55:37.158271157) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:56:44.628689195) (2023-10-12T15:56:44.628699653) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:57:52.62986311) (2023-10-12T15:57:52.63002773) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T15:58:59.536092569) (2023-10-12T15:58:59.536104066) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T16:00:06.991845026) (2023-10-12T16:00:06.991855202) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T16:01:14.444579622) (2023-10-12T16:01:14.444591477) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T16:02:21.925881003) (2023-10-12T16:02:21.925891267) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T16:03:29.325508787) (2023-10-12T16:03:29.325517477) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T16:04:36.747059096) (2023-10-12T16:04:36.747070069) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T16:05:44.198571827) (2023-10-12T16:05:44.198583035) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T16:06:51.640861663) (2023-10-12T16:06:51.640871374) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T16:07:59.59043668) (2023-10-12T16:07:59.59053646) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T16:09:06.492639390) (2023-10-12T16:09:06.492650204) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T16:10:13.926823487) (2023-10-12T16:10:13.926834654) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T16:11:21.401141407) (2023-10-12T16:11:21.401151599) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T16:12:28.900259985) (2023-10-12T16:12:28.900276332) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T16:13:36.319507602) (2023-10-12T16:13:36.319518408) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T16:14:43.755635961) (2023-10-12T16:14:43.755646786) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T16:15:51.164869289) (2023-10-12T16:15:51.164880955) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T16:57:59.893767512) (2023-10-12T16:57:59.893787050) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T16:59:28.255194386) (2023-10-12T16:59:28.255215860) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T17:00:54.526317201) (2023-10-12T17:00:54.526346757) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T17:02:17.595057338) (2023-10-12T17:02:17.595074806) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T17:03:45.989888391) (2023-10-12T17:03:45.989913677) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T17:05:11.851347668) (2023-10-12T17:05:11.851383090) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T17:06:39.929072337) (2023-10-12T17:06:39.929130823) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T17:08:02.513500549) (2023-10-12T17:08:02.513560347) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T17:09:28.690306812) (2023-10-12T17:09:28.690329622) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T17:10:54.476039038) (2023-10-12T17:10:54.476064925) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T17:12:25.174532118) (2023-10-12T17:12:25.174549826) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T17:13:50.422550984) (2023-10-12T17:13:50.422569433) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T17:15:14.270655492) (2023-10-12T17:15:14.270674710) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T17:16:37.817905102) (2023-10-12T17:16:37.817921835) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T17:18:02.304432726) (2023-10-12T17:18:02.304461199) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T17:19:26.66292355) (2023-10-12T17:19:26.66307840) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T17:20:49.600954210) (2023-10-12T17:20:49.600984822) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T17:22:12.264373612) (2023-10-12T17:22:12.264397522) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T17:23:34.550507675) (2023-10-12T17:23:34.550552342) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T17:24:56.47056175) (2023-10-12T17:24:56.47078717) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T17:26:23.250003592) (2023-10-12T17:26:23.250041314) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T17:27:50.464422592) (2023-10-12T17:27:50.464460293) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T17:29:34.527799287) (2023-10-12T17:29:34.527841339) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T17:31:08.180474539) (2023-10-12T17:31:08.180497667) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T17:32:30.497042901) (2023-10-12T17:32:30.497074478) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T17:33:53.500230017) (2023-10-12T17:33:53.500251287) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T17:35:21.634250391) (2023-10-12T17:35:21.634271621) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T17:36:48.170327384) (2023-10-12T17:36:48.170371251) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T17:38:15.997579775) (2023-10-12T17:38:15.997604748) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T17:39:40.595983450) (2023-10-12T17:39:40.596000098) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T17:41:02.805594392) (2023-10-12T17:41:02.805619911) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T17:42:26.659053026) (2023-10-12T17:42:26.659080270) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T17:43:51.741355780) (2023-10-12T17:43:51.741405495) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T17:45:16.330255385) (2023-10-12T17:45:16.330279715) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T17:46:42.950239532) (2023-10-12T17:46:42.950256505) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T17:48:08.960803629) (2023-10-12T17:48:08.960825334) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T17:49:33.516102881) (2023-10-12T17:49:33.516123234) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T17:51:04.452980055) (2023-10-12T17:51:04.453042485) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T17:52:58.521057537) (2023-10-12T17:52:58.521095862) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T17:54:48.789254982) (2023-10-12T17:54:48.789301175) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T17:56:31.508844397) (2023-10-12T17:56:31.508860426) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T17:58:48.810075013) (2023-10-12T17:58:48.810109182) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T18:01:00.794312011) (2023-10-12T18:01:00.794343946) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T18:02:34.710299501) (2023-10-12T18:02:34.710317583) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T18:04:12.28193773) (2023-10-12T18:04:12.28217717) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T18:05:36.382075629) (2023-10-12T18:05:36.382123484) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T18:06:59.829042830) (2023-10-12T18:06:59.829085672) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T18:08:22.949252592) (2023-10-12T18:08:22.949283532) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T18:09:46.788796932) (2023-10-12T18:09:46.788823938) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T18:11:14.949087212) (2023-10-12T18:11:14.949145901) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T18:12:38.60748791) (2023-10-12T18:12:38.60767153) [Wrn] [ArduPilotPlugin.cc:1583] ArduPilot controller has reset
+(2023-10-12T18:13:39.656817472) (2023-10-12T18:13:39.656851274) [Dbg] [SignalHandler.cc:142] Received signal[2].
+(2023-10-12T18:13:39.657255569) (2023-10-12T18:13:39.657270530) [Dbg] [ServerPrivate.cc:115] Server received signal[2]
+(2023-10-12T18:13:39.657988228) (2023-10-12T18:13:39.658004623) [Dbg] [Sensors.cc:433] SensorsPrivate::Stop
+(2023-10-12T18:13:39.658704334) (2023-10-12T18:13:39.658726413) [Dbg] [Sensors.cc:277] Rendering Thread initialized
+(2023-10-12T18:13:39.659028862) (2023-10-12T18:13:39.659052004) [Dbg] [Sensors.cc:419] SensorsPrivate::RenderThread stopped
+(2023-10-12T18:13:39.659206239) (2023-10-12T18:13:39.659227718) [Dbg] [SignalHandler.cc:142] Received signal[2].
+(2023-10-12T18:13:39.659751563) (2023-10-12T18:13:39.659764633) [Dbg] [ArduPilotPlugin.cc:370] Plugin received signal[2]
+(2023-10-12T18:13:39.659826850) (2023-10-12T18:13:39.659836106) [Dbg] [gz.cc:417] Shutting down gz-sim-server
+(2023-10-12T18:13:39.670790579) (((((((2023-10-12T18:13:39.670822225) 2023-10-12T18:13:39.670855187) ([Dbg] [SimulationRunner.cc:530] ) ) (2023-10-12T18:13:39.670956895) ) (2023-10-12T18:13:39.6709127492023-10-12T18:13:39.671003189) 2023-10-12T18:13:39.670933905Exiting postupdate worker thread (4) 4) ()2023-10-12T18:13:39.671064516
+) ) ) ([Dbg] [SimulationRunner.cc:530] [Dbg] [SimulationRunner.cc:530] 2023-10-12T18:13:39.671149374) [Dbg] [SimulationRunner.cc:530] [Dbg] [SimulationRunner.cc:530] [Dbg] [SimulationRunner.cc:530] Exiting postupdate worker thread (2)
+Exiting postupdate worker thread (Exiting postupdate worker thread (3)
+50)
+Exiting postupdate worker thread (1)
+)
+(2023-10-12T18:13:39.715243027) (2023-10-12T18:13:39.715264561) [Dbg] [Sensors.cc:433] SensorsPrivate::Stop
