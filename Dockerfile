@@ -76,10 +76,8 @@ RUN echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
 RUN echo "export GZ_SIM_RESOURCE_PATH=~/.gz/models" >> ~/.bashrc
 
 
-RUN rm -rf /root/PX4-Autopilot/Tools/simulation/gz/worlds /root/PX4-Autopilot/Tools/simulation/gz/models/x500_depth
-COPY x500_depth /root/PX4-Autopilot/Tools/simulation/gz/models/x500_depth
-COPY worlds /root/PX4-Autopilot/Tools/simulation/gz/worlds
-COPY .gz /root/.gz
+RUN rm -rf /root/PX4-Autopilot/Tools/simulation/gz
+COPY PX4-gazebo-models /root/PX4-Autopilot/Tools/simulation/gz    
 
 COPY entrypoint.sh /root/entrypoint.sh
 RUN chmod +x /root/entrypoint.sh

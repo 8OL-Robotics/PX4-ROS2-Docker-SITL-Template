@@ -1,8 +1,0 @@
-(2023-10-19T23:43:24.793275775) (2023-10-19T23:43:24.793324114) [Msg] Gazebo Sim Server v7.6.0
-(2023-10-19T23:43:24.806872753) (2023-10-19T23:43:24.806909791) [Msg] Loading SDF world file[/home/bassam/PX4-Autopilot/Tools/simulation/gz/worlds/default.sdf].
-(2023-10-19T23:43:24.917581813) (2023-10-19T23:43:24.917592880) [Err] [Server.cc:159] Error Code 14: [/sdf/world[@name="default"]/include[0]/uri:/home/bassam/PX4-Autopilot/Tools/simulation/gz/worlds/default.sdf:L148]: Msg: Unable to find uri[model://sonoma_raceway]
-(2023-10-19T23:43:24.917674685) (2023-10-19T23:43:24.917684405) [Err] [Server.cc:159] Error Code 14: [/sdf/world[@name="default"]/include[1]/uri:/home/bassam/PX4-Autopilot/Tools/simulation/gz/worlds/default.sdf:L152]: Msg: Unable to find uri[model://hatchback_blue]
-(2023-10-19T23:43:24.917734227) (2023-10-19T23:43:24.917741706) [Err] [Server.cc:159] Error Code 14: [/sdf/world[@name="default"]/include[2]/uri:/home/bassam/PX4-Autopilot/Tools/simulation/gz/worlds/default.sdf:L157]: Msg: Unable to find uri[model://pickup]
-(2023-10-19T23:43:24.917799495) (2023-10-19T23:43:24.917808007) [Err] [Server.cc:159] Error Code 14: [/sdf/world[@name="default"]/include[3]/uri:/home/bassam/PX4-Autopilot/Tools/simulation/gz/worlds/default.sdf:L162]: Msg: Unable to find uri[model://pickup]
-(2023-10-19T23:43:24.917857844) (2023-10-19T23:43:24.917866127) [Err] [Server.cc:159] Error Code 14: [/sdf/world[@name="default"]/include[4]/uri:/home/bassam/PX4-Autopilot/Tools/simulation/gz/worlds/default.sdf:L167]: Msg: Unable to find uri[model://casual_female]
-(2023-10-19T23:43:24.917952168) (2023-10-19T23:43:24.917958032) [Dbg] [gz.cc:417] Shutting down gz-sim-server

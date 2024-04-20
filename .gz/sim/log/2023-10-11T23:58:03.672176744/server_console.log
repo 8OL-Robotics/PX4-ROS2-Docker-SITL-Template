@@ -1,8 +1,0 @@
-(2023-10-11T23:58:03.777976623) (2023-10-11T23:58:03.778005854) [Msg] Gazebo Sim Server v7.6.0
-(2023-10-11T23:58:03.785345061) (2023-10-11T23:58:03.785376845) [Msg] Loading SDF world file[/home/bassam/gz_ws/src/ardupilot_gazebo/worlds/iris_warehouse.sdf].
-(2023-10-11T23:58:03.971681250) (2023-10-11T23:58:03.971693484) [Wrn] [LocalCache.cc:105] Server directory does not exist [/home/bassam/.gz/fuel/fuel.gazebosim.org]
-(2023-10-11T23:58:03.971744559) (2023-10-11T23:58:03.971749914) [Wrn] [LocalCache.cc:105] Server directory does not exist [/home/bassam/.gz/fuel/fuel.ignitionrobotics.org]
-(2023-10-11T23:58:03.971820262) (2023-10-11T23:58:03.971825803) [Msg] Downloading model [https://fuel.gazebosim.org/openrobotics/models/depot]
-(2023-10-11T23:58:06.348755418) (2023-10-11T23:58:06.348792655) [Dbg] [FuelClient.cc:1976] Downloading from a referral link [https://gz-fuel-resources-production.s3.amazonaws.com/OpenRobotics/ee8fa888-3e74-4477-a7ee-fb55a66741c0/.zips/6.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS5OHIRKDBY6VUUFF%2F20231011%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231011T182806Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d7f6adbda858e56485107dcbfc373f1dc1042ead462bfefdc0ece05bbbf3115b]
-(2023-10-11T23:58:09.209724800) (2023-10-11T23:58:09.209742621) [Dbg] [SignalHandler.cc:142] Received signal[2].
-(2023-10-11T23:58:09.209796834) (2023-10-11T23:58:09.209805346) [Dbg] [ServerPrivate.cc:115] Server received signal[2]

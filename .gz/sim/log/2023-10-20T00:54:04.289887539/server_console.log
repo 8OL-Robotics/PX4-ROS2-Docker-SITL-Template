@@ -1,5 +1,0 @@
-(2023-10-20T00:54:04.290179933) (2023-10-20T00:54:04.290198606) [Msg] Gazebo Sim Server v7.6.0
-(2023-10-20T00:54:04.295729318) (2023-10-20T00:54:04.295745411) [Msg] Loading SDF world file[/home/bassam/PX4-Autopilot/Tools/simulation/gz/worlds/default.sdf].
-(2023-10-20T00:54:04.383197066) (2023-10-20T00:54:04.383215442) [Err] [Server.cc:159] Error Code 1: Msg: Error parsing XML in file [/home/bassam/PX4-Autopilot/Tools/simulation/gz/worlds/default.sdf]: Error=XML_ERROR_MISMATCHED_ELEMENT ErrorID=14 (0xe) Line number=19: XMLElement name=plugin
-(2023-10-20T00:54:04.383296945) (2023-10-20T00:54:04.383306324) [Err] [Server.cc:159] Error Code 1: Msg: Unable to read file: [/home/bassam/PX4-Autopilot/Tools/simulation/gz/worlds/default.sdf]
-(2023-10-20T00:54:04.383394461) (2023-10-20T00:54:04.383403587) [Dbg] [gz.cc:417] Shutting down gz-sim-server

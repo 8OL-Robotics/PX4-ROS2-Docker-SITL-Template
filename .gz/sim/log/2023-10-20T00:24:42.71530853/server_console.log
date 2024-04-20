@@ -1,5 +1,0 @@
-(2023-10-20T00:24:42.76181269) (2023-10-20T00:24:42.76196177) [Msg] Gazebo Sim Server v7.6.0
-(2023-10-20T00:24:42.79956073) (2023-10-20T00:24:42.79964958) [Msg] Loading SDF world file[/home/bassam/PX4-Autopilot/Tools/simulation/gz/worlds/default.sdf].
-(2023-10-20T00:24:42.141133706) (2023-10-20T00:24:42.141145809) [Err] [Server.cc:159] Error Code 40: Msg: XML does not seem to be an SDFormat or an URDF file.
-(2023-10-20T00:24:42.141191891) (2023-10-20T00:24:42.141196650) [Err] [Server.cc:159] Error Code 1: Msg: Unable to read file: [/home/bassam/PX4-Autopilot/Tools/simulation/gz/worlds/default.sdf]
-(2023-10-20T00:24:42.141246689) (2023-10-20T00:24:42.141251633) [Dbg] [gz.cc:417] Shutting down gz-sim-server

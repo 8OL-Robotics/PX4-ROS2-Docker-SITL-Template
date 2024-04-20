@@ -1,8 +1,0 @@
-(2023-11-06T21:56:50.775130092) (2023-11-06T21:56:50.775139964) [Msg] Gazebo Sim Server v7.6.0
-(2023-11-06T21:56:50.778001425) (2023-11-06T21:56:50.778009734) [Msg] Loading SDF world file[/home/bassam/PX4-Autopilot/Tools/simulation/gz/worlds/default.sdf].
-(2023-11-06T21:56:50.843476362) (2023-11-06T21:56:50.843485664) [Err] [Server.cc:159] Error Code 9: [/sdf/world[@name="default"]/model[@name="Chessboard"]/pose:/home/bassam/PX4-Autopilot/Tools/simulation/gz/worlds/default.sdf:L135]: Msg: Error reading element <pose>
-(2023-11-06T21:56:50.843536666) (2023-11-06T21:56:50.843541347) [Err] [Server.cc:159] Error Code 9: [/sdf/world[@name="default"]/model[@name="Chessboard"]:/home/bassam/PX4-Autopilot/Tools/simulation/gz/worlds/default.sdf:L134]: Msg: Error reading element <model>
-(2023-11-06T21:56:50.843573453) (2023-11-06T21:56:50.843578156) [Err] [Server.cc:159] Error Code 9: [/sdf/world[@name="default"]:/home/bassam/PX4-Autopilot/Tools/simulation/gz/worlds/default.sdf:L2]: Msg: Error reading element <world>
-(2023-11-06T21:56:50.843610974) (2023-11-06T21:56:50.843615554) [Err] [Server.cc:159] Error Code 9: Msg: Error reading element <sdf>
-(2023-11-06T21:56:50.843644443) (2023-11-06T21:56:50.843648758) [Err] [Server.cc:159] Error Code 1: Msg: Unable to read file: [/home/bassam/PX4-Autopilot/Tools/simulation/gz/worlds/default.sdf]
-(2023-11-06T21:56:50.843691185) (2023-11-06T21:56:50.843696097) [Dbg] [gz.cc:417] Shutting down gz-sim-server

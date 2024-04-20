@@ -1,0 +1,3 @@
+[submodule "PX4-gazebo-models"]
+	path = PX4-gazebo-models
+	url = git@github.com:PX4/PX4-gazebo-models.git

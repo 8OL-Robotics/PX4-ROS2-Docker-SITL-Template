@@ -1,6 +1,0 @@
-(2023-10-28T16:33:16.550206662) (2023-10-28T16:33:16.550216257) [Msg] Gazebo Sim Server v7.6.0
-(2023-10-28T16:33:16.552998680) (2023-10-28T16:33:16.553006850) [Msg] Loading SDF world file[/home/bassam/PX4-Autopilot/Tools/simulation/gz/worlds/default.sdf].
-(2023-10-28T16:33:16.664689401) (2023-10-28T16:33:16.664703603) [Err] [Server.cc:159] Error Code 17: Msg: A model must have at least one link.
-(2023-10-28T16:33:16.664765456) (2023-10-28T16:33:16.664771391) [Err] [Server.cc:159] Error Code 17: Msg: A model must have at least one link.
-(2023-10-28T16:33:16.664807802) (2023-10-28T16:33:16.664815146) [Err] [Server.cc:159] Error Code 9: Msg: Failed to load a world.
-(2023-10-28T16:33:16.664881590) (2023-10-28T16:33:16.664887946) [Dbg] [gz.cc:417] Shutting down gz-sim-server
