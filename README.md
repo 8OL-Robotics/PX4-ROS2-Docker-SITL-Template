@@ -13,7 +13,7 @@ Installing this will allow for rendering of simulations with the dedicated nvidi
 ### Build docker image
 Clone this repository (or your derived repostiory) and build the docker image
 ```
-git clone git@github.com:8OL-Robotics/PX4-ROS2-Docker-SITL-Template.git
+git clone --recurse-submodules git@github.com:8OL-Robotics/PX4-ROS2-Docker-SITL-Template.git
 cd PX4-ROS2-Docker-SITL-Template
 sudo bash build_image.sh
 ```
