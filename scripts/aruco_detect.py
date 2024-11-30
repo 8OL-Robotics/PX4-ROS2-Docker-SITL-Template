@@ -45,17 +45,6 @@ class ImageSubscriber(Node,):
         self.aruco_detector = cv2.aruco.ArucoDetector(self.aruco_dict)
         
 
-        # create aruco board
-        objPoints = np.array(
-            [
-                [[40, 40, 0], [760, 40, 0], [760, 760, 0], [40, 760, 0]],
-                [[360, 360, 0], [440, 360, 0], [440, 440, 0], [360, 440, 0]],
-            ],
-            dtype=np.float32,
-        )
-        self.board = cv2.aruco.Board(
-            objPoints, dictionary=self.aruco_dict, ids=np.array([[29], [1]])
-        )
 
         # Set the parameters according to your dynamic reconfigure script
         self.parameters.adaptiveThreshConstant = 7
@@ -78,19 +67,6 @@ class ImageSubscriber(Node,):
         self.parameters.perspectiveRemoveIgnoredMarginPerCell = 0.13
         self.parameters.perspectiveRemovePixelPerCell = 8
         self.parameters.polygonalApproxAccuracyRate = 0.01
-        self.desired = np.array(
-            [
-                179.2055,
-                99.2273,
-                459.6814,
-                101.1491,
-                457.6014,
-                381.6531,
-                177.1040,
-                379.4215,
-            ],
-            dtype=np.float32,
-        )
 
         # Create the subscriber. This subscriber will receive an Image
         # from the video_frames topic. The queue size is 10 messages.
@@ -119,180 +95,8 @@ class ImageSubscriber(Node,):
 
         cv2.aruco.drawDetectedMarkers(image, corners, ids)
 
-        output_arr = [-1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0]
-        if ids is not None:
-            visibility_pub_msg = Bool()
-            visibility_pub_msg.data = True
-            self.visibility_pub.publish(visibility_pub_msg)
-    
-            for i in range(len(ids)):
-                id = ids[i]
-                if id == 29:
-                    output_arr[0] = float(corners[i][0][0][0])
-                    output_arr[1] = float(corners[i][0][0][1])
-                    output_arr[2] = float(corners[i][0][1][0])
-                    output_arr[3] = float(corners[i][0][1][1])
-                    output_arr[4] = float(corners[i][0][2][0])
-                    output_arr[5] = float(corners[i][0][2][1])
-                    output_arr[6] = float(corners[i][0][3][0])
-                    output_arr[7] = float(corners[i][0][3][1])
+ 
 
-                    # make arr to store centered square
-                    centered_arr = np.zeros((4, 2))
-                    # get center of square
-                    cX, cY = (
-                        output_arr[0] + (output_arr[4] - output_arr[0]) / 2,
-                        output_arr[1] + (output_arr[5] - output_arr[1]) / 2,
-                    )
-
-                    # draw
-                    cv2.circle(image, (int(cX), int(cY)), 5, (0, 0, 255), -1)
-
-                    # subtract center from all points
-                    centered_arr[0][0] = output_arr[0] - cX
-                    centered_arr[0][1] = output_arr[1] - cY
-                    centered_arr[1][0] = output_arr[2] - cX
-                    centered_arr[1][1] = output_arr[3] - cY
-                    centered_arr[2][0] = output_arr[4] - cX
-                    centered_arr[2][1] = output_arr[5] - cY
-                    centered_arr[3][0] = output_arr[6] - cX
-                    centered_arr[3][1] = output_arr[7] - cY
-
-                    # scale by 1/9
-                    centered_arr = centered_arr / 9
-
-                    # add center back to all points
-
-                    output_arr[0] = centered_arr[0][0] + cX
-                    output_arr[1] = centered_arr[0][1] + cY
-                    output_arr[2] = centered_arr[1][0] + cX
-                    output_arr[3] = centered_arr[1][1] + cY
-                    output_arr[4] = centered_arr[2][0] + cX
-                    output_arr[5] = centered_arr[2][1] + cY
-                    output_arr[6] = centered_arr[3][0] + cX
-                    output_arr[7] = centered_arr[3][1] + cY
-
-                if id == 1:
-                    output_arr[0] = float(corners[i][0][0][0])
-                    output_arr[1] = float(corners[i][0][0][1])
-                    output_arr[2] = float(corners[i][0][1][0])
-                    output_arr[3] = float(corners[i][0][1][1])
-                    output_arr[4] = float(corners[i][0][2][0])
-                    output_arr[5] = float(corners[i][0][2][1])
-                    output_arr[6] = float(corners[i][0][3][0])
-                    output_arr[7] = float(corners[i][0][3][1])
-        
-        else:
-            visibility_pub_msg = Bool()
-            visibility_pub_msg.data = False
-            self.visibility_pub.publish(visibility_pub_msg)
-            
-    
-
-
-        msg = Float32MultiArray()
-        msg.data = output_arr
-        self.float_arr_pub.publish(msg)
-
-
-        # draw
-        if len(corners) >= 1:
-            # draw midpoints
-            cx = 640 / 2
-            cy = 480 / 2
-            cv2.circle(image, (int(cx), int(cy)), 5, (0, 0, 255), -1)
-            cX, cY = (
-                output_arr[0] + (output_arr[4] - output_arr[0]) / 2,
-                output_arr[1] + (output_arr[5] - output_arr[1]) / 2,
-            )
-            # draw
-            cv2.circle(image, (int(cX), int(cY)), 5, (0, 255, 255), -1)            
-            cv2.line(
-                image,
-                (int(output_arr[0]), int(output_arr[1])),
-                (int(output_arr[2]), int(output_arr[3])),
-                (255, 0, 0),
-                2,
-            )
-            cv2.line(
-                image,
-                (int(output_arr[2]), int(output_arr[3])),
-                (int(output_arr[4]), int(output_arr[5])),
-                (255, 0, 0),
-                2,
-            )
-            cv2.line(
-                image,
-                (int(output_arr[4]), int(output_arr[5])),
-                (int(output_arr[6]), int(output_arr[7])),
-                (255, 0, 0),
-                2,
-            )
-            cv2.line(
-                image,
-                (int(output_arr[6]), int(output_arr[7])),
-                (int(output_arr[0]), int(output_arr[1])),
-                (255, 0, 0),
-                2,
-            )
-            cv2.line(
-                image,
-                (int(output_arr[0]), int(output_arr[1])),
-                (int(self.desired[0]), int(self.desired[1])),
-                (0, 0, 255),
-                2,
-            )
-            cv2.line(
-                image,
-                (int(output_arr[2]), int(output_arr[3])),
-                (int(self.desired[2]), int(self.desired[3])),
-                (0, 0, 255),
-                2,
-            )
-            cv2.line(
-                image,
-                (int(output_arr[4]), int(output_arr[5])),
-                (int(self.desired[4]), int(self.desired[5])),
-                (0, 0, 255),
-                2,
-            )
-            cv2.line(
-                image,
-                (int(output_arr[6]), int(output_arr[7])),
-                (int(self.desired[6]), int(self.desired[7])),
-                (0, 0, 255),
-                2,
-            )
-
-        # plot desired
-        cv2.line(
-            image,
-            (int(self.desired[0]), int(self.desired[1])),
-            (int(self.desired[2]), int(self.desired[3])),
-            (0, 255, 0),
-            2,
-        )
-        cv2.line(
-            image,
-            (int(self.desired[2]), int(self.desired[3])),
-            (int(self.desired[4]), int(self.desired[5])),
-            (0, 255, 0),
-            2,
-        )
-        cv2.line(
-            image,
-            (int(self.desired[4]), int(self.desired[5])),
-            (int(self.desired[6]), int(self.desired[7])),
-            (0, 255, 0),
-            2,
-        )
-        cv2.line(
-            image,
-            (int(self.desired[6]), int(self.desired[7])),
-            (int(self.desired[0]), int(self.desired[1])),
-            (0, 255, 0),
-            2,
-        )
 
         # plot difference
         # resize image
