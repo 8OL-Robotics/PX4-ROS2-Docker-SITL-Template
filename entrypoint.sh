@@ -18,7 +18,7 @@ source /opt/ros/humble/setup.bash && source ~/ros2_ws/install/setup.bash && cd ~
 
 # Terminal #5
 xterm -e "source /opt/ros/humble/setup.bash && source ~/ros2_ws/install/setup.bash && cd ~/scripts && sleep 20 && python3 controller.py & exec bash" &
-xterm -e "source /opt/ros/humble/setup.bash && source ~/ros2_ws/install/setup.bash && cd ~/scripts ; python3 record_camera_topic.py" &
+#xterm -e "source /opt/ros/humble/setup.bash && source ~/ros2_ws/install/setup.bash && cd ~/scripts ; python3 record_camera_topic.py" &
 
 
 # Keep the script running to keep the terminals open
